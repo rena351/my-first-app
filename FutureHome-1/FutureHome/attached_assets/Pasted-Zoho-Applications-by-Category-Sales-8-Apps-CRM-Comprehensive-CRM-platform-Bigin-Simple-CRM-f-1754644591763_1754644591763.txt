@@ -1,0 +1,125 @@
+Zoho Applications by Category
+Sales (8 Apps)
+CRM: Comprehensive CRM platform.
+Bigin: Simple CRM for small businesses.
+Sign: Digital signature app.
+SalesIQ: Live chat and visitor engagement.
+Forms: Online form builder.
+RouteIQ: Sales map visualization and route planning.
+Bookings: Appointment scheduling.
+Thrive: Loyalty and affiliate management.
+Marketing (13 Apps)
+Campaigns: Email campaign creator.
+Sign: Digital signature app.
+SalesIQ: Live chat and visitor engagement.
+Forms: Online form builder.
+Backstage: Event management software.
+Social: Social media management.
+Survey: Survey design and distribution.
+Marketing Automation: All-in-one marketing automation.
+Sites: Website builder.
+Webinar: Webinar platform.
+PageSense: Website conversion optimization.
+LandingPage: Landing page builder.
+Domains: Domain registration and DNS management.
+CommunitySpaces: Online community platform.
+Publish: Local business listings management.
+Thrive: Loyalty and affiliate management.
+Commerce and POS (1 App + 2 Related)
+Commerce: eCommerce platform.
+(The others mentioned, a retail POS and ONDC Network platform, are from other brands within Zoho Corporation).
+Service (6 Apps)
+Desk: Helpdesk software.
+Assist: Remote support and access.
+SalesIQ: Live chat and visitor engagement.
+Bookings: Appointment scheduling.
+FSM (Field Service Management): Platform for service businesses.
+Lens: Remote assistance with augmented reality.
+Finance (8 Apps)
+Books: Accounting platform.
+Payroll: Payroll processing software.
+Expense: Expense reporting.
+Inventory: Stock and inventory control.
+Sign: Digital signature app.
+Billing: End-to-end billing solution.
+Invoice: Free invoicing solution.
+Practice: Practice management for accounting firms.
+Checkout: Online payment page collector.
+Payments: Unified payment solution.
+Email, Storage, and Collaboration (18 Apps)
+Mail: Secure email service.
+Sign: Digital signature app.
+WorkDrive: Online file management.
+Connect: Employee experience platform.
+Cliq: Team chat.
+ZeptoMail: Transactional email sending service.
+Meeting: Online meeting and webinar software.
+Bookings: Appointment scheduling.
+Learn: Knowledge and learning management.
+TeamInbox: Shared inboxes for teams.
+Office Integrator: Built-in document editors.
+Writer: Word processor.
+Tables: Work management tool.
+Notebook: Note-taking app.
+Show: Presentation software.
+Sheet: Spreadsheet software.
+Office Suite: Collaborative work platform.
+Calendar: Online business calendar.
+ToDo: Collaborative task management.
+PDF Editor: Online PDF editing tool.
+Human Resources (6 Apps)
+People: HR process management.
+Payroll: Payroll processing software.
+Expense: Expense reporting.
+Recruit: Recruiting and hiring platform.
+Sign: Digital signature app.
+Workerly: Temporary staffing management.
+Shifts: Employee scheduling and time tracking.
+Legal (2 Apps)
+Sign: Digital signature app.
+Contracts: Contract lifecycle management.
+Security and IT Management (9 Apps + Many Related)
+Creator: Custom business app platform.
+Assist: Remote support and access.
+Vault: Online password manager.
+eProtect: Email security and archiving.
+Directory: Workforce identity and access management.
+Catalyst: Pro-code app deployment platform.
+RPA (Robotic Process Automation): Task automation.
+QEngine: Test automation software.
+Lens: Remote assistance with augmented reality.
+OneAuth: Multi-factor authenticator.
+Toolkit: Admin lookup queries.
+(This section also lists many enterprise-grade solutions from ManageEngine, a division of Zoho).
+BI and Analytics (4 Apps)
+Analytics: Self-service BI and analytics.
+IoT: IoT analytics for operational intelligence.
+DataPrep: ETL tool for data integration.
+Embedded BI: Embedded and white-label BI solutions.
+Project Management (3 Apps)
+Projects: Project management and tracking.
+Sprints: Planning tool for scrum teams.
+BugTracker: Bug tracking software.
+Developer Platforms (9 Apps)
+Creator: Custom business app platform.
+ZeptoMail: Transactional email sending service.
+IoT: IoT platform for connected businesses.
+Flow: Workflow automation and integration.
+Catalyst: Pro-code app deployment platform.
+DataPrep: ETL tool for data integration.
+Office Integrator: Built-in document editors.
+Tables: Work management tool.
+RPA (Robotic Process Automation): Task automation.
+QEngine: Test automation software.
+Apptics: Application analytics.
+Embedded BI: Embedded and white-label BI solutions.
+IoT (1 App)
+IoT: Low-code IoT platform.
+Suites (7 Bundles)
+CRM Plus: Unified customer experience platform.
+Service Plus: Unified customer service platform.
+Finance Plus: All-in-one finance and operations suite.
+People Plus: Comprehensive HR platform.
+Workplace: Team productivity and collaboration suite.
+Marketing Plus: Unified marketing platform.
+Projects Plus: Unified project management platform.

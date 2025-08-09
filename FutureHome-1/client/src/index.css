@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(240, 50%, 6%);
+  --foreground: hsl(0, 0%, 100%);
+  --card: hsl(240, 38%, 11%);
+  --card-foreground: hsl(0, 0%, 100%);
+  --popover: hsl(240, 38%, 11%);
+  --popover-foreground: hsl(0, 0%, 100%);
+  --primary: hsl(195, 100%, 50%);
+  --primary-foreground: hsl(240, 50%, 6%);
+  --secondary: hsl(240, 38%, 11%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(240, 25%, 15%);
+  --muted-foreground: hsl(240, 5%, 65%);
+  --accent: hsl(240, 38%, 11%);
+  --accent-foreground: hsl(195, 100%, 50%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(240, 25%, 20%);
+  --input: hsl(240, 25%, 15%);
+  --ring: hsl(195, 100%, 50%);
+  --radius: 0.5rem;
+  --aura-dark: hsl(240, 50%, 6%);
+  --aura-dark-secondary: hsl(240, 38%, 11%);
+  --aura-neon-blue: hsl(195, 100%, 50%);
+  --aura-neon-purple: hsl(258, 84%, 68%);
+  --aura-accent-cyan: hsl(158, 100%, 51%);
+  --aura-gray: hsl(220, 14%, 28%);
+  --aura-gray-light: hsl(218, 12%, 34%);
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+.dark {
+  --background: hsl(240, 50%, 6%);
+  --foreground: hsl(0, 0%, 100%);
+  --card: hsl(240, 38%, 11%);
+  --card-foreground: hsl(0, 0%, 100%);
+  --popover: hsl(240, 38%, 11%);
+  --popover-foreground: hsl(0, 0%, 100%);
+  --primary: hsl(195, 100%, 50%);
+  --primary-foreground: hsl(240, 50%, 6%);
+  --secondary: hsl(240, 38%, 11%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(240, 25%, 15%);
+  --muted-foreground: hsl(240, 5%, 65%);
+  --accent: hsl(240, 38%, 11%);
+  --accent-foreground: hsl(195, 100%, 50%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(240, 25%, 20%);
+  --input: hsl(240, 25%, 15%);
+  --ring: hsl(195, 100%, 50%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background: linear-gradient(135deg, hsl(240, 50%, 6%) 0%, hsl(240, 38%, 11%) 100%);
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(195, 100%, 50%), hsl(258, 84%, 68%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .glass-effect {
+    background: rgba(26, 26, 46, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(139, 92, 246, 0.2);
+  }
+  
+  .neon-border {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .neon-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1px;
+    background: linear-gradient(45deg, hsl(195, 100%, 50%), hsl(258, 84%, 68%), hsl(158, 100%, 51%));
+    border-radius: inherit;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: subtract;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: subtract;
+  }
+  
+  .app-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(139, 92, 246, 0.1);
+  }
+  
+  .app-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.4);
+    border-color: rgba(139, 92, 246, 0.5);
+  }
+  
+  .suite-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.4);
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}
