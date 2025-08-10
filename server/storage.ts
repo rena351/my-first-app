@@ -33,6 +33,7 @@ export class MemStorage implements IStorage {
   }
 
   private initializeData() {
+    console.log("INITIALIZING DATA...");
     // Initialize categories with accurate app counts
     const categoriesData: Array<Omit<Category, 'id'>> = [
       { name: "Sales", description: "Complete sales automation and CRM solutions", icon: "fas fa-chart-line", color: "#00d4ff", appCount: 8 },
