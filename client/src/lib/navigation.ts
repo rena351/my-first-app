@@ -2000,12 +2000,12 @@ export const getAppNavigation = (appName: string) => {
         {
           title: "Dashboard",
           icon: <Home className="w-4 h-4" />,
-          items: ["Organization Overview", "User Activity", "Device Status", "Security Summary", "Identity Overview", "User Statistics", "Access Analytics", "Security Alerts"]
+          items: ["Organization Overview", "User Activity", "Device Status", "Security Summary"]
         },
         {
           title: "Users",
           icon: <Users className="w-4 h-4" />,
-          items: ["All Users", "User Profiles", "User Groups", "Organizational Units", "User Import", "Active Users", "Inactive Users", "Bulk Actions"]
+          items: ["All Users", "User Profiles", "User Groups", "Organizational Units", "User Import"]
         },
         {
           title: "Devices",
@@ -2013,14 +2013,9 @@ export const getAppNavigation = (appName: string) => {
           items: ["All Devices", "Device Groups", "Device Policies", "Device Compliance"]
         },
         {
-          title: "Groups",
-          icon: <Users className="w-4 h-4" />,
-          items: ["All Groups", "Security Groups", "Distribution Groups", "Dynamic Groups", "Group Management"]
-        },
-        {
           title: "Applications",
           icon: <Grid className="w-4 h-4" />,
-          items: ["App Management", "App Deployment", "App Policies", "App Usage Analytics", "All Applications", "SAML Apps", "OAuth Apps", "Custom Apps", "App Gallery"]
+          items: ["App Management", "App Deployment", "App Policies", "App Usage Analytics"]
         },
         {
           title: "Security",
@@ -2028,19 +2023,9 @@ export const getAppNavigation = (appName: string) => {
           items: ["Access Control", "Security Policies", "Threat Detection", "Compliance Monitoring"]
         },
         {
-          title: "Access Control",
-          icon: <Shield className="w-4 h-4" />,
-          items: ["Access Policies", "Conditional Access", "Multi-factor Auth", "Single Sign-On", "Password Policy"]
-        },
-        {
           title: "Reports",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["User Reports", "Device Reports", "Security Reports", "Compliance Reports"]
-        },
-        {
-          title: "Audit",
-          icon: <Eye className="w-4 h-4" />,
-          items: ["Audit Logs", "Login Logs", "Access Reports", "Security Events", "Compliance Reports"]
         }
       ]
     },
