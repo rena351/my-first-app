@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft, Bell, UserCircle, Search, Plus } from "lucide-react";
 import { Link } from "wouter";
 import { Skeleton } from "@/components/ui/skeleton";
-import AppSidebar from "@/components/app-sidebar";
+import TwoLevelSidebar from "@/components/two-level-sidebar";
 
 export default function AppPage() {
   const { appId } = useParams<{ appId: string }>();
@@ -123,7 +123,7 @@ export default function AppPage() {
       {/* Main Layout with Sidebar */}
       <div className="flex">
         {/* App-specific Sidebar */}
-        <AppSidebar app={app} category={category} currentPage="Dashboard" />
+        <TwoLevelSidebar app={app} category={category} currentPage="Dashboard" />
 
         {/* Main Content Area */}
         <div className="flex-1 bg-aura-dark">
