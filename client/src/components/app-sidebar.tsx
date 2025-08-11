@@ -2008,6 +2008,55 @@ const getAppNavigation = (appName: string) => {
         }
       ]
     },
+    "Directory": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Organization Overview", "User Activity", "Device Status", "Security Summary", "Identity Overview", "User Statistics", "Access Analytics", "Security Alerts"]
+        },
+        {
+          title: "Users",
+          icon: <Users className="w-4 h-4" />,
+          items: ["All Users", "User Profiles", "User Groups", "Organizational Units", "User Import", "Active Users", "Inactive Users", "Bulk Actions"]
+        },
+        {
+          title: "Devices",
+          icon: <Smartphone className="w-4 h-4" />,
+          items: ["All Devices", "Device Groups", "Device Policies", "Device Compliance"]
+        },
+        {
+          title: "Groups",
+          icon: <Users className="w-4 h-4" />,
+          items: ["All Groups", "Security Groups", "Distribution Groups", "Dynamic Groups", "Group Management"]
+        },
+        {
+          title: "Applications",
+          icon: <Grid className="w-4 h-4" />,
+          items: ["App Management", "App Deployment", "App Policies", "App Usage Analytics", "All Applications", "SAML Apps", "OAuth Apps", "Custom Apps", "App Gallery"]
+        },
+        {
+          title: "Security",
+          icon: <Shield className="w-4 h-4" />,
+          items: ["Access Control", "Security Policies", "Threat Detection", "Compliance Monitoring"]
+        },
+        {
+          title: "Access Control",
+          icon: <Shield className="w-4 h-4" />,
+          items: ["Access Policies", "Conditional Access", "Multi-factor Auth", "Single Sign-On", "Password Policy"]
+        },
+        {
+          title: "Reports",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["User Reports", "Device Reports", "Security Reports", "Compliance Reports"]
+        },
+        {
+          title: "Audit",
+          icon: <Eye className="w-4 h-4" />,
+          items: ["Audit Logs", "Login Logs", "Access Reports", "Security Events", "Compliance Reports"]
+        }
+      ]
+    },
     "MDM": {
       sections: [
         {
@@ -2505,6 +2554,656 @@ const getAppNavigation = (appName: string) => {
         }
       ]
     },
+    "Reports": {
+      sections: [
+        {
+          title: "Folders",
+          icon: <Folder className="w-4 h-4" />,
+          items: ["All Reports", "My Reports", "Favorites", "Recently Viewed", "Scheduled Reports", "Recently Deleted"]
+        },
+        {
+          title: "Account and Contact Reports",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Account Reports", "Contact Reports", "Account Contact Relationships", "Contact Activity Reports"]
+        },
+        {
+          title: "Deal Reports",
+          icon: <TrendingUp className="w-4 h-4" />,
+          items: ["Deal Performance", "Deal Pipeline", "Deal Conversion", "Deal Activity", "Deal Forecast"]
+        },
+        {
+          title: "Lead Reports",
+          icon: <ArrowRight className="w-4 h-4" />,
+          items: ["Lead Generation", "Lead Conversion", "Lead Source Analysis", "Lead Activity", "Lead Performance"]
+        },
+        {
+          title: "Campaign Reports",
+          icon: <MessageSquare className="w-4 h-4" />,
+          items: ["Campaign Performance", "Campaign ROI", "Campaign Analytics", "Email Campaign Reports"]
+        },
+        {
+          title: "Case and Solution Reports",
+          icon: <AlertCircle className="w-4 h-4" />,
+          items: ["Case Reports", "Solution Reports", "Case Resolution", "Support Analytics"]
+        },
+        {
+          title: "Product Reports",
+          icon: <Package className="w-4 h-4" />,
+          items: ["Product Performance", "Product Analytics", "Inventory Reports", "Product Catalog"]
+        },
+        {
+          title: "Vendor Reports",
+          icon: <Building2 className="w-4 h-4" />,
+          items: ["Vendor Performance", "Vendor Analysis", "Purchase Reports", "Vendor Analytics"]
+        },
+        {
+          title: "Quote Reports",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["Quote Performance", "Quote Analysis", "Quote Conversion", "Quote Activity"]
+        },
+        {
+          title: "Sales Order Reports",
+          icon: <Truck className="w-4 h-4" />,
+          items: ["Sales Order Performance", "Order Analysis", "Delivery Reports", "Order Tracking"]
+        },
+        {
+          title: "Purchase Order Reports",
+          icon: <Truck className="w-4 h-4" />,
+          items: ["Purchase Order Performance", "Purchase Analysis", "Procurement Reports", "Purchase Tracking"]
+        },
+        {
+          title: "Invoice Reports",
+          icon: <CreditCard className="w-4 h-4" />,
+          items: ["Invoice Performance", "Invoice Analysis", "Payment Reports", "Revenue Reports"]
+        },
+        {
+          title: "Sales Metrics Reports",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Sales Performance", "Sales Analytics", "Revenue Analytics", "Sales Forecasting"]
+        },
+        {
+          title: "Email Reports",
+          icon: <Mail className="w-4 h-4" />,
+          items: ["Email Performance", "Email Analytics", "Email Campaign Reports", "Email Tracking"]
+        },
+        {
+          title: "Meeting Reports",
+          icon: <Calendar className="w-4 h-4" />,
+          items: ["Meeting Performance", "Meeting Analytics", "Meeting Activity", "Meeting Scheduling"]
+        }
+      ]
+    },
+    "MarketingHub": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Marketing Dashboard", "Campaign Performance", "Lead Overview", "ROI Analytics"]
+        },
+        {
+          title: "Campaigns",
+          icon: <MessageSquare className="w-4 h-4" />,
+          items: ["All Campaigns", "Email Campaigns", "SMS Campaigns", "Social Campaigns", "Multi-channel Campaigns"]
+        },
+        {
+          title: "Lead Management",
+          icon: <Users className="w-4 h-4" />,
+          items: ["All Leads", "Lead Scoring", "Lead Nurturing", "Lead Qualification", "Lead Distribution"]
+        },
+        {
+          title: "Content",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["Content Library", "Email Templates", "Landing Pages", "Forms", "Social Content"]
+        },
+        {
+          title: "Automation",
+          icon: <Zap className="w-4 h-4" />,
+          items: ["Marketing Workflows", "Lead Nurturing", "Drip Campaigns", "Behavioral Triggers", "A/B Testing"]
+        },
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Campaign Analytics", "Lead Analytics", "Revenue Analytics", "Attribution Analysis", "Custom Reports"]
+        },
+        {
+          title: "Integration",
+          icon: <Link2 className="w-4 h-4" />,
+          items: ["CRM Integration", "Social Media", "Web Analytics", "Email Services", "Third-party Apps"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Account Settings", "Team Management", "Brand Settings", "API Configuration"]
+        }
+      ]
+    },
+    "Finances": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Financial Dashboard", "Cash Flow", "P&L Overview", "Key Metrics", "Budget vs Actual"]
+        },
+        {
+          title: "Transactions",
+          icon: <CreditCard className="w-4 h-4" />,
+          items: ["All Transactions", "Income", "Expenses", "Transfers", "Recurring Transactions"]
+        },
+        {
+          title: "Accounts",
+          icon: <Building2 className="w-4 h-4" />,
+          items: ["Chart of Accounts", "Bank Accounts", "Credit Cards", "Assets", "Liabilities"]
+        },
+        {
+          title: "Budgeting",
+          icon: <Target className="w-4 h-4" />,
+          items: ["Budget Planning", "Budget vs Actual", "Variance Analysis", "Budget Categories", "Forecasting"]
+        },
+        {
+          title: "Reports",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Financial Reports", "P&L Statement", "Balance Sheet", "Cash Flow Statement", "Custom Reports"]
+        },
+        {
+          title: "Reconciliation",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: ["Bank Reconciliation", "Credit Card Reconciliation", "Account Matching", "Reconciliation History"]
+        },
+        {
+          title: "Tax Management",
+          icon: <Calculator className="w-4 h-4" />,
+          items: ["Tax Categories", "Tax Reports", "Tax Filing", "Deductions", "Tax Planning"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["General Settings", "Account Setup", "Currency Settings", "Integration Settings"]
+        }
+      ]
+    },
+    "Payroll": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Payroll Dashboard", "Monthly Overview", "Employee Summary", "Compliance Status"]
+        },
+        {
+          title: "Employees",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Employee Directory", "Add Employee", "Employee Profiles", "Salary Details", "Employment History"]
+        },
+        {
+          title: "Payroll Processing",
+          icon: <Calculator className="w-4 h-4" />,
+          items: ["Run Payroll", "Payroll History", "Draft Payrolls", "Payroll Calendar", "Bulk Updates"]
+        },
+        {
+          title: "Salary Components",
+          icon: <DollarSign className="w-4 h-4" />,
+          items: ["Basic Salary", "Allowances", "Deductions", "Benefits", "Bonuses", "Overtime"]
+        },
+        {
+          title: "Time & Attendance",
+          icon: <Clock className="w-4 h-4" />,
+          items: ["Time Tracking", "Attendance Reports", "Leave Management", "Overtime Tracking", "Shift Management"]
+        },
+        {
+          title: "Tax & Compliance",
+          icon: <Shield className="w-4 h-4" />,
+          items: ["Tax Settings", "Statutory Compliance", "Tax Reports", "Form Generation", "Audit Trail"]
+        },
+        {
+          title: "Reports",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Payroll Reports", "Employee Reports", "Tax Reports", "Compliance Reports", "Custom Reports"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Organization Settings", "Payroll Settings", "Tax Configuration", "Integration Settings"]
+        }
+      ]
+    },
+    "Webinar": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Webinar Overview", "Analytics Dashboard", "Upcoming Events", "Performance Metrics"]
+        },
+        {
+          title: "Webinars",
+          icon: <Video className="w-4 h-4" />,
+          items: ["All Webinars", "Live Webinars", "Scheduled Events", "Recurring Webinars", "Practice Sessions"]
+        },
+        {
+          title: "Registrations",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Attendee Management", "Registration Forms", "Approval Workflows", "Bulk Registration"]
+        },
+        {
+          title: "Recordings",
+          icon: <PlayCircle className="w-4 h-4" />,
+          items: ["All Recordings", "Cloud Storage", "Download Center", "Sharing Settings"]
+        },
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Attendance Reports", "Engagement Analytics", "Registration Analytics", "Performance Reports"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Webinar Settings", "Branding", "Email Templates", "Integration"]
+        }
+      ]
+    },
+    "RouteIQ": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Route Overview", "Sales Performance", "Territory Analytics", "Team Status"]
+        },
+        {
+          title: "Routes",
+          icon: <Navigation className="w-4 h-4" />,
+          items: ["Route Planning", "Optimized Routes", "Route History", "Multi-day Routes"]
+        },
+        {
+          title: "Territories",
+          icon: <Map className="w-4 h-4" />,
+          items: ["Territory Management", "Territory Assignment", "Coverage Analysis", "Boundary Settings"]
+        },
+        {
+          title: "Maps",
+          icon: <MapPin className="w-4 h-4" />,
+          items: ["Interactive Maps", "Location Tracking", "Geofencing", "Map Layers"]
+        },
+        {
+          title: "Check-ins",
+          icon: <Clock className="w-4 h-4" />,
+          items: ["Visit Tracking", "Check-in History", "Location Verification", "Time Tracking"]
+        },
+        {
+          title: "Reports",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Route Reports", "Territory Reports", "Performance Analytics", "Distance Reports"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Route Settings", "Map Configuration", "Team Management", "Integration"]
+        }
+      ]
+    },
+    "FSM": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Field Service Overview", "Technician Performance", "Job Analytics", "Revenue Metrics"]
+        },
+        {
+          title: "Work Orders",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["All Work Orders", "Open Orders", "Scheduled Orders", "Completed Orders", "Recurring Orders", "Emergency Orders"]
+        },
+        {
+          title: "Scheduling",
+          icon: <Calendar className="w-4 h-4" />,
+          items: ["Dispatch Board", "Technician Calendar", "Auto-scheduling", "Route Optimization", "Appointment Booking"]
+        },
+        {
+          title: "Technicians",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Technician Management", "Skills Matrix", "Availability", "Performance Tracking", "Mobile App"]
+        },
+        {
+          title: "Inventory",
+          icon: <Package className="w-4 h-4" />,
+          items: ["Parts Management", "Stock Levels", "Purchase Orders", "Supplier Management", "Inventory Tracking"]
+        },
+        {
+          title: "Customers",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Customer Database", "Service History", "Equipment Records", "Contracts", "Customer Portal"]
+        },
+        {
+          title: "Reports",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Service Reports", "Technician Reports", "Revenue Reports", "Inventory Reports", "Custom Reports"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Service Types", "SLA Configuration", "Mobile Settings", "Integration", "Billing Settings"]
+        }
+      ]
+    },
+    "Billing": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Billing Overview", "Revenue Metrics", "Subscription Analytics", "Payment Status", "MRR Tracking"]
+        },
+        {
+          title: "Subscriptions",
+          icon: <RefreshCw className="w-4 h-4" />,
+          items: ["All Subscriptions", "Active Subscriptions", "Trials", "Cancelled", "Subscription Plans", "Upgrades & Downgrades"]
+        },
+        {
+          title: "Invoices",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["All Invoices", "Draft Invoices", "Pending Invoices", "Paid Invoices", "Overdue Invoices", "Credit Notes"]
+        },
+        {
+          title: "Customers",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Customer Management", "Billing Contacts", "Payment Methods", "Customer Portal", "Dunning Management"]
+        },
+        {
+          title: "Payments",
+          icon: <CreditCard className="w-4 h-4" />,
+          items: ["Payment History", "Failed Payments", "Refunds", "Payment Gateways", "Payment Links"]
+        },
+        {
+          title: "Revenue Recognition",
+          icon: <TrendingUp className="w-4 h-4" />,
+          items: ["Revenue Schedules", "Deferred Revenue", "Revenue Reports", "ASC 606 Compliance"]
+        },
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Revenue Analytics", "Churn Analysis", "Cohort Analysis", "Subscription Metrics", "Custom Reports"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Billing Settings", "Tax Settings", "Payment Settings", "Dunning Settings", "Integration"]
+        }
+      ]
+    },
+    "Practice": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Practice Overview", "Client Portfolio", "Revenue Metrics", "Team Performance", "Deadline Tracking"]
+        },
+        {
+          title: "Clients",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Client Management", "Client Onboarding", "Client Portal", "Client Communications", "Entity Management"]
+        },
+        {
+          title: "Jobs",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["All Jobs", "Tax Preparation", "Bookkeeping", "Audit & Review", "Advisory Services", "Job Templates"]
+        },
+        {
+          title: "Time Tracking",
+          icon: <Clock className="w-4 h-4" />,
+          items: ["Time Entry", "Timesheet Approval", "Billable Hours", "Time Reports", "Timer Integration"]
+        },
+        {
+          title: "Documents",
+          icon: <Folder className="w-4 h-4" />,
+          items: ["Document Management", "Client Documents", "Templates", "E-signatures", "Document Sharing"]
+        },
+        {
+          title: "Billing",
+          icon: <CreditCard className="w-4 h-4" />,
+          items: ["Invoice Generation", "Fee Management", "Payment Tracking", "Recurring Billing", "Collections"]
+        },
+        {
+          title: "Reports",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Financial Reports", "Time Reports", "Productivity Reports", "Client Reports", "Tax Reports"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Practice Settings", "Team Management", "Fee Structure", "Tax Settings", "Integration"]
+        }
+      ]
+    },
+    "Payments": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Payment Overview", "Transaction Volume", "Success Rates", "Revenue Analytics", "Gateway Performance"]
+        },
+        {
+          title: "Transactions",
+          icon: <CreditCard className="w-4 h-4" />,
+          items: ["All Transactions", "Successful Payments", "Failed Payments", "Pending Payments", "Refunds"]
+        },
+        {
+          title: "Payment Gateways",
+          icon: <Server className="w-4 h-4" />,
+          items: ["Gateway Management", "Multi-gateway Setup", "Failover Configuration", "Gateway Analytics"]
+        },
+        {
+          title: "Customers",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Customer Management", "Payment Methods", "Transaction History", "Customer Insights"]
+        },
+        {
+          title: "Fraud Protection",
+          icon: <Shield className="w-4 h-4" />,
+          items: ["Fraud Detection", "Risk Rules", "Blocked Transactions", "Whitelist Management"]
+        },
+        {
+          title: "Reconciliation",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: ["Settlement Reports", "Bank Reconciliation", "Dispute Management", "Chargeback Handling"]
+        },
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Payment Analytics", "Revenue Reports", "Gateway Performance", "Customer Analytics"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Payment Configuration", "Security Settings", "Webhook Management", "API Keys"]
+        }
+      ]
+    },
+    "ZeptoMail": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Email Analytics", "Delivery Dashboard", "Bounce Analytics", "Performance Overview", "Recent Activity"]
+        },
+        {
+          title: "Email Management",
+          icon: <Mail className="w-4 h-4" />,
+          items: ["Compose Email", "Email Templates", "Scheduled Emails", "Draft Emails", "Sent Emails", "Bounced Emails"]
+        },
+        {
+          title: "Templates",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["All Templates", "Email Templates", "Custom Templates", "Template Categories", "Shared Templates"]
+        },
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Email Performance", "Delivery Reports", "Open Rates", "Click Rates", "Bounce Reports", "Spam Reports"]
+        },
+        {
+          title: "Domain Management",
+          icon: <Globe className="w-4 h-4" />,
+          items: ["Verified Domains", "Domain Authentication", "SPF Records", "DKIM Settings", "Domain Reputation"]
+        },
+        {
+          title: "API Integration",
+          icon: <Code className="w-4 h-4" />,
+          items: ["API Documentation", "API Keys", "Webhooks", "Integration Guide", "SDK Downloads"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Account Settings", "Email Configuration", "Security Settings", "Team Management", "Billing"]
+        }
+      ]
+    },
+    "Office Integrator": {
+      sections: [
+        {
+          title: "Documents",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["Recent Documents", "All Documents", "Shared Documents", "Favorites", "Document Templates"]
+        },
+        {
+          title: "Editor",
+          icon: <Edit3 className="w-4 h-4" />,
+          items: ["Word Processor", "Spreadsheet Editor", "Presentation Editor", "Form Builder", "Document Viewer"]
+        },
+        {
+          title: "Collaboration",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Real-time Editing", "Comments & Reviews", "Version History", "Share Settings", "Team Workspaces"]
+        },
+        {
+          title: "Templates",
+          icon: <Bookmark className="w-4 h-4" />,
+          items: ["Document Templates", "Form Templates", "Report Templates", "Letter Templates", "Custom Templates"]
+        },
+        {
+          title: "Integration",
+          icon: <Link2 className="w-4 h-4" />,
+          items: ["API Integration", "Embed Options", "Third-party Apps", "Webhooks", "Developer Tools"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Editor Preferences", "Format Settings", "Security Options", "Export Options", "Admin Panel"]
+        }
+      ]
+    },
+    "Tables": {
+      sections: [
+        {
+          title: "Tables",
+          icon: <Table className="w-4 h-4" />,
+          items: ["All Tables", "Recent Tables", "Shared Tables", "Templates", "Archived Tables"]
+        },
+        {
+          title: "Forms",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["All Forms", "Form Builder", "Form Responses", "Published Forms", "Form Analytics"]
+        },
+        {
+          title: "Workflows",
+          icon: <Zap className="w-4 h-4" />,
+          items: ["All Workflows", "Workflow Builder", "Automation Rules", "Triggered Actions", "Workflow History"]
+        },
+        {
+          title: "Reports",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Data Reports", "Visual Reports", "Custom Reports", "Scheduled Reports", "Report Builder"]
+        },
+        {
+          title: "Data Management",
+          icon: <Database className="w-4 h-4" />,
+          items: ["Import Data", "Export Data", "Data Validation", "Bulk Operations", "Data Backup"]
+        },
+        {
+          title: "Team Collaboration",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Team Members", "Permissions", "Comments", "Activity Log", "Notifications"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Table Settings", "Access Control", "Integrations", "API Settings", "Account Preferences"]
+        }
+      ]
+    },
+    "Office Suite": {
+      sections: [
+        {
+          title: "Home",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Dashboard", "Recent Files", "Quick Access", "Team Activity", "Getting Started"]
+        },
+        {
+          title: "Documents",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["All Documents", "Word Documents", "Text Files", "Document Templates", "Shared Documents"]
+        },
+        {
+          title: "Spreadsheets",
+          icon: <Table className="w-4 h-4" />,
+          items: ["All Spreadsheets", "Excel Files", "CSV Files", "Data Analysis", "Spreadsheet Templates"]
+        },
+        {
+          title: "Presentations",
+          icon: <Monitor className="w-4 h-4" />,
+          items: ["All Presentations", "PowerPoint Files", "Slide Templates", "Presentation Themes", "Shared Presentations"]
+        },
+        {
+          title: "Collaboration",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Team Workspaces", "Real-time Editing", "Comments & Reviews", "Version Control", "Share Settings"]
+        },
+        {
+          title: "Storage",
+          icon: <Cloud className="w-4 h-4" />,
+          items: ["File Manager", "Recent Files", "Shared Files", "Storage Usage", "File Recovery"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Suite Preferences", "Account Settings", "Security Options", "Integration Settings", "Admin Panel"]
+        }
+      ]
+    },
+    "ToDo": {
+      sections: [
+        {
+          title: "Tasks",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: ["All Tasks", "My Tasks", "Today's Tasks", "Overdue Tasks", "Completed Tasks", "Recurring Tasks"]
+        },
+        {
+          title: "Projects",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["All Projects", "Active Projects", "My Projects", "Shared Projects", "Project Templates", "Archived Projects"]
+        },
+        {
+          title: "Teams",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Team Tasks", "Team Projects", "Team Members", "Task Assignment", "Team Activity", "Permissions"]
+        },
+        {
+          title: "Calendar",
+          icon: <Calendar className="w-4 h-4" />,
+          items: ["Task Calendar", "Due Dates", "Schedule View", "Calendar Integration", "Timeline View"]
+        },
+        {
+          title: "Reports",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Task Reports", "Project Reports", "Team Performance", "Time Tracking", "Productivity Analytics"]
+        },
+        {
+          title: "Labels & Filters",
+          icon: <Tag className="w-4 h-4" />,
+          items: ["Task Labels", "Custom Filters", "Smart Lists", "Saved Searches", "Priority Levels"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Task Preferences", "Notification Settings", "Integration Settings", "Team Settings", "Account Settings"]
+        }
+      ]
+    },
     "PDF Editor": {
       sections: [
         {
@@ -2541,6 +3240,667 @@ const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Editor Preferences", "Export Settings", "Security Options", "Integration Settings", "Account Settings"]
+        }
+      ]
+    },
+    "Shifts": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Today's Schedule", "Team Overview", "Shift Statistics", "Quick Actions", "Recent Activity", "Shifts Overview", "Staff Status"]
+        },
+        {
+          title: "Schedule",
+          icon: <Calendar className="w-4 h-4" />,
+          items: ["View Schedule", "Create Schedule", "Shift Templates", "Recurring Shifts", "Schedule Conflicts", "Weekly Schedule", "Monthly Schedule", "Daily Schedule", "Schedule Planning", "Shift Swaps"]
+        },
+        {
+          title: "Employees",
+          icon: <Users className="w-4 h-4" />,
+          items: ["All Employees", "Shift Assignments", "Employee Availability", "Skill Sets", "Employee Profiles"]
+        },
+        {
+          title: "Time Tracking",
+          icon: <Clock className="w-4 h-4" />,
+          items: ["Clock In/Out", "Time Logs", "Break Management", "Overtime Tracking", "Time Corrections", "Timesheet", "Attendance", "Overtime"]
+        },
+        {
+          title: "Attendance",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: ["Attendance Reports", "Absence Management", "Late Arrivals", "Early Departures", "Attendance Policies"]
+        },
+        {
+          title: "Requests",
+          icon: <MessageSquare className="w-4 h-4" />,
+          items: ["Shift Requests", "Time Off Requests", "Swap Requests", "Overtime Requests", "Request Approvals"]
+        },
+        {
+          title: "Reports",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Schedule Reports", "Attendance Reports", "Labor Cost Reports", "Productivity Reports", "Custom Reports", "Time Reports"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Shift Settings", "Employee Settings", "Notification Settings", "Integration Settings", "Company Settings"]
+        },
+        {
+          title: "Staff",
+          icon: <Users className="w-4 h-4" />,
+          items: ["All Staff", "Available Staff", "Staff Schedules", "Staff Performance", "Time Off Requests"]
+        },
+        {
+          title: "Locations",
+          icon: <MapPin className="w-4 h-4" />,
+          items: ["All Locations", "Location Schedules", "Location Staff", "Geofencing", "Location Settings"]
+        }
+      ]
+    },
+    "Contracts": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Contract Overview", "Recent Activity", "Pending Actions", "Contract Analytics", "Quick Stats", "Contract Metrics"]
+        },
+        {
+          title: "Contracts",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["All Contracts", "Active Contracts", "Draft Contracts", "Expired Contracts", "Archived Contracts", "Executed Contracts", "Templates", "My Contracts", "Recently Created", "Recently Modified"]
+        },
+        {
+          title: "Templates",
+          icon: <Bookmark className="w-4 h-4" />,
+          items: ["Contract Templates", "Clause Library", "Standard Terms", "Custom Templates", "Template Categories", "Template Builder"]
+        },
+        {
+          title: "Workflow",
+          icon: <Zap className="w-4 h-4" />,
+          items: ["Approval Workflows", "Review Process", "Signature Workflows", "Automated Actions", "Workflow Builder"]
+        },
+        {
+          title: "Compliance",
+          icon: <Shield className="w-4 h-4" />,
+          items: ["Compliance Tracking", "Regulatory Requirements", "Audit Trail", "Risk Assessment", "Compliance Reports"]
+        },
+        {
+          title: "Reporting",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Contract Reports", "Performance Analytics", "Renewal Reports", "Compliance Reports", "Custom Reports", "Performance Reports", "Risk Reports"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Contract Settings", "Workflow Settings", "User Management", "Integration Settings", "Security Settings"]
+        },
+        {
+          title: "Approval",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: ["Approval Workflows", "Pending Approvals", "Approved Contracts", "Rejected Contracts", "Approval History"]
+        },
+        {
+          title: "Legal Review",
+          icon: <Scale className="w-4 h-4" />,
+          items: ["Legal Review Queue", "Review Comments", "Legal Approved", "Legal Rejected", "Review History"]
+        }
+      ]
+    },
+    "Catalyst": {
+      sections: [
+        {
+          title: "Functions",
+          icon: <Code className="w-4 h-4" />,
+          items: ["All Functions", "HTTP Functions", "Cron Functions", "Event Functions", "Function Templates", "Function Logs", "Cloud Functions", "Function Metrics", "Event Triggers", "Cron Jobs"]
+        },
+        {
+          title: "Database",
+          icon: <Database className="w-4 h-4" />,
+          items: ["Tables", "Data Browser", "Query Builder", "Database Backup", "Migrations", "Database Analytics", "Data Store", "File Store", "Cache", "Search"]
+        },
+        {
+          title: "Deployments",
+          icon: <Upload className="w-4 h-4" />,
+          items: ["Project Deployments", "Version History", "Build Logs", "Environment Variables", "Custom Domains"]
+        },
+        {
+          title: "File Storage",
+          icon: <Folder className="w-4 h-4" />,
+          items: ["File Manager", "Upload Files", "Download Files", "File Permissions", "Storage Analytics"]
+        },
+        {
+          title: "Authentication",
+          icon: <Lock className="w-4 h-4" />,
+          items: ["User Management", "Auth Settings", "Social Login", "Custom Authentication", "Security Rules", "Authentication Methods", "User Roles", "Security Settings"]
+        },
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Function Analytics", "Database Analytics", "Performance Metrics", "Error Tracking", "Usage Reports"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Project Settings", "Environment Settings", "API Settings", "Team Settings", "Billing"]
+        },
+        {
+          title: "Projects",
+          icon: <Folder className="w-4 h-4" />,
+          items: ["All Projects", "Web Apps", "Mobile Apps", "Microservices", "Project Templates"]
+        },
+        {
+          title: "API Management",
+          icon: <Code className="w-4 h-4" />,
+          items: ["API Gateway", "API Documentation", "Rate Limiting", "API Analytics", "Webhooks"]
+        },
+        {
+          title: "DevOps",
+          icon: <GitBranch className="w-4 h-4" />,
+          items: ["CI/CD Pipeline", "Git Integration", "Environment Management", "Build Logs", "Deployment History"]
+        },
+        {
+          title: "Monitoring",
+          icon: <Monitor className="w-4 h-4" />,
+          items: ["Application Logs", "Performance Monitoring", "Error Tracking", "Uptime Monitoring", "Alerts"]
+        }
+      ]
+    },
+    "RPA": {
+      sections: [
+        {
+          title: "Bots",
+          icon: <Bot className="w-4 h-4" />,
+          items: ["All Bots", "Active Bots", "Scheduled Bots", "Bot Templates", "Bot Library", "Failed Bots", "Bot Builder"]
+        },
+        {
+          title: "Workflows",
+          icon: <Zap className="w-4 h-4" />,
+          items: ["All Workflows", "Workflow Builder", "Workflow Templates", "Automated Workflows", "Workflow History"]
+        },
+        {
+          title: "Schedule",
+          icon: <Calendar className="w-4 h-4" />,
+          items: ["Scheduled Tasks", "Recurring Jobs", "Job Calendar", "Schedule Management", "Time Triggers", "Task Queue", "Execution History", "Schedule Templates"]
+        },
+        {
+          title: "Monitoring",
+          icon: <Monitor className="w-4 h-4" />,
+          items: ["Bot Performance", "Execution Logs", "Error Monitoring", "Real-time Status", "System Health"]
+        },
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Execution Analytics", "Performance Reports", "Success Rates", "Error Analysis", "Time Savings", "Execution Reports", "ROI Analysis", "Process Efficiency"]
+        },
+        {
+          title: "Integration",
+          icon: <Link2 className="w-4 h-4" />,
+          items: ["API Integration", "Third-party Apps", "Database Connections", "Web Services", "Custom Connectors"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Bot Settings", "Security Settings", "Notification Settings", "Team Management", "License Management"]
+        },
+        {
+          title: "Processes",
+          icon: <GitBranch className="w-4 h-4" />,
+          items: ["Business Processes", "Process Library", "Process Designer", "Process Recorder", "Process Analytics"]
+        },
+        {
+          title: "Resources",
+          icon: <Server className="w-4 h-4" />,
+          items: ["Bot Runners", "Resource Pool", "License Management", "System Requirements", "Performance Monitor"]
+        }
+      ]
+    },
+    "QEngine": {
+      sections: [
+        {
+          title: "Tests",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: ["All Tests", "Test Cases", "Test Scripts", "Manual Tests", "Automated Tests", "Test Templates"]
+        },
+        {
+          title: "Test Suites",
+          icon: <List className="w-4 h-4" />,
+          items: ["All Suites", "Regression Suites", "Smoke Tests", "Integration Tests", "Performance Tests"]
+        },
+        {
+          title: "Execution",
+          icon: <PlayCircle className="w-4 h-4" />,
+          items: ["Test Execution", "Test Runs", "Scheduled Runs", "Parallel Execution", "Test Results", "Execution History", "Cross-browser Testing", "Mobile Testing"]
+        },
+        {
+          title: "Results",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Test Results", "Failed Tests", "Passed Tests", "Test History", "Result Analysis"]
+        },
+        {
+          title: "Defects",
+          icon: <AlertCircle className="w-4 h-4" />,
+          items: ["All Defects", "Open Defects", "Defect Tracking", "Bug Reports", "Defect Analysis", "Bug Lifecycle", "Integration with Bug Tools"]
+        },
+        {
+          title: "Reports",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["Test Reports", "Coverage Reports", "Quality Reports", "Performance Reports", "Custom Reports", "Trend Analysis"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Test Configuration", "Environment Settings", "Integration Settings", "Team Settings", "Project Settings"]
+        },
+        {
+          title: "Test Management",
+          icon: <FolderOpen className="w-4 h-4" />,
+          items: ["Test Suites", "Test Plans", "Test Environments", "Test Configurations", "Version Control"]
+        }
+      ]
+    },
+    "eProtect": {
+      sections: [
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Security Overview", "Threat Dashboard", "Email Analytics", "Protection Status", "Recent Activity", "Threat Summary", "Email Statistics", "Quick Actions"]
+        },
+        {
+          title: "Security",
+          icon: <Shield className="w-4 h-4" />,
+          items: ["Threat Protection", "Anti-spam", "Anti-virus", "Email Encryption", "Security Policies", "Spam Filter", "Phishing Protection", "Malware Detection"]
+        },
+        {
+          title: "Archive",
+          icon: <Archive className="w-4 h-4" />,
+          items: ["Email Archive", "Archived Messages", "Search Archive", "Archive Policies", "Data Retention", "Legal Hold"]
+        },
+        {
+          title: "Policies",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["Security Policies", "Compliance Policies", "Content Filtering", "Data Loss Prevention", "Policy Management"]
+        },
+        {
+          title: "Compliance",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: ["Compliance Reports", "Audit Logs", "Regulatory Compliance", "Legal Hold", "eDiscovery"]
+        },
+        {
+          title: "Reports",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Security Reports", "Archive Reports", "Compliance Reports", "Threat Reports", "Custom Reports"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Security Settings", "Archive Settings", "Policy Settings", "User Management", "Integration Settings", "Filter Settings", "Admin Settings"]
+        },
+        {
+          title: "Quarantine",
+          icon: <XCircle className="w-4 h-4" />,
+          items: ["Quarantined Emails", "Spam Quarantine", "Virus Quarantine", "Release Queue", "False Positives"]
+        }
+      ]
+    },
+    "Toolkit": {
+      sections: [
+        {
+          title: "Queries",
+          icon: <Search className="w-4 h-4" />,
+          items: ["Database Queries", "Custom Queries", "Saved Queries", "Query Builder", "Query History"]
+        },
+        {
+          title: "Tools",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Admin Tools", "Database Tools", "System Tools", "Diagnostic Tools", "Maintenance Tools"]
+        },
+        {
+          title: "Data Analysis",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Data Explorer", "Data Reports", "Performance Analysis", "Usage Statistics", "Data Insights"]
+        },
+        {
+          title: "System Monitoring",
+          icon: <Monitor className="w-4 h-4" />,
+          items: ["System Status", "Performance Monitoring", "Resource Usage", "Error Logs", "Health Checks"]
+        },
+        {
+          title: "Administration",
+          icon: <User className="w-4 h-4" />,
+          items: ["User Management", "Permission Management", "System Configuration", "Backup Management", "Security Settings"]
+        },
+        {
+          title: "Reports",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["System Reports", "Usage Reports", "Performance Reports", "Security Reports", "Custom Reports"]
+        },
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["Admin Overview", "System Health", "Usage Statistics", "Quick Tools"]
+        },
+        {
+          title: "User Management",
+          icon: <Users className="w-4 h-4" />,
+          items: ["User Lookup", "Account Information", "User Activities", "Permission Check", "User Analytics"]
+        },
+        {
+          title: "Organization",
+          icon: <Building2 className="w-4 h-4" />,
+          items: ["Org Information", "Org Settings", "License Details", "Feature Usage", "Billing Information"]
+        },
+        {
+          title: "Data Tools",
+          icon: <Database className="w-4 h-4" />,
+          items: ["Data Export", "Data Import", "Data Migration", "Data Validation", "Bulk Operations"]
+        },
+        {
+          title: "System Tools",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["System Diagnostics", "Performance Monitor", "Log Analyzer", "Cache Management", "API Tools"]
+        },
+        {
+          title: "Audit",
+          icon: <Eye className="w-4 h-4" />,
+          items: ["Audit Logs", "Access Logs", "Change History", "Compliance Check", "Security Audit"]
+        }
+      ]
+    },
+    "ManageEngine": {
+      sections: [
+        {
+          title: "Assets",
+          icon: <Package className="w-4 h-4" />,
+          items: ["IT Assets", "Hardware Assets", "Software Assets", "Asset Discovery", "Asset Lifecycle", "Asset Reports"]
+        },
+        {
+          title: "Network",
+          icon: <Wifi className="w-4 h-4" />,
+          items: ["Network Monitoring", "Device Management", "Network Topology", "Performance Monitoring", "Network Reports"]
+        },
+        {
+          title: "Help Desk",
+          icon: <MessageSquare className="w-4 h-4" />,
+          items: ["Tickets", "Incident Management", "Problem Management", "Change Management", "Knowledge Base"]
+        },
+        {
+          title: "Security",
+          icon: <Shield className="w-4 h-4" />,
+          items: ["Security Monitoring", "Vulnerability Assessment", "Patch Management", "Compliance Management", "Security Reports"]
+        },
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["IT Analytics", "Performance Analytics", "Cost Analytics", "Usage Analytics", "Custom Dashboards"]
+        },
+        {
+          title: "Automation",
+          icon: <Zap className="w-4 h-4" />,
+          items: ["IT Automation", "Workflow Automation", "Scheduled Tasks", "Policy Automation", "Process Automation"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["System Settings", "User Management", "Integration Settings", "Notification Settings", "License Management"]
+        }
+      ]
+    },
+    "IoT": {
+      sections: [
+        {
+          title: "Devices",
+          icon: <Smartphone className="w-4 h-4" />,
+          items: ["All Devices", "Device Registry", "Device Status", "Device Groups", "Device Configuration", "Device Logs", "Online Devices", "Offline Devices", "Device Management", "Firmware Updates"]
+        },
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Device Analytics", "Data Visualization", "Performance Metrics", "Usage Analytics", "Predictive Analytics", "Custom Dashboards"]
+        },
+        {
+          title: "Monitoring",
+          icon: <Monitor className="w-4 h-4" />,
+          items: ["Real-time Monitoring", "Device Health", "Performance Monitoring", "Alert Management", "System Status"]
+        },
+        {
+          title: "Data Management",
+          icon: <Database className="w-4 h-4" />,
+          items: ["Data Streams", "Data Storage", "Data Processing", "Data Export", "Data Quality", "Live Data", "Historical Data"]
+        },
+        {
+          title: "Alerts & Rules",
+          icon: <Bell className="w-4 h-4" />,
+          items: ["Alert Rules", "Notifications", "Threshold Settings", "Automated Actions", "Escalation Rules", "Active Alerts", "Alert History"]
+        },
+        {
+          title: "Integration",
+          icon: <Link2 className="w-4 h-4" />,
+          items: ["API Integration", "Third-party Connectors", "Data Export", "Webhook Configuration", "Custom Integration"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Device Settings", "Data Settings", "Security Settings", "User Management", "Account Settings"]
+        },
+        {
+          title: "Automation",
+          icon: <Zap className="w-4 h-4" />,
+          items: ["Automation Rules", "Triggers", "Actions", "Workflows", "Scenarios"]
+        }
+      ]
+    },
+    "Embedded BI": {
+      sections: [
+        {
+          title: "Embeds",
+          icon: <Code className="w-4 h-4" />,
+          items: ["All Embeds", "Dashboard Embeds", "Report Embeds", "Chart Embeds", "Widget Embeds", "Custom Embeds"]
+        },
+        {
+          title: "APIs",
+          icon: <Link2 className="w-4 h-4" />,
+          items: ["API Documentation", "REST APIs", "JavaScript APIs", "SDK Downloads", "API Testing", "Authentication"]
+        },
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Usage Analytics", "Performance Metrics", "User Analytics", "Embed Analytics", "API Analytics"]
+        },
+        {
+          title: "White-label",
+          icon: <Palette className="w-4 h-4" />,
+          items: ["Branding Options", "Custom Themes", "Logo Management", "Color Schemes", "UI Customization"]
+        },
+        {
+          title: "Data Sources",
+          icon: <Database className="w-4 h-4" />,
+          items: ["Connect Data", "Database Connections", "File Uploads", "Cloud Connectors", "Data Refresh"]
+        },
+        {
+          title: "Security",
+          icon: <Shield className="w-4 h-4" />,
+          items: ["Access Control", "Domain Management", "User Authentication", "Encryption Settings", "Security Policies"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Embed Settings", "API Settings", "Integration Settings", "Account Settings", "Billing"]
+        }
+      ]
+    },
+    "Domains": {
+      sections: [
+        {
+          title: "Domains",
+          icon: <Globe className="w-4 h-4" />,
+          items: ["All Domains", "Active Domains", "Expired Domains", "Pending Domains", "Domain Search", "Domain Transfer"]
+        },
+        {
+          title: "DNS Management",
+          icon: <Server className="w-4 h-4" />,
+          items: ["DNS Records", "A Records", "CNAME Records", "MX Records", "TXT Records", "DNS Analytics"]
+        },
+        {
+          title: "SSL Certificates",
+          icon: <Lock className="w-4 h-4" />,
+          items: ["SSL Certificates", "Certificate Installation", "Certificate Renewal", "Wildcard SSL", "SSL Analytics"]
+        },
+        {
+          title: "Website Builder",
+          icon: <Edit3 className="w-4 h-4" />,
+          items: ["Build Website", "Website Templates", "Landing Pages", "Website Analytics", "Mobile Optimization"]
+        },
+        {
+          title: "Email Setup",
+          icon: <Mail className="w-4 h-4" />,
+          items: ["Email Accounts", "Email Forwarding", "Email Hosting", "Email Security", "Email Analytics"]
+        },
+        {
+          title: "WHOIS & Privacy",
+          icon: <Eye className="w-4 h-4" />,
+          items: ["WHOIS Information", "Domain Privacy", "Contact Information", "Privacy Protection", "Domain Lock"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Domain Settings", "DNS Settings", "Security Settings", "Billing Settings", "Renewal Settings"]
+        }
+      ]
+    },
+    "CommunitySpaces": {
+      sections: [
+        {
+          title: "Communities",
+          icon: <Users className="w-4 h-4" />,
+          items: ["All Communities", "My Communities", "Public Communities", "Private Communities", "Community Templates"]
+        },
+        {
+          title: "Members",
+          icon: <User className="w-4 h-4" />,
+          items: ["All Members", "Member Profiles", "Member Roles", "Member Analytics", "Member Invitations"]
+        },
+        {
+          title: "Posts & Content",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["All Posts", "Popular Posts", "Recent Posts", "Content Categories", "Content Moderation"]
+        },
+        {
+          title: "Forums",
+          icon: <MessageCircle className="w-4 h-4" />,
+          items: ["Discussion Forums", "Forum Topics", "Forum Categories", "Forum Moderation", "Forum Analytics"]
+        },
+        {
+          title: "Engagement",
+          icon: <Heart className="w-4 h-4" />,
+          items: ["Member Engagement", "Community Events", "Gamification", "Rewards System", "Engagement Analytics"]
+        },
+        {
+          title: "Moderation",
+          icon: <Shield className="w-4 h-4" />,
+          items: ["Content Moderation", "User Management", "Community Guidelines", "Reporting System", "Moderation Tools"]
+        },
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Community Analytics", "Member Analytics", "Content Analytics", "Engagement Metrics", "Growth Analytics"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Community Settings", "Privacy Settings", "Notification Settings", "Integration Settings", "Theme Settings"]
+        }
+      ]
+    },
+    "Publish": {
+      sections: [
+        {
+          title: "Listings",
+          icon: <MapPin className="w-4 h-4" />,
+          items: ["All Listings", "Google My Business", "Bing Places", "Apple Maps", "Local Directories", "Industry Listings"]
+        },
+        {
+          title: "Reviews",
+          icon: <Star className="w-4 h-4" />,
+          items: ["All Reviews", "Google Reviews", "Facebook Reviews", "Yelp Reviews", "Review Monitoring", "Review Responses"]
+        },
+        {
+          title: "Local SEO",
+          icon: <Search className="w-4 h-4" />,
+          items: ["SEO Performance", "Keyword Tracking", "Local Rankings", "Citation Building", "SEO Analytics"]
+        },
+        {
+          title: "Social Posts",
+          icon: <Share2 className="w-4 h-4" />,
+          items: ["Social Media Posts", "Google Posts", "Facebook Posts", "Post Scheduling", "Social Analytics"]
+        },
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["Listing Analytics", "Review Analytics", "SEO Analytics", "Social Analytics", "Performance Reports"]
+        },
+        {
+          title: "Reputation Management",
+          icon: <ThumbsUp className="w-4 h-4" />,
+          items: ["Reputation Monitoring", "Review Management", "Response Templates", "Sentiment Analysis", "Reputation Reports"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["Business Information", "Listing Settings", "Review Settings", "Notification Settings", "Integration Settings"]
+        }
+      ]
+    },
+    "Apptics": {
+      sections: [
+        {
+          title: "Analytics",
+          icon: <BarChart3 className="w-4 h-4" />,
+          items: ["App Analytics", "User Analytics", "Performance Analytics", "Custom Analytics", "Real-time Analytics", "Event Analytics", "Funnel Analysis", "Cohort Analysis"]
+        },
+        {
+          title: "Users",
+          icon: <Users className="w-4 h-4" />,
+          items: ["User Behavior", "User Segments", "User Journey", "User Retention", "User Acquisition"]
+        },
+        {
+          title: "Performance",
+          icon: <TrendingUp className="w-4 h-4" />,
+          items: ["App Performance", "Load Times", "Crash Reports", "Error Tracking", "Performance Optimization", "ANR Reports", "Performance Monitoring", "Memory Usage"]
+        },
+        {
+          title: "Events",
+          icon: <Target className="w-4 h-4" />,
+          items: ["Custom Events", "Event Tracking", "Conversion Events", "Event Analytics", "Event Funnels"]
+        },
+        {
+          title: "Reports",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["Standard Reports", "Custom Reports", "Scheduled Reports", "Export Reports", "Report Builder", "Export Data"]
+        },
+        {
+          title: "Integration",
+          icon: <Link2 className="w-4 h-4" />,
+          items: ["SDK Integration", "API Integration", "Third-party Tools", "Data Export", "Custom Integration"]
+        },
+        {
+          title: "Settings",
+          icon: <Settings className="w-4 h-4" />,
+          items: ["App Settings", "Analytics Settings", "Privacy Settings", "Team Settings", "Account Settings"]
+        },
+        {
+          title: "Dashboard",
+          icon: <Home className="w-4 h-4" />,
+          items: ["App Overview", "Key Metrics", "Real-time Data", "Performance Summary"]
+        },
+        {
+          title: "User Behavior",
+          icon: <Users className="w-4 h-4" />,
+          items: ["User Sessions", "User Journey", "Heatmaps", "User Feedback", "A/B Testing"]
+        },
+        {
+          title: "Custom Events",
+          icon: <Tag className="w-4 h-4" />,
+          items: ["Event Tracking", "Custom Metrics", "Goal Tracking", "Conversion Events", "Event Funnels"]
         }
       ]
     },
