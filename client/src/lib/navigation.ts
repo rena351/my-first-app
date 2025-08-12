@@ -315,39 +315,67 @@ export const getAppNavigation = (appName: string) => {
           items: ["Deleted Leads", "Deleted Contacts", "Deleted Accounts", "Deleted Deals", "Deleted Activities", "Deleted Records"]
         },
         {
-          title: "Feature Ideas & Solvers",
+          title: "Small Problem Solvers",
           icon: <Zap className="w-4 h-4" />,
           items: [
-            "Budget-Friendly Plan Advisor",
-            "One-Click Security Audit",
             "EZ-Report Builder",
             "Guided Onboarding Tour",
-            "Integration Health Check",
-            "Adoption Rate Forecaster",
-            "Automated Data Cleanser",
-            "Universal API Connector",
-            "Workflow Replicator",
-            "Priority Support Channel",
-            "Team Usage Dashboard",
-            "Data Decay Alerts",
-            "App Marketplace Connector",
-            "Simplified \"Lite\" Mode",
             "Custom Field Wizard",
-            "ROI Calculator",
-            "Natural Language Analytics",
-            "24/7 Live Chat Support",
+            "Simplified \"Lite\" Mode",
+            "Voice-to-Text Note Taking"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Universal API Connector",
+            "Automated Data Cleanser",
             "Offline Mobile Sync",
             "Compliance Center (GDPR/CCPA)",
+            "Workflow Replicator"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Team Usage Dashboard",
+            "Integration Health Check",
+            "Data Decay Alerts",
+            "App Marketplace Connector",
+            "ROI Calculator",
+            "Priority Support Channel",
+            "Adoption Rate Forecaster",
+            "Budget-Friendly Plan Advisor",
+            "One-Click Security Audit",
+            "24/7 Live Chat Support"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
             "AI Deal-Closing Predictor",
             "Automated Competitor Tracker",
             "Sentiment Analysis for Client Emails",
             "\"Best Time to Call\" Suggester",
-            "Voice-to-Text Note Taking",
             "Gamified Sales Leaderboard",
             "Relationship Health Score",
             "Automated Lead Enrichment",
             "\"Forgotten Leads\" Nurture Sequence",
-            "AI-Powered Sales Script Generator"
+            "AI-Powered Sales Script Generator",
+            "Natural Language Analytics",
+            "Predictive Lead Scoring",
+            "AI-Powered Email Template Generator",
+            "Automated Meeting Scheduler",
+            "Customer Churn Prediction",
+            "AI-driven Sales Forecasting",
+            "Automated Data Entry from Emails",
+            "Intelligent Document Scanner",
+            "AI-powered Competitor Analysis",
+            "Automated Task Prioritization",
+            "AI-based Customer Segmentation"
           ]
         }
       ]
@@ -403,6 +431,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Mobile Features",
           icon: <Smartphone className="w-4 h-4" />,
           items: ["Business Card Scanner", "Offline Access", "Push Notifications", "Touch ID Security", "Dark Mode", "Calendar View"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Simplified Contact Import",
+            "One-Click 'Call' Button",
+            "Basic Email Templates",
+            "Meeting Scheduler Link",
+            "Pipeline Stage Color-Coding"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Automated Lead Assignment",
+            "Telephony Integration",
+            "Team Performance Dashboards",
+            "Product/Service Management",
+            "Custom Workflow Automation"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Automated Follow-up Reminders",
+            "Visual Drag-and-Drop Pipeline",
+            "Unified Contact Timeline",
+            "Shareable Booking Links",
+            "Business Card Scanner",
+            "Simple Performance Dashboards",
+            "Offline Mobile Access",
+            "Distinct Process Pipelines",
+            "Repetitive Task Automation",
+            "Key App Integrations"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI 'Next Best Action' Suggester",
+            "Predictive Lead Scoring",
+            "Email Sentiment Analysis",
+            "Automated Data Enrichment",
+            "Best Time to Contact AI",
+            "AI-Generated Follow-up Emails",
+            "Voice-to-Text Note Logging",
+            "Pipeline Anomaly Detection",
+            "AI Sales Assistant Q&A",
+            "Automated Contact Tagging",
+            "AI-Powered Deal Insights",
+            "Automated Meeting Summaries",
+            "Predictive Pipeline Forecasting",
+            "Intelligent Task Recommendations",
+            "AI-driven Competitor Alerts",
+            "Automated Data Deduplication",
+            "AI-based Lead Source Analysis",
+            "Smart Email Scheduling",
+            "AI-powered Sales Playbooks",
+            "Automated Voicemail Transcription"
+          ]
         }
       ]
     },
@@ -457,6 +549,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Organization Profile", "Users & Roles", "General Preferences", "Taxes", "Templates", "Online Payments", "Email Settings", "Import/Export", "Extensions", "Backup"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "One-click invoice aging report",
+            "Customizable dashboard widgets",
+            "\"Mark as Paid\" in invoice list view",
+            "Bulk import for vendor contacts",
+            "Toggle for automatic late fees"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Multi-currency cash flow forecasting",
+            "Advanced project-based accounting",
+            "Automated 1099 e-filing",
+            "Direct payroll provider integration",
+            "Comprehensive budgeting tool"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Solving poor cash flow visibility",
+            "Simplifying multi-state sales tax",
+            "Automating bank feed categorization",
+            "Streamlining client payment reminders",
+            "Managing project profitability",
+            "Automating recurring subscription billing",
+            "Providing reports for loan applications",
+            "Simplifying retail inventory tracking",
+            "Ensuring all project hours are billed",
+            "Managing vendor bills efficiently"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered fraud detection",
+            "Predictive cash flow forecasting",
+            "Intelligent invoice data extraction",
+            "AI-driven expense categorization",
+            "Smart bank reconciliation suggestions",
+            "AI financial health score",
+            "Automated compliance audit trails",
+            "AI chart of accounts recommendations",
+            "Predictive customer payment behavior",
+            "AI accounting question chatbot",
+            "AI-driven expense reduction advice",
+            "Automated duplicate record detection",
+            "AI-powered sales tax rate suggestions",
+            "Natural language report generation",
+            "AI inventory reorder point suggestions",
+            "Automated vendor risk assessment",
+            "Predictive revenue forecasting",
+            "AI-powered invoice-to-payment matching",
+            "Smart alerts for spending anomalies",
+            "AI-generated financial summaries"
+          ]
         }
       ]
     },
@@ -506,6 +662,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Dashboard Customization", "Sender Authentication", "Data Management", "Team Collaboration", "Template Management"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Emoji support in subject lines",
+            "One-click \"resend to unopens\"",
+            "A/B testing for sender name",
+            "Pre-built holiday templates",
+            "Dark mode for campaign editor"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Integrated SMS marketing",
+            "Advanced visual workflow builder",
+            "Predictive sending optimization",
+            "Built-in landing page creator",
+            "Native e-commerce integrations"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Improving email deliverability",
+            "Advanced contact list segmentation",
+            "Automating welcome email series",
+            "Measuring campaign ROI",
+            "Creating mobile-responsive emails",
+            "Managing list growth & unsubscribes",
+            "Personalizing content at scale",
+            "Re-engaging inactive subscribers",
+            "Ensuring GDPR/CAN-SPAM compliance",
+            "A/B testing to improve engagement"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered subject line generator",
+            "AI-driven content personalization",
+            "Predictive campaign success scoring",
+            "Smart behavioral segmentation",
+            "AI-powered send time optimization",
+            "Automated A/B test winner selection",
+            "AI-based template recommendations",
+            "Predictive subscriber churn analysis",
+            "AI-powered newsletter content summarization",
+            "Automated image selection for emails",
+            "Sentiment analysis of email replies",
+            "AI-generated email copy variations",
+            "Predictive lead scoring integration",
+            "AI-driven follow-up campaign recommendations",
+            "Automated list hygiene suggestions",
+            "AI-powered pre-send spam score checker",
+            "Natural language campaign setup",
+            "AI-based CTA text suggestions",
+            "Predictive content type performance",
+            "Automated reports with actionable insights"
+          ]
         }
       ]
     },
@@ -555,6 +775,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Setup",
           icon: <Settings className="w-4 h-4" />,
           items: ["Users & Roles", "Departments", "Products", "Custom Fields", "Layouts", "Email Templates", "Integrations", "Extensions"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Canned responses",
+            "Customizable ticket status",
+            "Agent collision detection",
+            "Merge duplicate tickets",
+            "Internal notes on tickets"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Multi-channel support inbox",
+            "Advanced workflow automation",
+            "Customizable self-service portal",
+            "SLA management & reporting",
+            "Integrated telephony"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Deflecting tickets with a knowledge base",
+            "Ensuring consistent answers",
+            "Automating ticket assignment",
+            "Managing urgent issues with SLAs",
+            "Tracking team performance",
+            "Providing 24/7 support with chatbots",
+            "Viewing unified customer history",
+            "Measuring customer satisfaction",
+            "Integrating with CRM & bug trackers",
+            "Onboarding new agents quickly"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI assistant for agents (Zia)",
+            "Ticket sentiment analysis",
+            "AI-powered auto-tagging",
+            "Answer Bot for instant responses",
+            "Predictive ticket volume forecasting",
+            "AI suggestions for new articles",
+            "Intelligent ticket summarization",
+            "AI identification of trending issues",
+            "Automated language translation",
+            "AI-powered agent coaching",
+            "Smart routing to best-skilled agent",
+            "Predictive customer churn risk",
+            "AI-generated response suggestions",
+            "Voice-to-text call transcription",
+            "AI analysis of CSAT scores",
+            "Automated spam/threat detection",
+            "AI-driven upsell recommendations",
+            "Natural language help desk search",
+            "AI anomaly detection for SLA breaches",
+            "Automated ticket categorization"
+          ]
         }
       ]
     },
@@ -619,6 +903,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Zoho Apps",
           icon: <Grid className="w-4 h-4" />,
           items: ["Calendar", "Contacts", "Tasks", "Notes", "Bookmarks", "Resources", "eArchive"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Undo send",
+            "Email templates",
+            "Snooze emails",
+            "Customizable swipe actions",
+            "Out of Office auto-responder"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "End-to-end email encryption",
+            "Integrated productivity suite",
+            "eDiscovery and email archiving",
+            "Team collaboration via Streams",
+            "Full offline mode access"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Managing an overflowing inbox",
+            "Remembering to follow up",
+            "Scheduling meetings efficiently",
+            "Fighting spam and phishing",
+            "Collaborating on documents",
+            "Finding old emails and attachments",
+            "Managing multiple email accounts",
+            "Sending large file attachments",
+            "Migrating from other providers",
+            "Getting a custom domain email"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered email prioritization",
+            "Smart reply suggestions",
+            "AI-based email summarization",
+            "Nudge reminders for follow-ups",
+            "AI-driven smart folders",
+            "Email sentiment analysis",
+            "Natural language email search",
+            "Automated task/event extraction",
+            "AI grammar and tone checker",
+            "Predictive text composition",
+            "Self-learning spam filter",
+            "Smart notification management",
+            "AI-driven contact suggestions",
+            "Automated email translation",
+            "AI-powered phishing detection",
+            "Voice commands for email",
+            "AI scheduling assistant",
+            "Automated follow-up suggestions",
+            "AI insights into email habits",
+            "Smart attachment management"
+          ]
         }
       ]
     },
@@ -673,6 +1021,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Collaboration",
           icon: <Users className="w-4 h-4" />,
           items: ["Activity Feeds", "Shared Calendars", "Team Chat", "Comments & Mentions"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Task templates",
+            "My Tasks view",
+            "Simple hour timer",
+            "Project status labels",
+            "Drag-and-drop task ranking"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Interactive Gantt charts",
+            "Advanced resource management",
+            "Integrated issue tracking",
+            "Project budgeting & financials",
+            "Customizable project templates"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Clarifying who is doing what",
+            "Preventing budget overruns",
+            "Centralizing team communication",
+            "Managing scope creep",
+            "Preventing team burnout",
+            "Tracking billable vs. non-billable hours",
+            "Keeping clients informed",
+            "Preventing bugs from getting lost",
+            "Standardizing project setup",
+            "Understanding project profitability"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered project risk prediction",
+            "Smart task scheduling",
+            "AI-driven task breakdown suggestions",
+            "Predictive project completion dates",
+            "Automated project status reporting",
+            "AI anomaly detection in timesheets",
+            "Intelligent bottleneck identification",
+            "AI-powered task prioritization",
+            "Natural language project queries",
+            "Team morale sentiment analysis",
+            "AI workflow improvement suggestions",
+            "Automated meeting agendas",
+            "Predictive budget overrun warnings",
+            "AI-based task duration estimation",
+            "Smart notifications for at-risk tasks",
+            "AI-powered task assignment",
+            "Automated issue categorization",
+            "AI insights from past projects",
+            "Predictive resource forecasting",
+            "AI project support chatbot"
+          ]
         }
       ]
     },
@@ -712,6 +1124,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Mobile Features",
           icon: <Smartphone className="w-4 h-4" />,
           items: ["Facial Recognition", "Location Tracking", "Push Notifications", "Offline Capability", "AI Chatbot Zia"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Company directory",
+            "Employee self-service portal",
+            "Leave request system",
+            "Holiday calendar",
+            "Company announcements feed"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Automated employee onboarding",
+            "Performance management module",
+            "Automated attendance tracking",
+            "Comprehensive leave management",
+            "Centralized document management"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Digitizing paper-based HR processes",
+            "Tracking time and attendance accurately",
+            "Managing leave requests and balances",
+            "Ensuring fair performance reviews",
+            "Keeping employee data secure",
+            "Streamlining new hire onboarding",
+            "Answering repetitive HR questions",
+            "Generating HR reports for management",
+            "Tracking company assets",
+            "Handling complex shift scheduling"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered resume screening",
+            "Predictive employee turnover analysis",
+            "AI chatbot for HR queries",
+            "Sentiment analysis of employee surveys",
+            "AI-driven learning path recommendations",
+            "Smart automation of HR workflows",
+            "AI-based compensation analysis",
+            "Predictive workforce needs forecasting",
+            "AI analysis of performance review data",
+            "Intelligent attendance anomaly detection",
+            "Automated job description generation",
+            "AI insights into organizational structure",
+            "Personalized employee onboarding",
+            "AI suggestions for employee engagement",
+            "Smart mentor/mentee matching",
+            "Automated HR compliance checks",
+            "AI analysis of employee skills gaps",
+            "Predictive promotion readiness analysis",
+            "AI-generated performance summaries",
+            "Voice commands for HR tasks"
+          ]
         }
       ]
     },
@@ -781,6 +1257,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Organization Profile", "User Management", "Custom Fields", "Templates", "Payment Gateways", "Integrations", "Digital Signatures"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Customizable invoice templates",
+            "\"Mark as Sent\" status",
+            "Recurring invoice profiles",
+            "Simple billable hours timer",
+            "Accept online payments"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Multi-currency invoicing",
+            "Client payment portal",
+            "Automated payment reminders",
+            "Advanced sales tax compliance",
+            "Integration with accounting software"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Reducing time spent creating invoices",
+            "Handling late-paying clients",
+            "Creating professional-looking invoices",
+            "Tracking paid vs. overdue invoices",
+            "Calculating sales tax automatically",
+            "Billing clients for expenses",
+            "Converting quotes to invoices",
+            "Providing clients with payment history",
+            "Tracking time for service projects",
+            "Managing refunds with credit notes"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI prediction of invoice payment dates",
+            "Smart due date suggestions",
+            "AI-optimized reminder timing",
+            "Automated expense categorization",
+            "AI fraud detection for payments",
+            "Intelligent data extraction from POs",
+            "AI recommendations for early payment discounts",
+            "Natural language invoice creation",
+            "AI summary of outstanding receivables",
+            "Predictive analysis of late payers",
+            "AI-assisted dunning management",
+            "Smart payment-to-invoice matching",
+            "AI-powered cash flow forecasting",
+            "Automated 'thank you' notes",
+            "AI insights into revenue trends",
+            "Intelligent invoice error checking",
+            "AI suggestions for item descriptions",
+            "Automated real-time currency conversion",
+            "AI analysis of client payment patterns",
+            "Smart alerts for viewed-but-unpaid invoices"
+          ]
         }
       ]
     },
@@ -835,6 +1375,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Team Collaboration",
           icon: <Users className="w-4 h-4" />,
           items: ["Shared Contexts", "Team Handoffs", "New Hire Onboarding", "Role Change Continuity"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Email templates",
+            "Email open and link tracking",
+            "Send later scheduling",
+            "Create CRM contact from email",
+            "Set follow-up reminders"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Automatic email prioritization",
+            "Multi-column inbox view",
+            "Deep CRM integration",
+            "Reply tracking with ResponseWatch",
+            "Team email sharing"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Organizing a cluttered sales inbox",
+            "Remembering to follow up with leads",
+            "Reducing context switching with CRM",
+            "Knowing if a prospect saw your email",
+            "Avoiding writing repetitive emails",
+            "Responding faster to hot leads",
+            "Onboarding new salespeople",
+            "Ensuring consistent team messaging",
+            "Prioritizing daily emails",
+            "Automating CRM data entry"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI suggestions for best send time",
+            "Email sentiment analysis",
+            "AI-generated email drafts",
+            "Predictive lead scoring",
+            "Next Best Action recommendations",
+            "AI insights on template performance",
+            "Automated email thread summarization",
+            "AI identification of upsell opportunities",
+            "Smart alerts on prospect engagement",
+            "AI grammar and tone analysis",
+            "Automated contact data enrichment",
+            "Predictive deal closing analysis",
+            "AI-powered 'ghostwriting' for replies",
+            "Automated meeting scheduling",
+            "AI competitor mention alerts",
+            "Intelligent email categorization",
+            "AI-powered adaptive follow-up reminders",
+            "Voice-to-text email and CRM logging",
+            "AI analysis of team email performance",
+            "Smart 'nudge' for cold leads"
+          ]
         }
       ]
     },
@@ -879,6 +1483,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Integrations",
           icon: <Link2 className="w-4 h-4" />,
           items: ["Zoho Desk Integration", "TV Apps", "Android TV", "Apple TV", "Desktop Apps", "Mobile Alerts"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Customizable chat widgets",
+            "Canned responses",
+            "Pre-chat forms",
+            "Desktop notifications",
+            "Operator 'away' status"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Real-time visitor tracking",
+            "Proactive chat invitations",
+            "Lead scoring",
+            "Codeless chatbot builder",
+            "CRM & Help Desk integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Engaging website visitors",
+            "Understanding visitor behavior",
+            "Providing 24/7 support with chatbots",
+            "Reducing website bounce rates",
+            "Answering repetitive questions",
+            "Qualifying leads effectively",
+            "Creating a unified customer experience",
+            "Measuring live chat ROI",
+            "Supporting customers on multiple platforms",
+            "Personalizing the website experience"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered Answer Bot",
+            "Intelligent chat routing",
+            "AI-driven lead scoring",
+            "Chat sentiment analysis",
+            "AI-generated agent responses",
+            "Predictive visitor behavior analysis",
+            "AI-powered proactive chat triggers",
+            "Self-learning chatbot builder",
+            "AI chat transcript summarization",
+            "Automated real-time translation",
+            "AI insights into customer pain points",
+            "Advanced NLU for chatbots",
+            "AI-driven upsell recommendations",
+            "Automated chat categorization",
+            "AI-based agent quality assurance",
+            "Predictive chat volume forecasting",
+            "AI-powered 'smart actions' in chat",
+            "Voice-enabled chat interaction",
+            "AI A/B testing for chat widgets",
+            "Automated VIP customer identification"
+          ]
         }
       ]
     },
@@ -913,6 +1581,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Setup",
           icon: <Settings className="w-4 h-4" />,
           items: ["KPI Configuration", "Team Setup", "Reward System", "Integration Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Customizable leaderboard themes",
+            "Achievement sound effects",
+            "Peer recognition 'kudos' feature",
+            "Personal best notifications",
+            "Mobile goal-tracking widget"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Integrate with any CRM data point",
+            "TV channel for office screens",
+            "Complex contest builder",
+            "Fantasy sports-style competitions",
+            "Rewards fulfillment system"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Boosting low team morale",
+            "Focusing reps on key metrics",
+            "Preventing negative competition",
+            "Visualizing real-time performance",
+            "Making sales meetings engaging",
+            "Motivating through long sales cycles",
+            "Recognizing non-sales contributions",
+            "Speeding up new rep onboarding",
+            "Simplifying complex sales data",
+            "Automating reward fulfillment"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered personalized goals",
+            "Predictive motivation analysis",
+            "AI-driven contest recommendations",
+            "Smart milestone alerts",
+            "AI sales coach for reps",
+            "Automated balanced team generation",
+            "Team morale sentiment analysis",
+            "AI recognition of 'unsung heroes'",
+            "Predictive KPI forecasting",
+            "AI-generated contest summaries",
+            "Natural language ranking queries",
+            "AI recommendations for rewards",
+            "Automated performance anomaly detection",
+            "AI skill gap analysis",
+            "Personalized 'power-up' suggestions",
+            "AI dynamic difficulty adjustment",
+            "Predictive contest effectiveness modeling",
+            "Automated peer recognition suggestions",
+            "AI-generated contest 'hype' messages",
+            "Smart matchmaking for sales challenges"
+          ]
         }
       ]
     },
@@ -967,6 +1699,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Team",
           icon: <Users className="w-4 h-4" />,
           items: ["Role-based Permissions", "Content Approval", "Team Chat", "Client Portal", "White-label Reporting"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Unified social inbox",
+            "Content calendar",
+            "Browser sharing extension",
+            "URL shortener",
+            "Simple graphics editor"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Advanced social listening",
+            "SmartQ optimal post timing",
+            "Comprehensive analytics",
+            "Team collaboration workflows",
+            "CRM integration for leads"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Managing multiple social accounts",
+            "Generating content ideas",
+            "Knowing the best time to post",
+            "Missing customer comments",
+            "Proving social media ROI",
+            "Collaborating with a team",
+            "Tracking brand mentions",
+            "Handling social customer service",
+            "Turning followers into leads",
+            "Bulk scheduling content"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI content generation for posts",
+            "AI hashtag suggestions",
+            "Predictive post performance analytics",
+            "Sentiment analysis of mentions",
+            "AI recommendations for content formats",
+            "Smart replies for social inquiries",
+            "AI identification of brand influencers",
+            "Automated user-generated content discovery",
+            "AI-driven competitor analysis",
+            "Predictive industry trend spotting",
+            "AI social media crisis alerts",
+            "Automated A/B testing for copy",
+            "AI-driven audience segmentation",
+            "Natural language post scheduling",
+            "AI-generated performance summaries",
+            "Smart comment moderation",
+            "AI suggestions for re-sharing content",
+            "Predictive lead scoring from social",
+            "AI video content analysis",
+            "Automated ad campaign optimization"
+          ]
         }
       ]
     },
@@ -1013,19 +1809,31 @@ export const getAppNavigation = (appName: string) => {
           items: ["CRM Integration", "Website Tracking", "API Configuration", "Webhooks", "Third-party Apps"]
         },
         {
-          title: "Feature Ideas & Solvers",
+          title: "Small Problem Solvers",
           icon: <Zap className="w-4 h-4" />,
           items: [
             "Drag-and-Drop Email Builder",
             "A/B Testing for Subject Lines",
             "Dynamic Content Blocks",
             "Form Pre-fill with Known Data",
-            "Lead Source Tracking",
+            "Lead Source Tracking"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
             "Visual Customer Journey Builder",
             "Advanced Lead Scoring & Grading",
             "Multi-channel Campaign Orchestration",
             "Revenue Attribution Reporting",
-            "Website Personalization Engine",
+            "Website Personalization Engine"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
             "Generating High-Quality Leads",
             "Nurturing Leads Effectively",
             "Aligning Sales and Marketing",
@@ -1035,7 +1843,13 @@ export const getAppNavigation = (appName: string) => {
             "Creating Engaging Content",
             "Automating Repetitive Tasks",
             "Understanding Customer Behavior",
-            "Improving Customer Retention",
+            "Improving Customer Retention"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
             "AI-Powered Predictive Segmentation",
             "Automated Journey Optimization",
             "AI-Generated Email Copy",
@@ -1045,7 +1859,17 @@ export const getAppNavigation = (appName: string) => {
             "Automated Anomaly Detection in Campaigns",
             "Predictive Churn Analysis",
             "AI-assisted Campaign Creation",
-            "Voice-activated Campaign Analytics"
+            "Voice-activated Campaign Analytics",
+            "Predictive A/B Testing",
+            "AI-powered Content Personalization",
+            "Automated Customer Journey Mapping",
+            "AI-driven Lead Nurturing",
+            "Predictive Analytics for Campaign Success",
+            "AI-powered Social Media Scheduling",
+            "Automated Ad Spend Optimization",
+            "AI-based Email Subject Line Generator",
+            "Customer Lifetime Value Prediction",
+            "AI-driven Market Trend Analysis"
           ]
         }
       ]
@@ -1096,6 +1920,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Reports",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Conversion Reports", "Experiment Reports", "Revenue Impact", "Visitor Behavior", "Performance Analytics"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "On-page poll creator",
+            "Click heatmaps",
+            "Visual A/B test editor",
+            "Scroll heatmaps",
+            "One-click Zoho Sites integration"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Session recordings",
+            "Funnel analysis",
+            "Advanced A/B testing",
+            "Form analytics",
+            "Website personalization"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Understanding why visitors don't convert",
+            "Making data-driven design changes",
+            "Fixing high bounce rates",
+            "Optimizing long forms",
+            "Seeing which page elements are ignored",
+            "Getting direct user feedback",
+            "Safely testing website changes",
+            "Tailoring content for different users",
+            "Tracking micro-conversions and goals",
+            "Visualizing the complete user journey"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI recommendations for A/B tests",
+            "Predictive uplift forecasting",
+            "Automated user frustration analysis",
+            "AI insights from heatmap data",
+            "Smart behavioral segmentation",
+            "AI form field reordering suggestions",
+            "Natural language report queries",
+            "AI-generated A/B test summaries",
+            "Predictive content personalization",
+            "AI anomaly detection in funnels",
+            "Automated A/B test hypothesis generation",
+            "Sentiment analysis of survey responses",
+            "AI identification of valuable segments",
+            "Smart alerts for significant results",
+            "AI page speed improvement recommendations",
+            "Automated user journey mapping",
+            "AI design suggestions for conversions",
+            "Predictive user friction analysis",
+            "AI 'opportunity score' for pages",
+            "Automated content personalization ideas"
+          ]
         }
       ]
     },
@@ -1142,19 +2030,31 @@ export const getAppNavigation = (appName: string) => {
           items: ["Account Settings", "Form Settings", "Notification Settings", "Security Settings", "User Management"]
         },
         {
-          title: "Feature Ideas & Solvers",
+          title: "Small Problem Solvers",
           icon: <Zap className="w-4 h-4" />,
           items: [
             "Real-time Submission Counter",
             "Customizable \"Thank You\" Pages",
             "Field Validation Rules",
             "Save and Resume Later",
-            "Basic Form Templates",
+            "Basic Form Templates"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
             "Multi-page Forms with Conditional Logic",
             "Payment Integration (Stripe, PayPal)",
             "Advanced Reporting & Analytics",
             "Offline Form Submission",
-            "Document Upload & Attachment",
+            "Document Upload & Attachment"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
             "Low Form Completion Rates",
             "Spam Submissions",
             "Integrating Form Data with Other Apps",
@@ -1164,7 +2064,13 @@ export const getAppNavigation = (appName: string) => {
             "Analyzing Form Performance",
             "Making Forms Accessible (WCAG)",
             "Collaborating on Form Creation",
-            "Collecting Payments through Forms",
+            "Collecting Payments through Forms"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
             "AI-Powered Form Generation from a Description",
             "Predictive Field Validation",
             "Automated Spam Detection",
@@ -1174,7 +2080,17 @@ export const getAppNavigation = (appName: string) => {
             "Automated PDF Conversion to Forms",
             "Predictive Conversion Rate Analysis",
             "AI-powered Conditional Logic Builder",
-            "Voice-to-Text Form Filling"
+            "Voice-to-Text Form Filling",
+            "AI-based A/B testing for form fields",
+            "Sentiment analysis of open-text feedback",
+            "AI-powered form-to-database schema generation",
+            "Predictive analytics on form abandonment",
+            "AI-driven recommendations for form templates",
+            "Automated translation of form fields and labels",
+            "AI-powered image analysis for uploaded files (e.g., OCR)",
+            "Smart CAPTCHA alternatives",
+            "AI-generated summary reports of form submissions",
+            "Natural language form creation"
           ]
         }
       ]
@@ -1210,6 +2126,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Analytics",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Response Analytics", "Cross Tabulation", "Sentiment Analysis", "Text Analytics", "Reports"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Pre-built survey templates",
+            "Multiple question types",
+            "Customizable 'Thank You' page",
+            "Real-time response tracking",
+            "Simple web link sharing"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Skip logic and question branching",
+            "Multi-channel distribution",
+            "Offline survey collection",
+            "Advanced reporting & cross-tabulation",
+            "Integration to trigger surveys"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Solving low survey response rates",
+            "Avoiding irrelevant questions",
+            "Getting feedback at the right time",
+            "Analyzing open-ended feedback",
+            "Ensuring respondent anonymity",
+            "Matching surveys to company branding",
+            "Conducting field research offline",
+            "Preventing duplicate survey submissions",
+            "Collaborating on survey creation",
+            "Turning data into actionable insights"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered survey generation",
+            "AI suggestions to reduce bias",
+            "Predictive completion rate analysis",
+            "Automated sentiment analysis",
+            "AI identification of feedback themes",
+            "Smart logic suggestions",
+            "AI recommendations for survey length",
+            "Predictive respondent fatigue detection",
+            "AI-powered data cleaning",
+            "Natural language results analysis",
+            "AI-generated findings summaries",
+            "Automated survey translation",
+            "AI-based A/B testing for questions",
+            "Smart distribution channel advice",
+            "AI anomaly detection in responses",
+            "Predictive analysis of respondent value",
+            "AI-generated action plans",
+            "Smart reminders for participants",
+            "AI comparison to industry benchmarks",
+            "Automated 'Other' response categorization"
+          ]
         }
       ]
     },
@@ -1244,6 +2224,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Reports",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Registration Reports", "Revenue Reports", "Attendance Reports", "Survey Results"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Customizable registration forms",
+            "On-demand badge printing",
+            "Simple event website builder",
+            "Attendee email templates",
+            "Mobile app for attendees"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Comprehensive virtual event platform",
+            "Advanced ticket management",
+            "Sponsor & exhibitor portals",
+            "Advanced event analytics",
+            "Marketing & CRM integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Managing chaotic event registrations",
+            "Promoting events to the right audience",
+            "Keeping virtual attendees engaged",
+            "Demonstrating value to sponsors",
+            "Handling large event check-ins",
+            "Communicating last-minute changes",
+            "Facilitating attendee networking",
+            "Gathering post-event feedback",
+            "Proving event ROI",
+            "Managing hybrid events seamlessly"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered attendee matchmaking",
+            "Predictive attendance analysis",
+            "AI-driven session recommendations",
+            "Live sentiment analysis",
+            "AI chatbot for attendee FAQs",
+            "Automated post-event summaries",
+            "AI-based speaker suggestions",
+            "Smart agenda scheduling",
+            "AI transcription of sessions",
+            "Predictive lead scoring for attendees",
+            "AI recommendations for ticket pricing",
+            "Automated promotional content creation",
+            "AI moderation of live Q&A",
+            "Natural language event data queries",
+            "AI analysis of sponsor ROI",
+            "Intelligent identification of top engagers",
+            "AI-powered event highlights videos",
+            "Predictive session popularity",
+            "AI-driven agenda improvement suggestions",
+            "Automated session topic tagging"
+          ]
         }
       ]
     },
@@ -1285,29 +2329,47 @@ export const getAppNavigation = (appName: string) => {
           items: ["Expense Policies", "Categories", "Approval Rules", "Integration Settings"]
         },
         {
-          title: "Feature Ideas & Solvers",
+          title: "Small Problem Solvers",
           icon: <Zap className="w-4 h-4" />,
           items: [
-            "Receipt Auto-Categorization",
             "Mileage Tracker",
             "Quick Expense Entry",
-            "Expense Policy Reminders",
             "Duplicate Expense Detection",
-            "Automated Approval Workflows",
+            "Mobile Approvals",
+            "Split Personal/Business Expenses"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
             "Corporate Card Reconciliation",
-            "Advanced Analytics & Insights",
             "ERP/Accounting Integration",
             "Per Diem & Travel Allowance Management",
+            "Direct Payroll Integration",
+            "Built-in Tax Compliance"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Receipt Auto-Categorization",
+            "Expense Policy Reminders",
+            "Automated Approval Workflows",
+            "Advanced Analytics & Insights",
             "Real-time Receipt Capture",
             "Smart Scan for Reports",
-            "Direct Payroll Integration",
             "Real-time Policy Checks",
             "Project-based Expense Tagging",
             "Centralized Spend Dashboard",
-            "Automatic Currency Conversion",
-            "Mobile Approvals",
-            "Built-in Tax Compliance",
-            "Split Personal/Business Expenses",
+            "Automatic Currency Conversion"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
             "AI-Powered Anomaly Detection",
             "Predictive Budgeting",
             "Intelligent Policy Advisor",
@@ -1317,7 +2379,17 @@ export const getAppNavigation = (appName: string) => {
             "Vendor Negotiation Insights",
             "Personalized Spending Insights",
             "Automated Receipt Translation",
-            "Gamified Savings Goals"
+            "Gamified Savings Goals",
+            "AI-Powered Receipt Data Extraction",
+            "Automated Expense Report Generation",
+            "Predictive Expense Forecasting",
+            "Intelligent Policy Violation Detection",
+            "AI-driven Spend Optimization",
+            "Automated Expense Categorization",
+            "Smart Trip-based Expense Bundling",
+            "AI-powered Approval Workflow Suggestions",
+            "Personalized Employee Expense Insights",
+            "Automated Fraud Detection"
           ]
         }
       ]
@@ -1360,19 +2432,31 @@ export const getAppNavigation = (appName: string) => {
           items: ["Billing Settings", "Payment Gateways", "Email Templates", "Webhooks"]
         },
         {
-          title: "Feature Ideas & Solvers",
+          title: "Small Problem Solvers",
           icon: <Zap className="w-4 h-4" />,
           items: [
             "Subscription Pause/Resume",
             "Prorated Billing Calculator",
             "Dunning Email Templates",
             "One-Click Plan Upgrade",
-            "Trial Expiration Reminders",
+            "Trial Expiration Reminders"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
             "Usage-Based Billing Engine",
             "Revenue Recognition Automation",
             "Advanced Churn Prediction",
             "Multi-Currency & Tax Automation",
-            "Cohort Analysis Dashboard",
+            "Cohort Analysis Dashboard"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
             "Automated Dunning Management",
             "Self-Service Customer Portal",
             "Automated Prorated Invoicing",
@@ -1382,7 +2466,13 @@ export const getAppNavigation = (appName: string) => {
             "Seamless Onboarding Integration",
             "Flexible Billing Cycles",
             "PCI-Compliant Security",
-            "Robust API & Integrations",
+            "Robust API & Integrations"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
             "AI-Powered Pricing Optimization",
             "Predictive Churn Scoring",
             "Automated Upsell Recommendations",
@@ -1392,7 +2482,17 @@ export const getAppNavigation = (appName: string) => {
             "Natural Language Analytics Query",
             "Automated Competitor Price Tracker",
             "AI-Assisted Plan Configuration",
-            "Personalized Retention Offers"
+            "Personalized Retention Offers",
+            "AI-Powered Churn Prediction",
+            "Automated Dunning Management",
+            "Predictive LTV Analysis",
+            "AI-driven Pricing Optimization",
+            "Smart Subscription Recommendations",
+            "AI-powered Revenue Forecasting",
+            "Automated Failed Payment Recovery",
+            "AI-based Customer Segmentation",
+            "Intelligent Coupon Suggestions",
+            "AI-driven Subscription Analytics"
           ]
         }
       ]
@@ -1435,19 +2535,31 @@ export const getAppNavigation = (appName: string) => {
           items: ["General Settings", "Units of Measure", "Categories", "Preferences"]
         },
         {
-          title: "Feature Ideas & Solvers",
+          title: "Small Problem Solvers",
           icon: <Zap className="w-4 h-4" />,
           items: [
             "Low Stock Alerts",
             "Barcode/QR Code Generation",
             "Quick Stock Adjustment",
             "Item Image Upload",
-            "Basic Stock Count Sheet",
+            "Basic Stock Count Sheet"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
             "Multi-Warehouse Management",
             "Serial/Batch Number Tracking",
             "Automated Reordering",
             "Landed Cost Tracking",
-            "Kitting & Bundling",
+            "Kitting & Bundling"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
             "Automated Reorder Points",
             "Inventory Turnover Reports",
             "Cycle Counting & Barcode Scanning",
@@ -1457,7 +2569,13 @@ export const getAppNavigation = (appName: string) => {
             "Streamlined Returns Workflow",
             "Detailed Inventory Audit Trail",
             "Landed Cost Valuation",
-            "Warehouse Bin Location Management",
+            "Warehouse Bin Location Management"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
             "AI-Powered Demand Forecasting",
             "Supplier Performance Scorecards",
             "Dynamic Reorder Point Suggestions",
@@ -1467,7 +2585,17 @@ export const getAppNavigation = (appName: string) => {
             "Image Recognition for Item ID",
             "Automated Quality Control Analysis",
             "Natural Language Inventory Queries",
-            "Predictive Inbound Shipping Alerts"
+            "Predictive Inbound Shipping Alerts",
+            "AI-Powered Stock Level Optimization",
+            "Automated Purchase Order Creation",
+            "Predictive Sales Forecasting",
+            "Intelligent Supplier Selection",
+            "AI-driven Warehouse Slotting",
+            "Automated Stock Transfer Suggestions",
+            "Smart Barcode Scanning",
+            "AI-powered Quality Control",
+            "Personalized Product Recommendations",
+            "Automated Returns Processing"
           ]
         }
       ]
@@ -1508,6 +2636,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Payment Settings", "Gateway Configuration", "Security Settings", "Branding"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Customizable payment templates",
+            "One-time & recurring payments",
+            "Collect shipping addresses",
+            "Embeddable payment buttons",
+            "Automatic email receipts"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Multi-currency support",
+            "Major payment gateway integration",
+            "Handled PCI compliance",
+            "Custom domain for payment pages",
+            "Dunning management"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Accepting payments without an e-commerce store",
+            "Reducing cart abandonment",
+            "Handling payment security & PCI compliance",
+            "Automating payment receipts",
+            "Setting up subscription billing",
+            "Accepting international payments",
+            "Keeping customers on your site to pay",
+            "Recovering failed subscription payments",
+            "Collecting 'pay what you want' donations",
+            "Tracking sales and payment history"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered transaction fraud detection",
+            "Predictive A/B testing for page designs",
+            "AI-driven checkout flow optimization",
+            "Smart dunning management",
+            "AI recommendations for pricing",
+            "Automated payment page generation",
+            "Natural language sales queries",
+            "AI-powered A/B testing for pages",
+            "Cancellation reason sentiment analysis",
+            "Predictive customer churn analysis",
+            "AI-driven currency conversion advice",
+            "Smart alerts for unusual activity",
+            "AI-powered upsell suggestions",
+            "Automated tax calculation suggestions",
+            "AI-based page localization",
+            "Predictive revenue forecasting",
+            "AI-generated LTV insights",
+            "Smart bank deposit matching",
+            "AI-optimized payment retry schedules",
+            "Automated high-value customer identification"
+          ]
         }
       ]
     },
@@ -1552,6 +2744,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Workspace Settings", "Currency Formatting", "Week/Year Format", "Fiscal Year Settings", "Data Backup", "User Permissions"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Drag-and-drop report builder",
+            "Library of chart types",
+            "Interactive dashboard filters",
+            "Import from CSV/Excel",
+            "Scheduled email reports"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Connect to multiple data sources",
+            "AI assistant 'Ask Zia'",
+            "Advanced data preparation",
+            "Secure collaboration features",
+            "Embeddable analytics"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Analyzing scattered data",
+            "Enabling self-service reporting",
+            "Creating insightful, interactive reports",
+            "Automating report distribution",
+            "Visualizing data to spot trends",
+            "Sharing sensitive data securely",
+            "Cleaning messy data for analysis",
+            "Embedding analytics in other apps",
+            "Getting quick answers from data",
+            "Analyzing large datasets efficiently"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "Zia: AI natural language querying",
+            "Zia Insights: Automated data narratives",
+            "Predictive forecasting models",
+            "AI-powered 'what-if' analysis",
+            "Smart data cleansing",
+            "AI chart type suggestions",
+            "Automated key driver analysis",
+            "AI-based anomaly detection",
+            "Natural Language Generation (NLG)",
+            "AI-powered data storytelling",
+            "Smart data prep suggestions",
+            "AI recommendations for data blending",
+            "Predictive modeling (churn, sales)",
+            "AI pattern recognition",
+            "Automated data clustering",
+            "AI-powered goal seeking",
+            "Smart metric change diagnostics",
+            "AI suggestions for new KPIs",
+            "Automated data enrichment",
+            "Conversational analytics (chat/voice)"
+          ]
         }
       ]
     },
@@ -1591,6 +2847,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Recruitment Settings", "User Management", "Workflow Configuration", "Integrations"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Customizable hiring pipelines",
+            "Candidate email templates",
+            "Centralized candidate database",
+            "Post to multiple job boards",
+            "Direct interview scheduling"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Automated resume parsing",
+            "Hiring manager review portal",
+            "Advanced recruitment analytics",
+            "Premium job board integrations",
+            "Workflow automation"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Managing high application volumes",
+            "Posting jobs on multiple sites",
+            "Ensuring consistent communication",
+            "Collaborating with hiring managers",
+            "Rediscovering past candidates",
+            "Reducing time spent screening resumes",
+            "Measuring recruitment effectiveness",
+            "Simplifying interview scheduling",
+            "Improving the candidate experience",
+            "Creating a branded career page"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered candidate sourcing",
+            "Zia: AI candidate matching",
+            "Predictive candidate success analysis",
+            "AI resume screening and ranking",
+            "Screening chatbot for candidates",
+            "Interview feedback sentiment analysis",
+            "AI job description improvement",
+            "Automated interview scheduling",
+            "AI video interview analysis",
+            "Predictive time-to-hire analysis",
+            "Smart talent pool rediscovery",
+            "AI compensation benchmarking",
+            "Automated background checks",
+            "AI diversity & inclusion analytics",
+            "Natural language candidate search",
+            "AI onboarding workflow suggestions",
+            "Predictive job board performance",
+            "Automated interview question generation",
+            "AI ideal candidate profile building",
+            "Smart alerts for top-tier candidates"
+          ]
         }
       ]
     },
@@ -1625,6 +2945,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Reports",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Workforce Analytics", "Performance Reports", "Financial Reports", "Compliance Reports"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Central temp database",
+            "Worker availability calendar",
+            "Bulk email/SMS to temps",
+            "Temp mobile app",
+            "Client contact management"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Automated job-to-temp matching",
+            "Client portal",
+            "Digital timesheet workflows",
+            "Automated invoice generation",
+            "GPS-verified clock-ins"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Filling last-minute jobs",
+            "Manually creating schedules",
+            "Handling inaccurate timesheets",
+            "Reducing client communication overhead",
+            "Matching the right skills to jobs",
+            "Speeding up payroll and invoicing",
+            "Broadcasting jobs to many temps",
+            "Preventing no-shows and forgotten shifts",
+            "Tracking job profitability",
+            "Ensuring temps are paid accurately"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered temp-to-job matching",
+            "Predictive temp demand forecasting",
+            "AI resume skill validation",
+            "Smart travel time optimization",
+            "AI chatbot for temp queries",
+            "Automated timesheet anomaly detection",
+            "AI-driven rating and feedback system",
+            "Predictive job acceptance analysis",
+            "AI suggestions for shift coverage",
+            "Natural language temp search",
+            "AI-generated job descriptions",
+            "Client feedback sentiment analysis",
+            "AI dynamic pricing suggestions",
+            "Automated labor law compliance checks",
+            "Predictive temp reliability analysis",
+            "AI recommendations for upskilling",
+            "Smart alerts for expiring certifications",
+            "AI-powered payroll auditing",
+            "Automated temp performance reports",
+            "AI client-to-temp matching"
+          ]
         }
       ]
     },
@@ -1659,6 +3043,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Integrations",
           icon: <Zap className="w-4 h-4" />,
           items: ["App Integrations", "Bots", "Workflows", "Custom Commands", "API Access"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Emoji reactions and GIFs",
+            "Do Not Disturb mode",
+            "Threaded conversations",
+            "Pin important messages",
+            "Global search"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Integrated audio/video calls",
+            "Custom bot platform",
+            "Guest access for externals",
+            "Company-wide announcement channels",
+            "Contextual chat integrations"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Reducing internal email chains",
+            "Finding past conversations",
+            "Eliminating app switching for calls",
+            "Making sure announcements are seen",
+            "Automating routine notifications",
+            "Organizing team discussions",
+            "Collaborating securely with clients",
+            "Managing notification overload",
+            "Remembering decisions made in chat",
+            "Sharing code snippets effectively"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI chat channel summarization",
+            "Smart reply suggestions",
+            "AI meeting scheduler",
+            "Team morale sentiment analysis",
+            "AI assistant for chat actions",
+            "Automated call transcription",
+            "AI-driven Do Not Disturb mode",
+            "Predictive text for messaging",
+            "AI new hire channel recommendations",
+            "Smart action item extraction",
+            "Natural language search",
+            "Real-time multilingual translation",
+            "Smart reminders for unanswered questions",
+            "AI sensitive data detection",
+            "Automated channel activity reports",
+            "AI expert finder",
+            "Smart notification prioritization",
+            "AI suggestions for new channels",
+            "Automated in-channel polling",
+            "AI-powered 'focus mode'"
+          ]
         }
       ]
     },
@@ -1693,6 +3141,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Meeting Settings", "Security Settings", "Integration Settings", "User Management"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Customizable meeting URLs",
+            "Virtual backgrounds",
+            "In-meeting chat",
+            "Raise hand feature",
+            "Password protection"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "HD video conferencing",
+            "Screen sharing with annotation",
+            "Cloud recording & transcripts",
+            "Webinar capabilities",
+            "Calendar integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Avoiding software installation",
+            "Remembering what was discussed",
+            "Preventing meeting interruptions",
+            "Collaborating on documents live",
+            "Securing confidential meetings",
+            "Scheduling across time zones",
+            "Hiding distracting backgrounds",
+            "Presenting to large audiences",
+            "Joining meetings on the go",
+            "Following up with attendees"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI meeting summarization",
+            "Real-time transcription",
+            "AI noise cancellation",
+            "Smart camera framing",
+            "AI attendee engagement analysis",
+            "Zia virtual meeting assistant",
+            "AI-powered chat translation",
+            "Meeting sentiment analysis",
+            "AI-generated meeting agendas",
+            "Predictive attendance analytics",
+            "Smart 'overtime' alerts",
+            "AI meeting productivity suggestions",
+            "Automated recording chapters",
+            "AI key moment highlighting",
+            "Natural language voice commands",
+            "AI bandwidth optimization",
+            "Smart speaker identification",
+            "AI 'catch me up' feature",
+            "Automated recurring meeting scheduling",
+            "AI virtual background generation"
+          ]
         }
       ]
     },
@@ -1727,6 +3239,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Analytics",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Engagement Metrics", "User Activity", "Content Performance", "Network Analysis"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Central activity feed",
+            "Employee profiles",
+            "Team/interest groups",
+            "Quick polls",
+            "Likes and comments"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Shared knowledge base",
+            "Discussion forums",
+            "Company-wide calendar",
+            "Automated update integrations",
+            "Custom approval workflows"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Reducing internal email noise",
+            "Breaking down team silos",
+            "Improving new hire onboarding",
+            "Preventing knowledge loss",
+            "Building company culture remotely",
+            "Finding the right expert",
+            "Encouraging employee feedback",
+            "Organizing company events",
+            "Consolidating communication tools",
+            "Getting feedback on new ideas"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI feed summarization",
+            "Smart group suggestions",
+            "AI-based expert finding",
+            "Employee morale sentiment analysis",
+            "AI-powered content moderation",
+            "Automated post topic tagging",
+            "AI knowledge base recommendations",
+            "Predictive employee engagement analytics",
+            "AI chatbot for policy questions",
+            "Natural language user search",
+            "AI 'icebreaker' question generation",
+            "Smart identification of emerging leaders",
+            "AI-powered post translation",
+            "Automated weekly 'digest' generation",
+            "AI-based skill gap analysis",
+            "Predictive disengagement analysis",
+            "Smart content sharing recommendations",
+            "AI-powered event suggestions",
+            "Automated duplicate KB article detection",
+            "AI insights into informal networks"
+          ]
         }
       ]
     },
@@ -1761,6 +3337,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Administration",
           icon: <Settings className="w-4 h-4" />,
           items: ["User Management", "Storage Management", "Security Settings", "Integration Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Recent Files view",
+            "File version history",
+            "Starred files and folders",
+            "Desktop sync client",
+            "Trash for file recovery"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Centralized Team Folders",
+            "Granular role-based permissions",
+            "Integrated office suite",
+            "Advanced admin security controls",
+            "Secure external sharing"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Solving scattered file storage",
+            "Eliminating document version chaos",
+            "Controlling access to sensitive data",
+            "Sharing large files securely",
+            "Finding files with content search",
+            "Simplifying team access to files",
+            "Recovering accidentally deleted files",
+            "Accessing files while offline",
+            "Ensuring data security and compliance",
+            "Preventing data loss when employees leave"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered contextual search",
+            "Automated file organization suggestions",
+            "AI sensitive data (PII) detection",
+            "Predictive file access suggestions",
+            "AI-powered OCR for images/PDFs",
+            "Smart sharing recommendations",
+            "AI-driven duplicate file detection",
+            "Automated document summarization",
+            "AI malware and virus scanning",
+            "Natural language file search",
+            "AI-powered workflow automation",
+            "Smart alerts for unusual file activity",
+            "AI recommendations for archiving",
+            "Automated content-based tagging",
+            "AI-powered virtual data room creation",
+            "Document comment sentiment analysis",
+            "AI insights into content usage",
+            "Smart 'what's changed' version comparison",
+            "AI-powered knowledge discovery",
+            "Automated on-demand file conversion"
+          ]
         }
       ]
     },
@@ -1795,6 +3435,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Document Settings", "Sharing Permissions", "Auto-save Settings", "Language Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Document templates",
+            "Rich text formatting",
+            "Spell check & grammar",
+            "Insert images & tables",
+            "Download as PDF/DOCX"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Real-time collaborative editing",
+            "Track changes & commenting",
+            "Integrated document signing",
+            "Document merge feature",
+            "AI-powered writing assistant"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Solving document version control",
+            "Streamlining document reviews",
+            "Fixing spelling and grammar errors",
+            "Getting documents legally signed",
+            "Creating personalized bulk documents",
+            "Improving document readability",
+            "Preventing lost work with auto-save",
+            "Automating form filling",
+            "Working on documents from any device",
+            "Finalizing and locking documents"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "Zia: AI writing assistant",
+            "AI-powered document summarization",
+            "Smart compose & sentence completion",
+            "AI-based tone analysis",
+            "Automated content generation",
+            "AI-powered research assistant",
+            "Plagiarism checker",
+            "AI suggestions for word choice",
+            "Automated document translation",
+            "Natural language editing commands",
+            "AI 'ask your document' feature",
+            "Smart template recommendations",
+            "AI-based formatting suggestions",
+            "Automated table of contents",
+            "AI acronym & definition finder",
+            "Predictive text that learns your style",
+            "AI-driven internal linking suggestions",
+            "Automated sensitive data masking",
+            "AI analysis of document engagement",
+            "Smart content repurposing"
+          ]
         }
       ]
     },
@@ -1829,6 +3533,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Export",
           icon: <Download className="w-4 h-4" />,
           items: ["Excel Export", "CSV Export", "PDF Export", "Chart Export", "Print Options"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Formula library",
+            "Conditional formatting",
+            "Data validation rules",
+            "Chart creation",
+            "Freeze panes"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Pivot tables",
+            "Real-time collaboration",
+            "Custom scripts & macros",
+            "AI assistant (Zia)",
+            "External data integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Analyzing large datasets",
+            "Collaborating on budgets and plans",
+            "Preventing incorrect data entry",
+            "Automating repetitive spreadsheet tasks",
+            "Finding hidden insights in data",
+            "Creating professional charts easily",
+            "Connecting to external data sources",
+            "Combining data from multiple sheets",
+            "Remembering complex formulas",
+            "Tracking changes from collaborators"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "Zia: AI assistant",
+            "AI-powered data cleansing",
+            "Natural language querying",
+            "AI formula suggestions",
+            "Predictive data forecasting",
+            "Automated anomaly detection",
+            "AI-powered goal seeking",
+            "Smart fill for data entry",
+            "AI-generated data narratives",
+            "Automated data validation suggestions",
+            "AI recommendations for data joins",
+            "Smart data clustering",
+            "AI-powered 'what-if' analysis",
+            "Text sentiment analysis",
+            "AI suggestions for conditional formatting",
+            "Automated dashboard creation",
+            "AI-powered data enrichment",
+            "Smart outlier detection",
+            "AI assistance for custom scripts",
+            "In-sheet predictive modeling"
+          ]
         }
       ]
     },
@@ -1863,6 +3631,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Export",
           icon: <Download className="w-4 h-4" />,
           items: ["PDF Export", "PowerPoint Export", "Image Export", "Video Export", "Print"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Presentation templates",
+            "Rich text & shape tools",
+            "Transitions & animations",
+            "Image & icon library",
+            "Presenter view"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Real-time collaboration",
+            "Live broadcast to remote audience",
+            "Embed live charts",
+            "Centralized brand library",
+            "PowerPoint compatibility"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Avoiding unprofessional designs",
+            "Collaborating on a team presentation",
+            "Presenting to a remote audience",
+            "Maintaining brand consistency",
+            "Updating charts automatically",
+            "Remembering key points while presenting",
+            "Finding engaging visuals",
+            "Sharing presentations after a meeting",
+            "Making presentations interactive",
+            "Avoiding starting from scratch"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI presentation generation",
+            "AI-driven slide design suggestions",
+            "Smart image recommendations",
+            "AI suggestions for animations",
+            "Automated element alignment",
+            "AI-powered speaker notes",
+            "Grammar and spelling checks",
+            "AI recommendations for color/fonts",
+            "Natural language editing commands",
+            "AI 'design makeover' feature",
+            "Automated presentation summary",
+            "AI presentation practice coach",
+            "Smart content summarization",
+            "AI-powered cross-presentation search",
+            "Automated chart creation",
+            "AI suggestions for visuals over text",
+            "Predictive engagement analysis",
+            "AI-powered template autofill",
+            "Automated branding compliance",
+            "AI-generated poll questions"
+          ]
         }
       ]
     },
@@ -1892,6 +3724,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Sync",
           icon: <RefreshCw className="w-4 h-4" />,
           items: ["Cloud Sync", "Offline Access", "Multi-device Sync", "Backup"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Different note types",
+            "Notebooks & tags",
+            "Web clipper",
+            "Note reminders",
+            "Cross-device sync"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Search within images/PDFs (OCR)",
+            "Note sharing & collaboration",
+            "Smart Cards auto-formatting",
+            "Password protection",
+            "Integration with other Zoho apps"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Capturing ideas on the go",
+            "Organizing messy notes",
+            "Finding old information",
+            "Saving web articles",
+            "Combining different content types",
+            "Collaborating on research",
+            "Remembering to act on a note",
+            "Unlocking info from images",
+            "Keeping notes secure",
+            "Accessing notes offline"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered smart search",
+            "Automated note tagging",
+            "AI summarization of notes",
+            "Zia assistant for related notes",
+            "AI audio transcription",
+            "Smart notebook suggestions",
+            "AI OCR for handwriting",
+            "Smart Card for any content",
+            "AI 'knowledge graph' of notes",
+            "Predictive search suggestions",
+            "AI-driven contextual reminders",
+            "Automated duplicate note detection",
+            "AI-generated flashcards",
+            "Smart adaptive templates",
+            "AI grammar & spelling correction",
+            "Automated content linking",
+            "AI mind map generation",
+            "Smart action item extraction",
+            "AI insights into note habits",
+            "Automated web clip categorization"
+          ]
         }
       ]
     },
@@ -1926,6 +3822,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Reports",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Signature Analytics", "Document Status", "Audit Trail", "Compliance Reports"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Upload any document",
+            "Drag & drop signature fields",
+            "Send to multiple recipients",
+            "Email status notifications",
+            "Mobile signing app"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Legally binding e-signatures",
+            "Complete document audit trail",
+            "CRM & HR system integration",
+            "Bulk sending to many people",
+            "Reusable document templates"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Replacing print-sign-scan workflows",
+            "Getting signatures from remote parties",
+            "Ensuring legal validity of documents",
+            "Tracking document status",
+            "Standardizing frequently used contracts",
+            "Following up on unsigned documents",
+            "Signing documents on a phone",
+            "Collecting data on forms",
+            "Integrating signing into business processes",
+            "Storing signed documents securely"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI document scanning & field detection",
+            "Smart signature field suggestions",
+            "AI analysis of document risk",
+            "Predictive 'time-to-sign' analysis",
+            "AI-driven identity verification",
+            "Automated document summarization",
+            "Natural language document search",
+            "AI-powered smart reminders",
+            "Automated data extraction from forms",
+            "AI fraudulent signature detection",
+            "Smart template recommendations",
+            "AI 'readability score' for contracts",
+            "Automated contract version comparison",
+            "AI chatbot for signer guidance",
+            "Predictive workflow bottleneck analysis",
+            "AI suggestions for template improvement",
+            "Automated document categorization",
+            "AI-powered signature verification",
+            "Smart expiration alerts",
+            "AI-based clause localization"
+          ]
         }
       ]
     },
@@ -1960,6 +3920,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Reports",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Session Reports", "Performance Reports", "Usage Analytics", "Customer Satisfaction"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "On-demand remote support",
+            "File transfer",
+            "In-session chat",
+            "Reboot and reconnect",
+            "Multi-monitor support"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Unattended remote access",
+            "Screen sharing for demos",
+            "Session recording",
+            "Cross-platform support",
+            "Mass deployment of agents"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Troubleshooting remote computers",
+            "Guiding non-technical users",
+            "Managing fleets of computers",
+            "Getting files from a remote PC",
+            "Training customers on software",
+            "Ensuring remote access is secure",
+            "Supporting different operating systems",
+            "Keeping a record of support sessions",
+            "Diagnosing issues without interruption",
+            "Integrating support with a help desk"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered screen OCR",
+            "Smart diagnostic suggestions",
+            "AI analysis of session recordings",
+            "Automated session summaries",
+            "AI-driven AR remote assistance",
+            "Predictive device support needs",
+            "AI troubleshooting chatbot",
+            "Natural language technician commands",
+            "AI performance anomaly detection",
+            "Automated screen redaction",
+            "AI-powered chat translation",
+            "Smart technician scheduling",
+            "AI knowledge base recommendations",
+            "Predictive session duration analysis",
+            "AI-powered 'show me' guidance",
+            "Automated session categorization",
+            "AI-based voice-to-text for notes",
+            "Smart security risk alerts",
+            "AI-optimized screen quality",
+            "Automated post-session surveys"
+          ]
         }
       ]
     },
@@ -1994,6 +4018,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Analytics",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Usage Analytics", "Performance Metrics", "Session Analysis", "ROI Reports"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Live camera streaming",
+            "On-screen annotations",
+            "In-session chat & audio",
+            "Freeze frame",
+            "Flashlight control"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "3D object annotation",
+            "Smart glass integration",
+            "Session recording",
+            "Optical Character Recognition (OCR)",
+            "Help desk integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Troubleshooting remote machinery",
+            "Explaining complex physical repairs",
+            "Reducing expert travel costs",
+            "Documenting repair processes",
+            "Reading serial numbers remotely",
+            "Enabling hands-free operation",
+            "Providing immediate visual context",
+            "Training new technicians",
+            "Avoiding miscommunication in repairs",
+            "Integrating AR into service workflows"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI object recognition",
+            "Automated step-by-step AR guidance",
+            "AI analysis of session recordings",
+            "Smart annotation suggestions",
+            "AI-based language translation",
+            "Predictive maintenance alerts",
+            "AI-powered digital twin overlays",
+            "Automated session summaries",
+            "Natural language technician commands",
+            "AI noise cancellation",
+            "Smart video stabilization",
+            "AI-driven OCR parsing",
+            "Predictive repair time analysis",
+            "AI-powered expert routing",
+            "Automated safety warnings",
+            "AI tool and parts recommendations",
+            "Image-based knowledge search",
+            "AI analysis of technician performance",
+            "Automated training module creation",
+            "AI 'best next step' suggestions"
+          ]
         }
       ]
     },
@@ -2033,6 +4121,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Domain Settings", "SSL Certificates", "Backup", "Performance Optimization"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Website templates",
+            "Drag-and-drop builder",
+            "Stock image gallery",
+            "Built-in contact forms",
+            "Mobile-responsive designs"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Integrated blogging platform",
+            "E-commerce capabilities",
+            "Built-in SEO tools",
+            "Password-protected pages",
+            "CRM & marketing integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Building a website with no code",
+            "Ensuring sites look good on mobile",
+            "Ranking on search engines",
+            "Adding a blog to a website",
+            "Selling products simply online",
+            "Capturing leads from a website",
+            "Creating private member areas",
+            "Finding quality images",
+            "Understanding website traffic",
+            "Ensuring a fast, reliable website"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered website generation",
+            "AI design assistant",
+            "Smart content suggestions",
+            "AI-based SEO recommendations",
+            "Automated image selection",
+            "AI blog post idea generator",
+            "AI-powered A/B testing",
+            "AI website personalization",
+            "Predictive conversion analysis",
+            "Addable AI chatbot",
+            "Automated accessibility checks",
+            "AI-driven logo maker",
+            "Smart template recommendations",
+            "AI predictive heatmaps",
+            "Automated meta description generation",
+            "AI copy editing suggestions",
+            "Natural language editing commands",
+            "AI competitor website analysis",
+            "Smart performance alerts",
+            "AI-generated e-commerce descriptions"
+          ]
         }
       ]
     },
@@ -2072,6 +4224,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Publishing",
           icon: <Upload className="w-4 h-4" />,
           items: ["App Deployment", "User Management", "Access Control", "Mobile Apps"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Drag-and-drop app builder",
+            "Data collection forms",
+            "Reports and dashboards",
+            "Pre-built app templates",
+            "Automatic mobile apps"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Deluge scripting language",
+            "Integration with other apps",
+            "Advanced user management",
+            "Cross-platform deployment",
+            "Scalable cloud hosting"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Building apps for unique processes",
+            "Replacing spreadsheet-based systems",
+            "Empowering business users to build tools",
+            "Digitizing manual, paper processes",
+            "Creating mobile apps for field staff",
+            "Integrating disparate cloud services",
+            "Controlling access to sensitive data",
+            "Accelerating app development",
+            "Visualizing business data",
+            "Managing app hosting and maintenance"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI app generation from text/sheets",
+            "Zia: AI data assistant",
+            "AI suggestions for app improvement",
+            "Smart data cleansing on import",
+            "AI-powered OCR for form creation",
+            "Predictive analytics in reports",
+            "AI code completion for Deluge",
+            "Automated dashboard generation",
+            "AI app performance monitoring",
+            "Natural language form building",
+            "AI security vulnerability scanning",
+            "Smart relationship suggestions",
+            "AI user behavior analytics",
+            "Automated app translation",
+            "AI template recommendations",
+            "Sentiment analysis of user feedback",
+            "AI-powered 'what-if' analysis",
+            "Automated redundant workflow detection",
+            "AI-assisted platform migration",
+            "Embeddable AI chatbot for apps"
+          ]
         }
       ]
     },
@@ -2106,6 +4322,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Account Settings", "Team Management", "Usage Limits", "Security Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Visual workflow builder",
+            "Pre-built app connectors",
+            "Simple triggers and actions",
+            "Workflow execution history",
+            "On/off toggle for flows"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Multi-step flows with logic",
+            "Custom scripting with Deluge",
+            "Webhook support",
+            "Scheduled flows",
+            "Team collaboration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Automating data syncing between apps",
+            "Consolidating important notifications",
+            "Automating multi-app processes",
+            "Eliminating repetitive data entry",
+            "Connecting apps that don't integrate",
+            "Automating manual business processes",
+            "Handling complex business logic",
+            "Creating a central activity log",
+            "Automating onboarding workflows",
+            "Distributing form data to multiple apps"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered workflow suggestions",
+            "AI-based field mapping",
+            "Natural language flow creation",
+            "AI-driven error handling",
+            "Predictive workflow success analysis",
+            "AI-powered data transformation",
+            "Smart infinite loop detection",
+            "AI recommendations for optimization",
+            "Automated flow documentation",
+            "AI-powered webhook data parsing",
+            "Sentiment analysis for workflow triggers",
+            "AI content summarization for notifications",
+            "Smart flow scheduling",
+            "AI pattern recognition for new automations",
+            "Automated flow testing",
+            "AI-powered flow debugger",
+            "Smart data validation in flows",
+            "AI-generated Deluge scripts",
+            "Predictive API cost analysis",
+            "AI 'what-if' analysis for logic"
+          ]
         }
       ]
     },
@@ -2140,6 +4420,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["General Settings", "Data Sources", "Performance Settings", "Security"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Import data from various sources",
+            "Visual data transformation",
+            "Library of transform functions",
+            "Data quality monitoring",
+            "Export cleaned data"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Automated data pipelines",
+            "Smart data blending",
+            "Data catalog for governance",
+            "Advanced data quality rules",
+            "Team collaboration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Cleaning messy and inconsistent data",
+            "Automating data prep for BI tools",
+            "Combining data from different systems",
+            "Enabling self-service data prep",
+            "Ensuring ongoing data quality",
+            "Understanding new datasets quickly",
+            "Finding and trusting the right data",
+            "Transforming data without code",
+            "Migrating data between systems",
+            "Collaborating on data prep tasks"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered data cleaning suggestions",
+            "Automated data type detection",
+            "AI recommendations for joining data",
+            "Smart duplicate record detection",
+            "AI-powered data enrichment",
+            "Natural language data transformation",
+            "AI-driven data quality scoring",
+            "Predictive data pipeline analytics",
+            "AI-based anomaly detection in data",
+            "Smart parsing of unstructured data",
+            "AI suggestions for validation rules",
+            "Automated data catalog generation",
+            "AI recommendations for data security",
+            "Smart pattern recognition",
+            "AI-assisted expression writing",
+            "Predictive data quality alerts",
+            "AI 'what-if' analysis for transforms",
+            "Automated schema mapping",
+            "AI-driven data lineage analysis",
+            "Smart suggestions for pipeline optimization"
+          ]
         }
       ]
     },
@@ -2174,6 +4518,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Account Settings", "Security Settings", "Backup & Sync", "Browser Extensions"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Password generator",
+            "Browser autofill extensions",
+            "Secure notes",
+            "Folders for organization",
+            "Mobile app access"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Secure password sharing",
+            "Emergency access",
+            "Security dashboard",
+            "Data breach monitoring",
+            "Two-factor authentication support"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Stopping use of weak passwords",
+            "Ending the cycle of forgotten passwords",
+            "Sharing passwords securely",
+            "Planning for emergency access",
+            "Discovering if passwords are breached",
+            "Storing sensitive notes securely",
+            "Accessing passwords on the go",
+            "Assessing overall password health",
+            "Preventing phishing attacks",
+            "Managing passwords for a team"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI password strength analysis",
+            "Smart phishing website alerts",
+            "AI-driven password categorization",
+            "Predictive password breach alerts",
+            "AI-powered password importer",
+            "Automated password changer",
+            "AI-based personalized security tips",
+            "Natural language password search",
+            "AI detection of weak passwords",
+            "Smart grouping of related accounts",
+            "AI-driven security posture summary",
+            "Automated email scanning for new accounts",
+            "AI-based 2FA code organization",
+            "Predictive analysis of critical accounts",
+            "AI guidance for emergency access setup",
+            "Smart public Wi-Fi warnings",
+            "AI-generated secure security questions",
+            "Automated compromised password checks",
+            "AI-powered digital legacy planning",
+            "Smart login anomaly detection"
+          ]
         }
       ]
     },
@@ -2208,6 +4616,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Organization Settings", "Authentication Policies", "Integration Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Time-based one-time passwords",
+            "One-tap push notifications",
+            "QR code account setup",
+            "Secure account backup",
+            "Support for multiple services"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Single Sign-On (SSO)",
+            "Passwordless login",
+            "Offline TOTP access",
+            "Centralized admin policies",
+            "Active Directory integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Strengthening password security",
+            "Reducing password fatigue with SSO",
+            "Simplifying the login process",
+            "Recovering from a lost phone",
+            "Getting 2FA codes while offline",
+            "Managing employee app access",
+            "Protecting against phishing",
+            "Eliminating daily login hassles",
+            "Streamlining user provisioning",
+            "Securing cloud and on-premise apps"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI risk-based authentication",
+            "Behavioral biometrics",
+            "AI-driven suspicious login alerts",
+            "Smart phishing attempt detection",
+            "AI security policy recommendations",
+            "Automated user provisioning suggestions",
+            "Natural language admin queries",
+            "AI analysis of auth logs",
+            "Predictive user compromise risk",
+            "Smart application grouping",
+            "AI-powered organization security score",
+            "Automated credential stuffing detection",
+            "AI guidance for MFA setup",
+            "Smart session timeout reminders",
+            "AI 'identity guardian' for dark web",
+            "Context-aware authentication",
+            "AI passwordless adoption analysis",
+            "Automated SSO usage analysis",
+            "AI chatbot for user support",
+            "Smart account recovery options"
+          ]
         }
       ]
     },
@@ -2242,6 +4714,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Reports",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["User Reports", "Device Reports", "Security Reports", "Compliance Reports"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Central user directory",
+            "User password self-service",
+            "Basic user provisioning",
+            "Company app launcher",
+            "Login audit logs"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Single Sign-On (SSO)",
+            "Multi-Factor Authentication (MFA)",
+            "Security policy enforcement",
+            "Mobile Device Management (MDM)",
+            "Automated HR integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Managing user accounts everywhere",
+            "Solving employee password fatigue",
+            "Automating new hire account setup",
+            "Instantly revoking ex-employee access",
+            "Enforcing strong password policies",
+            "Securing lost or stolen devices",
+            "Granting role-based app access",
+            "Auditing 'who has access to what'",
+            "Simplifying access to work apps",
+            "Syncing users from an HR system"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered risk-based access",
+            "Behavioral analytics for security",
+            "AI user-to-group recommendations",
+            "Smart 'shadow IT' detection",
+            "AI analysis of audit logs",
+            "Predictive user risk scoring",
+            "Automated access review campaigns",
+            "AI security policy recommendations",
+            "Natural language admin search",
+            "AI-powered access request approvals",
+            "Smart dormant account identification",
+            "AI insights for license optimization",
+            "Impossible travel login detection",
+            "AI chatbot for user self-service",
+            "Predictive access needs modeling",
+            "AI 'least privilege' recommendations",
+            "Smart user behavior grouping",
+            "AI phishing simulation integration",
+            "Automated compliance report generation",
+            "AI insights on identity lifecycle"
+          ]
         }
       ]
     },
@@ -2281,6 +4817,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Reports",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Device Reports", "Compliance Reports", "Security Reports", "Usage Reports"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Device inventory view",
+            "Enforce passcode policy",
+            "Distribute Wi-Fi profiles",
+            "View device info",
+            "Remotely lock a device"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Remote device wipe",
+            "Enterprise app store",
+            "Kiosk mode",
+            "Automated device enrollment",
+            "Compliance rule enforcement"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Securing lost or stolen phones",
+            "Managing 'Bring Your Own Device' (BYOD)",
+            "Setting up new company phones in bulk",
+            "Distributing required apps to devices",
+            "Securing Wi-Fi connections",
+            "Preventing malicious app installs",
+            "Tracking company-owned devices",
+            "Locking down single-purpose devices",
+            "Proving device security compliance",
+            "Retiring a device securely"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered malware detection",
+            "Predictive battery health analysis",
+            "AI security policy recommendations",
+            "Behavioral analytics for threat detection",
+            "Smart compliance alerts",
+            "AI-powered geofencing suggestions",
+            "Automated app risk classification",
+            "Natural language admin search",
+            "AI optimization of app updates",
+            "Predictive data usage analysis",
+            "AI-powered device troubleshooting",
+            "Smart device grouping",
+            "AI analysis of app permissions",
+            "Automated enrollment workflow suggestions",
+            "AI-powered 'lost device' mode",
+            "Predictive device failure analysis",
+            "AI recommendations for app blacklists",
+            "Automated executive security reports",
+            "AI chatbot for employee self-service",
+            "Smart SIM card change detection"
+          ]
         }
       ]
     },
@@ -2315,6 +4915,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Analytics",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Learning Analytics", "Progress Reports", "Performance Metrics", "ROI Analysis"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Create courses with lessons",
+            "Central course catalog",
+            "Track course completion",
+            "Course discussion forums",
+            "Completion certificates"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Structured learning paths",
+            "Blended learning support",
+            "Advanced skills reporting",
+            "HR system integration",
+            "Customizable learning portal"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Organizing scattered training content",
+            "Standardizing new hire onboarding",
+            "Tracking compliance training",
+            "Increasing employee engagement",
+            "Measuring training impact",
+            "Creating employee development plans",
+            "Training a remote workforce",
+            "Assessing knowledge retention",
+            "Managing online & classroom training",
+            "Keeping training content updated"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI course recommendations",
+            "AI-driven learning path generation",
+            "Automated quiz generation",
+            "AI analysis of discussion forums",
+            "Predictive 'at-risk' learner analysis",
+            "AI chatbot for course discovery",
+            "Smart external content curation",
+            "AI-based skill gap analysis",
+            "Natural language content search",
+            "AI video transcription & summarization",
+            "Personalized adaptive learning",
+            "AI recommendations for course improvement",
+            "Automated course-to-competency mapping",
+            "AI 'learning coach' for motivation",
+            "Predictive analysis of training ROI",
+            "Smart plagiarism detection",
+            "AI-powered course outline generation",
+            "Automated course material translation",
+            "AI analysis of assessment results",
+            "Smart scheduling for blended learning"
+          ]
         }
       ]
     },
@@ -2349,6 +5013,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Analytics",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Response Time", "Team Performance", "Volume Analytics", "Customer Satisfaction"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Shared inboxes",
+            "Assign conversations",
+            "Internal comments",
+            "Collision detection",
+            "Snooze conversations"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Automated assignment rules",
+            "Team performance analytics",
+            "CRM & help desk integration",
+            "SLA management",
+            "Shared email drafts"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Preventing duplicate replies",
+            "Ensuring no email is missed",
+            "Discussing emails without leaving the inbox",
+            "Understanding team performance",
+            "Automating email sorting",
+            "Answering common questions faster",
+            "Meeting reply time goals (SLAs)",
+            "Onboarding new team members",
+            "Tracking who did what",
+            "Collaborating on important replies"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered email assignment",
+            "Email sentiment analysis",
+            "AI-generated smart replies",
+            "Automated conversation tagging",
+            "AI-based thread summarization",
+            "Predictive SLA breach analysis",
+            "AI-powered spam filtering",
+            "Natural language conversation search",
+            "AI insights into team performance",
+            "Smart duplicate conversation detection",
+            "AI recommendations for new templates",
+            "Automated key information extraction",
+            "AI-powered communication tone checker",
+            "Predictive escalation analysis",
+            "AI-based language detection",
+            "Smart @mention suggestions",
+            "AI knowledge base assistant",
+            "Automated follow-up reminders",
+            "AI analysis of customer satisfaction",
+            "Smart alerts for VIP emails"
+          ]
         }
       ]
     },
@@ -2383,6 +5111,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Project Settings", "Team Configuration", "Workflow Settings", "Integration Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Product backlog",
+            "Sprint planning board",
+            "Scrum board",
+            "Burndown chart",
+            "Story point estimation"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Epic management",
+            "Release planner",
+            "Team velocity charts",
+            "Code repository integration",
+            "Stakeholder portal"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Managing feature requests",
+            "Avoiding sprint overcommitment",
+            "Gaining visibility into team's work",
+            "Knowing if a sprint is on track",
+            "Estimating tasks accurately",
+            "Connecting work to business goals",
+            "Reducing context switching for devs",
+            "Planning future releases",
+            "Improving team performance",
+            "Keeping stakeholders informed"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered user story splitting",
+            "Predictive sprint completion analysis",
+            "AI-based story point estimation",
+            "Smart alerts for blocked tasks",
+            "AI-driven sprint planning recommendations",
+            "Automated scope creep detection",
+            "AI analysis of retrospective feedback",
+            "Natural language user story creation",
+            "AI suggestions for workflow improvement",
+            "Predictive risk and dependency analysis",
+            "Automated sprint review generation",
+            "AI-powered 'sprint health' score",
+            "Smart task allocation",
+            "AI recommendations for backlog grooming",
+            "Automated commit-to-story linking",
+            "Comment sentiment analysis",
+            "AI-powered release date forecasting",
+            "Smart technical debt suggestions",
+            "AI 'what-if' analysis for planning",
+            "Automated identification of related bugs"
+          ]
         }
       ]
     },
@@ -2422,6 +5214,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Analytics",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Booking Analytics", "Revenue Reports", "Customer Analytics", "Performance Metrics"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Customizable booking page",
+            "Set availability",
+            "Automated email reminders",
+            "Appointment calendar view",
+            "Embed on your website"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Two-way calendar sync",
+            "Accept online payments",
+            "Group & class scheduling",
+            "Multi-staff management",
+            "Custom intake forms"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Eliminating email back-and-forth",
+            "Reducing client no-shows",
+            "Preventing double-bookings",
+            "Collecting payment upfront",
+            "Managing a team's schedule",
+            "Scheduling different service types",
+            "Gathering info before a meeting",
+            "Allowing clients to self-reschedule",
+            "Scheduling classes or workshops",
+            "Integrating booking into a website"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI suggestions for optimal meeting times",
+            "Smart scheduling to minimize calendar gaps",
+            "AI analysis of booking patterns",
+            "Automated follow-up email suggestions",
+            "AI booking chatbot for websites",
+            "Predictive no-show analysis",
+            "AI recommendations for service pricing",
+            "Natural language booking creation",
+            "AI-powered 'buffer time' suggestions",
+            "Automated timezone detection",
+            "AI reminders for appointment preparation",
+            "Smart routing of booking requests",
+            "AI-generated booking activity summaries",
+            "Predictive analysis of busy periods",
+            "AI suggestions for new service offerings",
+            "Automated analysis of cancellation reasons",
+            "AI-driven lead scoring for bookings",
+            "Smart duplicate client detection",
+            "AI-powered waitlist management",
+            "Automated testimonial requests"
+          ]
         }
       ]
     },
@@ -2456,6 +5312,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Analytics",
           icon: <BarChart3 className="w-4 h-4" />,
           items: ["Partner Performance", "Revenue Analytics", "Program Effectiveness", "ROI Reports"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Partner directory",
+            "Marketing content library",
+            "Partner communication tools",
+            "Lead submission form",
+            "Activity dashboard"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Deal registration system",
+            "Partner portal",
+            "Commission management",
+            "Joint business planning",
+            "CRM integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Preventing channel conflict",
+            "Onboarding new partners efficiently",
+            "Providing partners with marketing assets",
+            "Tracking partner-sourced leads",
+            "Calculating partner commissions",
+            "Measuring partner performance",
+            "Keeping partners engaged",
+            "Training partners on products",
+            "Collaborating on co-marketing",
+            "Fostering a partner community"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered partner recruitment",
+            "Predictive partner performance analysis",
+            "AI-based lead scoring",
+            "Smart marketing content recommendations",
+            "AI analysis of partner performance",
+            "Automated channel conflict detection",
+            "AI chatbot for partner FAQs",
+            "Partner communication sentiment analysis",
+            "AI-generated QBR presentations",
+            "Natural language resource search",
+            "Predictive partner churn analysis",
+            "AI recommendations for incentives",
+            "Smart alerts for high-value deals",
+            "AI-driven training recommendations",
+            "Automated partner newsletter generation",
+            "AI-powered 'partner health' score",
+            "Smart partner-to-market matching",
+            "AI analysis of top partner habits",
+            "Predictive channel sales forecasting",
+            "AI-powered co-marketing suggestions"
+          ]
         }
       ]
     },
@@ -2495,6 +5415,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Domain Settings", "SEO Settings", "Integration Settings", "Publishing Options"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Landing page templates",
+            "Drag-and-drop builder",
+            "Built-in lead forms",
+            "Stock image gallery",
+            "Mobile-responsive designs"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "A/B testing",
+            "Analytics integration",
+            "Dynamic text replacement",
+            "CRM & email integration",
+            "Fast page hosting"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Building landing pages without code",
+            "Optimizing low conversion rates",
+            "Matching ad copy to page content",
+            "Automating lead export",
+            "Fixing slow page load times",
+            "Designing pages from scratch",
+            "Ensuring pages are mobile-friendly",
+            "Creating campaign pages quickly",
+            "Understanding user behavior on page",
+            "Reducing form abandonment"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered copy generation",
+            "AI design & layout suggestions",
+            "Predictive conversion analysis",
+            "AI recommendations for A/B tests",
+            "Smart A/B test traffic allocation",
+            "AI-powered content personalization",
+            "Automated image suggestions",
+            "AI-generated trust signals",
+            "Natural language page building",
+            "AI competitor page analysis",
+            "Predictive form abandonment analysis",
+            "AI suggestions for speed improvement",
+            "Automated meta description generation",
+            "AI copy 'persuasiveness' score",
+            "Embeddable smart chatbot",
+            "AI page generation from URL",
+            "Predictive lead scoring",
+            "AI insights from visitor data",
+            "Automated broken element detection",
+            "AI recommendations for form length"
+          ]
         }
       ]
     },
@@ -2549,6 +5533,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Store Settings", "Payment Settings", "Shipping Settings", "Tax Settings", "Theme Customization", "Integrations"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "E-commerce website builder",
+            "Product management",
+            "Built-in shopping cart",
+            "Order management dashboard",
+            "Discount code creation"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Multiple payment gateways",
+            "Real-time shipping calculation",
+            "Multi-warehouse inventory",
+            "Abandoned cart recovery",
+            "Back-office app integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Building an online store easily",
+            "Managing inventory automatically",
+            "Calculating accurate shipping rates",
+            "Recovering abandoned carts",
+            "Marketing an online store",
+            "Handling e-commerce accounting",
+            "Providing customer support",
+            "Processing orders efficiently",
+            "Accepting various payment types",
+            "Analyzing store performance"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI product recommendations",
+            "AI-generated product descriptions",
+            "Dynamic pricing optimization",
+            "AI-powered store search",
+            "Predictive customer LTV analysis",
+            "AI-driven order fraud detection",
+            "Smart customer churn prediction",
+            "AI personalization of shopping",
+            "Automated marketing copy generation",
+            "AI demand forecasting",
+            "Product review sentiment analysis",
+            "AI customer service chatbot",
+            "Smart upsell/cross-sell suggestions",
+            "AI-driven audience segmentation",
+            "Automated product image tagging",
+            "AI-powered 'visual search'",
+            "Predictive return rate analysis",
+            "AI optimization of store layout",
+            "Smart sales trend alerts",
+            "AI-generated insights from analytics"
+          ]
         }
       ]
     },
@@ -2593,6 +5641,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["General Settings", "Email Settings", "Custom Fields", "Workflow Settings", "Integration Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Simple bug submission form",
+            "Customizable fields",
+            "Assign bugs to team members",
+            "Attach screenshots and files",
+            "Email notifications"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Customizable workflows",
+            "Advanced bug reporting",
+            "Code repository integration",
+            "Help desk integration",
+            "Time tracking on bugs"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Centralizing scattered bug reports",
+            "Getting enough info to fix bugs",
+            "Defining a clear bug-fixing process",
+            "Prioritizing the most important bugs",
+            "Preventing releases with critical bugs",
+            "Linking customer tickets to bugs",
+            "Understanding project health",
+            "Syncing developers and QA",
+            "Finding old bug reports",
+            "Estimating time spent on bug fixes"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered duplicate bug detection",
+            "Automated bug assignment",
+            "AI suggestions for severity/priority",
+            "Predictive time-to-fix analysis",
+            "AI root cause analysis",
+            "Smart suggestions for related bugs",
+            "Automated bug categorization",
+            "Natural language bug reporting",
+            "AI analysis of code commits",
+            "Sentiment analysis of bug reports",
+            "AI 'reproducibility score'",
+            "Automated bug report summaries",
+            "Predictive analysis of buggy code areas",
+            "AI recommendations for release planning",
+            "Smart alerts for aging bugs",
+            "AI chatbot for bug reporting guidance",
+            "Automated translation of bug reports",
+            "AI suggestions for test cases",
+            "Predictive re-open analysis",
+            "AI analysis of linked session recordings"
+          ]
         }
       ]
     },
@@ -2627,6 +5739,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Administration",
           icon: <Settings className="w-4 h-4" />,
           items: ["User Management", "Permissions", "Wiki Settings", "Templates", "Import/Export"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Simple page editor",
+            "Page categories",
+            "Search bar",
+            "Internal page linking",
+            "Version history"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Fine-grained permissions",
+            "WYSIWYG editor",
+            "Content embedding",
+            "Page template system",
+            "Team collaboration tools"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Centralizing scattered knowledge",
+            "Standardizing employee onboarding",
+            "Answering recurring questions",
+            "Keeping documentation updated",
+            "Finding the current version of a doc",
+            "Restricting access to sensitive info",
+            "Enabling non-technical users to contribute",
+            "Organizing meeting minutes",
+            "Standardizing document formats",
+            "Fostering a knowledge-sharing culture"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered natural language search",
+            "AI suggestions for interlinking pages",
+            "Automated content summarization",
+            "AI recommendations for new articles",
+            "Smart detection of stale content",
+            "AI grammar and style checking",
+            "Automated table of contents generation",
+            "AI suggestions for page structure",
+            "AI chatbot for answering questions",
+            "Automated duplicate content detection",
+            "AI-powered page translation",
+            "Smart, automated page tagging",
+            "AI-based expert finder",
+            "Automated content generation",
+            "AI 'knowledge graph' visualization",
+            "Page comment sentiment analysis",
+            "AI recommendations for related reading",
+            "Automated broken link checker",
+            "AI-assisted content migration",
+            "Smart alerts for relevant content updates"
+          ]
         }
       ]
     },
@@ -2666,6 +5842,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["General Settings", "Notification Settings", "Sharing Settings", "Integration Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Create & manage events",
+            "Multiple calendar views",
+            "Invite attendees",
+            "Event reminders",
+            "Recurring events"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Shared team calendars",
+            "Group calendars",
+            "Video conferencing integration",
+            "Resource (meeting room) booking",
+            "Two-way sync with other calendars"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Finding a meeting time for a group",
+            "Managing work and personal schedules",
+            "Forgetting appointments",
+            "Booking an available meeting room",
+            "Keeping a team aware of deadlines",
+            "Scheduling with external parties",
+            "Adding video call links to invites",
+            "Accessing your schedule on mobile",
+            "Syncing multiple calendar services",
+            "Simplifying RSVP responses"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered smart scheduling",
+            "Natural language event creation",
+            "AI suggestions for attendees",
+            "Automated meeting agenda creation",
+            "AI 'time to leave' traffic alerts",
+            "Smart event categorization",
+            "AI analysis of your time usage",
+            "Predictive meeting acceptance rates",
+            "AI resolution of scheduling conflicts",
+            "Smart recurring event suggestions",
+            "AI recommendations for meeting rooms",
+            "Automated action item follow-ups",
+            "AI-powered 'focus time' blocking",
+            "Smart alerts for back-to-back meetings",
+            "AI insights into meeting habits",
+            "Automated room booking",
+            "AI suggestions for invitees",
+            "Smart parsing of event details from email",
+            "AI 'best time' suggestions for teams",
+            "Automated rescheduling assistant"
+          ]
         }
       ]
     },
@@ -2700,6 +5940,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["General Settings", "Custom Fields", "Privacy Settings", "Sync Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Central address book",
+            "Custom fields",
+            "Notes on profiles",
+            "Search and filter",
+            "Import from CSV/Google"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Find and merge duplicates",
+            "360-degree view integration",
+            "Mailing list creation",
+            "Team contact sharing",
+            "Business card scanner"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Centralizing scattered contacts",
+            "Fixing duplicate contact records",
+            "Remembering details about contacts",
+            "Reducing manual data entry",
+            "Emailing specific groups",
+            "Sharing contacts with a team",
+            "Keeping contact info updated",
+            "Finding a specific contact easily",
+            "Migrating contacts from other systems",
+            "Storing extra, non-standard info"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered data enrichment",
+            "Automated duplicate detection",
+            "AI follow-up suggestions",
+            "Smart contact grouping",
+            "AI parsing of email signatures",
+            "Predictive contact value analysis",
+            "AI 'relationship health' score",
+            "Natural language contact search",
+            "AI data standardization",
+            "Automated activity logging",
+            "AI identification of decision-makers",
+            "Smart alerts for job changes",
+            "AI-powered photo recognition",
+            "Automated contact tagging",
+            "AI social connection suggestions",
+            "Predictive lead scoring",
+            "AI chatbot for contact lookups",
+            "Smart 'keep in touch' reminders",
+            "AI insights into your network",
+            "Automated profile creation"
+          ]
         }
       ]
     },
@@ -2739,6 +6043,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["General Settings", "Notification Settings", "Integration Settings", "Custom Fields"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Create to-do lists",
+            "Set due dates & reminders",
+            "Add sub-tasks",
+            "Add notes & attachments",
+            "Prioritize tasks"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Share & assign tasks",
+            "Project-based management",
+            "Recurring tasks",
+            "Calendar view",
+            "Task-from-email integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Forgetting what you need to do",
+            "Breaking down overwhelming tasks",
+            "Clarifying task ownership",
+            "Juggling personal and team tasks",
+            "Missing important deadlines",
+            "Remembering to do routine tasks",
+            "Consolidating task information",
+            "Visualizing your weekly workload",
+            "Losing action items from emails",
+            "Tracking project progress"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered task breakdown",
+            "Smart task scheduling",
+            "AI-based task prioritization",
+            "Natural language task creation",
+            "AI task duration estimation",
+            "Automated task assignment",
+            "Predictive productivity analysis",
+            "AI-based adaptive reminders",
+            "Smart 'at-risk' task alerts",
+            "AI suggestions for recurring tasks",
+            "Automated 'daily digest' creation",
+            "AI-powered 'focus mode'",
+            "Smart dependency detection",
+            "AI suggestions for task delegation",
+            "Automated project status reports",
+            "AI-powered 'undo' for completion",
+            "Smart task parsing from notes",
+            "AI insights on work-life balance",
+            "Predictive goal completion",
+            "AI-powered celebration messages"
+          ]
         }
       ]
     },
@@ -2818,6 +6186,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Meeting Reports",
           icon: <Calendar className="w-4 h-4" />,
           items: ["Meeting Performance", "Meeting Analytics", "Meeting Activity", "Meeting Scheduling"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Pre-built report templates",
+            "Create tabular reports",
+            "Export to CSV/PDF",
+            "Basic charts",
+            "Scheduled email reports"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Drag-and-drop report builder",
+            "Custom dashboards",
+            "Advanced filtering",
+            "Calculated fields & formulas",
+            "Secure report sharing"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Building a custom report",
+            "Automating weekly reporting",
+            "Getting insights from raw data",
+            "Sharing data with management",
+            "Analyzing specific data segments",
+            "Calculating custom metrics",
+            "Getting a business health overview",
+            "Analyzing data in Excel",
+            "Creating different views of data",
+            "Presenting data effectively"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered report generation",
+            "AI-driven data insights",
+            "Automated anomaly detection",
+            "AI chart type suggestions",
+            "Predictive forecasting in reports",
+            "AI-generated report summaries",
+            "Smart metric threshold alerts",
+            "AI-powered root cause analysis",
+            "Automated data clustering",
+            "AI recommendations for new reports",
+            "Smart data cleansing suggestions",
+            "AI-powered 'what-if' analysis",
+            "Automated metric correlation detection",
+            "AI-based filter suggestions",
+            "Smart data blending",
+            "AI-powered 'goal seek' analysis",
+            "Automated KPI dashboard generation",
+            "AI dashboard design suggestions",
+            "Predictive lead scoring in reports",
+            "AI-powered trend analysis"
+          ]
         }
       ]
     },
@@ -2862,6 +6294,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Account Settings", "Team Management", "Brand Settings", "API Configuration"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Drag-and-drop builders",
+            "Website lead capture forms",
+            "Email A/B testing",
+            "Basic lead scoring",
+            "Website visitor tracking"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Visual journey builder",
+            "Multi-channel communication",
+            "Advanced lead nurturing",
+            "Behavior-triggered campaigns",
+            "Revenue attribution reporting"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Automating lead follow-up",
+            "Sending targeted messages",
+            "Identifying sales-ready leads",
+            "Proving marketing ROI",
+            "Creating a consistent multi-channel experience",
+            "Converting website visitors",
+            "Aligning marketing and sales",
+            "Improving email engagement",
+            "Generating high-quality leads",
+            "Understanding the customer journey"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered predictive segmentation",
+            "AI 'next best action' recommendations",
+            "AI-generated email copy",
+            "Predictive lead scoring",
+            "AI-powered send time optimization",
+            "Automated journey optimization",
+            "AI-driven content recommendations",
+            "Predictive churn analysis",
+            "AI-assisted campaign creation",
+            "Natural language analytics queries",
+            "AI anomaly detection in campaigns",
+            "Automated A/B test winner selection",
+            "AI-driven website personalization",
+            "Smart channel recommendations",
+            "AI analysis of competitor campaigns",
+            "Predictive lead generation forecasting",
+            "AI-powered 'lookalike' audiences",
+            "Automated asset suggestions",
+            "AI insights into customer behavior",
+            "Smart marketing budget allocation"
+          ]
         }
       ]
     },
@@ -2906,6 +6402,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["General Settings", "Account Setup", "Currency Settings", "Integration Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Unified financial dashboard",
+            "Create and send invoices",
+            "Track expenses & receipts",
+            "Connect bank accounts",
+            "Simple chart of accounts"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Double-entry accounting",
+            "Automated bank reconciliation",
+            "Sales & purchase orders",
+            "Integrated inventory tracking",
+            "Comprehensive financial reporting"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Getting a clear view of financial health",
+            "Automating bank transaction entry",
+            "Getting paid by clients on time",
+            "Managing inventory and COGS",
+            "Preparing statements for tax time",
+            "Tracking employee expenses",
+            "Creating and tracking budgets",
+            "Managing the full quote-to-cash process",
+            "Complying with sales tax laws",
+            "Collaborating with an accountant"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered cash flow forecasting",
+            "Automated expense categorization",
+            "AI transaction anomaly detection",
+            "Smart reconciliation suggestions",
+            "AI recommendations for financial health",
+            "Predictive customer payment analysis",
+            "AI chatbot for financial questions",
+            "Automated vendor bill data extraction",
+            "AI-driven spending pattern insights",
+            "Natural language report generation",
+            "AI-powered audit assistance",
+            "Smart alerts for low balances",
+            "AI inventory reorder point suggestions",
+            "Predictive budgeting and forecasting",
+            "AI analysis of profitability",
+            "Automated duplicate bill detection",
+            "AI chart of accounts optimization",
+            "Smart payment-to-invoice matching",
+            "AI-generated financial summaries",
+            "Predictive analysis of late payments"
+          ]
         }
       ]
     },
@@ -2950,6 +6510,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Organization Settings", "Payroll Settings", "Tax Configuration", "Integration Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Employee self-service portal",
+            "Direct deposit",
+            "Calculate salaries & overtime",
+            "Central employee directory",
+            "Run payroll in a few clicks"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Automated payroll tax filing",
+            "Benefits administration",
+            "Accounting software integration",
+            "Time tracking integration",
+            "Labor law compliance"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Calculating payroll taxes correctly",
+            "Reducing time spent running payroll",
+            "Staying compliant with labor laws",
+            "Fielding employee pay stub requests",
+            "Managing benefit deductions",
+            "Tracking employee hours accurately",
+            "Automating accounting journal entries",
+            "Generating year-end W-2s",
+            "Handling different pay schedules",
+            "Paying both employees and contractors"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI payroll anomaly detection",
+            "Predictive future payroll costs",
+            "AI tax withholding optimization",
+            "Payroll question chatbot",
+            "Automated worker classification",
+            "AI-driven compliance alerts",
+            "Natural language reporting",
+            "AI-powered timesheet validation",
+            "Smart payroll deadline reminders",
+            "AI salary benchmarking",
+            "Automated journal entry generation",
+            "AI 'what-if' salary analysis",
+            "Predictive turnover analysis",
+            "Smart out-of-state work detection",
+            "AI insights into labor costs",
+            "Automated benefits document parsing",
+            "AI assistance for tax setup",
+            "Smart alerts for expiring documents",
+            "AI payroll process optimization",
+            "Automated wage garnishment responses"
+          ]
         }
       ]
     },
@@ -2984,6 +6608,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Webinar Settings", "Branding", "Email Templates", "Integration"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Customizable registration pages",
+            "Automated reminder emails",
+            "In-webinar polls & Q&A",
+            "Screen sharing",
+            "Basic attendance analytics"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Live video broadcasting",
+            "On-demand webinars",
+            "Marketing & CRM integration",
+            "Co-organizers and panelists",
+            "Lead source tracking"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Presenting to a large audience",
+            "Generating leads from webinars",
+            "Keeping the audience engaged",
+            "Increasing show-up rates",
+            "Making content available on-demand",
+            "Understanding webinar performance",
+            "Following up with attendees",
+            "Managing audience questions",
+            "Handling multiple speakers",
+            "Getting people to register"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI suggestions for best webinar time",
+            "AI-generated promotional copy",
+            "Predictive attendance rate analysis",
+            "AI topic suggestions",
+            "Automated webinar transcription",
+            "AI-powered content summarization",
+            "Live chat sentiment analysis",
+            "AI recommendations for slide improvement",
+            "Smart 'engagement drop' alerts",
+            "AI chatbot for technical support",
+            "Automated 'key moments' highlighting",
+            "AI analysis of Q&A themes",
+            "Predictive lead scoring of attendees",
+            "AI-generated poll questions",
+            "Natural language transcript search",
+            "AI 'practice mode' with feedback",
+            "Smart background noise cancellation",
+            "AI recommendations for related content",
+            "Automated social media clip creation",
+            "AI analysis of success factors"
+          ]
         }
       ]
     },
@@ -3023,6 +6711,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Route Settings", "Map Configuration", "Team Management", "Integration"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Visualize CRM data on a map",
+            "Create optimized daily routes",
+            "Mobile app for navigation",
+            "View nearby prospects",
+            "Log meeting notes"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Automated territory management",
+            "Multi-day route planning",
+            "Real-time rep location tracking",
+            "Detailed travel reports",
+            "Automatic CRM record updates"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Reducing drive time for sales reps",
+            "Creating balanced sales territories",
+            "Knowing where field reps are",
+            "Finding nearby opportunities",
+            "Automating CRM data entry after visits",
+            "Planning multi-day sales trips",
+            "Understanding field team efficiency",
+            "Ensuring high-priority clients are visited",
+            "Guiding new reps in their territory",
+            "Visualizing sales data geographically"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered route optimization",
+            "Predictive 'best time to visit' analysis",
+            "AI-based territory suggestions",
+            "Smart route deviation alerts",
+            "AI 'fill my day' scheduling",
+            "Automated route profitability analysis",
+            "AI-based territory balancing",
+            "Natural language route planning",
+            "AI-powered check-in analysis",
+            "Predictive fuel cost analysis",
+            "Smart client clustering",
+            "AI recommendations for next visits",
+            "Automated daily performance summaries",
+            "AI-based appointment scheduling",
+            "Meeting note sentiment analysis",
+            "AI 'what-if' territory analysis",
+            "Smart route overlap detection",
+            "AI recommendations for rep assignments",
+            "Predictive geographic lead generation",
+            "Automated voice-to-text note logging"
+          ]
         }
       ]
     },
@@ -3067,6 +6819,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Service Types", "SLA Configuration", "Mobile Settings", "Integration", "Billing Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Create work orders",
+            "Technician schedule board",
+            "Technician mobile app",
+            "Capture customer signatures",
+            "Customer database"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Intelligent scheduling & dispatch",
+            "Route optimization",
+            "Inventory management",
+            "Service contract management",
+            "Accounting integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Inefficient technician scheduling",
+            "Technicians arriving late",
+            "Not having the right parts for a job",
+            "Losing paper-based work orders",
+            "Poor communication with field techs",
+            "Providing accurate arrival times",
+            "Slow, manual invoicing process",
+            "Managing recurring maintenance",
+            "Proving a job was completed",
+            "Understanding service profitability"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered predictive scheduling",
+            "Predictive maintenance alerts",
+            "AI-based technician recommendations",
+            "Smart problem diagnosis",
+            "AI-driven parts recommendations",
+            "Natural language work order creation",
+            "AI analysis of service reports",
+            "Predictive job completion times",
+            "AI-based technician safety alerts",
+            "Automated customer feedback analysis",
+            "AI-powered inventory forecasting",
+            "Smart, traffic-adaptive routing",
+            "AI-generated customer service reports",
+            "Automated parts validation",
+            "AI-powered upsell suggestions",
+            "Customer communication sentiment analysis",
+            "AI-based service request triage",
+            "Smart scheduling of filler tasks",
+            "AI analysis of technician performance",
+            "Automated voice-to-text for updates"
+          ]
         }
       ]
     },
@@ -3111,6 +6927,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Billing Settings", "Tax Settings", "Payment Settings", "Dunning Settings", "Integration"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Create subscription plans",
+            "Automated recurring invoicing",
+            "Prorated billing",
+            "Self-service customer portal",
+            "Multiple payment gateways"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Dunning management",
+            "Usage-based billing",
+            "Revenue recognition compliance",
+            "Advanced subscription analytics",
+            "Consolidated invoicing"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Automating monthly invoicing",
+            "Reducing churn from failed payments",
+            "Handling plan changes correctly",
+            "Letting customers manage their own accounts",
+            "Recognizing revenue properly",
+            "Tracking key metrics like MRR & churn",
+            "Billing based on customer usage",
+            "Managing sales tax for subscriptions",
+            "Allowing customers to pause service",
+            "Communicating billing events to customers"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered churn prediction",
+            "AI-driven pricing recommendations",
+            "Smart, adaptive dunning management",
+            "Predictive customer LTV analysis",
+            "AI-based upsell suggestions",
+            "Automated revenue forecasting",
+            "AI analysis of cancellation reasons",
+            "Natural language billing analytics",
+            "AI-driven retention offers",
+            "Smart payment-to-invoice matching",
+            "AI-powered revenue recovery insights",
+            "Automated fraudulent sign-up detection",
+            "AI suggestions for payment retry timing",
+            "Billing support sentiment analysis",
+            "AI 'what-if' analysis for pricing",
+            "Smart alerts for metric changes",
+            "AI-generated customer billing summaries",
+            "Automated cohort analysis with insights",
+            "AI recommendations for new plans",
+            "Predictive analysis of customer upgrades"
+          ]
         }
       ]
     },
@@ -3155,6 +7035,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Practice Settings", "Team Management", "Fee Structure", "Tax Settings", "Integration"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Central client database",
+            "Time tracking",
+            "Deadline dashboard",
+            "Task management",
+            "Secure document management"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Workflow automation for jobs",
+            "Secure client portal",
+            "Integrated billing & invoicing",
+            "Accounting software integration",
+            "Firm productivity reporting"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Managing client deadlines",
+            "Standardizing accounting processes",
+            "Sharing documents securely with clients",
+            "Ensuring all time is billed",
+            "Tracking staff productivity",
+            "Centralizing client communication",
+            "Automating client onboarding",
+            "Ensuring compliance and accuracy",
+            "Understanding firm profitability",
+            "Getting documents from clients on time"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered bookkeeping automation",
+            "Predictive deadline risk analysis",
+            "AI suggestions for workflow optimization",
+            "Smart job allocation to staff",
+            "AI review of financial documents",
+            "Automated client communication generation",
+            "AI insights into firm profitability",
+            "Natural language search for clients/jobs",
+            "AI chatbot for client FAQs",
+            "Predictive revenue forecasting",
+            "AI-based suggestions for service pricing",
+            "Automated client document categorization",
+            "AI-powered 'practice health' score",
+            "Smart alerts for job budget overruns",
+            "AI recommendations for upselling services",
+            "Client communication sentiment analysis",
+            "AI-powered time tracking suggestions",
+            "Automated engagement letter generation",
+            "AI-based compliance checks",
+            "Predictive client churn analysis"
+          ]
         }
       ]
     },
@@ -3199,6 +7143,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Payment Configuration", "Security Settings", "Webhook Management", "API Keys"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Accept credit cards",
+            "Create simple payment links",
+            "Transaction dashboard",
+            "Multi-currency support",
+            "PCI-compliant processing"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Multi-gateway routing",
+            "Fraud & risk management",
+            "Automated reconciliation",
+            "Recurring billing engine",
+            "Unified payments API"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Accepting payments without a store",
+            "Reducing high transaction fees",
+            "Handling payment gateway outages",
+            "Fighting fraudulent transactions",
+            "Reconciling payments with deposits",
+            "Simplifying payment integrations",
+            "Ensuring PCI compliance",
+            "Managing subscription payments",
+            "Accepting international payments",
+            "Getting a clear view of transactions"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered fraud detection",
+            "Smart transaction routing",
+            "AI recommendations for fee reduction",
+            "Predictive payment success analysis",
+            "AI-driven chargeback prevention",
+            "Automated sales trend analysis",
+            "Natural language transaction search",
+            "AI-powered 'smart retry' logic",
+            "Chargeback reason sentiment analysis",
+            "AI-based customer risk scoring",
+            "Smart transaction pattern alerts",
+            "AI 'what-if' gateway analysis",
+            "Automated reconciliation suggestions",
+            "AI insights into payment trends",
+            "Predictive cash flow forecasting",
+            "AI chatbot for transaction support",
+            "Smart currency conversion advice",
+            "AI checkout conversion recommendations",
+            "Automated detection of linked fraud",
+            "AI-generated daily activity summaries"
+          ]
         }
       ]
     },
@@ -3238,6 +7246,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Account Settings", "Email Configuration", "Security Settings", "Team Management", "Billing"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Send via API or SMTP",
+            "Email activity dashboard",
+            "Transactional email templates",
+            "Real-time delivery tracking",
+            "Bounce & complaint handling"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "High email deliverability",
+            "Domain authentication guides",
+            "Open & click rate analytics",
+            "Real-time event webhooks",
+            "Email archiving & search"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Emails going to spam",
+            "Knowing if emails are delivered",
+            "Setting up SPF & DKIM",
+            "Avoiding hard-coded email content",
+            "Handling bounced emails",
+            "Triggering actions from email events",
+            "Sending high-volume emails",
+            "Troubleshooting delivery failures",
+            "Protecting sender reputation",
+            "Searching for a specific sent email"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI content optimization for deliverability",
+            "Predictive email engagement analytics",
+            "AI potential spam detection",
+            "Smart template design suggestions",
+            "AI analysis of bounce messages",
+            "Automated A/B testing for content",
+            "AI-powered IP reputation management",
+            "Predictive spam complaint analysis",
+            "AI recommendations for send times",
+            "Natural language log search",
+            "AI-generated subject lines",
+            "Smart alerts for delivery anomalies",
+            "AI-powered inbound email parsing",
+            "Automated email categorization",
+            "AI insights into sending patterns",
+            "Predictive deliverability forecasting",
+            "AI-based domain setup assistance",
+            "Smart sending-rate throttling",
+            "AI-powered inbox placement testing",
+            "Automated weekly deliverability reports"
+          ]
         }
       ]
     },
@@ -3272,6 +7344,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Editor Preferences", "Format Settings", "Security Options", "Export Options", "Admin Panel"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Embeddable document viewer",
+            "Document creation API",
+            "Real-time collaboration API",
+            "Import/Export APIs",
+            "Formatting APIs"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "White-labeled embedded editor",
+            "Co-branding options",
+            "Custom authentication integration",
+            "Document merge API",
+            "Secure, isolated customer environments"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Adding document editing to your app",
+            "Keeping users within your application",
+            "Generating bulk documents",
+            "Enabling real-time collaboration",
+            "Handling multiple document formats",
+            "Maintaining a consistent brand experience",
+            "Managing user access to documents",
+            "Providing a 'view-only' mode",
+            "Automating report creation",
+            "Using your own file storage"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI writing assistant API",
+            "AI document summarization API",
+            "AI grammar check API",
+            "Smart template filling API",
+            "AI document comparison API",
+            "Automated document classification API",
+            "AI-powered data extraction API",
+            "Document sentiment analysis API",
+            "AI readability analysis API",
+            "Sensitive data (PII) detection API",
+            "AI document translation API",
+            "Automated presentation generation API",
+            "AI chart generation API",
+            "Smart form autofill API",
+            "AI-powered document search API",
+            "Predictive text API",
+            "AI template recommendation API",
+            "Automated keyword extraction API",
+            "AI spreadsheet anomaly detection API",
+            "Smart document Q&A API"
+          ]
         }
       ]
     },
@@ -3311,6 +7447,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Table Settings", "Access Control", "Integrations", "API Settings", "Account Preferences"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Spreadsheet-like interface",
+            "Multiple data views",
+            "Link records between tables",
+            "Form view for data collection",
+            "Pre-built templates"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "No-code custom applications",
+            "Workflow automation",
+            "Role-based permissions",
+            "API & webhook integrations",
+            "Customizable dashboards"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Replacing complex spreadsheets",
+            "Creating simple project trackers",
+            "Managing simple inventories",
+            "Building a simple CRM",
+            "Automating simple approval processes",
+            "Collecting structured data from a team",
+            "Collaborating on a dataset",
+            "Visualizing a workflow",
+            "Building a quick, custom app",
+            "Connecting data to other services"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI app generation from spreadsheets",
+            "AI suggestions for table relationships",
+            "Automated data cleansing",
+            "AI suggestions for new data views",
+            "Natural language data querying",
+            "AI-driven workflow suggestions",
+            "Smart data validation rules",
+            "AI-powered data summarization",
+            "Predictive analytics on your data",
+            "AI pattern recognition for new fields",
+            "Automated data entry from email",
+            "AI image recognition for attachments",
+            "Smart alerts for data changes",
+            "AI suggestions for base design",
+            "Automated dashboard generation",
+            "Sentiment analysis of text fields",
+            "AI-powered 'what-if' analysis",
+            "Smart data import & mapping",
+            "AI-based formula assistance",
+            "Predictive sorting and filtering"
+          ]
         }
       ]
     },
@@ -3350,6 +7550,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Suite Preferences", "Account Settings", "Security Options", "Integration Settings", "Admin Panel"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Create docs, sheets, & slides",
+            "Unified recent files dashboard",
+            "Templates for all apps",
+            "Consistent user interface",
+            "Export to MS Office/PDF"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Real-time collaboration suite",
+            "Integrated cloud storage",
+            "Suite-wide AI assistant",
+            "Team workspaces",
+            "Deep integration between apps"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Avoiding multiple software subscriptions",
+            "Solving compatibility issues",
+            "Collaborating on different document types",
+            "Finding files in one place",
+            "Using spreadsheet data in presentations",
+            "Getting intelligent help while working",
+            "Managing file permissions consistently",
+            "Onboarding users to fewer tools",
+            "Editing documents on any device",
+            "Creating branded company documents"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "Unified AI assistant (Zia)",
+            "AI-powered cross-suite search",
+            "Smart content repurposing",
+            "AI suggestions for linking documents",
+            "Automated cross-app workflows",
+            "AI insights from combined files",
+            "Natural language suite commands",
+            "AI-powered brand kit",
+            "Unified predictive text",
+            "AI template recommendations",
+            "Automated data extraction between apps",
+            "Smart project workspace creation",
+            "AI 'what-if' analysis across apps",
+            "Automated meeting minute generation",
+            "AI suggestions for consistent design",
+            "Smart file organization suggestions",
+            "AI-powered cross-file fact-checking",
+            "Automated dashboard creation",
+            "AI-driven collaboration suggestions",
+            "Predictive file usage analysis"
+          ]
         }
       ]
     },
@@ -3389,6 +7653,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Task Preferences", "Notification Settings", "Integration Settings", "Team Settings", "Account Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Create to-do lists",
+            "Set due dates & reminders",
+            "Add sub-tasks",
+            "Prioritize tasks",
+            "\"My Day\" view"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Share lists & assign tasks",
+            "Recurring tasks",
+            "Cross-device sync",
+            "Add notes & attachments",
+            "Calendar integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Forgetting daily tasks",
+            "Losing paper to-do lists",
+            "Breaking down big tasks",
+            "Collaborating on simple lists",
+            "Remembering to do chores",
+            "Focusing on what to do today",
+            "Adding context to a task",
+            "Juggling tasks and events",
+            "Capturing ideas on the go",
+            "Organizing different life areas"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI suggestions for task scheduling",
+            "Natural language task input",
+            "AI-based adaptive reminders",
+            "Smart sub-task suggestions",
+            "AI daily planning assistant",
+            "Automated task prioritization",
+            "AI suggestions for recurring tasks",
+            "Predictive 'at-risk' task alerts",
+            "AI-powered 'focus mode'",
+            "Smart grouping of similar tasks",
+            "AI-driven celebration messages",
+            "Automated task import from email",
+            "AI suggestions for task delegation",
+            "Smart task duration estimation",
+            "AI-powered weekly review",
+            "Automated task creation from photos",
+            "AI suggestions for task labels",
+            "Predictive productivity analysis",
+            "AI suggestions for calendar-related tasks",
+            "Smart 'undo' for completed tasks"
+          ]
         }
       ]
     },
@@ -3428,6 +7756,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Editor Preferences", "Export Settings", "Security Options", "Integration Settings", "Account Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Edit text and images",
+            "Add comments & annotations",
+            "Highlight & underline text",
+            "Draw shapes",
+            "Fill out PDF forms"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Convert PDF to Office formats",
+            "Merge multiple PDFs",
+            "Split a PDF",
+            "Compress PDF file size",
+            "Add password protection"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Fixing a typo in a PDF",
+            "Collaborating on a PDF review",
+            "Reducing a large PDF file size",
+            "Reusing PDF content in Word",
+            "Combining PDFs into one file",
+            "Securing a sensitive document",
+            "Filling out non-interactive forms",
+            "Signing a PDF digitally",
+            "Reordering pages in a PDF",
+            "Making a scanned PDF searchable"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered OCR",
+            "AI suggestions for layout improvement",
+            "Automated sensitive data redaction",
+            "AI-powered document summarization",
+            "Smart form field creation",
+            "AI 'readability score' analysis",
+            "Automated table extraction to Excel",
+            "AI 'ask your document' feature",
+            "Natural language editing commands",
+            "AI recommendations for compression",
+            "Smart broken link detection",
+            "AI-powered document translation",
+            "Automated table of contents generation",
+            "AI-based document comparison",
+            "Smart accessibility suggestions",
+            "AI-powered mobile reflow",
+            "Automated document categorization",
+            "AI suggestions for splitting documents",
+            "Predictive text for form filling",
+            "AI-powered format conversion"
+          ]
         }
       ]
     },
@@ -3482,6 +7874,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Locations",
           icon: <MapPin className="w-4 h-4" />,
           items: ["All Locations", "Location Schedules", "Location Staff", "Geofencing", "Location Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Publish employee schedules",
+            "Employee mobile app",
+            "Mobile clock-in/out",
+            "Set employee availability",
+            "Today's schedule view"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Shift swapping",
+            "Automated scheduling",
+            "Geofenced time tracking",
+            "Labor cost forecasting",
+            "Payroll integration"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Time-consuming manual scheduling",
+            "Handling last-minute shift changes",
+            "Fielding 'what's my schedule?' calls",
+            "Covering sick leave easily",
+            "Preventing inaccurate time tracking",
+            "Staying within a labor budget",
+            "Ensuring adequate staff coverage",
+            "Automating payroll data entry",
+            "Accommodating availability requests",
+            "Communicating schedule updates"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered auto-scheduling",
+            "Predictive staffing forecasts",
+            "AI suggestions for shift coverage",
+            "Smart overtime alerts",
+            "AI analysis of shift patterns",
+            "Automated shift swap approvals",
+            "AI-based time clock fraud detection",
+            "Natural language schedule queries",
+            "AI recommendations for fair schedules",
+            "Predictive burnout/flight risk analysis",
+            "Smart shift reminders",
+            "AI chatbot for scheduling questions",
+            "Automated labor law compliance",
+            "AI suggestions for shift templates",
+            "Schedule communication sentiment analysis",
+            "Predictive analysis of shift acceptance",
+            "AI 'what-if' staffing scenarios",
+            "Smart skill-to-shift matching",
+            "AI insights into attendance patterns",
+            "Automated voice-to-text notes for managers"
+          ]
         }
       ]
     },
@@ -3531,6 +7987,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Legal Review",
           icon: <Scale className="w-4 h-4" />,
           items: ["Legal Review Queue", "Review Comments", "Legal Approved", "Legal Rejected", "Review History"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Central contract repository",
+            "Contract templates",
+            "Version control",
+            "Status dashboard",
+            "Full-text search"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Automated approval workflows",
+            "E-signature integration",
+            "Automated key date reminders",
+            "Pre-approved clause library",
+            "Advanced risk analytics"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Finding contracts easily",
+            "Speeding up contract approvals",
+            "Never missing a renewal date",
+            "Using correct legal language",
+            "Understanding contract risks",
+            "Automating contract creation",
+            "Collaborating on drafts",
+            "Getting signatures efficiently",
+            "Ensuring policy compliance",
+            "Onboarding new team members"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered contract review",
+            "Automated key term extraction",
+            "AI suggestions for clauses",
+            "Predictive negotiation time analysis",
+            "Natural language contract search",
+            "AI-powered document summarization",
+            "Smart compliance alerts",
+            "AI-driven draft comparison",
+            "Automated approval routing",
+            "AI chatbot for contract status",
+            "Predictive renewal likelihood analysis",
+            "AI recommendations for negotiation",
+            "Smart detection of ambiguous language",
+            "Automated renewal document generation",
+            "AI-powered contract 'risk score'",
+            "Negotiation comment sentiment analysis",
+            "AI suggestions for language improvement",
+            "Automated obligation-to-task mapping",
+            "AI 'what-if' analysis for terms",
+            "Smart discovery of related contracts"
+          ]
         }
       ]
     },
@@ -3590,6 +8110,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Monitoring",
           icon: <Monitor className="w-4 h-4" />,
           items: ["Application Logs", "Performance Monitoring", "Error Tracking", "Uptime Monitoring", "Alerts"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Deploy serverless functions",
+            "Simple key-value data store",
+            "Host static web assets",
+            "CLI for local development",
+            "Function & API logs"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Fully managed infrastructure",
+            "Built-in user authentication",
+            "Scheduled cron jobs",
+            "API gateway",
+            "User file storage"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Avoiding server management",
+            "Building a scalable backend",
+            "Implementing user authentication",
+            "Storing data without a DB admin",
+            "Running scheduled background tasks",
+            "Building and securing APIs",
+            "Matching dev and prod environments",
+            "Storing user-uploaded files",
+            "Monitoring a serverless app",
+            "Getting an app to market quickly"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered code suggestions",
+            "Smart performance bottleneck detection",
+            "AI security vulnerability scanning",
+            "Predictive cost analysis",
+            "Natural language deployment commands",
+            "AI optimization of function settings",
+            "Automated API documentation",
+            "AI-powered log analysis",
+            "Smart data modeling suggestions",
+            "AI architecture recommendations",
+            "Automated code refactoring",
+            "AI 'what-if' cost analysis",
+            "Smart alerts for unusual activity",
+            "AI-assisted platform migration",
+            "Predictive autoscaling advice",
+            "AI developer support chatbot",
+            "Automated unit test generation",
+            "Smart infinite loop detection",
+            "AI insights into API usage",
+            "Automated security policy generation"
+          ]
         }
       ]
     },
@@ -3639,6 +8223,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Resources",
           icon: <Server className="w-4 h-4" />,
           items: ["Bot Runners", "Resource Pool", "License Management", "System Requirements", "Performance Monitor"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Visual workflow recorder",
+            "Drag-and-drop builder",
+            "Library of pre-built actions",
+            "Scheduled bot runs",
+            "Execution history dashboard"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Unattended bots",
+            "Attended bots (digital assistants)",
+            "API integration",
+            "Advanced error handling",
+            "Centralized bot management"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Automating repetitive data entry",
+            "Connecting spreadsheets to legacy apps",
+            "Automating invoice processing",
+            "Generating daily reports automatically",
+            "Migrating data without APIs",
+            "Automating new employee setup",
+            "Reducing human errors in processes",
+            "Handling high-volume, rule-based tasks",
+            "Automating tasks on your own desktop",
+            "Auditing automated processes"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered process discovery",
+            "Smart OCR for documents",
+            "AI computer vision for UI automation",
+            "Natural language bot building",
+            "AI-powered adaptive error handling",
+            "Predictive analytics on bot performance",
+            "AI suggestions for workflow optimization",
+            "Sentiment analysis for process triggers",
+            "AI-powered 'self-healing' bots",
+            "Automated process documentation",
+            "AI-driven bot workload management",
+            "Smart bot scheduling",
+            "AI 'what-if' analysis for processes",
+            "Automated exception categorization",
+            "AI insights into automation ROI",
+            "Predictive bot failure alerts",
+            "AI chatbot for building bots",
+            "Smart data validation in bots",
+            "AI recommendations for automation candidates",
+            "Automated test case generation for bots"
+          ]
         }
       ]
     },
@@ -3683,6 +8331,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Test Management",
           icon: <FolderOpen className="w-4 h-4" />,
           items: ["Test Suites", "Test Plans", "Test Environments", "Test Configurations", "Version Control"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Test case repository",
+            "Organize tests into suites",
+            "Execute test runs",
+            "Capture screenshots",
+            "Test run status dashboard"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Web application test automation",
+            "CI/CD pipeline integration",
+            "Bug tracker integration",
+            "Cross-browser testing",
+            "Advanced test reporting"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Reducing slow, manual testing",
+            "Managing test cases in spreadsheets",
+            "Gaining visibility into test progress",
+            "Reporting bugs with sufficient detail",
+            "Ensuring cross-browser compatibility",
+            "Removing testing as a bottleneck",
+            "Understanding application quality",
+            "Onboarding new QA testers",
+            "Improving developer-tester collaboration",
+            "Reusing test cases effectively"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered 'self-healing' tests",
+            "AI test case generation",
+            "Smart 'impacted test' identification",
+            "AI-powered visual testing",
+            "Predictive 'flaky test' analysis",
+            "AI analysis of test results",
+            "Automated root cause analysis",
+            "AI suggestions for test case design",
+            "Natural language test script writing",
+            "AI-powered test data generation",
+            "Smart test execution optimization",
+            "AI-based defect clustering",
+            "Predictive release readiness analysis",
+            "AI-powered exploratory testing",
+            "Automated test summary reports",
+            "AI-based risk-based testing",
+            "Smart duplicate test case detection",
+            "AI performance testing suggestions",
+            "Automated accessibility testing",
+            "AI-based test environment management"
+          ]
         }
       ]
     },
@@ -3699,7 +8411,7 @@ export const getAppNavigation = (appName: string) => {
           items: ["Threat Protection", "Anti-spam", "Anti-virus", "Email Encryption", "Security Policies", "Spam Filter", "Phishing Protection", "Malware Detection"]
         },
         {
-          title: "Archive",
+          title:. "Archive",
           icon: <Archive className="w-4 h-4" />,
           items: ["Email Archive", "Archived Messages", "Search Archive", "Archive Policies", "Data Retention", "Legal Hold"]
         },
@@ -3727,6 +8439,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Quarantine",
           icon: <XCircle className="w-4 h-4" />,
           items: ["Quarantined Emails", "Spam Quarantine", "Virus Quarantine", "Release Queue", "False Positives"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Anti-spam & anti-virus",
+            "Email quarantine",
+            "Allow/block lists",
+            "Email traffic dashboard",
+            "Content filtering"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Advanced Threat Protection",
+            "Searchable email archive",
+            "Data Loss Prevention (DLP)",
+            "Email encryption",
+            "eDiscovery"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Stopping spam from flooding inboxes",
+            "Preventing employees from clicking phishing links",
+            "Retaining all emails for compliance",
+            "Finding specific emails for legal cases",
+            "Preventing sensitive data leaks",
+            "Handling legitimate emails marked as spam",
+            "Sending sensitive information securely",
+            "Understanding email-based threats",
+            "Stopping business email compromise attacks",
+            "Recovering deleted emails for audits"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered phishing detection",
+            "Behavioral analysis for account compromise",
+            "AI-based malicious image detection",
+            "Predictive email threat analytics",
+            "AI security policy recommendations",
+            "Natural language eDiscovery search",
+            "AI-powered email classification",
+            "Smart alerts for unusual email activity",
+            "AI sentiment analysis for threat detection",
+            "Automated sensitive data redaction",
+            "AI-powered impersonation detection",
+            "Smart suggestions for DLP rules",
+            "AI-driven email header analysis",
+            "Automated security incident reports",
+            "AI-powered user risk scoring",
+            "Admin support chatbot for incidents",
+            "Predictive analysis of phishing targets",
+            "AI-based quarantine management",
+            "Smart grouping of related threat events",
+            "AI-powered threat intelligence"
+          ]
         }
       ]
     },
@@ -3791,6 +8567,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Audit",
           icon: <Eye className="w-4 h-4" />,
           items: ["Audit Logs", "Access Logs", "Change History", "Compliance Check", "Security Audit"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "User lookup tool",
+            "Permission checker",
+            "View audit logs",
+            "Service status checker",
+            "View organization details"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Database query tool",
+            "System diagnostics",
+            "Bulk data management tool",
+            "Centralized user management",
+            "Comprehensive audit trail"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Looking up customer account details",
+            "Troubleshooting system performance",
+            "Performing bulk data updates",
+            "Auditing system changes",
+            "Running custom database queries",
+            "Managing user permissions",
+            "Checking system health status",
+            "Answering questions about licenses",
+            "Recovering deleted data",
+            "Granting temporary user access"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered log analysis",
+            "Natural language query interface",
+            "AI query optimization suggestions",
+            "Predictive system performance analytics",
+            "AI root cause analysis for errors",
+            "Smart alerts for activity anomalies",
+            "AI security configuration recommendations",
+            "Automated system health reports",
+            "AI troubleshooting assistant chatbot",
+            "Predictive resource needs modeling",
+            "AI-based user grouping suggestions",
+            "Smart detection of unused permissions",
+            "AI 'what-if' analysis for changes",
+            "Automated alert categorization",
+            "AI insights into feature adoption",
+            "Smart data migration suggestions",
+            "AI 'least privilege' access recommendations",
+            "Automated performance regression detection",
+            "AI-based license usage forecasting",
+            "Smart log event correlation"
+          ]
         }
       ]
     },
@@ -3830,6 +8670,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["System Settings", "User Management", "Integration Settings", "Notification Settings", "License Management"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "IT help desk",
+            "IT asset inventory",
+            "Network monitoring",
+            "IT knowledge base",
+            "Status dashboard"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Automated patch management",
+            "Active Directory management",
+            "SIEM for threat detection",
+            "Application performance monitoring",
+            "Mobile Device Management"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Managing employee IT support tickets",
+            "Tracking all company hardware/software",
+            "Knowing when critical servers are down",
+            "Keeping computers patched and secure",
+            "Detecting network security threats",
+            "Managing Active Directory users",
+            "Troubleshooting slow applications",
+            "Securing company mobile devices",
+            "Answering repetitive IT questions",
+            "Proving IT security compliance"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered IT ticket routing",
+            "Predictive hardware failure",
+            "AI root cause analysis for outages",
+            "Smart knowledge base suggestions",
+            "AI-driven threat detection",
+            "Automated password reset chatbot",
+            "AI recommendations for app optimization",
+            "Behavioral analytics for security",
+            "AI-based patch deployment suggestions",
+            "Natural language IT data search",
+            "AI-powered asset discovery",
+            "Predictive IT ticket volume analysis",
+            "Smart event correlation",
+            "AI recommendations for security posture",
+            "Automated IT performance reports",
+            "AI 'what-if' infrastructure analysis",
+            "Smart 'shadow IT' detection",
+            "AI-based capacity planning",
+            "Automated compliance checking",
+            "AI insights into IT efficiency"
+          ]
         }
       ]
     },
@@ -3874,6 +8778,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Automation",
           icon: <Zap className="w-4 h-4" />,
           items: ["Automation Rules", "Triggers", "Actions", "Workflows", "Scenarios"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Device registry",
+            "Device status dashboard",
+            "Simple alerts",
+            "Send commands to devices",
+            "View real-time data streams"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Over-the-air (OTA) firmware updates",
+            "Data-driven rules engine",
+            "Time-series data storage",
+            "IoT data dashboards",
+            "API & webhook integrations"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Managing thousands of remote devices",
+            "Updating software on devices in the field",
+            "Reacting instantly to sensor thresholds",
+            "Storing and querying time-series data",
+            "Making sense of device data",
+            "Securing device communication",
+            "Integrating IoT data with business apps",
+            "Monitoring device fleet health",
+            "Building a custom IoT backend",
+            "Remotely controlling devices"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered predictive maintenance",
+            "Anomaly detection in sensor data",
+            "AI optimization of device battery life",
+            "Predictive device failure analysis",
+            "AI-driven root cause analysis",
+            "Natural language data queries",
+            "AI-powered sensor calibration",
+            "Smart alerts with reduced false positives",
+            "AI suggestions for new IoT use cases",
+            "Automated device classification",
+            "AI-powered 'digital twin' modeling",
+            "Predictive resource consumption forecasting",
+            "AI insights into operational efficiency",
+            "Self-learning automation rules",
+            "AI-powered IoT network security",
+            "Automated device performance reports",
+            "AI pattern recognition in sensor data",
+            "Smart data transmission optimization",
+            "AI troubleshooting chatbot",
+            "Automated firmware update scheduling"
+          ]
         }
       ]
     },
@@ -3913,6 +8881,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Embed Settings", "API Settings", "Integration Settings", "Account Settings", "Billing"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Embed a single chart",
+            "JavaScript API",
+            "Embedding management dashboard",
+            "Pass filters to dashboards",
+            "White-labeling"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Fully re-branded BI portal",
+            "Robust API set",
+            "Single Sign-On (SSO) integration",
+            "Secure multi-tenant framework",
+            "Embeddable report creator"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Avoiding building analytics from scratch",
+            "Keeping users inside your app",
+            "Providing secure analytics to customers",
+            "Allowing users to create own reports",
+            "Maintaining a consistent brand",
+            "Managing users for embedded BI",
+            "Controlling dashboards programmatically",
+            "Adding value to a SaaS product",
+            "Visualizing your application's data",
+            "Scaling analytics as you grow"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "Expose 'Ask Zia' via API",
+            "AI suggestions for reports to embed",
+            "Automated insight narratives via API",
+            "AI anomaly detection with webhooks",
+            "Embeddable predictive analytics",
+            "AI recommendations for end-users",
+            "Embedded natural language querying",
+            "AI-powered data preparation for users",
+            "Smart UI design suggestions",
+            "AI-based usage analytics",
+            "Automated API code generation",
+            "Embeddable 'what-if' analysis",
+            "Smart security recommendations",
+            "Embeddable forecasting",
+            "Automated personalized dashboards",
+            "AI-powered embedded support chatbot",
+            "Smart performance caching",
+            "AI insights into user interaction",
+            "Automated broken report detection",
+            "AI-based data storytelling"
+          ]
         }
       ]
     },
@@ -3952,6 +8984,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Domain Settings", "DNS Settings", "Security Settings", "Billing Settings", "Renewal Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Domain name search",
+            "DNS record management",
+            "Domain forwarding",
+            "WHOIS privacy",
+            "Domain dashboard"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Domain transfers",
+            "Bulk domain management",
+            "Integrated email setup",
+            "Integrated website builder",
+            "SSL certificate management"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Getting a custom domain name",
+            "Pointing a domain to a host",
+            "Getting a professional email address",
+            "Protecting personal info",
+            "Avoiding domain expiration",
+            "Managing many domains",
+            "Securing a website with SSL",
+            "Connecting a domain to any platform",
+            "Moving a domain from another provider",
+            "Creating subdomains"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-powered domain name suggestions",
+            "Predictive domain value analysis",
+            "AI trademark infringement detection",
+            "Smart domain extension suggestions",
+            "AI-powered DNS configuration checker",
+            "Automated DNS record generation",
+            "AI monitoring for domain spoofing",
+            "Natural language DNS management",
+            "AI recommendations for portfolio buys",
+            "Smart expiration alerts",
+            "AI-powered brand protection",
+            "Automated email forwarding suggestions",
+            "AI insights into domain traffic",
+            "Smart DNS misconfiguration detection",
+            "AI 'domain portfolio' health score",
+            "Automated email deliverability suggestions",
+            "AI negotiation assistant",
+            "Predictive domain popularity analysis",
+            "AI chatbot for domain support",
+            "Smart alerts for desired domains"
+          ]
         }
       ]
     },
@@ -3996,6 +9092,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Community Settings", "Privacy Settings", "Notification Settings", "Integration Settings", "Theme Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Discussion forums",
+            "User profiles",
+            "Likes and comments",
+            "Moderation tools",
+            "Event calendar"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Public and private groups",
+            "Knowledge base",
+            "Gamification system",
+            "App integrations",
+            "Advanced analytics"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Providing a space for customer Q&A",
+            "Building brand loyalty",
+            "Keeping community members engaged",
+            "Managing spam and bad actors",
+            "Understanding trending topics",
+            "Creating focused discussion areas",
+            "Welcoming new members effectively",
+            "Rewarding top contributors",
+            "Integrating a community with a product",
+            "Sharing important resources"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI suggestions for new topics",
+            "Automated content moderation",
+            "AI-based member matchmaking",
+            "Community sentiment analysis",
+            "AI chatbot for community FAQs",
+            "Automated discussion summarization",
+            "AI identification of community leaders",
+            "Predictive member churn analysis",
+            "AI content recommendations",
+            "Smart duplicate post detection",
+            "AI-powered 'icebreaker' questions",
+            "Natural language community search",
+            "AI insights into community health",
+            "Automated post tagging",
+            "AI-powered 'expert finder'",
+            "Smart alerts for trending topics",
+            "AI recommendations for event ideas",
+            "Automated 'weekly digest' generation",
+            "Predictive content engagement analysis",
+            "AI-powered content translation"
+          ]
         }
       ]
     },
@@ -4035,6 +9195,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
           items: ["Business Information", "Listing Settings", "Review Settings", "Notification Settings", "Integration Settings"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Update business information",
+            "Monitor online reviews",
+            "Review response templates",
+            "Post to Google Business Profile",
+            "Track local keyword rankings"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Sync listings across directories",
+            "Centralized review response inbox",
+            "Brand reputation monitoring",
+            "Local SEO analytics",
+            "Social media scheduling"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Fixing inconsistent business info",
+            "Managing negative online reviews",
+            "Updating dozens of listings",
+            "Monitoring brand mentions",
+            "Improving local search rankings",
+            "Responding to reviews quickly",
+            "Generating more positive reviews",
+            "Keeping a Google profile active",
+            "Understanding local SEO ROI",
+            "Managing multiple business locations"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI-generated review responses",
+            "Review sentiment analysis",
+            "AI suggestions for local SEO",
+            "Automated duplicate listing detection",
+            "AI recommendations for directories",
+            "Predictive ranking change analysis",
+            "AI-generated Google Post content",
+            "Smart alerts for negative mentions",
+            "AI analysis of competitor reviews",
+            "Natural language analytics queries",
+            "AI insights from review data",
+            "Automated review topic tagging",
+            "AI recommendations for keywords",
+            "Smart social posting time suggestions",
+            "AI-powered 'reputation score'",
+            "Automated performance report generation",
+            "AI-based image suggestions for posts",
+            "Predictive analysis of review impact",
+            "AI-powered response chatbot",
+            "Smart detection of review spam"
+          ]
         }
       ]
     },
@@ -4089,6 +9313,70 @@ export const getAppNavigation = (appName: string) => {
           title: "Custom Events",
           icon: <Tag className="w-4 h-4" />,
           items: ["Event Tracking", "Custom Metrics", "Goal Tracking", "Conversion Events", "Event Funnels"]
+        },
+        {
+          title: "Small Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Real-time user analytics",
+            "Crash reporting",
+            "Custom event tracking",
+            "Audience segmentation",
+            "Key metrics dashboard"
+          ]
+        },
+        {
+          title: "Big Problem Solvers",
+          icon: <Zap className="w-4 h-4" />,
+          items: [
+            "Funnel analysis",
+            "In-app feedback & surveys",
+            "Performance monitoring",
+            "Push notification campaigns",
+            "A/B testing"
+          ]
+        },
+        {
+          title: "Top Real-World Problems & Solutions",
+          icon: <CheckCircle className="w-4 h-4" />,
+          items: [
+            "Understanding app usage",
+            "Diagnosing app crashes",
+            "Tracking user navigation",
+            "Pinpointing performance bottlenecks",
+            "Getting feedback from users",
+            "Announcing new features",
+            "Improving key workflows",
+            "Identifying popular features",
+            "Increasing user retention",
+            "Targeting specific user groups"
+          ]
+        },
+        {
+          title: "AI-Generated Ideas",
+          icon: <Bot className="w-4 h-4" />,
+          items: [
+            "AI root cause analysis for crashes",
+            "Predictive user churn analysis",
+            "AI suggestions for funnel optimization",
+            "Smart performance anomaly alerts",
+            "AI-driven behavioral segmentation",
+            "Natural language analytics queries",
+            "AI recommendations for A/B tests",
+            "In-app feedback sentiment analysis",
+            "Predictive app usage forecasting",
+            "AI insights into power users",
+            "Automated performance reports",
+            "AI suggestions for push notifications",
+            "Smart 'rage click' detection",
+            "AI 'what-if' analysis for features",
+            "Automated release health correlation",
+            "AI-powered user journey mapping",
+            "Predictive conversion analysis",
+            "Smart industry benchmark comparison",
+            "AI recommendations for app store ratings",
+            "Automated user feedback tagging"
+          ]
         }
       ]
     },
