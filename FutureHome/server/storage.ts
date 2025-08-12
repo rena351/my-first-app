@@ -33,30 +33,37 @@ export class MemStorage implements IStorage {
   }
 
   private initializeData() {
-    // Initialize categories with accurate app counts
-    const categoriesData: Array<Omit<Category, 'id'>> = [
-      { name: "Sales", description: "Complete sales automation and CRM solutions", icon: "fas fa-chart-line", color: "#00d4ff", appCount: 8 },
-      { name: "Marketing", description: "Comprehensive marketing automation suite", icon: "fas fa-bullhorn", color: "#8b5cf6", appCount: 16 },
-      { name: "Commerce", description: "Complete eCommerce platform solution", icon: "fas fa-shopping-cart", color: "#06ffa5", appCount: 1 },
-      { name: "Service", description: "Customer service and support tools", icon: "fas fa-headset", color: "#eab308", appCount: 6 },
-      { name: "Finance", description: "Complete financial management suite", icon: "fas fa-calculator", color: "#22c55e", appCount: 10 },
-      { name: "Email & Collaboration", description: "Complete collaboration and productivity suite", icon: "fas fa-envelope", color: "#3b82f6", appCount: 20 },
-      { name: "Human Resources", description: "Complete HR management platform", icon: "fas fa-users", color: "#ec4899", appCount: 7 },
-      { name: "Legal", description: "Legal and contract management tools", icon: "fas fa-gavel", color: "#f97316", appCount: 2 },
-      { name: "Security & IT", description: "Enterprise security and IT management", icon: "fas fa-shield-alt", color: "#ef4444", appCount: 12 },
-      { name: "BI & Analytics", description: "Business intelligence and analytics platform", icon: "fas fa-chart-bar", color: "#6366f1", appCount: 4 },
-      { name: "Project Management", description: "Complete project management suite", icon: "fas fa-tasks", color: "#14b8a6", appCount: 3 },
-      { name: "Developer Platforms", description: "Development tools and platforms", icon: "fas fa-code", color: "#a855f7", appCount: 12 }
+    // Initialize categories without app counts first
+    const categoriesData: Array<Omit<Category, 'id' | 'appCount'>> = [
+      { name: "Sales", description: "Complete sales automation and CRM solutions", icon: "fas fa-chart-line", color: "#00d4ff" },
+      { name: "Marketing", description: "Comprehensive marketing automation suite", icon: "fas fa-bullhorn", color: "#8b5cf6" },
+      { name: "Commerce", description: "Complete eCommerce platform solution", icon: "fas fa-shopping-cart", color: "#06ffa5" },
+      { name: "Service", description: "Customer service and support tools", icon: "fas fa-headset", color: "#eab308" },
+      { name: "Finance", description: "Complete financial management suite", icon: "fas fa-calculator", color: "#22c55e" },
+      { name: "Email & Collaboration", description: "Complete collaboration and productivity suite", icon: "fas fa-envelope", color: "#3b82f6" },
+      { name: "Human Resources", description: "Complete HR management platform", icon: "fas fa-users", color: "#ec4899" },
+      { name: "Legal", description: "Legal and contract management tools", icon: "fas fa-gavel", color: "#f97316" },
+      { name: "Security & IT", description: "Enterprise security and IT management", icon: "fas fa-shield-alt", color: "#ef4444" },
+      { name: "BI & Analytics", description: "Business intelligence and analytics platform", icon: "fas fa-chart-bar", color: "#6366f1" },
+      { name: "Project Management", description: "Complete project management suite", icon: "fas fa-tasks", color: "#14b8a6" },
+      { name: "Developer Platforms", description: "Development tools and platforms", icon: "fas fa-code", color: "#a855f7" }
     ];
 
     categoriesData.forEach(cat => {
       const id = randomUUID();
-      this.categories.set(id, { ...cat, id });
+      this.categories.set(id, { ...cat, id, appCount: 0 }); // Initialize with 0
     });
 
-    // Initialize apps for each category
+    // Initialize apps and suites
     this.initializeApps();
     this.initializeSuites();
+
+    // Now, calculate and update the app counts for each category
+    const allApps = Array.from(this.apps.values());
+    this.categories.forEach(category => {
+      const count = allApps.filter(app => app.categoryId === category.id).length;
+      category.appCount = count;
+    });
   }
 
   private initializeApps() {
