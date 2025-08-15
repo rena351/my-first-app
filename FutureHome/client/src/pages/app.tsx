@@ -6,9 +6,12 @@ import { ArrowLeft, Bell, UserCircle, Search, Plus } from "lucide-react";
 import { Link } from "wouter";
 import { Skeleton } from "@/components/ui/skeleton";
 import AppSidebar from "@/components/app-sidebar";
+import WelcomeModal from "@/components/welcome-modal";
+import { useState, useEffect } from "react";
 
 export default function AppPage() {
   const { appId } = useParams<{ appId: string }>();
+  const [isWelcomeModalOpen, setWelcomeModalOpen] = useState(false);
 
   const { data: app, isLoading: appLoading } = useQuery<App>({
     queryKey: ["/api/apps", appId],
@@ -18,6 +21,16 @@ export default function AppPage() {
     queryKey: ["/api/categories", app?.categoryId],
     enabled: !!app?.categoryId,
   });
+
+  useEffect(() => {
+    if (app?.name === "Bigin") {
+      // Use a timeout to prevent the modal from flashing on quick navigations
+      const timer = setTimeout(() => {
+        setWelcomeModalOpen(true);
+      }, 500);
+      return () => clearTimeout(timer);
+    }
+  }, [app]);
 
   if (appLoading || categoryLoading) {
     return (
@@ -67,6 +80,7 @@ export default function AppPage() {
 
   return (
     <div className="min-h-screen bg-aura-dark">
+      <WelcomeModal isOpen={isWelcomeModalOpen} onClose={() => setWelcomeModalOpen(false)} />
       {/* App-specific Top Navigation */}
       <nav className="bg-aura-dark-secondary border-b border-aura-gray">
         <div className="flex items-center justify-between h-14 px-4">

@@ -162,7 +162,7 @@ export class MemStorage implements IStorage {
 
     appsData.forEach(app => {
       const id = randomUUID();
-      this.apps.set(id, { ...app, id });
+      this.apps.set(id, { ...app, id } as any);
     });
   }
 
@@ -179,7 +179,7 @@ export class MemStorage implements IStorage {
 
     suitesData.forEach(suite => {
       const id = randomUUID();
-      this.suites.set(id, { ...suite, id });
+      this.suites.set(id, { ...suite, id } as any);
     });
   }
 
