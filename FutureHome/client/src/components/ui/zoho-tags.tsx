@@ -338,7 +338,7 @@ export function ZohoTagGroup({
           );
         })}
         
-        {maxVisible && hiddenCount > 0 && (
+        {!!maxVisible && hiddenCount > 0 && (
           <button
             onClick={() => setShowAll(!showAll)}
             className="inline-flex items-center px-3 py-1.5 text-sm font-medium text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors duration-200"

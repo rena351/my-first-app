@@ -7,8 +7,10 @@ import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
 import Category from "@/pages/category";
 import AllApps from "@/pages/all-apps";
+import CrmLandingPage from "@/pages/crm-landing";
 import App from "@/pages/app";
 import Layout from "@/components/ui/layout";
+import GlobalShell from "./components/GlobalShell";
 
 function Router() {
   return (
@@ -20,6 +22,7 @@ function Router() {
         <Layout>
           <Switch>
             <Route path="/" component={Home} />
+            <Route path="/crm-landing" component={CrmLandingPage} />
             <Route path="/category/:categoryId" component={Category} />
             <Route path="/apps" component={AllApps} />
             <Route component={NotFound} />
@@ -34,8 +37,10 @@ function AppComponent() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <Toaster />
-        <Router />
+        <GlobalShell>
+          <Toaster />
+          <Router />
+        </GlobalShell>
       </TooltipProvider>
     </QueryClientProvider>
   );
