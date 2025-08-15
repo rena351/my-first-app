@@ -160,7 +160,7 @@ import {
   Scale
 } from "lucide-react";
 
-"Directory": {
+"Directory" {
       sections: [
         {
           title: "Dashboard",
@@ -257,4 +257,4 @@ import {
           ]
         }
       ]
-    },
+    }

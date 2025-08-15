@@ -173,7 +173,7 @@ import {
           items: ["All Devices", "iOS Devices", "Android Devices", "Windows Devices", "Device Groups"]
         },
         {
-          title: "Enrollment",
+          title: "Enrollment",npm run dev
           icon: <UserCheck className="w-4 h-4" />,
           items: ["Device Enrollment", "Enrollment Policies", "Enrollment Templates", "Bulk Enrollment"]
         },
