@@ -159,42 +159,43 @@ import {
   Wallet,
   Scale
 } from "lucide-react";
-"ToDo": {
+
+"Tasks": {
       sections: [
         {
-          title: "Tasks",
+          title: "My Tasks",
           icon: <CheckCircle className="w-4 h-4" />,
-          items: ["All Tasks", "My Tasks", "Today's Tasks", "Overdue Tasks", "Completed Tasks", "Recurring Tasks"]
+          items: ["All Tasks", "Today's Tasks", "This Week", "Overdue", "Completed", "Deleted"]
         },
         {
           title: "Projects",
           icon: <FileText className="w-4 h-4" />,
-          items: ["All Projects", "Active Projects", "My Projects", "Shared Projects", "Project Templates", "Archived Projects"]
+          items: ["All Projects", "Active Projects", "My Projects", "Shared Projects", "Templates"]
         },
         {
-          title: "Teams",
-          icon: <Users className="w-4 h-4" />,
-          items: ["Team Tasks", "Team Projects", "Team Members", "Task Assignment", "Team Activity", "Permissions"]
+          title: "Lists",
+          icon: <List className="w-4 h-4" />,
+          items: ["Task Lists", "Create List", "Shared Lists", "List Templates"]
         },
         {
           title: "Calendar",
           icon: <Calendar className="w-4 h-4" />,
-          items: ["Task Calendar", "Due Dates", "Schedule View", "Calendar Integration", "Timeline View"]
+          items: ["Task Calendar", "Timeline View", "Gantt View", "Due Dates"]
+        },
+        {
+          title: "Collaboration",
+          icon: <Users className="w-4 h-4" />,
+          items: ["Shared Tasks", "Team Tasks", "Comments", "Attachments", "Activity Feed"]
         },
         {
           title: "Reports",
           icon: <BarChart3 className="w-4 h-4" />,
-          items: ["Task Reports", "Project Reports", "Team Performance", "Time Tracking", "Productivity Analytics"]
-        },
-        {
-          title: "Labels & Filters",
-          icon: <Tag className="w-4 h-4" />,
-          items: ["Task Labels", "Custom Filters", "Smart Lists", "Saved Searches", "Priority Levels"]
+          items: ["Task Reports", "Progress Reports", "Time Tracking", "Productivity Analytics"]
         },
         {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
-          items: ["Task Preferences", "Notification Settings", "Integration Settings", "Team Settings", "Account Settings"]
+          items: ["General Settings", "Notification Settings", "Integration Settings", "Custom Fields"]
         },
         {
           title: "Small Problem Solvers",
@@ -203,61 +204,61 @@ import {
             "Create to-do lists",
             "Set due dates & reminders",
             "Add sub-tasks",
-            "Prioritize tasks",
-            "\"My Day\" view"
+            "Add notes & attachments",
+            "Prioritize tasks"
           ]
         },
         {
           title: "Big Problem Solvers",
           icon: <Zap className="w-4 h-4" />,
           items: [
-            "Share lists & assign tasks",
+            "Share & assign tasks",
+            "Project-based management",
             "Recurring tasks",
-            "Cross-device sync",
-            "Add notes & attachments",
-            "Calendar integration"
+            "Calendar view",
+            "Task-from-email integration"
           ]
         },
         {
           title: "Top Real-World Problems & Solutions",
           icon: <CheckCircle className="w-4 h-4" />,
           items: [
-            "Forgetting daily tasks",
-            "Losing paper to-do lists",
-            "Breaking down big tasks",
-            "Collaborating on simple lists",
-            "Remembering to do chores",
-            "Focusing on what to do today",
-            "Adding context to a task",
-            "Juggling tasks and events",
-            "Capturing ideas on the go",
-            "Organizing different life areas"
+            "Forgetting what you need to do",
+            "Breaking down overwhelming tasks",
+            "Clarifying task ownership",
+            "Juggling personal and team tasks",
+            "Missing important deadlines",
+            "Remembering to do routine tasks",
+            "Consolidating task information",
+            "Visualizing your weekly workload",
+            "Losing action items from emails",
+            "Tracking project progress"
           ]
         },
         {
           title: "AI-Generated Ideas",
           icon: <Bot className="w-4 h-4" />,
           items: [
-            "AI suggestions for task scheduling",
-            "Natural language task input",
-            "AI-based adaptive reminders",
-            "Smart sub-task suggestions",
-            "AI daily planning assistant",
-            "Automated task prioritization",
-            "AI suggestions for recurring tasks",
-            "Predictive 'at-risk' task alerts",
-            "AI-powered 'focus mode'",
-            "Smart grouping of similar tasks",
-            "AI-driven celebration messages",
-            "Automated task import from email",
-            "AI suggestions for task delegation",
-            "Smart task duration estimation",
-            "AI-powered weekly review",
-            "Automated task creation from photos",
-            "AI suggestions for task labels",
+            "AI-powered task breakdown",
+            "Smart task scheduling",
+            "AI-based task prioritization",
+            "Natural language task creation",
+            "AI task duration estimation",
+            "Automated task assignment",
             "Predictive productivity analysis",
-            "AI suggestions for calendar-related tasks",
-            "Smart 'undo' for completed tasks"
+            "AI-based adaptive reminders",
+            "Smart 'at-risk' task alerts",
+            "AI suggestions for recurring tasks",
+            "Automated 'daily digest' creation",
+            "AI-powered 'focus mode'",
+            "Smart dependency detection",
+            "AI suggestions for task delegation",
+            "Automated project status reports",
+            "AI-powered 'undo' for completion",
+            "Smart task parsing from notes",
+            "AI insights on work-life balance",
+            "Predictive goal completion",
+            "AI-powered celebration messages"
           ]
         }
       ]

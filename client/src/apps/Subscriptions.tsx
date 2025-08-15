@@ -159,107 +159,106 @@ import {
   Wallet,
   Scale
 } from "lucide-react";
-"Checkout": {
+"Subscriptions": {
       sections: [
         {
           title: "Dashboard",
           icon: <Home className="w-4 h-4" />,
-          items: ["Payment Overview", "Transaction Stats", "Revenue Summary", "Recent Payments"]
+          items: ["Revenue Overview", "Subscription Metrics", "Growth Analytics", "Churn Analysis"]
         },
         {
-          title: "Payment Pages",
-          icon: <CreditCard className="w-4 h-4" />,
-          items: ["All Pages", "Published Pages", "Draft Pages", "Page Templates", "Mobile Pages"]
-        },
-        {
-          title: "Transactions",
-          icon: <FileText className="w-4 h-4" />,
-          items: ["All Transactions", "Successful Payments", "Failed Payments", "Refunds", "Chargebacks"]
+          title: "Subscriptions",
+          icon: <RefreshCw className="w-4 h-4" />,
+          items: ["All Subscriptions", "Active Subscriptions", "Paused Subscriptions", "Cancelled Subscriptions"]
         },
         {
           title: "Customers",
           icon: <Users className="w-4 h-4" />,
-          items: ["Customer Database", "Payment Methods", "Customer Communications", "Purchase History"]
+          items: ["All Customers", "Customer Portal", "Customer Communication", "Customer Segmentation"]
         },
         {
-          title: "Products",
+          title: "Plans",
           icon: <Package className="w-4 h-4" />,
-          items: ["Product Catalog", "Pricing", "Inventory Integration", "Digital Products"]
+          items: ["Subscription Plans", "Pricing Tiers", "Add-ons", "Plan Upgrades", "Plan Analytics"]
+        },
+        {
+          title: "Billing",
+          icon: <CreditCard className="w-4 h-4" />,
+          items: ["Invoices", "Payment Methods", "Failed Payments", "Dunning Management", "Tax Settings"]
         },
         {
           title: "Analytics",
           icon: <BarChart3 className="w-4 h-4" />,
-          items: ["Payment Analytics", "Conversion Rates", "Abandonment Analysis", "Revenue Reports"]
+          items: ["Revenue Reports", "Subscription Analytics", "Cohort Analysis", "Lifetime Value"]
         },
         {
           title: "Settings",
           icon: <Settings className="w-4 h-4" />,
-          items: ["Payment Settings", "Gateway Configuration", "Security Settings", "Branding"]
+          items: ["Billing Settings", "Payment Gateways", "Email Templates", "Webhooks"]
         },
         {
           title: "Small Problem Solvers",
           icon: <Zap className="w-4 h-4" />,
           items: [
-            "Customizable payment templates",
-            "One-time & recurring payments",
-            "Collect shipping addresses",
-            "Embeddable payment buttons",
-            "Automatic email receipts"
+            "Subscription Pause/Resume",
+            "Prorated Billing Calculator",
+            "Dunning Email Templates",
+            "One-Click Plan Upgrade",
+            "Trial Expiration Reminders"
           ]
         },
         {
           title: "Big Problem Solvers",
           icon: <Zap className="w-4 h-4" />,
           items: [
-            "Multi-currency support",
-            "Major payment gateway integration",
-            "Handled PCI compliance",
-            "Custom domain for payment pages",
-            "Dunning management"
+            "Usage-Based Billing Engine",
+            "Revenue Recognition Automation",
+            "Advanced Churn Prediction",
+            "Multi-Currency & Tax Automation",
+            "Cohort Analysis Dashboard"
           ]
         },
         {
           title: "Top Real-World Problems & Solutions",
           icon: <CheckCircle className="w-4 h-4" />,
           items: [
-            "Accepting payments without an e-commerce store",
-            "Reducing cart abandonment",
-            "Handling payment security & PCI compliance",
-            "Automating payment receipts",
-            "Setting up subscription billing",
-            "Accepting international payments",
-            "Keeping customers on your site to pay",
-            "Recovering failed subscription payments",
-            "Collecting 'pay what you want' donations",
-            "Tracking sales and payment history"
+            "Automated Dunning Management",
+            "Self-Service Customer Portal",
+            "Automated Prorated Invoicing",
+            "Real-time Subscription Metrics",
+            "Global Tax & Currency Support",
+            "Automated Subscriber Notifications",
+            "Seamless Onboarding Integration",
+            "Flexible Billing Cycles",
+            "PCI-Compliant Security",
+            "Robust API & Integrations"
           ]
         },
         {
           title: "AI-Generated Ideas",
           icon: <Bot className="w-4 h-4" />,
           items: [
-            "AI-powered transaction fraud detection",
-            "Predictive A/B testing for page designs",
-            "AI-driven checkout flow optimization",
-            "Smart dunning management",
-            "AI recommendations for pricing",
-            "Automated payment page generation",
-            "Natural language sales queries",
-            "AI-powered A/B testing for pages",
-            "Cancellation reason sentiment analysis",
-            "Predictive customer churn analysis",
-            "AI-driven currency conversion advice",
-            "Smart alerts for unusual activity",
-            "AI-powered upsell suggestions",
-            "Automated tax calculation suggestions",
-            "AI-based page localization",
-            "Predictive revenue forecasting",
-            "AI-generated LTV insights",
-            "Smart bank deposit matching",
-            "AI-optimized payment retry schedules",
-            "Automated high-value customer identification"
+            "AI-Powered Pricing Optimization",
+            "Predictive Churn Scoring",
+            "Automated Upsell Recommendations",
+            "Intelligent Dunning Customization",
+            "AI-Generated Renewal Forecasts",
+            "Subscription Fatigue Analysis",
+            "Natural Language Analytics Query",
+            "Automated Competitor Price Tracker",
+            "AI-Assisted Plan Configuration",
+            "Personalized Retention Offers",
+            "AI-Powered Churn Prediction",
+            "Automated Dunning Management",
+            "Predictive LTV Analysis",
+            "AI-driven Pricing Optimization",
+            "Smart Subscription Recommendations",
+            "AI-powered Revenue Forecasting",
+            "Automated Failed Payment Recovery",
+            "AI-based Customer Segmentation",
+            "Intelligent Coupon Suggestions",
+            "AI-driven Subscription Analytics"
           ]
         }
       ]
-    }
-  
+    },

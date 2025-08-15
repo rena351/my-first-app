@@ -160,101 +160,106 @@ import {
   Scale
 } from "lucide-react";
 
-"Directory": {
+"MDM": {
       sections: [
         {
           title: "Dashboard",
           icon: <Home className="w-4 h-4" />,
-          items: ["Organization Overview", "User Activity", "Device Status", "Security Summary"]
-        },
-        {
-          title: "Users",
-          icon: <Users className="w-4 h-4" />,
-          items: ["All Users", "User Profiles", "User Groups", "Organizational Units", "User Import"]
+          items: ["Device Overview", "Enrollment Stats", "Compliance Status", "Recent Activities"]
         },
         {
           title: "Devices",
           icon: <Smartphone className="w-4 h-4" />,
-          items: ["All Devices", "Device Groups", "Device Policies", "Device Compliance"]
+          items: ["All Devices", "iOS Devices", "Android Devices", "Windows Devices", "Device Groups"]
+        },
+        {
+          title: "Enrollment",
+          icon: <UserCheck className="w-4 h-4" />,
+          items: ["Device Enrollment", "Enrollment Policies", "Enrollment Templates", "Bulk Enrollment"]
+        },
+        {
+          title: "Policies",
+          icon: <FileText className="w-4 h-4" />,
+          items: ["Device Policies", "App Policies", "Security Policies", "Compliance Policies"]
         },
         {
           title: "Applications",
-          icon: <Grid className="w-4 h-4" />,
-          items: ["App Management", "App Deployment", "App Policies", "App Usage Analytics"]
+          icon: <Package className="w-4 h-4" />,
+          items: ["App Management", "App Distribution", "App Store", "Enterprise Apps"]
         },
         {
           title: "Security",
           icon: <Shield className="w-4 h-4" />,
-          items: ["Access Control", "Security Policies", "Threat Detection", "Compliance Monitoring"]
+          items: ["Device Security", "Remote Actions", "Location Tracking", "Threat Protection"]
         },
         {
           title: "Reports",
           icon: <BarChart3 className="w-4 h-4" />,
-          items: ["User Reports", "Device Reports", "Security Reports", "Compliance Reports"]
+          items: ["Device Reports", "Compliance Reports", "Security Reports", "Usage Reports"]
         },
         {
           title: "Small Problem Solvers",
           icon: <Zap className="w-4 h-4" />,
           items: [
-            "Central user directory",
-            "User password self-service",
-            "Basic user provisioning",
-            "Company app launcher",
-            "Login audit logs"
+            "Device inventory view",
+            "Enforce passcode policy",
+            "Distribute Wi-Fi profiles",
+            "View device info",
+            "Remotely lock a device"
           ]
         },
         {
           title: "Big Problem Solvers",
           icon: <Zap className="w-4 h-4" />,
           items: [
-            "Single Sign-On (SSO)",
-            "Multi-Factor Authentication (MFA)",
-            "Security policy enforcement",
-            "Mobile Device Management (MDM)",
-            "Automated HR integration"
+            "Remote device wipe",
+            "Enterprise app store",
+            "Kiosk mode",
+            "Automated device enrollment",
+            "Compliance rule enforcement"
           ]
         },
         {
           title: "Top Real-World Problems & Solutions",
           icon: <CheckCircle className="w-4 h-4" />,
           items: [
-            "Managing user accounts everywhere",
-            "Solving employee password fatigue",
-            "Automating new hire account setup",
-            "Instantly revoking ex-employee access",
-            "Enforcing strong password policies",
-            "Securing lost or stolen devices",
-            "Granting role-based app access",
-            "Auditing 'who has access to what'",
-            "Simplifying access to work apps",
-            "Syncing users from an HR system"
+            "Securing lost or stolen phones",
+            "Managing 'Bring Your Own Device' (BYOD)",
+            "Setting up new company phones in bulk",
+            "Distributing required apps to devices",
+            "Securing Wi-Fi connections",
+            "Preventing malicious app installs",
+            "Tracking company-owned devices",
+            "Locking down single-purpose devices",
+            "Proving device security compliance",
+            "Retiring a device securely"
           ]
         },
         {
           title: "AI-Generated Ideas",
           icon: <Bot className="w-4 h-4" />,
           items: [
-            "AI-powered risk-based access",
-            "Behavioral analytics for security",
-            "AI user-to-group recommendations",
-            "Smart 'shadow IT' detection",
-            "AI analysis of audit logs",
-            "Predictive user risk scoring",
-            "Automated access review campaigns",
+            "AI-powered malware detection",
+            "Predictive battery health analysis",
             "AI security policy recommendations",
+            "Behavioral analytics for threat detection",
+            "Smart compliance alerts",
+            "AI-powered geofencing suggestions",
+            "Automated app risk classification",
             "Natural language admin search",
-            "AI-powered access request approvals",
-            "Smart dormant account identification",
-            "AI insights for license optimization",
-            "Impossible travel login detection",
-            "AI chatbot for user self-service",
-            "Predictive access needs modeling",
-            "AI 'least privilege' recommendations",
-            "Smart user behavior grouping",
-            "AI phishing simulation integration",
-            "Automated compliance report generation",
-            "AI insights on identity lifecycle"
+            "AI optimization of app updates",
+            "Predictive data usage analysis",
+            "AI-powered device troubleshooting",
+            "Smart device grouping",
+            "AI analysis of app permissions",
+            "Automated enrollment workflow suggestions",
+            "AI-powered 'lost device' mode",
+            "Predictive device failure analysis",
+            "AI recommendations for app blacklists",
+            "Automated executive security reports",
+            "AI chatbot for employee self-service",
+            "Smart SIM card change detection"
           ]
         }
       ]
-    },
+    }
