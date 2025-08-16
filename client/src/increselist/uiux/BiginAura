@@ -1,0 +1,55 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Bigin"
+Global Search Bar: Placeholder: "Search deals, contacts, companies..."
+Quick Create Button (+ Icon):
+New Deal
+New Contact
+New Company
+New Activity
+Notifications Bell Icon: Alerts for new activities or deal updates.
+Settings Gear Icon: Links to the main Bigin settings page.
+User Profile Icon: Profile, Logout.
+2. Aura Bigin Internal Sidebar
+This sidebar is much simpler than the full CRM, focusing only on the core elements.
+Section: Main
+Icon: Home
+Pages:
+Pipelines: The default and most important page. A full-screen Kanban board showing all deals in their stages. Allows for switching between different pipelines (e.g., "Sales Pipeline," "Onboarding Pipeline").
+Contacts: A simple list/table of all people.
+Companies: A simple list/table of all companies.
+Activities: A master list of all Tasks, Events, and Calls, filterable by type.
+Section: Tools
+Icon: Zap
+Pages:
+Products: A list of products or services that can be associated with deals.
+Dashboards: A page with simple, visual charts for "Deals Won vs. Lost," "Sales by Rep," and "Pipeline Stages."
+Messages: A unified view of communications linked to deals (emails, chat history, etc.).
+Section: Administration
+Icon: Settings
+Pages:
+Import Data: A wizard to import contacts or deals from a spreadsheet.
+Workflow Automation: A simple builder to create rules like "When a deal moves to the 'Proposal' stage, automatically create a task to follow up."
+Integrations: A page to connect to other tools like Aura Mail or a telephony system.
+3. Page-Level Toolbars
+On the "Pipelines" Page (The Main Page):
+Title: "Sales Pipeline" (with a dropdown to switch to other pipelines).
+Primary Button: + New Deal
+View Switcher: Kanban View icon (default), List View icon.
+Filters: "Filter by Owner," "Filter by Stage," "Filter by Closing Date."
+On a "Single Deal Detail" View (often a pop-up or side panel):
+Title: The Deal's Name (e.g., "AURA Website Project").
+Key Info: Shows associated Contact, Company, Deal Value, and current Stage.
+Action Buttons: Add Activity, Add Note, Edit Deal.
+Timeline: A chronological feed of all activities related to this deal (emails, calls, stage changes).
+4. Data Entry & Modals
+Creating a New Deal (Quick Modal):
+A simple pop-up form with essential fields: "Deal Name," "Contact Name," "Company Name," "Value," and "Pipeline Stage." Designed for very fast entry.
+Adding an Activity (Modal Pop-up):
+A simple form to add a Task, Event, or Call, directly linked to the current Deal, Contact, or Company.
+5. Bottom Bar
+Minimal or Non-existent: To keep the interface clean and focused, this app would likely have no persistent bottom bar. Information like record counts would be shown in the Page-Level Toolbar.
+6. Task Info & Key Workflows
+The Pipeline Flow: The user's entire life is on the Pipelines page. The main job is to move deal cards from left to right, from "New" to "Won." Every other feature exists to support this one core workflow.
+The "Activity-Driven" Workflow: For each Deal card, the user's job is to ensure there is always a "Next Activity" scheduled. If a deal has no upcoming tasks, it is at risk. The user clicks a deal, clicks Add Activity, and schedules the next follow-up.
+The "Quick-Create" Flow: A user gets a new lead from a phone call. They click the global + button, select New Deal, fill in 4-5 fields, and in 30 seconds, a new deal card appears in the first stage of their pipeline, ready to be worked on.

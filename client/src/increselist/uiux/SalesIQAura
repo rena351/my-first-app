@@ -1,0 +1,63 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura SalesIQ"
+Global Search Bar: Placeholder: "Search visitors, chat history, contacts..."
+Quick Create Button (+ Icon):
+Start Proactive Chat
+Add Contact
+Notifications Bell Icon: Alerts for "New incoming chat," "Visitor returned to site," etc.
+Settings Gear Icon: Links to the main SalesIQ settings page.
+User Profile Icon: Shows agent online/offline status, Profile, Logout.
+2. Aura SalesIQ Internal Sidebar
+Section: Real-Time
+Icon: Globe
+Pages:
+Visitor Ring View: The main, default page. A visual representation of visitors currently on your website, shown in concentric rings based on their engagement level. Clicking a visitor opens their details.
+Visitor List View: A simple list/table of all current website visitors.
+Map View: A world map showing the geographic location of current visitors.
+Section: Engagement
+Icon: MessageCircle
+Pages:
+My Chats: A list of all active chat conversations assigned to me.
+All Chats: A view for managers to see all ongoing chats.
+Chat History: A searchable archive of all past chat conversations.
+Section: Automation
+Icon: Bot
+Pages:
+Chatbots: A list of all your chatbots (e.g., "Welcome Bot," "Lead Qualification Bot").
+Bot Builder (Zobot): A visual, no-code editor to build and customize chatbot conversation flows.
+Answer Bot: A specific bot that automatically answers common questions by searching your knowledge base.
+Section: Intelligence
+Icon: Users
+Pages:
+Leads: A list of all visitors who have been identified as leads.
+Contacts: A list of all known contacts from Aura CRM who are visiting the site.
+Lead Scoring: A page to set up rules to automatically score visitors based on their actions (e.g., "+10 points for visiting the pricing page").
+Section: Reports
+Icon: BarChart3
+Pages:
+Agent Performance: Reports on agent response time, chat ratings, etc.
+Chatbot Performance: Reports on how many chats the bots handled, conversion rates, etc.
+Visitor Analytics: Reports on website traffic sources, popular pages, etc.
+3. Page-Level Toolbars
+On the "Visitor Ring View" (The Main Page):
+Title: "Live Visitors"
+Filters: "Filter by Country," "Filter by Source (e.g., Google, Direct)," "Filter by Lead Score."
+Inside the "Chat Window" (The Operator's View):
+Left Panel: A list of incoming and active chats.
+Center Panel: The main chat conversation with the visitor.
+Right Panel: A detailed "Visitor Info" panel showing their location, pages visited, lead score, and a direct link to their profile in Aura CRM.
+Action Buttons: Transfer Chat, End Chat, Ban Visitor, Send File, Use Canned Response.
+4. Data Entry & Modals
+The Chat Widget (What the Visitor Sees):
+A small chat bubble in the corner of the website.
+Can be configured to pop up automatically with a welcome message (a "proactive trigger").
+Often starts with a "Pre-Chat Form" to ask for the visitor's name and email.
+Canned Responses (Modal Pop-up for the Agent):
+While chatting, the agent can click a button to open a searchable list of pre-written answers to common questions, allowing them to respond very quickly.
+5. Bottom Bar
+Generally non-existent. The main focus is on the real-time activity and chat windows.
+6. Task Info & Key Workflows
+The Engagement Flow: A user (sales/support agent) keeps the "Visitor Ring View" open on their screen. When they see a highly engaged visitor (someone in the inner rings), they can click on them and proactively start a chat by typing a message like, "Hello! I see you are looking at our pricing page. Can I help you with anything?"
+The Chatbot-to-Human Handoff Flow: A new visitor is first greeted by the "Lead Qualification Bot." The bot asks a few questions ("Are you interested in sales or support?"). If the visitor's answers indicate they are a hot lead, the bot automatically transfers the chat to a live human agent, who sees the entire conversation history and can take over seamlessly.
+The CRM Integration Flow: While chatting with a visitor, the agent sees their info on the right. If the visitor is not yet in the CRM, the agent can click a + Add to CRM button. This opens a small form, pre-filled with the visitor's name and email, and with one click, creates a new Lead record in Aura CRM.

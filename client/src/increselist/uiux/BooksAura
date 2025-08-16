@@ -1,0 +1,75 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Books"
+Global Search Bar: Placeholder: "Search by transaction, invoice #, customer, vendor..."
+Quick Create Button (+ Icon):
+New Invoice
+New Expense
+New Bill
+New Customer / Vendor
+Notifications Bell Icon: Alerts for "An invoice is overdue," "Bank feed needs attention," etc.
+Settings Gear Icon: Links to the main accounting settings.
+User Profile Icon: Profile, Logout.
+2. Aura Books Internal Sidebar
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main financial control center. Widgets for "Total Cash Flow," "Income vs. Expense" chart, "Profit & Loss" summary, "Bank Account Balances," and "Overdue Invoices/Bills."
+Section: Sales
+Icon: TrendingUp
+Pages:
+Customers: A list of all your customers.
+Estimates / Quotes: Create and send quotes to potential customers.
+Sales Orders: Track sales orders before they become invoices.
+Invoices: The main hub for creating, sending, and tracking all customer invoices.
+Payments Received: A log of all payments made by customers.
+Recurring Invoices: Set up automatic invoicing for subscription clients.
+Section: Purchases
+Icon: TrendingDown
+Pages:
+Vendors: A list of all your suppliers and vendors.
+Expenses: A log of all money spent, often categorized for tax purposes.
+Bills: Track bills you have received from vendors and their due dates.
+Payments Made: A log of all payments you have made to vendors.
+Purchase Orders: Create and send purchase orders to vendors.
+Section: Core Accounting
+Icon: BookOpen
+Pages:
+Banking: The hub for connecting to your real-world bank accounts. Shows a feed of all transactions that need to be categorized.
+Chart of Accounts: The foundational list of all your accounting categories (Assets, Liabilities, Income, Equity, Expenses).
+Accountant: A special section with tools for professional accountants, including Manual Journals.
+Section: Business Tools
+Icon: Briefcase
+Pages:
+Items: A catalog of all products and services you sell.
+Time Tracking: A section to track time spent on projects, which can then be billed to customers (integrates with Aura Projects).
+Documents: A secure place to upload and store financial documents like receipts and contracts.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: The most critical section. A library of dozens of financial reports, including:
+Profit and Loss
+Balance Sheet
+Cash Flow Statement
+Sales by Customer
+Expenses by Category
+3. Page-Level Toolbars & Main Interface
+On the "Invoices" List Page:
+Title: "Invoices"
+Primary Button: + New Invoice
+Filters: "Filter by Status (Draft, Sent, Paid, Overdue)," "Filter by Customer."
+Visual Summary: Often includes colorful "cards" at the top showing "Total Overdue," "Total Drafts," etc.
+The "Banking / Reconciliation" Screen:
+A two-panel view.
+Left Panel: Shows a list of transactions downloaded from your real bank account.
+Right Panel: Shows transactions you have already recorded in Aura Books.
+The user's job is to "Match" them. The system uses AI to suggest matches. The user clicks "Confirm" to reconcile the account.
+4. Data Entry & Modals
+Creating a New Invoice (Full Page): A professional-looking invoice template that the user fills out. A "Lookup Field" lets them select an existing customer, which auto-fills their address. Another lookup lets them select items from their product list.
+Categorizing a Bank Transaction (Inline): In the Banking feed, each transaction has a dropdown menu next to it, allowing the user to quickly assign it to an accounting category (e.g., "Office Supplies," "Fuel," "Software Subscriptions").
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Quote-to-Cash" Flow: A user creates a new Estimate for a customer. The customer accepts it. The user converts the Estimate into an Invoice with one click. They email the Invoice to the customer. The customer clicks a "Pay Now" link in the email and pays with a credit card. The payment is automatically recorded in Payments Received, and the Invoice status changes to Paid.
+The "Expense Management" Flow: A user takes a photo of a lunch receipt with their phone. The Aura Books mobile app uses OCR (Text Recognition) to automatically read the vendor, date, and amount. It creates a new Expense record. The user just has to select the correct category ("Meals & Entertainment") and save.
+The "End of Month" Flow: An accountant logs in. They go to the Banking tab and reconcile all the transactions for the month. Then, they go to the Reports tab and run the "Profit and Loss" and "Balance Sheet" reports. They export these as PDFs to send to the business owner.

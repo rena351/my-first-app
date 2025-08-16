@@ -1,0 +1,56 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Assist"
+Global Search Bar: Placeholder: "Search by session ID, technician, or device name..."
+Quick Create Button (+ Icon):
+Start Support Session
+Notifications Bell Icon: Alerts for "New unattended device came online," "Software installation complete," etc.
+Settings Gear Icon: Links to the main Assist administration settings.
+User Profile Icon: Profile, Logout.
+2. Aura Assist Internal Sidebar
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main overview. Shows "Active Sessions," a list of "My Unattended Devices," and stats on "Total Sessions Today."
+Section: Support
+Icon: Monitor
+Pages:
+Start Session: The main page for technicians. It displays a large, 9-digit session code to give to a customer over the phone.
+Scheduled Sessions: A list of pre-scheduled remote support sessions.
+Section: Unattended Access
+Icon: Server
+Pages:
+All Devices: The main list of all company-owned computers that can be accessed at any time without the end-user being present. Shows their online/offline status.
+Deployment: A page to get the installer link to deploy the unattended access agent on new computers.
+Device Groups: A page to organize unattended computers into groups (e.g., "Sales Laptops," "Server Room").
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of reports on "Session History," "Technician Performance" (average session duration, etc.), and "Unattended Access Logs."
+Section: Administration
+Icon: Settings
+Pages:
+Technician Management: A page to add or remove support technicians.
+Settings: General settings for branding, security, and session policies.
+3. Page-Level Toolbars & Main Interface (The Technician Console)
+The core of the application is the Technician Console, which is the window that opens when a remote session starts.
+Main View:
+A live, real-time view of the customer's desktop. The technician can move their mouse and type as if they were sitting in front of the computer.
+Toolbar (at the top or side of the console):
+Session Controls: Start/Stop Session, Start/Stop Recording.
+View Controls: Select Monitor (if the customer has multiple screens), Actual Size / Scale to Fit, Color Quality.
+Action Tools:
+File Transfer: Opens a two-panel file explorer to move files between the technician's and the customer's computer.
+Chat: Opens a chat window to communicate with the customer.
+Reboot: A button to restart the customer's computer. Includes a "Reboot in Safe Mode" option.
+Run as Administrator: Tools to run programs with admin rights.
+Diagnostic Tools: Task Manager, System Information.
+4. Data Entry & Modals
+The Customer's Experience: The customer goes to a simple website (e.g., join.aura.com). They enter the 9-digit session code given to them by the technician. A small, secure application downloads and runs. The customer must click "Allow" to grant the technician screen control.
+File Transfer (Modal): The file transfer tool is a modal pop-up that shows the technician's file system on the left and the customer's on the right, with arrow buttons to move files between them.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "On-Demand Support" Flow: A customer calls support with a problem. The support agent in Aura Desk says, "Let me take a look." The agent opens Aura Assist, clicks Start Session, and reads the 9-digit code to the customer. The customer enters the code, downloads the applet, and clicks "Allow." The agent can now see the customer's screen, diagnose the problem, and fix it directly. At the end of the session, a recording is automatically saved and a link to it is added to the ticket in Aura Desk.
+The "Unattended Maintenance" Flow: It is midnight. A system administrator needs to install a critical security patch on all the company's servers. They log into Aura Assist, go to Unattended Access, and select the "Servers" group. They connect to each server, one by one, without needing anyone to be physically present. They run the updates, reboot the servers, and log off. The entire process is logged in the Reports section.
+The "Integration with Desk" Flow: A support ticket comes into Aura Desk. The agent sees it's a complex technical issue. Directly inside the Aura Desk ticket, there is an "Initiate Remote Session" button. The agent clicks it. This automatically opens Aura Assist and generates a session link. The agent pastes this link into the ticket reply. The customer clicks the link, and the remote session starts, already linked to the correct support ticket.

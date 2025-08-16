@@ -1,0 +1,65 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Campaigns"
+Global Search Bar: Placeholder: "Search by campaign name, contact email..."
+Quick Create Button (+ Icon):
+New Email Campaign
+New Contact
+New Segment
+Notifications Bell Icon: Alerts for "Campaign has been sent," "A/B test winner selected," etc.
+Settings Gear Icon: Links to the main Campaigns settings page.
+User Profile Icon: Profile, Logout.
+2. Aura Campaigns Internal Sidebar
+Section: Home
+Icon: Home
+Pages:
+Dashboard: An overview showing key metrics like "Total Contacts," "Recent Campaign Performance" (Open/Click rates), and "List Growth" over time.
+Section: Campaigns
+Icon: Send
+Pages:
+Email Campaigns: A list of all your one-time email campaigns (sent, scheduled, drafts).
+A/B Tests: A dedicated page to manage and view the results of A/B test campaigns.
+Social Campaigns: A tool to create and schedule posts that link to your email campaigns.
+Section: Contacts
+Icon: Users
+Pages:
+Lists: Manage your main contact lists. Create List or Import Contacts from a file or from Aura CRM.
+Segments: Create dynamic, rule-based segments of your lists (e.g., "Contacts who opened the last email but did not click").
+Signup Forms: Design and get the code for forms to embed on your website to grow your lists.
+Section: Automation
+Icon: Zap
+Pages:
+Workflows: The most powerful feature. A visual, drag-and-drop builder to create automated journeys (e.g., "When a user signs up, wait 1 day, then send a welcome email. If they click a link, add a 'Hot Lead' tag...").
+Autoresponders: A simpler tool for creating a pre-set sequence of emails (e.g., a 5-day email course).
+Section: Library
+Icon: BookOpen
+Pages:
+Templates: A gallery of your saved email templates and pre-built templates.
+Image Library: A place to upload and manage all the images you use in your emails.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: Detailed reports on campaign performance, link clicks, contact engagement, and automation workflows.
+3. Page-Level Toolbars & Main Interface (The Campaign Builder)
+The core of this application is the Campaign Builder, a multi-step wizard.
+Step 1: Setup:
+Fields for "Campaign Name," "Subject Line," "Sender Name," and "Sender Email."
+Step 2: Design:
+Options to choose a Template, import HTML, or use a Drag-and-Drop Editor.
+The editor is a visual canvas where you can drag in content blocks (Text, Image, Button, Spacer).
+Step 3: Audience:
+Checkboxes to select which Lists or Segments will receive the campaign.
+Step 4: Send:
+Options to "Send Immediately" or "Schedule for Later" (with a date and time picker).
+A final "Send" button.
+4. Data Entry & Modals
+Creating a Segment (Modal):
+A powerful pop-up for building rules. It uses dropdowns: [Contact Field] [Condition] [Value]. For example: [Tag] [is] [Hot Lead]. You can add multiple AND/OR conditions.
+Viewing a Report (Full Page):
+A visual page with large numbers for Open Rate and Click Rate, a pie chart showing opens vs. unopens, and a clickable map showing where people opened the email.
+5. Bottom Bar
+Non-existent. All focus is on the campaign data and builder.
+6. Task Info & Key Workflows
+The "Newsletter" Flow: A user's most common task. They go through the 4-step Campaign Builder wizard. They design their email, choose their "All Subscribers" list, schedule it to send on Tuesday morning, and then come back on Wednesday to the Reports page to see how many people opened it.
+The "Welcome Series" Flow (Automation): A user wants to automatically welcome new subscribers. They go to Automation -> Workflows. They create a new workflow. The Trigger is "When a contact is added to the list 'New Subscribers'." The first Action is "Wait 1 hour." The second Action is "Send Email 'Welcome Email #1'." They add another "Wait 2 days" and another "Send Email" action to create a whole series. They click "Activate," and now every new subscriber will automatically receive this series of emails without any more work.
+The "CRM Integration" Flow: Inside Aura CRM, a user creates a list of all contacts who have a "Deal" in the "Proposal Sent" stage. They click a button "Sync to Aura Campaigns." This list of hot leads is now available in Aura Campaigns. The user then sends a special, targeted email to just this segment with a final offer to close the deal.

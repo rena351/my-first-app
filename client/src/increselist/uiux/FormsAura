@@ -1,0 +1,56 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Forms"
+Global Search Bar: Placeholder: "Search by form name or field label..."
+Quick Create Button (+ Icon):
+New Form
+Notifications Bell Icon: Alerts for "New form submission," "A form has reached its submission limit," etc.
+Settings Gear Icon: Links to the main Forms settings page.
+User Profile Icon: Profile, Logout.
+2. Aura Forms Internal Sidebar
+Section: Home
+Icon: Home
+Pages:
+Dashboard: An overview showing total forms, total submissions today, and a list of recently updated forms.
+Section: Forms
+Icon: FileText
+Pages:
+All Forms: The main page, showing a grid or list of all created forms. Each form "card" shows its name, number of submissions, and quick links to View, Edit, or Share.
+My Forms: Forms created by me.
+Shared With Me: Forms that other team members have shared with me.
+Templates: A gallery of pre-built form templates (Contact Us, Event Registration, Customer Feedback, etc.).
+Section: Analytics
+Icon: BarChart3
+Pages:
+All Entries: A master, searchable log of every single submission from all forms.
+Reports: A list of all saved reports. Users can create custom reports from form data here.
+3. Page-Level Toolbars & Main Interface (The Form Builder)
+The core of this application is the Form Builder, which is a three-panel interface.
+Left Panel (Add Fields):
+A drag-and-drop library of all available form fields.
+Basic Fields: Single Line Text, Multi-Line Text, Number, Dropdown, Radio Buttons, Checkboxes.
+Advanced Fields: Name, Address, Email, Phone, Date/Time, File Upload, Digital Signature, Payment.
+Layout Fields: Section Break, Page Break.
+Center Panel (The Canvas):
+A live, visual preview of the form as you are building it.
+You drag fields from the left panel and drop them here.
+You can click on any field to open its settings in the right panel.
+Right Panel (Field Settings):
+When you click a field on the canvas, this panel appears.
+Properties: Change the Field Label, Placeholder Text, make it a Required field.
+Validation: Set rules (e.g., "Must be a valid email," "Number must be between 1 and 100").
+Top Tabs within the Builder:
+Builder: The main design canvas.
+Rules: A screen to create conditional logic (e.g., "If the user selects 'USA' in the Country field, then show the 'State' field").
+Themes: A tool to customize the form's appearance (colors, fonts, background image).
+Integrations: A page to connect the form to other AURA apps. This is critical. For example: "When a form is submitted, create a new Lead in Aura CRM." or "When a payment is made, create a new Invoice in Aura Books."
+Share: A page that gives you the public link to the form and the code to embed it on a website.
+4. Data Entry & Modals
+The primary data entry is the form itself (what the end-user sees).
+Viewing an Entry (Modal): On the "All Entries" page, clicking on a submission opens a clean, read-only modal pop-up showing all the data submitted for that specific entry.
+5. Bottom Bar
+Non-existent. The focus is entirely on the builder and the form data.
+6. Task Info & Key Workflows
+The "Create a Contact Form" Flow: The user's most basic job. They click New Form, drag on "Name," "Email," and "Message" fields. They go to the "Share" tab, copy the link, and send it to someone.
+The "Event Registration" Flow (Advanced): The user creates a multi-page form. Page 1 collects personal info. Page 2 asks for session choices. Page 3 is a Payment field to collect the registration fee. They set up an Integration so that when the form is submitted, a new Contact is created in Aura CRM and an Invoice is created in Aura Books.
+The "Analyze Feedback" Flow: The user has a "Customer Satisfaction" form. After 100 people have filled it out, the user goes to the Reports section, creates a new report, and builds a pie chart to visualize the answers to the "How would you rate our service?" question.

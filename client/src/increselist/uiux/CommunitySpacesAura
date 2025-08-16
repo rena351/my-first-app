@@ -1,0 +1,61 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura CommunitySpaces"
+Global Search Bar: Placeholder: "Search for posts, topics, or members..."
+Quick Create Button (+ Icon):
+New Post
+New Event
+Notifications Bell Icon: Alerts for "Someone replied to your post," "You have a new direct message," etc.
+Settings Gear Icon: Links to the main community administration settings.
+User Profile Icon: Links to the user's public community profile, direct messages, and logout.
+2. Aura CommunitySpaces Internal Sidebar
+This sidebar is focused on navigation within the community.
+Section: Home
+Icon: Home
+Pages:
+Home Feed: The main page. A personalized feed showing the latest and most popular posts from all the channels the user follows.
+Section: Content
+Icon: FileText
+Pages:
+Channels: A list of all topic-based discussion channels (e.g., "General Discussion," "Product Feedback," "Feature Requests"). Users can browse and join channels.
+Knowledge Base: A dedicated area with official articles and guides written by the company.
+Events: A calendar of upcoming community events, like webinars or user group meetups.
+Section: People
+Icon: Users
+Pages:
+Member Directory: A searchable list of all community members.
+Leaderboard: A page showcasing the most active and helpful members, based on a gamification system.
+Section: Personal
+Icon: User
+Pages:
+My Profile: The user's public profile page within the community.
+My Posts: A list of all the discussions the user has started.
+Direct Messages: A private inbox for 1-on-1 conversations with other members.
+Section: Admin Tools (Visible only to moderators/admins)
+Icon: Shield
+Pages:
+Moderation Queue: A queue of posts and comments that have been flagged for review.
+Analytics: A dashboard with community health metrics (new members, active users, popular topics).
+Settings: The main administration panel to manage channels, user roles, and gamification rules.
+3. Page-Level Toolbars & Main Interface
+On a "Channel" Page:
+Title: The Channel Name (e.g., "# Product Feedback").
+Primary Button: + New Post
+Filters: "Sort by Latest," "Sort by Most Popular."
+The Post/Discussion View:
+The main content is the original post at the top.
+Below are the threaded replies and comments from other users.
+Each post and comment has action buttons: Reply, Like, and a "More Actions" (...) menu with options like Report or Bookmark.
+4. Data Entry & Modals
+Creating a New Post (Modal or Page):
+A rich text editor for writing the post.
+Fields to add a "Title" and a dropdown to select the Channel.
+Buttons to attach images or files.
+Editing a Profile (Page):
+A dedicated settings page where a user can upload a profile picture, write a bio, and add links to their social media.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Ask a Question" Flow: A user has a question about a product. They go to the Aura Community, find the "# Q&A" Channel, and click New Post. They write their question. A few hours later, another, more experienced user (a "power user") replies with a helpful answer. The original user marks the reply as the "Best Answer," which helps future users with the same question. This workflow reduces the burden on the official support team in Aura Desk.
+The "Feedback" Flow: A product manager wants to get feedback on a new feature idea. They create a new post in the "# Feature Requests" channel explaining the idea and adding a Poll to gauge interest. Community members vote and leave detailed comments with their thoughts. The product manager now has valuable, real-world feedback to guide their development.
+The "Engagement" Flow (Gamification): A user consistently provides helpful answers to questions. The system automatically awards them points for each "Best Answer" they receive. When they reach 1,000 points, they are automatically awarded the "Community Expert" Badge, which appears on their profile, and they move up the Leaderboard. This encourages positive and helpful behavior.

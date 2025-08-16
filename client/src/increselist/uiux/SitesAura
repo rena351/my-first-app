@@ -1,0 +1,57 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Sites"
+Global Search Bar: Placeholder: "Search by site name or page title..."
+Quick Create Button (+ Icon):
+New Site
+Notifications Bell Icon: Alerts for "New blog comment," "New form submission," etc.
+Settings Gear Icon: Links to the main Sites settings page.
+User Profile Icon: Profile, Logout.
+2. Aura Sites Internal Sidebar
+The sidebar is contextual. The main dashboard has a simple sidebar. Once you open a specific site to edit it, a more detailed builder sidebar appears.
+Main Dashboard Sidebar
+Icon: Home
+Pages:
+Dashboard: An overview showing a grid of all your created websites. Each site card shows a small preview, its name, and a link to its live URL.
+All Sites: A list view of all your websites.
+Site Builder Sidebar (Appears after selecting a site)
+Section: Main
+Icon: Layout
+Pages:
+Pages: The most important page. A list of all pages in your website (Home, About Us, Contact). You can Add New Page, Reorder pages (which updates the site's menu), and access Page Settings (like SEO title and description).
+Blog: A dedicated area to manage blog posts. All Posts, New Post, Categories.
+Store: If an e-commerce plan is active, this section appears to manage products and orders (integrating with Aura Commerce).
+Portal: A section to manage members-only pages and member access.
+Section: Design
+Icon: Palette
+Pages:
+Templates: A gallery of pre-built website templates to choose from.
+Global Styles: A page to set the website's overall Fonts, Colors, and Button Styles to ensure a consistent design.
+Section: Administration
+Icon: Settings
+Pages:
+Settings: The main settings for this specific website, including Site Name, Favicon, and connecting to Google Analytics.
+Domains: A page to connect a custom domain name (e.g., www.mycompany.com) to the site.
+SEO Tools: A toolkit for managing global SEO settings, submitting sitemaps, and setting up redirects.
+3. Page-Level Toolbars & Main Interface (The Visual Builder)
+The core of the application is the Visual Page Builder.
+Center Panel (The Canvas):
+A large, live, "what you see is what you get" (WYSIWYG) preview of your webpage.
+You can click directly on any text to edit it, or on any image to replace it.
+Left Panel (Add Elements & Sections):
+Add Elements: A tab with draggable elements like Headline, Text Block, Image, Button, Form, Map.
+Add Sections: A tab with pre-designed, full-width page sections like Hero Banners, Testimonials, Image Galleries, Pricing Tables. The user can click to add an entire beautiful section to their page instantly.
+Top Bar within the Builder:
+Device Switcher: Icons for Desktop, Tablet, and Mobile, allowing the user to preview how their site looks on different screen sizes.
+Undo/Redo Buttons.
+Save Button.
+Publish Button: The final button to make the website live on the internet.
+4. Data Entry & Modals
+Image Library (Modal): Clicking to add or change an image opens a modal pop-up. This shows images the user has already uploaded and often includes a tab to search a library of free stock photos.
+Form Settings (Modal): Clicking on a form element opens a modal to configure it, including where to send email notifications for new submissions (integrates with Aura Forms).
+5. Bottom Bar
+Non-existent. The focus is on the visual builder.
+6. Task Info & Key Workflows
+The "First Website" Flow: A new user clicks New Site. They are first shown the Templates gallery and choose a design they like. The Builder opens, pre-filled with the template content. The user clicks on the text to change it to their company's name and clicks on the images to replace them with their own. They go to the Pages section, create a new "Contact Us" page, and drag a Form and a Map element onto it. Finally, they click the Publish button. Aura Sites gives them a temporary URL (like my-site.aurasites.com), and their new website is live.
+The "Write a Blog Post" Flow: The user goes to the Blog section in the sidebar. They click New Post. This opens a simpler, more focused editor designed for writing articles. They write their post, add images, assign it to a category, and click Publish. The new post automatically appears on their website's main blog page.
+The "Connect a Domain" Flow: After building their site, the user goes to the Domains section. They follow a step-by-step wizard that tells them the exact DNS records they need to add at their domain registrar (like GoDaddy) to point their custom domain to their new Aura Site.

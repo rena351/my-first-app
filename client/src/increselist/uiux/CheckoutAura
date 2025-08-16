@@ -1,0 +1,45 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Checkout"
+Global Search Bar: Placeholder: "Search by page name or transaction ID..."
+Quick Create Button (+ Icon):
+New Payment Page
+Notifications Bell Icon: Alerts for "New payment received," "A payment has failed," etc.
+Settings Gear Icon: Links to the main Checkout settings (gateways, branding).
+User Profile Icon: Profile, Logout.
+2. Aura Checkout Internal Sidebar
+Section: Home
+Icon: Home
+Pages:
+Dashboard: An overview showing "Total Revenue," "Successful Transactions Today," and a list of your most active payment pages.
+Section: Payments
+Icon: CreditCard
+Pages:
+Payment Pages: The main page. A list of all the checkout pages you have created. Each item shows the page name and its public URL.
+Transactions: A complete log of every transaction processed through all your pages, filterable by status (Success, Failed).
+Customers: A list of all customers who have made a payment.
+Section: Management
+Icon: Package
+Pages:
+Products: A simple catalog of the products or services you are selling through your checkout pages.
+Coupons: A page to create and manage discount codes for your checkout pages.
+Section: Administration
+Icon: Settings
+Pages:
+Settings: The main settings page, with tabs for Branding (to add your logo), Payment Gateways (to connect Stripe, PayPal), and Email Notifications.
+3. Page-Level Toolbars & Main Interface (The Page Builder)
+The core of the app is the Payment Page Builder, a simple, single-page interface.
+Left Panel (Page Configuration):
+Pricing: Set the price. Choose "One-Time" or "Recurring" payment.
+Fields: Checkboxes to decide which customer information to collect (e.g., "Collect Shipping Address," "Add a Custom Field").
+Design: Options to change colors, add a logo, and customize the button text.
+Right Panel (Live Preview):
+A live, real-time preview of what the final checkout page will look like to your customers.
+4. Data Entry & Modals
+The primary data entry is the checkout page itself (what the customer sees). It's a clean, single page focused on securely capturing payment information.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Digital Product" Flow: A user has written an ebook. They go to Aura Checkout and click New Payment Page. They set the price to "$19" (one-time). In the settings, they configure an automatic email to be sent after a successful payment, which contains the download link for the ebook. They get a public URL for their new checkout page and put it on their website.
+The "Consulting Retainer" Flow: A consultant agrees to a monthly retainer with a client. They create a new payment page, set the price to "$500," and select the "Recurring" option with a "Monthly" frequency. They send the unique link to their client. The client enters their card details once, and now Aura Checkout will automatically charge them $500 every month, saving the consultant from having to send manual invoices.
+The "Quick Invoice" Flow: A user in Aura Books creates an invoice for a customer. They click a "Generate Payment Link" button. This automatically creates a temporary, pre-filled Aura Checkout page with the exact invoice amount. The user includes this link in the invoice email, giving the customer an instant, easy way to pay online.

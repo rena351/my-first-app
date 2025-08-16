@@ -1,0 +1,61 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Subscriptions"
+Global Search Bar: Placeholder: "Search by customer, subscription ID, or plan name..."
+Quick Create Button (+ Icon):
+New Subscription
+New Customer
+New Plan
+Notifications Bell Icon: Alerts for "New subscription started," "Payment failed," "Subscription is about to renew," etc.
+Settings Gear Icon: Links to the main Subscriptions settings.
+User Profile Icon: Profile, Logout.
+2. Aura Subscriptions Internal Sidebar
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main metrics control center. Widgets for key subscription metrics: MRR (Monthly Recurring Revenue), ARR (Annual Recurring Revenue), Churn Rate, LTV (Customer Lifetime Value), and Active Subscribers. Also shows a feed of recent activities.
+Section: Core Management
+Icon: Package
+Pages:
+Products: The top-level container for your offerings.
+Plans: The main page for creating and managing your subscription plans (e.g., "Basic Plan," "Pro Plan," "Enterprise Plan"). Here you define pricing, billing cycles (monthly/yearly), and included features.
+Add-ons: A list of optional, recurring add-ons that customers can add to their base plan (e.g., "Extra User Seat," "Premium Support").
+Coupons: Create and manage discount codes for your subscription plans.
+Section: Customers & Billing
+Icon: Users
+Pages:
+Customers: A list of all your subscribers.
+Subscriptions: A master list of all individual subscriptions, showing their status (Trialing, Active, Paused, Canceled).
+Invoices: A log of every recurring invoice that has been generated (integrates with Aura Books).
+Transactions: A log of all payment gateway transactions (successful and failed).
+Section: Churn Prevention
+Icon: Shield
+Pages:
+Dunning Management: The automated process for handling failed payments. This page shows you the rules and email templates used to retry charges and notify customers.
+Section: Frontend Tools
+Icon: Globe
+Pages:
+Hosted Pages: A tool to get links to secure, pre-built "checkout" pages and a "customer portal" where subscribers can manage their own subscriptions.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of subscription-specific reports, including "MRR Growth," "Churn by Plan," "Trial Conversion Rate," and "Cohort Analysis."
+3. Page-Level Toolbars & Main Interface
+On the "Plans" Page:
+Title: "Subscription Plans"
+Primary Button: + New Plan
+Plan Cards: Each plan is shown as a card with its name, price, and billing cycle, with quick links to Edit or get its unique Checkout Link.
+On a "Single Customer Detail" Page:
+Shows the customer's contact info and payment methods.
+A large section displays their active subscriptions. Each subscription has action buttons like Change Plan, Pause Subscription, Cancel Subscription, or Add Add-on.
+A timeline view shows the complete history of their subscription, including every renewal, payment, and plan change.
+4. Data Entry & Modals
+Creating a New Plan (Full Page Form): A detailed form with fields for "Plan Name," "Price," "Billing Cycle," a description, and a checklist of features to display on the checkout page.
+Changing a Subscription (Modal): When a user clicks "Change Plan" for a customer, a modal pops up. It shows the customer's current plan and a dropdown to select the new plan. The system automatically calculates any prorated charges for the upgrade and displays them for confirmation.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "New Subscriber" Flow: A potential customer on your website clicks "Subscribe to Pro Plan." They are taken to a secure Hosted Checkout Page powered by Aura Subscriptions. They enter their credit card details. The system processes the payment, creates a new Customer and a new Subscription record, and automatically sends a welcome email. Their MRR on the Dashboard instantly increases.
+The "Automatic Renewal" Flow: On the first day of the month, Aura Subscriptions automatically looks at all subscriptions that are due for renewal. It generates an Invoice for each one and automatically charges the customer's saved payment method. A receipt is automatically emailed to the customer. This happens for thousands of customers with zero manual work.
+The "Failed Payment" Flow (Dunning): A customer's credit card expires. The automatic renewal charge fails. The Dunning Management system automatically kicks in. It sends an email to the customer: "Your payment failed. Please update your payment method." It will then automatically retry the charge every 3 days. If it still fails after 4 attempts, the system will automatically cancel the subscription to prevent revenue loss.
+The "Self-Service Upgrade" Flow: A customer on the "Basic Plan" decides they need more features. They log into the Customer Portal. They see their current subscription and click a button that says "Upgrade Plan." They select the "Pro Plan" from a list. The system shows them the prorated charge for the rest of the month. They confirm, and their plan is instantly upgraded, and they get access to the new features.
