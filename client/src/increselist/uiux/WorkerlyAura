@@ -1,0 +1,59 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Workerly"
+Global Search Bar: Placeholder: "Search by temp name, client, or job ID..."
+Quick Create Button (+ Icon):
+New Job
+New Temp
+New Client
+Notifications Bell Icon: Alerts for "A client has approved a timesheet," "A temp has clocked in," "An urgent job needs to be filled," etc.
+Settings Gear Icon: Links to the main Workerly agency settings.
+User Profile Icon: Profile, Logout.
+2. Aura Workerly Internal Sidebar
+This sidebar is for the staffing agent or manager in the office. Temps in the field will use a simplified mobile app.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main control center. Widgets for "Jobs to be Filled Today," "Available Temps," "Timesheets Awaiting Approval," and a summary of "Sales and Gross Margin."
+Section: Core Operations
+Icon: Briefcase
+Pages:
+Jobs: A list of all job requests from clients, filterable by status (Open, Filled, In Progress, Completed).
+Temps: A master database of all available temporary workers.
+Clients: A list of all client companies and their contact people.
+Scheduler: A visual, calendar-based drag-and-drop board to assign temps to jobs.
+Section: Financials
+Icon: DollarSign
+Pages:
+Timesheets: The hub for managing all submitted timesheets from temps. Divided into tabs for Pending Approval, Approved, and Rejected.
+Invoices: A list of all invoices sent to clients for completed work.
+Payrolls: A section to prepare and export payroll data for the temps.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of reports on "Job Fill Rate," "Client Profitability," "Temp Performance," and "Sales Analytics."
+3. Page-Level Toolbars & Main Interface
+On the "Scheduler" Page:
+A visual calendar or timeline view.
+Unfilled Jobs are listed in a side panel.
+The dispatcher can see the availability of all their Temps.
+The main action is dragging an available temp and dropping them onto an unfilled job to make the assignment.
+The "Temp Profile" Page:
+Shows all details for a single temp, including their contact info, Skills (tags), Availability Calendar, and Work History.
+The Temp's Mobile App:
+A very simple, focused interface.
+Home Screen: Shows "My Upcoming Jobs."
+Job Detail View: Tapping a job shows the client's name, address, job description, and a "Navigate" button.
+Time Tracking: Large, easy-to-tap buttons for Clock-in, Start Break, End Break, and Clock-out. Often uses GPS geofencing to ensure they are at the correct job site.
+Timesheets: A simple view to see their hours for the week and a button to "Submit for Approval."
+4. Data Entry & Modals
+Creating a Job (Modal): A client calls with a request. The agent clicks + New Job. A pop-up form appears with fields for "Client Name," "Job Title," "Required Skills," "Start/End Time," and the "Pay Rate" (for the temp) and "Bill Rate" (for the client).
+AI Feature - Temp Matching: When viewing an open job, there is a "Find Best Match" button. Clicking this uses AI to scan the Temps database and suggests the top 3 available temps who have the right skills and are located closest to the job site.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Urgent Job" Flow: A client calls at 8 AM needing a worker for a 9 AM start. The agent creates a New Job in Aura Workerly. They use the AI Temp Matching feature to instantly find available temps. The system sends an automated SMS blast to the top 5 matches: "Urgent job available at 9 AM. First to accept gets it." A temp accepts via their mobile app. The job is filled, and the client is notified, all within minutes.
+The "Timesheet to Invoice" Flow (Automation): A temp finishes their week and submits their Timesheet through the mobile app. The client receives an email with a link to a simple portal where they can review the hours and click "Approve." As soon as the client approves, two things happen automatically:
+The approved hours are moved to the Payrolls section, ready to be paid to the temp.
+A professional Invoice is automatically generated and sent to the client, billing them for the approved hours at the agreed-upon rate.
+The "Availability" Flow: A temp knows they are unavailable next week. They open their mobile app, go to their Availability Calendar, and mark themselves as unavailable. Now, when the staffing agent is using the Scheduler, that temp will not appear as an option for jobs during that week, preventing scheduling conflicts.

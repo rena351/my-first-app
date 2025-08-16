@@ -1,0 +1,52 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Writer"
+Global Search Bar: Placeholder: "Search by document title or content..."
+Quick Create Button (+ Icon):
+New Document
+Notifications Bell Icon: Alerts for "A new document has been shared with you," "You have a new comment to review," etc.
+Settings Gear Icon: Links to the main Writer settings.
+User Profile Icon: Profile, Logout.
+2. Aura Writer Internal Sidebar
+This sidebar is focused on document management and organization.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main landing page, showing a grid of "Recent Documents," "My Templates," and quick links to create a new document.
+Section: Documents
+Icon: FileText
+Pages:
+All Documents: The main file explorer view, showing all your folders and documents.
+My Documents: Documents you own.
+Shared with Me: Documents other people have shared with you.
+Recent: A quick list of recently opened documents.
+Trash: Deleted documents.
+Section: Library
+Icon: BookOpen
+Pages:
+Templates: A gallery of pre-built templates (Business Letter, Resume, Project Proposal) and your own saved templates.
+3. Page-Level Toolbars & Main Interface (The Document Editor)
+The core of the application is the Document Editor, which is a clean, "what you see is what you get" (WYSIWYG) interface.
+Top Toolbar (The "Ribbon"):
+A familiar, feature-rich toolbar with tabs for different functions.
+Tab: File: Save, Download as (PDF, .docx), Print, Version History.
+Tab: Format: All text formatting options - Font, Size, Bold, Italics, Color, Paragraph Styles (Heading 1, etc.), Lists.
+Tab: Insert: Image (from computer or Aura WorkDrive), Table, Chart, Table of Contents, Hyperlink, Comment.
+Tab: Review: Spell Check, Grammar Check, Track Changes. The Track Changes button toggles a mode where all edits are highlighted.
+Tab: Automation: Mail Merge (to generate personalized documents from a data source), Send for e-Signature (integrates with Aura Sign).
+Right-Side Collaboration Panel:
+A collapsible panel with tabs for:
+Comments: A threaded view of all comments in the document.
+Zia (AI Assistant): An AI-powered panel that provides Readability scores, grammar suggestions, and can Summarize the document.
+Sharing: A panel to manage who has access to the document (View, Comment, or Edit permissions).
+4. Data Entry & Modals
+The Main Canvas: The primary data entry is typing directly into the document.
+Inserting a Table (Modal): Clicking "Insert Table" opens a small grid where the user can visually select the number of rows and columns.
+Sharing a Document (Modal): The "Share" button opens a powerful modal where the user can invite collaborators by email or generate a shareable link with specific permissions.
+5. Bottom Bar
+A thin status bar at the bottom shows the current Page Count, Word Count, and Language. It also has a Zoom slider.
+6. Task Info & Key Workflows
+The "Collaborative Report" Flow: A manager starts a new document for a "Quarterly Report" using a Template. They Share the document with their team, giving them "Comment" access. Team members go through the document and add comments and suggestions. The manager reviews the comments, accepts or rejects the changes, and finalizes the document.
+The "Mail Merge" Flow (Automation): The HR team needs to send personalized offer letters to 100 new candidates. They create one master Template in Aura Writer. They use the Mail Merge feature to connect it to a spreadsheet of candidate data (from Aura Sheet). With one click, Aura Writer generates 100 unique, personalized letters.
+The "Contract" Flow (Integration): A salesperson finalizes a contract in Aura Writer. They use the Send for e-Signature button. This automatically sends the document to Aura Sign. Once the client signs the document, the legally binding, completed PDF is automatically saved back into Aura WorkDrive and attached to the customer's record in Aura CRM.
+The "AI-Powered Writing" Flow: A user has written a long, complex blog post. They open the Zia panel. The AI assistant gives the document a poor Readability score and highlights several sentences that are too long. It suggests simpler phrasing. The user accepts the suggestions, and the document becomes much clearer and easier to read.

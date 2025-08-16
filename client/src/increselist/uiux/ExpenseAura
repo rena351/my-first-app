@@ -1,0 +1,67 @@
+Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Expense"
+Global Search Bar: Placeholder: "Search by report name, employee, or vendor..."
+Quick Create Button (+ Icon):
+New Expense
+New Report
+Notifications Bell Icon: Alerts for "Your expense report has been approved," "A report is awaiting your approval," "An expense violates company policy," etc.
+Settings Gear Icon: Links to the main Expense administration settings.
+User Profile Icon: Profile, Logout.
+2. Aura Expense Internal Sidebar
+This sidebar is role-based, showing different options for Employees versus Approvers/Admins.
+A) Employee Sidebar
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main employee view. Widgets for "Unreported Expenses," "Reports in Draft," "Reports Awaiting Approval," and "Recent Reimbursements."
+Section: Actions
+Icon: Plus
+Pages:
+Add Expense: Opens the quick expense creation form.
+Create Report: Starts a new expense report to group expenses.
+Section: Management
+Icon: Briefcase
+Pages:
+My Expenses: A list of all individual expense entries.
+My Reports: A list of all expense reports, with their status (Draft, Submitted, Approved, Reimbursed).
+My Cards: A view of corporate card transactions that need to be expensed.
+B) Admin/Approver Sidebar (Includes all of the above, plus...)
+Section: Approvals
+Icon: CheckCircle
+Pages:
+Reports for Approval: The primary workspace for managers. A queue of all expense reports waiting for their review.
+Section: Financial Control
+Icon: DollarSign
+Pages:
+Reimbursements: A page for the finance team to process payments for approved reports.
+Corporate Cards: A dashboard to manage the company's corporate card program and reconcile transactions.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of reports on "Spending by Category," "Top Spenders," "Policy Violations," and "Expense by Project."
+Section: Administration
+Icon: Settings
+Pages:
+Policies: The core of the automation. A page to create and manage expense policies (e.g., "Lunch cannot exceed $25," "Flights must be booked in Economy").
+Categories: Manage the list of expense categories.
+Approval Workflows: Create multi-level approval chains.
+3. Page-Level Toolbars & Main Interface
+The Employee's Mobile App Experience: This is the most critical interface.
+A large + button on the home screen.
+Tapping it gives two options: Scan Receipt or Add Expense Manually.
+Scan Receipt opens the phone's camera. The user takes a picture. The app uses AI-powered OCR to automatically read the vendor, date, and amount, creating a new expense in seconds.
+On the "Reports for Approval" Page (Manager's View):
+A list of reports. Each report automatically has a red flag next to any expense that violates a company policy.
+The manager can click on a report to see a clean summary of all expenses. They can approve or reject individual line items or the entire report.
+4. Data Entry & Modals
+Creating a New Expense (Modal): A simple pop-up form with fields for Date, Vendor, Category, Amount, and a drag-and-drop area to attach the receipt.
+Creating a Policy (Wizard): A step-by-step wizard to build a policy rule: IF Category is "Flights" AND Amount is greater than "$500" THEN flag this expense and require additional manager approval.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Business Trip" Flow: An employee goes on a trip. Every time they pay for something, they take a photo of the receipt with the Aura Expense mobile app. At the end of the trip, they open the app, select all their "Unreported Expenses," and click Create Report. The system automatically groups them into a new report, which they can name "Trip to Mumbai" and submit.
+The "Manager Approval" Flow (Automation): The manager receives a notification that a new expense report has been submitted. They open it. The system has automatically flagged one hotel expense because it was slightly over the per-diem policy limit. The manager reviews it, decides it's acceptable, leaves a comment, and clicks Approve.
+The "Accounting" Flow (Integration): Once the manager approves the report, two things happen automatically:
+The report moves to the finance team's Reimbursements queue to be paid out in the next payment cycle.
+The expense data is automatically synced to Aura Books, where it is correctly categorized and recorded in the company's financial statements, with a digital copy of the receipt attached.

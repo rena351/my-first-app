@@ -1,0 +1,50 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Shows a curated list of the apps in the Projects Plus suite.
+Current App Name: "Aura Projects Plus"
+Global Search Bar: A "super-search" that can find any project, task, bug, or milestone across ALL connected project apps.
+Quick Create Button (+ Icon): A unified dropdown with the most common actions: New Project, New Task, New Bug Report.
+Notifications Bell Icon: An aggregated feed of project-related alerts: "A milestone is at risk," "A critical bug has been reported," "You have been assigned a new task."
+Settings Gear Icon: Links to the main settings page for the entire suite, managing project templates, user roles, and integrations.
+User Profile Icon: Profile, Logout.
+2. Aura Projects Plus Sidebar (The "Suite" Sidebar)
+This is a simple, high-level sidebar focused on different views of the project portfolio.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main suite dashboard. This is the core of the experience for a project manager or executive.
+Section: Portfolio
+Icon: Folder
+Pages:
+All Projects: A high-level list of every single project in the organization, showing its health (On Track, At Risk, Off Track), completion percentage, and owner.
+Portfolio Gantt: A master Gantt chart that shows the timelines of all major projects in a single, visual view.
+Resource Management: A dashboard showing the workload of all employees across all projects to identify who is over-allocated or under-utilized.
+Section: My Work
+Icon: User
+Pages:
+My Tasks: A unified list of all tasks assigned to me from Aura Projects, Aura Sprints, and Aura BugTracker, all in one place.
+My Timesheets: A single place to view and submit all my timesheets.
+Section: Applications
+Icon: Grid
+Pages:
+Applications: A simple page with large, clickable icons to launch the individual, full-featured applications (Aura Projects, Aura Sprints, Aura BugTracker).
+3. Page-Level Toolbars & Main Interface (The Main Dashboard)
+The main interface is a highly customizable, widget-based dashboard for a Program Manager or Executive.
+Default Widgets:
+Project Health Summary: A pie chart showing the percentage of projects that are On Track, At Risk, or Off Track.
+Upcoming Milestones: A list of the next 5 major milestones due across all projects.
+My Overdue Tasks: A personal to-do list of my late tasks from all projects.
+Critical Bugs: A list of all open, high-severity bugs from Aura BugTracker.
+Team Velocity: A chart showing the velocity trend for the main agile team from Aura Sprints.
+Budget vs. Actuals: A summary chart pulling financial data from linked projects in Aura Books.
+4. Data Entry & Modals
+This application is primarily for viewing and analyzing combined data. Most data entry happens within the individual applications.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Executive's Weekly Review" Flow: A CTO starts their week by opening the Aura Projects Plus Dashboard. They can instantly see the health of all 20 active projects. They notice one project is "Off Track." They click on it and are taken directly to that project's detailed dashboard within the full Aura Projects app to investigate the cause.
+The "Developer's Daily Standup" Flow: A developer starts their day. Instead of opening three different apps, they go to the My Tasks page in Projects Plus. This single page shows them:
+The two user stories assigned to them in the current sprint from Aura Sprints.
+The one critical bug they need to fix from Aura BugTracker.
+A general project task assigned to them from Aura Projects.
+They have a single, prioritized to-do list for their entire day.
+The "Resource Planning" Flow: A manager is planning a new project but doesn't know if their team has the capacity to work on it. They go to the Resource Management dashboard in Projects Plus. They see a visual chart of every person on their team and how many hours they are allocated to for the next three months. They see that their lead developer is 120% allocated, while a junior developer is only 50% allocated. They can now make an informed decision about project timelines and staffing.

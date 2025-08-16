@@ -1,0 +1,57 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Analytics"
+Global Search Bar: A powerful search that can find workspaces, dashboards, or reports. Placeholder: "Search analytics..."
+Quick Create Button (+ Icon):
+New Report
+New Dashboard
+Import Data
+Notifications Bell Icon: Alerts for "Your scheduled report is ready," "A dashboard has been shared with you," "Zia has found a new insight," etc.
+Settings Gear Icon: Links to the main Analytics administration settings.
+User Profile Icon: Profile, Logout.
+2. Aura Analytics Internal Sidebar
+This sidebar is focused on navigating your data workspaces and assets.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main landing page. A personalized view showing "My Favorite Dashboards," "Recently Viewed Reports," and a feed of "Zia Insights" (AI-generated observations).
+Section: Explorer
+Icon: Folder
+Pages:
+Workspaces: The primary organizational unit. A "Workspace" is a container for a specific project or department's data and reports (e.g., "Sales Analytics," "Marketing Funnel Analysis"). This page shows a list of all workspaces.
+Shared with Me: A list of all reports and dashboards shared with you by others.
+Section: Data
+Icon: Database
+Pages:
+Data Sources: A central place to manage connections to all your data sources. This includes direct connections to other AURA apps (Aura CRM, Aura Books), databases, and uploaded files.
+Section: AI Assistant
+Icon: Bot
+Pages:
+Ask Zia: The core AI feature. A chat-like interface where a user can type a question in plain English (e.g., "Show me the total sales by country for the last quarter as a bar chart"), and the AI will automatically generate the report.
+3. Page-Level Toolbars & Main Interface (The Report/Dashboard Builder)
+The core of the app is the visual, drag-and-drop builder for creating reports and dashboards.
+When inside a Workspace, the sidebar changes to show the contents of that workspace:
+Dashboards: A list of all dashboards in this workspace.
+Reports: A list of all reports.
+Data: A list of all data tables available for building reports.
+The Report Builder:
+Left Panel (Data): A list of all the tables and columns (fields) available.
+Center Panel (The Canvas): A live preview of the chart or table you are building.
+Right Panel (Configuration): A set of shelves or boxes. The user drags a field from the left panel and drops it onto a shelf in the right panel. For example:
+X-Axis Shelf: Drop "Month" here.
+Y-Axis Shelf: Drop "Sales Amount" here.
+Color Shelf: Drop "Region" here.
+The chart on the canvas instantly updates to a bar chart showing sales by month, with a different colored bar for each region.
+The Dashboard Builder:
+A drag-and-drop canvas.
+The Left Panel shows a list of all the reports you have already built. You drag these reports onto the canvas and resize them to create your dashboard layout.
+Toolbar: Buttons to Add Text, Add Image, and Add Filters that apply to the whole dashboard.
+4. Data Entry & Modals
+Importing Data (Wizard): A multi-step wizard that guides the user through connecting to a new data source, whether it's uploading a CSV file or entering database credentials.
+Formula Editor (Modal): A powerful pop-up for creating custom calculated fields and metrics using a familiar, spreadsheet-like formula language.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Sales Dashboard" Flow: A sales manager wants a new dashboard. They go to the "Sales Analytics" Workspace. First, they use the Report Builder to create several individual reports: a "Sales by Rep" bar chart, a "Deals Pipeline" funnel chart, and a "Sales by Region" map. Once the reports are saved, they go to the Dashboard Builder. They drag these three reports onto the canvas, add a "Date Range" Filter at the top, and add a Text widget with the title "Q3 Sales Performance." They then Share this interactive dashboard with their entire team.
+The "Quick Question" Flow (AI): An executive is in a meeting and needs a number fast. They open Aura Analytics on their phone and go to Ask Zia. They type, "What was our total revenue from India last month?" The AI processes the request, searches the connected Aura Books data, and instantly displays a single, large number: "$50,000."
+The "Automated Reporting" Flow: A user needs to send a "Weekly Leads" report to their team every Monday morning. They create the report once in the Report Builder. They then use the Schedule Emails feature. They set the schedule to "Weekly, on Monday at 9:00 AM," select the recipients from a list, and save. Now, every Monday, Aura Analytics will automatically run the report with the latest data and email a PDF copy to the team without the user having to do anything.

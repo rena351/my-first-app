@@ -1,0 +1,55 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura eProtect"
+Global Search Bar: This is a powerful eDiscovery search. Placeholder: "Search all archived mail by keyword, date, or user..."
+Quick Create Button (+ Icon): Not typically present. Actions are policy-based.
+Notifications Bell Icon: Alerts for "A critical threat was blocked," "A DLP policy was triggered," "A new legal hold has been placed," etc.
+Settings Gear Icon: Links to the main eProtect administration settings.
+User Profile Icon: Profile, Logout.
+2. Aura eProtect Internal Sidebar
+This sidebar is for the IT administrator or compliance officer. Regular users do not interact with this app directly.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main security overview. Widgets for "Threats Detected Today," "Mail Flow Status," "Top Blocked Senders," and a summary of "Archived Data Size."
+Section: Threat Protection
+Icon: Shield
+Pages:
+Quarantine: A secure area to review emails that have been automatically blocked. Filterable by reason (Spam, Malware, Phishing). Admins can Release, Delete, or Allowlist messages.
+Policies: A page to create and manage security rules.
+Sub-pages: Anti-Spam, Anti-Phishing (with URL scanning), Anti-Malware (with attachment scanning).
+Allow/Block Lists: Manage lists of trusted and blocked senders and domains.
+Section: Data Protection
+Icon: Lock
+Pages:
+Data Loss Prevention (DLP): A critical feature. Create rules to prevent sensitive data from leaving the company. (e.g., "Block any outbound email that contains a credit card number").
+Content Filtering: Create rules to block emails based on keywords or attachments.
+Encryption: Set up policies to automatically encrypt outbound emails.
+Section: Archive & Compliance
+Icon: Archive
+Pages:
+Search (eDiscovery): The powerful, full-text search interface for the entire email archive.
+Retention Policies: Define how long emails must be kept (e.g., "Retain all emails for 7 years").
+Legal Hold: A tool to place a "hold" on a specific user's mailbox, preventing any emails from being deleted, for legal purposes.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of reports on "Threat Trends," "Mail Flow Volume," "DLP Incidents," and "Archive Growth."
+3. Page-Level Toolbars & Main Interface
+On the "Quarantine" Page:
+A list of blocked emails. Each row shows the sender, recipient, subject, and reason for quarantine.
+Action buttons on each row: Release to Inbox, Delete, View Content.
+The "DLP Policy Builder" (Wizard):
+A multi-step wizard to create a new data loss prevention rule.
+Step 1: Define Conditions (e.g., "If sender is an internal user AND recipient is external").
+Step 2: Define Content Match (e.g., "If email body contains 'Confidential' OR contains a pattern matching a 'Credit Card Number'").
+Step 3: Define Action (e.g., Block the email, Encrypt the email, or Redirect to a manager for approval).
+4. Data Entry & Modals
+eDiscovery Search: A search interface with advanced fields for Date Range, From, To, Subject, Body Contains, and Has Attachment.
+Placing a Legal Hold (Modal): A simple pop-up where a compliance officer can search for an employee and enter a "Case Name" or reason for the hold.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Phishing Attack" Flow (Automated): A phishing email is sent to 100 employees. Aura eProtect's gateway scans the incoming email. Its Anti-Phishing engine recognizes the malicious link. The system automatically blocks all 100 emails and places them in the Quarantine. The IT admin receives a single alert about the blocked attack. No employees are ever put at risk.
+The "Data Leak Prevention" Flow (Automated): An employee accidentally tries to email a spreadsheet containing a list of customer credit card numbers to their personal Gmail account. The DLP policy engine scans the outbound email and its attachment. It detects the credit card number pattern. It automatically blocks the email from being sent and sends a notification to both the employee ("This email was blocked due to a DLP policy violation") and the security manager.
+The "Legal Discovery" Flow: The company is involved in a legal case. The legal team needs to find all emails sent by a specific employee about "Project Phoenix" in the last year. The compliance officer goes to Aura eProtect, opens the Search (eDiscovery) page, and enters the search criteria. The system searches the entire, unchangeable archive and produces a list of all relevant emails, which can then be exported and provided to the legal team.

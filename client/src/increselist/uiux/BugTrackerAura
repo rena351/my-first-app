@@ -1,0 +1,61 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura BugTracker"
+Global Search Bar: A powerful search that can find bugs by ID, title, or content. Placeholder: "Search all bugs..."
+Quick Create Button (+ Icon):
+Report a New Bug
+Notifications Bell Icon: Alerts for "A new bug has been assigned to you," "A bug you reported has been fixed," "A comment was added to a bug," etc.
+Settings Gear Icon: Links to the main BugTracker project settings.
+User Profile Icon: Profile, Logout.
+2. Aura BugTracker Internal Sidebar
+This sidebar is focused on different views of the bug database.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main overview. Widgets for "My Open Bugs," "Unassigned Bugs," "Bugs by Severity," and "Recent Activity."
+Section: Projects
+Icon: Folder
+Pages:
+All Projects: A list of all the different software projects you are tracking bugs for (e.g., "AURA Web App," "AURA Mobile App").
+Section: Bug Views (Contextual to the selected project)
+Icon: AlertCircle
+Pages:
+All Bugs: The master list of all bugs for the current project.
+My Bugs: A filtered list of bugs assigned to me.
+Unassigned: The triage queue for new, unassigned bugs.
+Kanban Board: A visual workflow board with columns like "New," "In Progress," "Ready for QA," "Closed."
+Custom Views: A user-created list of saved filters (e.g., "Critical Bugs in Login Module," "Bugs Reported by VIP Customers").
+Section: Planning
+Icon: Target
+Pages:
+Milestones / Releases: A page to group bugs and plan which release they will be fixed in.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of reports on "Bug Resolution Time," "Bugs by Component," "Bug Recurrence Rate," and "Team Performance."
+3. Page-Level Toolbars & Main Interface (The Bug Detail View)
+The most important interface is the Bug Detail View, which is a comprehensive page for a single bug.
+Header:
+Shows the unique Bug ID (e.g., AURA-123), the bug Title, and its current Status.
+Left Panel (The Main Content):
+Description: The original report of the bug, including "Steps to Reproduce," "Expected Behavior," and "Actual Behavior."
+Attachments: Screenshots and video recordings of the bug.
+Comments: A chronological thread of all discussions, updates, and analysis from the team.
+Right Panel (Properties & Metadata):
+A panel with key details that can be updated.
+Dropdowns: Status (New, Confirmed, In Progress, Resolved, Closed), Priority (High, Medium, Low), Severity (Critical, Major, Minor).
+Fields: Assignee (the developer working on it), Reporter, Component (e.g., "Login," "Sidebar"), Labels / Tags.
+Integrations: A special section that shows linked information from other apps.
+Linked Support Tickets (from Aura Desk)
+Linked Code Branch / Pull Request (from GitHub)
+Related User Story (from Aura Sprints)
+4. Data Entry & Modals
+Reporting a New Bug (Full Page Form): A structured form designed to capture all the necessary information. It uses a rich text editor for the description and has a drag-and-drop area for attaching screenshots.
+The Triage Process (Inline Editing): A manager looks at the Unassigned queue. They read a new bug report. Directly from the list view or the detail view's right panel, they set the Priority and Severity, and assign it to a Developer.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Support to Dev" Flow (Integration): A support agent in Aura Desk confirms that a customer's problem is a real software bug. Directly from the support ticket, they click a "Create Bug" button. This automatically opens Aura BugTracker, creates a new bug report, pre-fills it with the customer's description, and automatically links the bug back to the support ticket.
+The "Developer" Flow: A developer starts their day by looking at their My Bugs list. They pick a high-priority bug. They open its detail view and click a "Create Branch" button. This automatically creates a new code branch in Git named bugfix/AURA-123. The developer writes the code to fix the bug.
+The "QA" Flow: After the developer pushes their fix and merges the code, an automation rule (or the developer manually) moves the bug's Status to "Ready for QA." The bug now appears in the Quality Assurance team's queue. A QA tester follows the "Steps to Reproduce" and confirms that the bug is gone. They then move the bug's Status to "Closed."
+The "Customer Notification" Flow (Automation): The bug's status is changed to "Closed." Because the bug was linked to a support ticket in Aura Desk, the system automatically sends a notification back to Aura Desk. The support agent is alerted, and they can now reply to the customer: "Good news! The bug you reported has been fixed in our latest release."

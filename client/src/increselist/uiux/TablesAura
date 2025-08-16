@@ -1,0 +1,53 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Tables"
+Global Search Bar: Placeholder: "Search across all your bases and tables..."
+Quick Create Button (+ Icon):
+New Base
+Notifications Bell Icon: Alerts for "@mentions in a record," "An automation has run," etc.
+Settings Gear Icon: Links to the main Tables settings.
+User Profile Icon: Profile, Logout.
+2. Aura Tables Internal Sidebar
+This sidebar is focused on navigating your different databases ("Bases") and workspaces.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main landing page. A grid of all your "Bases," color-coded and with icons. Shows recently accessed bases.
+Section: Workspaces
+Icon: Users
+Pages:
+This is a collapsible list of all the Workspaces you are a part of (e.g., "Marketing Team," "Personal Projects"). Clicking a workspace reveals the Bases inside it.
+Section: Library
+Icon: BookOpen
+Pages:
+Templates: A gallery of pre-built base templates for common use cases (Project Tracker, Simple CRM, Content Calendar, etc.).
+Marketplace: A place to find and install community-built extensions and apps.
+3. Page-Level Toolbars & Main Interface (The Base)
+The core of the application is the Base, which is a single database that can contain multiple tables. The interface is highly interactive.
+Top Bar within a Base:
+Table Tabs: Tabs at the top to switch between the different tables within the base (e.g., "Tasks," "Projects," "Team Members").
+View Tabs: Next to the table tabs, another set of tabs to switch between different Views of the current table's data.
+The Main View (The Data Grid):
+The default view is a powerful spreadsheet-like grid.
+Columns are "Fields" with specific data types (Single line text, Date, Attachment, Checkbox, Single select, Link to another record).
+Rows are individual "Records."
+Toolbar above the Grid:
+View Name: Shows the name of the current view.
+View Controls: Buttons to Hide fields, Filter, Group, and Sort the records.
+Collaboration: Icons showing the profile pictures of other team members currently viewing the base.
+Automations: A button to open the automation panel.
+Interfaces: A button to switch to the custom dashboard view.
+4. Data Entry & Modals
+Data Entry: Users can type directly into the grid cells, just like a spreadsheet.
+Expanding a Record (Modal): Clicking on a row opens a modal pop-up that shows all the fields for that single record in a clean, vertical form. This is where users can see long text fields, view attachments, and have conversations in a "Comments" section.
+The View Switcher: This is a key feature. A user can create a new View of their data without changing the underlying table. Common views include:
+Form View: Instantly creates a shareable web form to collect new records.
+Kanban View: Visualizes records as cards in a pipeline, grouped by a "Single select" field (like "Status").
+Calendar View: Plots records on a calendar based on a "Date" field.
+Gallery View: Displays records as large visual cards, perfect for image-heavy tables.
+5. Bottom Bar
+A thin status bar showing the number of records in the current view and summary calculations (like Sum or Average) for number fields.
+6. Task Info & Key Workflows
+The "Project Tracker" Flow: A user starts with the "Project Tracker" Template. This creates a Base with two linked tables: "Projects" and "Tasks." In the "Tasks" table, they create a Link to another record field that connects each task to a project. They create a Kanban View for their Tasks table, grouped by the "Status" field (To Do, In Progress, Done). As the team works, they drag task cards across the board.
+The "Content Calendar" Flow: A marketing team creates a Base to manage their blog. They have a table with fields for "Article Title," "Author," "Status" (Draft, In Review, Published), and "Publish Date." They create a Calendar View based on the "Publish Date" field. This gives them a visual overview of their entire content schedule for the month. When an article is ready for review, they change its Status to "In Review."
+The "Automation" Flow: In their Content Calendar, the team creates an Automation. The Trigger is "When a record's Status is updated to 'Published'." The Action is to "Send a message in the #marketing channel in Aura Cliq." Now, every time a new article goes live, the entire team is automatically notified.

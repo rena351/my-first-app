@@ -1,0 +1,61 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura WorkDrive"
+Global Search Bar: A very powerful search bar that can search not only by filename but also inside the content of documents and spreadsheets (using OCR for images/PDFs). Placeholder: "Search all files and folders..."
+Quick Create Button (+ Icon):
+New Document (opens Aura Writer)
+New Spreadsheet (opens Aura Sheet)
+New Presentation (opens Aura Show)
+New Folder
+Upload File / Folder
+Notifications Bell Icon: Alerts for "A new file has been shared with you," "You have a new comment on 'Project Plan.docx'," etc.
+Settings Gear Icon: Links to the main WorkDrive administration settings.
+User Profile Icon: Shows storage usage, Profile, Logout.
+2. Aura WorkDrive Internal Sidebar
+This sidebar is focused on navigating different file collections and access levels.
+Section: My Space
+Icon: Folder
+Pages:
+My Folders: The default view. The root folder for all of your personal work files and private folders.
+Recent: A quick-access list of the last 20 files you have viewed or edited.
+Starred: A filtered list of all files and folders you have marked as a favorite.
+Shared with Me: A list of all individual files and folders that other people have shared directly with you.
+Section: Team Collaboration
+Icon: Users
+Pages:
+Team Folders: The most important feature. A list of shared, centralized folders for different departments or projects (e.g., "Marketing Team," "Project Alpha"). Everyone on the team has access.
+Shared by Me: A log of all the files and folders you have shared with others.
+Section: Administration
+Icon: Shield
+Pages:
+Public Links: A central place to manage and revoke all publicly shared links.
+Trash: A repository for all deleted files, with the option to restore them.
+Labels: A page to create and manage custom labels (e.g., "Confidential," "Final Version") that can be applied to files.
+Section: Desktop Sync
+Icon: RefreshCw
+Pages:
+Desktop App: A page with a download link for the desktop sync client and a status view of your synced files.
+3. Page-Level Toolbars & Main Interface (The File Explorer)
+The main interface is a clean, powerful file explorer.
+Main View: A list or grid of all files and folders in the currently selected location. Each item shows its name, owner, last modified date, and size.
+Toolbar at the top of the list:
+Primary Buttons: + New (same as the global quick create), Upload.
+View Switcher: Icons to toggle between List View and Grid View (with thumbnails).
+Sort Controls: A dropdown to sort the list by Name, Last Modified, etc.
+When a file or folder is selected:
+A Contextual Right Panel appears.
+For a Folder: It shows details about the folder and a list of all team members who have access.
+For a File: It shows a large Preview of the document, a list of its Versions, and an Activity feed showing who has viewed or edited it.
+Action Buttons in the Right Panel: Share, Download, Rename, Move, Add Label, View in Aura Writer/Sheet/Show.
+4. Data Entry & Modals
+The "Share" Modal (Very Important):
+When a user clicks "Share," a powerful modal pops up.
+Internal Sharing: They can type the names of team members and choose their permission level from a dropdown: View, Comment, or Edit.
+External Sharing: A tab to create a public link. It has security options like Set a password, Set an expiration date, and Disable download.
+Uploading Files: A large, friendly drag-and-drop area appears when you are in a folder and click the Upload button.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "New Project" Flow: A manager starts a new project. They go to Team Folders and create a new folder called "Project Phoenix." They click on the folder, and in the right panel, they add the 5 team members who will be working on it, giving them all "Edit" access. Now, the entire team has a single, centralized place to store all their project files.
+The "Collaborative Document" Flow: A user opens the "Project Phoenix" folder and clicks + New -> Document. Aura Writer opens in a new tab, and the new document is automatically saved inside this shared folder. The user starts writing the project plan. They @mention a colleague in a comment. That colleague gets a notification in Aura Cliq with a direct link to the document. The colleague clicks the link, opens the document, and they can both edit it at the same time, seeing each other's cursors.
+The "Secure Sharing" Flow: A user finishes a proposal document. They need to send it to an external client for review, but they don't want the client to be able to edit or download it. They click Share on the document. In the modal, they go to the "External Link" tab. They set the permission to View Only, set an Expiration Date for 7 days, and Set a password. They then copy this secure link and send it to the client.

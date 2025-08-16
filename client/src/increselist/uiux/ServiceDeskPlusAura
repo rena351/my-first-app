@@ -1,0 +1,62 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura ServiceDesk Plus"
+Global Search Bar: A powerful search for tickets, assets, users, or solutions. Placeholder: "Search IT..."
+Quick Create Button (+ Icon) (Technician view):
+New Incident
+New Service Request
+Notifications Bell Icon: Alerts for "New high-priority ticket assigned," "A server is down," "A change is pending approval," etc.
+Settings Gear Icon: Links to the main ServiceDesk administration.
+User Profile Icon: Shows technician's online/offline status, Profile, Logout.
+2. Aura ServiceDesk Plus Internal Sidebar
+This sidebar is organized according to the ITIL (Information Technology Infrastructure Library) framework.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main control center for IT technicians. Customizable widgets for "My Open Tickets," "Overdue Tickets," "SLA Violations," and "Recent Announcements."
+Section: Service Desk
+Icon: Headphones
+Pages:
+Requests: The core of the helpdesk. A unified list of all incoming support requests, which are automatically categorized as either Incidents (something is broken) or Service Requests (user needs something new).
+Problems: A page to manage the underlying root cause of recurring incidents.
+Changes: A formal system to plan and manage major changes to IT infrastructure (e.g., "Upgrade the email server").
+Service Catalog: A "menu" of all the IT services that employees can request (e.g., "Request a New Laptop," "Request Software Installation").
+Section: Asset Management
+Icon: Laptop
+Pages:
+All Assets: A complete inventory (CMDB - Configuration Management Database) of all IT assets, including workstations, servers, printers, and software.
+Asset Discovery: A tool to automatically scan the network and discover all connected hardware and software.
+Software Asset Management: A dedicated section to manage software licenses and ensure compliance.
+Section: Knowledge
+Icon: BookOpen
+Pages:
+Solutions: A knowledge base of articles and solutions for common IT problems.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of ITSM reports like "First Call Resolution Rate," "Technician Performance," and "Asset Inventory Reports."
+Section: Administration
+Icon: Settings
+Pages:
+Admin: The main settings panel to configure Business Rules, SLAs, Automation, Users, and Helpdesk Settings.
+3. Page-Level Toolbars & Main Interface
+The "Request List" View:
+A powerful table view of all tickets, with advanced filtering and sorting.
+Color-coding is used to indicate priority and SLA status.
+The "Request Detail" View:
+A comprehensive, tabbed view of a single ticket.
+Tabs: Details, Resolution, Tasks, Time Log, Approvals, History.
+Right Panel: Shows details about the Requester and the Asset associated with the ticket.
+Action Toolbar: Buttons to Assign, Reply, Add Note, Merge Request, and Resolve.
+4. Data Entry & Modals
+The Self-Service Portal (Employee's View): A simple web portal where employees can Submit a New Ticket, browse the Knowledge Base to solve their own problems, or choose an item from the Service Catalog.
+Creating a Change (Wizard): A formal, multi-step wizard to create a "Change Request." It requires the user to detail the Reason, Impact, Rollout Plan, and Backout Plan. The change cannot be implemented until it is approved by the CAB (Change Advisory Board).
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Broken Laptop" Flow (Incident Management): An employee's laptop breaks. They go to the self-service portal and submit a New Incident. The ticket is automatically assigned to the "Hardware Support" team. A technician picks up the ticket, sees the employee's assigned laptop in the Asset details, and finds a solution in the Knowledge Base. They reply to the user with instructions.
+The "New Employee" Flow (Service Request Management): An HR manager goes to the Service Catalog and clicks "Onboard New Employee." This is a single service request that automatically creates and assigns a series of linked tasks to different teams:
+A task for IT to "Prepare a Laptop."
+A task for Facilities to "Set up a Desk."
+A task for HR to "Conduct Orientation."
+The "Recurring Server Patch" Flow (Change Management): The IT team needs to apply security patches to a server every month. They create a new Change request. They detail the plan and schedule it for the weekend. The change is automatically sent to the CAB for approval. Once approved, the change is added to the IT calendar, ensuring the work is done in a planned and controlled manner, minimizing risk.
