@@ -8,12 +8,14 @@ import Home from "@/pages/home";
 import Category from "@/pages/category";
 import AllApps from "@/pages/all-apps";
 import App from "@/pages/app";
+import NewApp from "@/pages/new-app";
 import Layout from "@/components/ui/layout";
 
 function Router() {
   return (
     <Switch>
-      <Route path="/app/:appId">
+      <Route path="/app/:appName" component={NewApp} />
+      <Route path="/old-app/:appId">
         {params => <App />}
       </Route>
       <Route path="*">
