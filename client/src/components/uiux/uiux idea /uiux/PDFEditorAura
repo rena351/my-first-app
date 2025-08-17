@@ -1,0 +1,60 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura PDF Editor"
+Global Search Bar: Placeholder: "Search by document name..."
+Quick Create Button (+ Icon): Not a primary feature. Actions are tool-based.
+Notifications Bell Icon: Alerts for "Your PDF conversion is complete," "A document has been shared with you for comments," etc.
+Settings Gear Icon: Links to the main PDF Editor settings.
+User Profile Icon: Profile, Logout.
+2. Aura PDF Editor Internal Sidebar
+This sidebar is tool-focused. It is a list of all the different actions you can perform on a PDF.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main landing page. A grid of large, iconic buttons for the most popular tools (Edit PDF, Merge PDFs, Compress PDF). Also shows a list of "Recent Files."
+Section: Edit & Convert
+Icon: Edit3
+Pages:
+Edit PDF: The main editor for adding text, images, and shapes.
+Convert to PDF: A tool to convert Word, Excel, PowerPoint, or JPG files into a PDF.
+Convert from PDF: A tool to convert a PDF into an editable Word, Excel, or PowerPoint file.
+Section: Organize
+Icon: Layers
+Pages:
+Merge PDFs: Combine multiple PDF files into one single document.
+Split PDF: Extract specific pages from a PDF into a new file.
+Reorder & Delete Pages: A visual tool to drag and drop page thumbnails to reorder them or delete unwanted pages.
+Rotate Pages: Rotate specific pages.
+Section: Optimize & Secure
+Icon: Shield
+Pages:
+Compress PDF: Reduce the file size of a large PDF.
+Password Protect: Add a password to a PDF to restrict opening.
+Unlock PDF: Remove a password if you know it.
+Add Watermark: Place a text or image watermark on every page.
+Section: Sign & Fill
+Icon: PenTool
+Pages:
+Fill & Sign: A tool to fill out form fields and add your digital signature (integrates with Aura Sign).
+3. Page-Level Toolbars & Main Interface (The Tool View)
+The core of the app is a simple, workflow-based interface for each tool.
+Typical Workflow:
+Upload Screen: A large, friendly drag-and-drop area that says "Drop your PDF here" or a "Select File" button.
+Tool Interface: After the file is uploaded, the specific tool's interface appears.
+Download Screen: After the action is complete, a confirmation screen appears with a large "Download Your New PDF" button and a preview of the file.
+Example: The "Merge PDFs" Interface:
+After uploading multiple files, they appear as large thumbnails.
+The user can drag and drop the thumbnails to get them in the correct order.
+A large Merge PDFs button is on the right.
+Example: The "Edit PDF" Interface:
+The uploaded PDF is shown in a viewer.
+A toolbar appears at the top with simple tools: Add Text, Add Image, Draw, Highlight. The user clicks a tool and then clicks on the PDF to apply the change.
+4. Data Entry & Modals
+Data entry is minimal and highly contextual to the tool being used (e.g., typing text in the "Add Text" tool, setting a password in the "Password Protect" modal).
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Combine Reports" Flow: A user has three separate weekly reports saved as PDFs. They need to combine them into a single monthly report. They go to Aura PDF Editor, choose the Merge PDFs tool, and upload the three files. They drag them into the correct weekly order and click "Merge." They can then download the single, combined monthly report PDF.
+The "Fix a Typo" Flow: A user receives a final PDF contract from a client but notices a small typo. Instead of asking the client to resend it, they use the Edit PDF tool. They upload the PDF, click the Add Text tool, draw a white box over the typo to hide it, and then use the text tool again to type the correct word on top. They download the corrected version.
+The "Secure Document" Flow: An HR manager needs to send a sensitive employee document. They use the Password Protect tool. They upload the PDF, and a modal asks them to set and confirm a password. They download the new, encrypted PDF. They then send the PDF in one email and the password in a separate, secure message (like an Aura Cliq chat).
+The "File Size" Flow (Integration): A user is trying to attach a large PDF to an email in Aura Mail, but it's over the 25MB attachment limit. Aura Mail automatically shows a pop-up: "This file is too large. Would you like to compress it with Aura PDF Editor?" The user clicks "Yes." The file is sent to the Compress PDF tool, a smaller version is created, and it is automatically attached to the email.

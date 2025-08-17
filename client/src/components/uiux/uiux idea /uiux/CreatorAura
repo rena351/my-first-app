@@ -1,0 +1,58 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Creator"
+Global Search Bar: Placeholder: "Search by application, form, or report name..."
+Quick Create Button (+ Icon):
+New Application
+Notifications Bell Icon: Alerts for "Your new app has been published," "A workflow has failed," etc.
+Settings Gear Icon: Links to the main Creator account settings (API keys, etc.).
+User Profile Icon: Profile, Logout.
+2. Aura Creator Internal Sidebar
+This sidebar is contextual. The main dashboard has a simple sidebar. Once you open a specific application to edit it, a much more detailed builder sidebar appears.
+Main Dashboard Sidebar
+Icon: Home
+Pages:
+Dashboard: An overview showing a grid of all your created applications.
+All Applications: A list view of your applications.
+Marketplace: A gallery of pre-built applications and extensions.
+Templates: A list of application templates to start from.
+Application Builder Sidebar (Appears after selecting an application)
+Section: Design
+Icon: Palette
+Pages:
+Forms: The core of data collection. A list of all forms in your application. You can Create New Form here.
+Reports: The core of data display. A list of all reports (lists, calendars, Kanban boards). You can Create New Report here.
+Pages: The core of the UI. A list of all custom dashboard pages. You can Create New Page here using a page builder.
+Section: Automation
+Icon: Zap
+Pages:
+Workflows: The most powerful feature. A list of all automation rules. You can Create New Workflow to run code on events like "On Form Submit" or "On a Schedule."
+Connections: A page to manage connections to other AURA apps and external services (e.g., connect to the Aura CRM API).
+Section: Administration
+Icon: Settings
+Pages:
+Users & Permissions: A page to manage who can access and use your custom application.
+Settings: General settings for your application, like its name, icon, and custom domain.
+Mobile: A section to configure and get the installable files for the native mobile version of your app.
+3. Page-Level Toolbars & Main Interface (The Builders)
+The application consists of several powerful visual builders.
+The Form Builder:
+A drag-and-drop interface.
+Left Panel: A library of field types (Text, Number, Date, Image Upload, Lookup to link to other forms).
+Center Panel: A canvas where you build the form.
+The Page Builder:
+A drag-and-drop interface for creating custom dashboards.
+Left Panel: A library of widgets (Chart, Panel, Button, Embed Form, Embed Report).
+Center Panel: A canvas where you arrange the widgets to build your UI.
+The Workflow Builder:
+A code editor for writing business logic using a simplified, powerful scripting language (like Zoho's Deluge).
+It has a drag-and-drop builder for simple "if-then" logic and a full code editor for advanced tasks.
+4. Data Entry & Modals
+The data entry happens in the live version of the custom application you build.
+The "Lookup" Field: This is a key feature. When building a form, you can add a "Lookup" field that links to another form. In the live app, this field becomes a searchable dropdown that lets you connect records (e.g., linking an "Invoice" record to a "Customer" record).
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Simple App" Flow: An HR manager needs a simple app to track company-owned laptops. They go to Aura Creator and Create a New Application. They use the Form Builder to create a "Laptops" form with fields for "Serial Number," "Model," and a Lookup field to connect to an "Employees" form. They then create a Report to show a list of all laptops. In 15 minutes, they have built a custom asset tracking app.
+The "Automation" Flow: In their new asset tracking app, the HR manager wants an email to be sent to the IT department when a laptop's "Status" is changed to "Needs Repair." They go to the Workflows section and create a new rule. The Trigger is "On User Edit" of a laptop record. They add a Condition: IF "Status" is changed to "Needs Repair". The Action is "Send Email" to it-support@aura.com. The automation is now live.
+The "Professional App" Flow (Integration): A developer is building a complex logistics application. They use Aura Creator to build the entire frontend and business logic. They use the Connections feature to make secure API calls to Aura Maps for route optimization and to Aura Sign for signing delivery confirmations. They are using Aura Creator as a powerful "backend-as-a-service" to build a complex system much faster than with traditional coding.

@@ -1,0 +1,58 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Shows a curated list of the apps in the People Plus suite.
+Current App Name: "Aura People Plus"
+Global Search Bar: A "super-search" that can find any employee, job opening, leave request, or expense report.
+Quick Create Button (+ Icon): A unified dropdown with common HR actions: Add Employee, New Job Opening, Submit Expense.
+Notifications Bell Icon: An aggregated feed of HR-related alerts: "A new candidate has applied," "Your leave request has been approved," "A new expense report needs your approval."
+Settings Gear Icon: Links to the main settings page for the entire suite, managing integrations and company-wide policies.
+User Profile Icon: Profile, Logout.
+2. Aura People Plus Sidebar (The "Suite" Sidebar)
+This is a simple, high-level sidebar focused on different stages of the employee journey.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main suite dashboard, with different widgets visible for Employees, Managers, and HR Admins.
+Section: Talent
+Icon: Award
+Pages:
+Hiring: A high-level view of the recruitment pipeline, showing "Open Positions" and "Candidates in Final Stages" from Aura Recruit.
+Onboarding: A dashboard to track the progress of new hires through their onboarding process.
+Performance: A view of the current company-wide performance review cycle.
+Section: Operations
+Icon: Briefcase
+Pages:
+My Team (for Managers): A dashboard showing the manager's direct reports, with quick links to approve leave, timesheets, and expenses.
+Company Directory: The searchable, visual organization chart.
+Section: Applications
+Icon: Grid
+Pages:
+Applications: A simple page with large, clickable icons to launch the individual, full-featured applications (Aura People, Aura Recruit, Aura Expense, Aura Cliq, etc.).
+3. Page-Level Toolbars & Main Interface (The Main Dashboard)
+The main interface is a highly role-based, customizable dashboard.
+Employee Dashboard Widgets:
+My Profile Summary: Shows their photo, title, and a link to their full profile in Aura People.
+My Leave Balance: Shows available vacation and sick days.
+My Open Requests: A list of their pending leave or expense requests.
+Company Announcements: A feed from Aura Connect.
+Manager Dashboard Widgets:
+Team Overview: A list of their direct reports.
+Pending Approvals: The most important widget. A single, unified queue of all items waiting for their approval: Leave Requests, Timesheets, and Expense Reports.
+Team Calendar: A view showing who on their team is out of the office today.
+HR Admin Dashboard Widgets:
+Company Headcount: Total number of employees.
+Hiring Funnel: A high-level view of the pipeline from Aura Recruit.
+Attrition Rate: A chart showing employee turnover.
+Compliance Alerts: Warnings for any pending compliance tasks.
+4. Data Entry & Modals
+This application is primarily for viewing combined data and approving requests. Most data entry happens within the individual apps.
+The Unified Approval Modal: When a manager clicks "Approve" on a leave request in their dashboard, a simple modal pops up showing the key details of the request and "Approve" / "Reject" buttons. They can approve items from three different apps without ever leaving their dashboard.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Manager's Daily Review" Flow: A manager starts their day by opening the Aura People Plus Dashboard. They look at the "Pending Approvals" widget and see they have two leave requests and one expense report to review. They approve them all directly from the dashboard in under a minute.
+The "Hiring to Onboarding" Flow (Integrated): A hiring manager in Aura Recruit marks a candidate as "Hired." This action is the start of a massive, cross-app workflow managed by People Plus. It automatically:
+Creates an employee profile in Aura People.
+Provisions a new user account in Aura Directory.
+Assigns the "New Hire Onboarding" course in Aura Learn.
+Adds the new employee to the next pay run in Aura Payroll.
+The "Employee Self-Service" Flow: A new employee wants to check how many vacation days they have left. They log into Aura People Plus. They see their leave balance directly on their dashboard widget. They click it and are taken directly to the Leave Tracker page within the full Aura People application to submit a request.

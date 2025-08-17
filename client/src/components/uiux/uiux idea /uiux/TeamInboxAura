@@ -1,0 +1,54 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura TeamInbox"
+Global Search Bar: Placeholder: "Search all inboxes by subject, sender, or content..."
+Quick Create Button (+ Icon):
+New Conversation (to start a new email thread from a shared address)
+Notifications Bell Icon: Alerts for "A new conversation has been assigned to you," "You were @mentioned in a comment," etc.
+Settings Gear Icon: Links to the main TeamInbox administration settings.
+User Profile Icon: Shows agent's online/offline status, Profile, Logout.
+2. Aura TeamInbox Internal Sidebar
+This sidebar is focused on different views of the conversations.
+Section: My Work
+Icon: User
+Pages:
+Assigned to Me: The most important view. A list of all conversations that you are personally responsible for.
+Mentions: A feed of all internal comments where a teammate has @mentioned you.
+Following: A list of conversations you are not assigned to, but have chosen to follow.
+Section: Team Inboxes
+Icon: Inbox
+Pages:
+This section lists all the shared inboxes you are a member of. Clicking one opens its specific views. For example:
+Support Inbox
+Unassigned: The main pool of new, incoming emails for the team to claim.
+Open: All active conversations in this inbox.
+Snoozed: Conversations that are temporarily hidden.
+Closed: All resolved and archived conversations.
+Sales Inbox (with the same sub-pages)
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of reports on "Team Performance" (response times, conversations per agent), "Busiest Times," and "Common Topics" (based on tags).
+3. Page-Level Toolbars & Main Interface (The Three-Panel View)
+The main interface is a powerful, three-panel view, similar to a modern email or helpdesk client.
+Left Panel (The Conversation List):
+A list of email conversations based on the view selected in the sidebar (e.g., Unassigned). Each item shows the sender, subject, and the agent it's assigned to.
+Center Panel (The Conversation Thread):
+Displays the full history of the selected email conversation.
+At the bottom: A rich text editor for writing a reply.
+Tabs at the top of the editor: Reply (to the customer), and Comment (to write a private, internal note for your team).
+Right Panel (Context & Properties):
+A panel showing all the important details about the conversation.
+Assignee: A dropdown to assign the conversation to a specific team member.
+Tags: A field to add tags for categorization (e.g., "Urgent," "Billing-Issue").
+Snooze: A button to temporarily hide the conversation.
+Customer Info: A powerful section that automatically pulls in data from Aura CRM, showing the customer's details and their recent sales deals or support tickets.
+4. Data Entry & Modals
+Writing an Internal Comment: The primary "collaboration" action. An agent can @mention a colleague in a private comment to ask a question without the customer seeing it.
+Creating a Rule (in Settings): A wizard-like interface to create automation rules. For example: IF an email subject contains the word "Urgent," THEN automatically ASSIGN it to the "Senior Support" team and ADD the "Urgent" tag.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Triage" Flow: A new email arrives in the Support Inbox. It appears in the Unassigned view. A team lead looks at it, sees it's a technical question, and in the Right Panel, Assigns it to Rohan, a technical expert.
+The "Collaboration" Flow: Rohan receives a notification that a conversation has been assigned to him. He opens it in his Assigned to Me view. He reads the question but is not sure of the answer. In the Center Panel, he clicks the Comment tab and types, "@manager, I need your approval for this refund." The manager gets a notification, opens the same conversation, and types a reply in the comments: "@Rohan, approved. Please proceed." Rohan can now confidently reply to the customer.
+The "Collision Detection" Flow: Two agents, Rohan and Priya, both open the same unassigned ticket at the same time. At the top of the conversation, a small yellow warning appears: "Priya is also viewing this conversation," with her profile picture. This prevents them from accidentally sending two different replies to the same customer.

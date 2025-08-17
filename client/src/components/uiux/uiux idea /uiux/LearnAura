@@ -1,0 +1,64 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Learn"
+Global Search Bar: Placeholder: "Search for courses, lessons, or topics..."
+Quick Create Button (+ Icon) (Admin only):
+New Course
+New Learning Path
+Notifications Bell Icon: Alerts for "You have been enrolled in a new course," "Your assignment is due," etc.
+Settings Gear Icon: Links to the main Learn administration settings.
+User Profile Icon: Shows user's learning progress, Profile, Logout.
+2. Aura Learn Internal Sidebar
+This application has two distinct sidebars depending on the user's role: one for Learners and one for Admins/Authors.
+A) Learner Sidebar (What most employees see)
+Section: My Learning
+Icon: GraduationCap
+Pages:
+Dashboard: The main page for learners. Shows "Courses in Progress," "My Learning Paths," "Upcoming Deadlines," and "Completed Certificates."
+My Courses: A list of all courses the user is currently enrolled in.
+My Learning Paths: A view of structured, multi-course programs the user is enrolled in.
+My Transcripts & Certificates: A record of all completed courses and downloadable certificates.
+Section: Explore
+Icon: Compass
+Pages:
+Course Catalog: A searchable and filterable library of all available courses in the company that the user can self-enroll in.
+Social Learning: A feed or forum for learners to discuss course content and ask questions.
+B) Admin/Author Sidebar
+Section: Content
+Icon: BookOpen
+Pages:
+Courses: The main library of all courses in the system. Admins can Create Course, Edit Course, or manage categories.
+Learning Paths: A page to create and manage structured learning programs by combining multiple courses.
+Assessments: A central bank of all quizzes and assignments.
+Section: People
+Icon: Users
+Pages:
+Users: Manage all learners.
+Groups: Create user groups (e.g., "New Sales Hires," "Engineering Department") to assign training in bulk.
+Enrollments: A master log of which users are enrolled in which courses.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of reports on "Course Completion Rates," "Assessment Scores," "Learner Progress," and "Most Popular Courses."
+Section: Administration
+Icon: Settings
+Pages:
+Settings: General settings for the learning portal, including Branding, Gamification (points/badges), and Certificate templates.
+3. Page-Level Toolbars & Main Interface
+The Course Player (Learner's View):
+Left Panel: A collapsible table of contents showing all the Modules and Lessons in the course. The current lesson is highlighted.
+Center Panel: The main content area. Displays the current lesson's content, which could be a Video, a Text Document (from Aura Writer), a Presentation (from Aura Show), or an embedded Quiz.
+Top Bar: Shows the course title and a progress bar. Next Lesson and Previous Lesson buttons are prominent.
+The Course Builder (Admin's View):
+A drag-and-drop interface.
+The admin can Add Module and then drag different lesson types (Video, Text, Quiz, Assignment) into each module.
+Clicking on a lesson opens a modal to upload a video, write text, or build a quiz.
+4. Data Entry & Modals
+Quiz Builder (Modal/Page): A form-based interface for creating questions (Multiple Choice, True/False, Fill-in-the-Blank) and setting the correct answers and point values.
+Enrolling Users (Modal): A pop-up where an admin can search for users or groups and assign them to a course with a specific due date.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "New Hire Onboarding" Flow (Automation): A new employee is added to the "New Hires" Group in Aura People. This automatically triggers an enrollment in the "New Hire Onboarding" Learning Path in Aura Learn. The new employee receives a welcome email with a link to their dashboard. They see a structured path of courses they need to complete in their first week, such as "Company History," "Code of Conduct," and "IT Security Basics."
+The "Authoring" Flow: A department expert needs to create a new training course. They go to the Admin view, click Create Course. They use the Course Builder to structure their course into modules and lessons. They upload a video they recorded in Aura Meeting, write a text summary in an embedded Aura Writer, and create a 10-question Quiz to test understanding. Once finished, they publish the course to the Course Catalog for others to take.
+The "Compliance Training" Flow: A compliance officer needs to ensure every employee completes the annual "Data Privacy" training. They go to Aura Learn, select the course, and enroll the "All Employees" group with a deadline of December 31st. The system sends out initial and reminder emails. The officer can then go to the Reports page to see a real-time list of who has and has not completed the mandatory training.

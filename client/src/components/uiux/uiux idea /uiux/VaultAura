@@ -1,0 +1,57 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Vault"
+Global Search Bar: The primary feature. A powerful, encrypted search bar to find any saved "Secret." Placeholder: "Search your vault..."
+Quick Create Button (+ Icon):
+New Secret (opens a dropdown to choose the type)
+Notifications Bell Icon: Alerts for "A new secret has been shared with you," "Your Security Score has changed," "A password has been found in a known data breach," etc.
+Settings Gear Icon: Links to the main Vault settings.
+User Profile Icon: Shows lock/unlock status, Profile, Logout.
+2. Aura Vault Internal Sidebar
+This sidebar is focused on organizing different types of secrets and access levels.
+Section: My Vault
+Icon: Lock
+Pages:
+All Secrets: The main view, showing a list of all secrets you have access to.
+Passwords: A filtered view showing only website and application logins.
+Secure Notes: A place for storing sensitive text information (e.g., server configurations, license keys).
+Identities: A place to store personal information for auto-filling forms (name, address, etc.).
+Payment Cards: Securely store credit card information for auto-fill.
+Section: Team Collaboration
+Icon: Users
+Pages:
+Chambers: The core team feature. "Chambers" are secure, shared folders. A user can create a chamber (e.g., "Marketing Team Passwords," "Server Credentials"), add secrets to it, and then share the entire chamber with specific team members or groups.
+Shared with Me: A view of individual secrets that have been shared with you directly.
+Section: Security Tools
+Icon: Shield
+Pages:
+Security Dashboard: A critical page showing your overall "Security Score," with widgets for Weak Passwords, Reused Passwords, and Old Passwords.
+Breach Watch: A tool that monitors the dark web and alerts you if any of your saved passwords have been exposed in a known data breach.
+Password Generator: A tool to create strong, random passwords.
+Section: Administration (Admin only)
+Icon: Settings
+Pages:
+User Management: Add or remove users from the team vault.
+Policies: Enforce security rules for the entire team (e.g., "Minimum password length is 12 characters," "MFA is required for all users").
+Audit Trail: A detailed, unchangeable log of every action taken in the vault (who accessed what secret, when, and from where).
+3. Page-Level Toolbars & Main Interface
+On the "Passwords" List Page:
+A list of all your saved logins. Each item shows the website/app name and your username. The password is hidden by default.
+Action Icons on each item: A Copy Username button, a Copy Password button, and an Edit button.
+The Secret Detail View (when you click on an item):
+Shows all fields for that secret (URL, Username, Password with a "Reveal" button).
+Includes a Password History tab.
+Action buttons for Share, Move to Chamber, Delete.
+4. Data Entry & Modals
+The Browser Extension: This is the most important part of the user experience. A browser extension that:
+Automatically detects login forms and offers to auto-fill your saved credentials.
+When you sign up for a new website, it automatically offers to generate and save a new, strong password for you.
+Creating a New Secret (Modal): A clean form with fields for "Name," "URL," "Username," "Password," and "Notes." It has an integrated "Generate Password" button.
+Sharing a Secret (Modal): A pop-up where you can type a team member's name and choose their permission level (View Only or Can Edit).
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Daily Login" Flow: A user needs to log into a website. They go to the login page. The Aura Vault Browser Extension automatically detects the page, shows a small icon in the username field, and when clicked, auto-fills their username and password. The user just has to click "Login."
+The "New Team Member" Flow: A new developer joins the team. The IT manager adds them to the "Developers" group in Aura Vault. This action automatically gives the new developer access to the "Server Credentials" and "Database Passwords" Chambers. The developer can now do their job without ever having to ask someone to send them a password in a chat message.
+The "Security Audit" Flow: A manager wants to improve the team's security. They go to the Security Dashboard. They see that 5 users are reusing the same password across multiple sites. They can then send a notification to those users, asking them to update their weak passwords.
+The "Offboarding" Flow (Security): An employee leaves the company. The admin deactivates their Aura Vault account. This instantly revokes their access to all shared Chambers and secrets, securing the company's data.

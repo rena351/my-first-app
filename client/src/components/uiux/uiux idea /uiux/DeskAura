@@ -1,0 +1,63 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Desk"
+Global Search Bar: Placeholder: "Search by ticket ID, customer email, or keyword..."
+Quick Create Button (+ Icon):
+New Ticket (for creating a ticket on behalf of a customer)
+Notifications Bell Icon: Alerts for "New ticket assigned to you," "Customer has replied," "SLA is about to be breached," etc.
+Settings Gear Icon: Links to the main Desk administration settings.
+User Profile Icon: Shows agent online/offline/break status, Profile, Logout.
+2. Aura Desk Internal Sidebar
+Section: Home
+Icon: Home
+Pages:
+Agent Dashboard: The main landing page for support agents. Shows widgets for "My Open Tickets," "My Overdue Tickets," "My CSAT Score" (Customer Satisfaction), and a feed of recent activity.
+Team Dashboard: A view for managers showing overall team performance, "Unassigned Tickets," and "Tickets by Channel."
+Section: Tickets
+Icon: MessageSquare
+Pages:
+All Tickets: The central view. A list/table of all tickets in the helpdesk.
+Ticket Views: The most important part of the sidebar. A list of pre-defined and custom filters to see specific sets of tickets. Examples:
+My Open Tickets
+Unassigned Tickets
+All Open Tickets
+Overdue Tickets
+Tickets Closing Today
+(Users can Create New View with custom rules)
+Section: Knowledge
+Icon: BookOpen
+Pages:
+Knowledge Base: A library of all internal and public help articles. All Articles, New Article, Categories.
+Community Forums: A space for user-to-user support and discussions.
+Section: Customers
+Icon: Users
+Pages:
+Contacts: A list of all customers who have submitted tickets.
+Accounts: A list of all companies, showing all tickets associated with that company.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of reports on "First Response Time," "Ticket Resolution Time," "Agent Performance," and "Busiest Times of Day."
+3. Page-Level Toolbars & Main Interface (The Ticket View)
+The primary interface is the Ticket Detail View.
+Left Panel (Ticket List):
+A list of tickets based on the current "View" selected in the sidebar. The currently selected ticket is highlighted.
+Center Panel (The Conversation):
+The main area. It shows the entire conversation history of the ticket in a threaded, chronological view.
+At the top, there is a Reply Editor where the agent can type their response, apply Templates (canned responses), and attach files.
+The Reply button has a dropdown with options like Reply and Set as Resolved.
+Right Panel (Ticket Properties):
+A panel showing all the metadata for the ticket.
+Dropdowns: Status (Open, In Progress, Closed), Priority (High, Medium, Low), Assignee (which agent is working on it).
+Customer Info: Shows details about the customer who submitted the ticket, pulled directly from Aura CRM. Includes their name, email, and a list of their recent tickets.
+Time Tracking: A section to log time spent working on the ticket.
+4. Data Entry & Modals
+Creating a New Article (Full Page): A rich text editor for writing knowledge base articles, with options to publish them internally (for agents only) or publicly.
+Merging Tickets (Modal): If a customer sends two emails about the same issue, the agent can select both tickets in the list and click a "Merge" button. A modal pops up to confirm which ticket will be the primary one.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "New Ticket" Flow: A new email comes into support@aura.com. Aura Desk automatically creates a new ticket and places it in the Unassigned Tickets view. An automation rule might automatically assign it to a specific team based on keywords in the subject line.
+The "Agent Workflow": An agent starts their day. They open the My Open Tickets view. They click on the oldest ticket. They read the customer's question. In the Right Panel, they see the customer's history from Aura CRM. The agent realizes this is a common question, so in the Center Panel, they use a Template to insert a pre-written answer. They add a personal touch, click Reply and Set as Resolved, and then move to the next ticket in their queue.
+The "Escalation" Flow (Automation): A high-priority ticket has not been answered for 2 hours, which is a violation of its SLA (Service Level Agreement). Aura Desk automatically reassigns the ticket to a senior support manager and sends them a notification in Aura Cliq, ensuring the customer gets a response.
+The "Self-Service" Flow: A customer has a simple question. Instead of emailing support, they go to the company's website and open the "Help Center" (powered by the Aura Desk Knowledge Base). They type their question into a search bar, find the relevant article, and solve their own problem without ever creating a ticket.

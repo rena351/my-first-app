@@ -1,0 +1,62 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura QEngine"
+Global Search Bar: Placeholder: "Search by test case ID, suite, or defect..."
+Quick Create Button (+ Icon):
+New Test Case
+New Test Run
+Notifications Bell Icon: Alerts for "A scheduled test run has completed," "A critical defect was found," "A test case has been assigned to you for review," etc.
+Settings Gear Icon: Links to the main QEngine project settings.
+User Profile Icon: Profile, Logout.
+2. Aura QEngine Internal Sidebar
+This sidebar is organized around the lifecycle of software testing.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main quality overview for a selected project. Widgets for "Latest Test Run Status" (pass/fail chart), "Open Defects by Severity," and "Test Case Coverage."
+Section: Test Planning
+Icon: ClipboardList
+Pages:
+Test Cases: The core repository. A hierarchical folder structure containing all manual and automated test cases.
+Test Suites: A page to create and manage collections of test cases that are run together (e.g., "Login Regression Suite," "Smoke Test Suite").
+Section: Test Execution
+Icon: PlayCircle
+Pages:
+Test Runs: A page to plan and initiate a new test run. A user selects a Test Suite and the Environment (e.g., "Staging Server," "Chrome Browser").
+Execution History: A log of all past test runs, showing their overall pass/fail status.
+Section: Automation
+Icon: Code
+Pages:
+Automation Studio: The interface for creating automated tests. This includes a "Record & Play" tool and a script editor.
+CI/CD Integration: A settings page to connect QEngine to developer pipelines (like GitHub Actions), so tests can be run automatically when new code is committed.
+Section: Defects
+Icon: AlertCircle
+Pages:
+Defect List: A list of all bugs found during testing. This section integrates deeply with Aura BugTracker.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of reports on "Test Execution Trends," "Defect Density," and "Requirement Coverage."
+3. Page-Level Toolbars & Main Interface
+The "Test Case Editor":
+A structured form for writing a manual test case.
+Fields: Title, Pre-conditions.
+Main Section: A step-by-step table with columns for Step Number, Action to Perform, and Expected Result.
+The "Manual Test Run" Interface:
+A clean, focused view for a QA tester.
+It shows one test case step at a time.
+For each step, there are large Pass, Fail, and Skip buttons.
+If a tester clicks Fail, a modal pop-up appears, prompting them to enter the "Actual Result" and attach a screenshot. This automatically creates a new, linked defect in Aura BugTracker.
+The "Test Run Result" Page:
+A detailed summary of a completed test run.
+A prominent pie chart showing the Pass/Fail percentage.
+A list of all the test cases that were run, with a clear status icon for each. Any new defects created during the run are linked directly.
+4. Data Entry & Modals
+The "Record & Play" Automation Tool: A developer can launch a special browser window. They click Record, and then they perform the actions on their website (click a button, fill a form). QEngine watches and automatically generates the automation script steps.
+Creating a Defect (Modal): When a test fails, a "Create Defect" modal pops up. It is pre-filled with the test case details, and the tester just needs to add the details of the failure and attach evidence.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Manual Regression Testing" Flow: A new version of the AURA app is ready for testing. The QA Lead goes to Test Runs and starts a new run of the "Full Regression" Test Suite. All the QA testers get a notification. They open the test run, and each is assigned a set of Test Cases to execute. They go through the steps one by one, clicking Pass or Fail.
+The "Automated Smoke Test" Flow (Integration): A developer pushes a new piece of code to the main branch on GitHub. This automatically triggers a webhook. The webhook tells Aura QEngine to start a new Test Run of the "Smoke Test" Test Suite on the staging server. The automated tests run. If any test fails, QEngine automatically sends a failure notification to the #dev-alerts channel in Aura Cliq. This prevents a bad code change from ever reaching production.
+The "Bug Found" Flow: During a manual test run, a QA tester finds a bug. They click the Fail button. The "Create Defect" modal opens, already linked to the test case. The tester describes the bug and attaches a screenshot. A new, detailed bug report is instantly created in Aura BugTracker and assigned to the correct development team, with a link back to the exact test step that failed.

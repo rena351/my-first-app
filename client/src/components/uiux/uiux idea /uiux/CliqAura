@@ -1,0 +1,54 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Cliq"
+Global Search Bar: A powerful search bar that can find messages, files, and channels across all conversations. Placeholder: "Search in Cliq..."
+Quick Create Button (+ Icon):
+New Chat
+New Channel
+Start a Call
+Notifications Bell Icon: This is less prominent, as notifications happen in real-time within the app itself.
+Settings Gear Icon: Links to the main Cliq settings.
+User Profile Icon: Shows user's status (Active, Away, Do Not Disturb), Profile, Logout.
+2. Aura Cliq Internal Sidebar (The Main Navigation)
+The entire application is typically a two or three-panel layout. The leftmost panel is the main sidebar.
+Section: Main Views
+Icon: MessageCircle
+Pages:
+Chats: The primary view. A list of all your recent conversations (direct messages and channels), ordered by the most recent activity. Unread messages are bolded.
+Mentions: A dedicated feed that shows only the messages where someone has specifically @mentioned you.
+Starred: A list of all the messages you have starred for quick access.
+Section: Collaboration Spaces
+Icon: Hash
+Pages:
+Channels: A collapsible directory of all the channels you are a member of.
+Contacts: A searchable directory of all the people in your organization.
+Teams: A way to organize contacts and channels by department or project team.
+Section: Productivity
+Icon: Zap
+Pages:
+Files: A central gallery of all files that have been shared in your chats and channels.
+Reminders: A list of all reminders you have set from messages.
+Bots & Tools: A directory of all installed bots and integrations.
+3. Page-Level Toolbars & Main Interface (The Chat View)
+The main interface is a multi-panel chat client.
+Left Panel: The Internal Sidebar described above.
+Center Panel (The Conversation):
+This panel displays the selected chat or channel.
+Header: Shows the channel name or the other person's name and status. Includes icons for starting an Audio Call or Video Call.
+Message History: The main, scrollable history of the conversation.
+Message Composer (at the bottom): The text box where you type your message.
+Action Icons: Buttons to Attach File (from computer or Aura WorkDrive), Use Emoji, Record Audio Clip, Start a Poll, and Format Text.
+Right Panel (Contextual Info - Optional):
+A third panel can be opened to show more details about the current conversation.
+Tabs: Channel Members, Pinned Messages, Shared Files, Apps & Integrations.
+4. Data Entry & Modals
+The Message Composer: The primary data entry is typing messages. Using @ mentions a person and notifies them. Using / opens a list of "slash commands" for bots and integrations (e.g., /poll "What should we have for lunch?" "Pizza" "Salad").
+Creating a New Channel (Modal): A pop-up asks for the Channel Name, an optional Description, and a toggle to make it Public (anyone can join) or Private (invite only).
+The Video Call Window: Starting a call opens a new window or modal with video feeds of the participants and controls for Mute, Start/Stop Video, and Share Screen.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Quick Question" Flow: A developer has a quick question for a designer. Instead of writing a formal email, they open Aura Cliq, find the designer in their Contacts, and send a direct message: "Hey, what is the hex code for our primary blue color?" The designer sees the message pop up and replies instantly: "#3B82F6." The conversation takes 10 seconds instead of 10 minutes.
+The "Project Update" Flow: A project manager needs to give an update to the whole team. They go to the #project-phoenix Channel and post a message: "@here Quick update: The client has approved the mockups! We are clear to start development." Every member of the channel gets a notification.
+The "Urgent Alert" Flow (Automation): An error is detected on the company's server by Aura's monitoring tools. An automated Bot instantly posts a message into the #dev-ops-alerts channel: "🚨 CRITICAL ERROR: Server CPU is at 99%! @on-call-engineer please investigate." The on-call engineer is immediately notified on their phone and can start working on the problem.
+The "Message to Action" Flow: A manager posts in a channel: "Rohan, can you please prepare the sales report by Friday?" Rohan hovers over the message, clicks the "More Actions" (...) menu, and selects Create Task. This automatically creates a new task in Aura Projects titled "Prepare the sales report," with a due date of Friday, and a link back to the original Cliq message for context.

@@ -1,0 +1,55 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Payments"
+Global Search Bar: Placeholder: "Search by transaction ID, customer email, or last 4 digits..."
+Quick Create Button (+ Icon): Not typically present, as actions are initiated from other apps.
+Notifications Bell Icon: Alerts for "Chargeback filed," "Gateway connection error," "Large refund processed," etc.
+Settings Gear Icon: Links to the main Payments settings.
+User Profile Icon: Profile, Logout.
+2. Aura Payments Internal Sidebar
+This sidebar is for the administrator or finance team to manage the flow of money.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main financial transaction overview. Widgets for "Total Volume Today," "Transaction Success Rate," "Active Payment Gateways," and a live feed of recent transactions.
+Section: Transactions
+Icon: CreditCard
+Pages:
+All Transactions: A master, searchable log of every single payment attempt, successful or failed, from every AURA app.
+Payments: A filtered list of only successful payments.
+Refunds: A list of all refunds processed.
+Disputes & Chargebacks: A critical section to manage and respond to customer payment disputes.
+Section: Gateways
+Icon: Server
+Pages:
+Gateway Management: A page to connect and manage relationships with different payment processors (Stripe, PayPal, Adyen, etc.).
+Routing Rules: An advanced feature to create rules for which gateway to use for certain transactions (e.g., "Use Stripe for all international cards," "If Stripe fails, automatically retry with PayPal").
+Section: Security
+Icon: Shield
+Pages:
+Fraud Protection: A page to configure rules to automatically block suspicious transactions (e.g., "Block transactions over $1000 from a new country").
+PCI Compliance: A dashboard that shows the compliance status and provides necessary documentation.
+Section: Customers
+Icon: Users
+Pages:
+Customer Vault: A secure, tokenized list of all customer payment methods (credit cards, bank accounts) saved across the AURA suite.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: Reports on "Transaction Volume by Gateway," "Payment Success Rates," "Refund Rates," and "Chargeback Trends."
+3. Page-Level Toolbars & Main Interface
+On the "All Transactions" Page:
+Title: "Transactions"
+Filters: Powerful filters for "Date Range," "Amount," "Currency," "Payment Gateway," "Status," and the "Source App" (e.g., show me all successful payments from Aura Commerce).
+On a "Single Transaction Detail" Page (often a modal):
+Shows all details of a single transaction: amount, customer, gateway used, a timeline of its status (authorized, captured, settled), and the raw response data from the gateway.
+Action Button: A Refund button is the primary action.
+4. Data Entry & Modals
+Connecting a Gateway (Wizard): A secure, multi-step wizard that asks the user to enter their API keys and credentials for an external payment processor like Stripe.
+Issuing a Refund (Modal): Clicking the Refund button opens a modal. The user can choose a "Full Refund" or "Partial Refund" (where they enter a specific amount). They must type a reason for the refund before confirming.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Behind-the-Scenes Payment" Flow (Automation): A customer is on the Aura Checkout page and clicks "Pay Now." The Checkout app sends a secure request to the Aura Payments app. Aura Payments looks at its Routing Rules, chooses the best gateway (e.g., Stripe), securely sends the payment information to Stripe, gets a "Success" response, records the transaction in its Transactions log, and then tells the Checkout app that the payment was successful. The customer sees a "Thank You" message. This entire process happens in under 2 seconds.
+The "Dispute Management" Flow: A customer files a chargeback with their credit card company. The payment gateway notifies Aura Payments. A new item appears in the Disputes & Chargebacks list. The finance manager gets a notification. They click on the dispute, which shows them the original transaction and order details from Aura Commerce. They use the interface to upload evidence (like a shipping confirmation) to fight the chargeback.
+The "Gateway Failover" Flow (Automation): A customer tries to pay, but the primary gateway (Stripe) is temporarily down. Aura Payments receives an error. The Routing Rules automatically tell it to retry the same transaction with the secondary gateway (PayPal). The payment succeeds. The customer experiences no interruption, and the business does not lose the sale.

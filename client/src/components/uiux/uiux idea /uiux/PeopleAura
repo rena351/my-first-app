@@ -1,0 +1,84 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura People"
+Global Search Bar: Placeholder: "Search for an employee, policy, or report..."
+Quick Create Button (+ Icon) (Admin only):
+Add Employee
+New Announcement
+Notifications Bell Icon: Alerts for "Your leave request was approved," "A new company policy was published," "Performance review is due," etc.
+Settings Gear Icon: Links to the main HR administration settings.
+User Profile Icon: Quick link to the user's own detailed profile.
+2. Aura People Internal Sidebar
+This sidebar is role-based. A regular employee sees a simple "Self-Service" view, while an HR Manager sees the full, powerful administrative sidebar.
+A) Employee Self-Service Sidebar
+Section: Home
+Icon: Home
+Pages:
+My Space: The main dashboard for an employee. Widgets for "My Leave Balance," "Upcoming Holidays," "Company Announcements," and quick links to check in/out.
+Section: My Profile
+Icon: User
+Pages:
+My Profile: View and update personal information, emergency contacts, etc.
+My Documents: A secure place to view personal documents like payslips and offer letters.
+Section: Time & Attendance
+Icon: Clock
+Pages:
+Leave Tracker: Apply for leave, view leave history, and see the company holiday calendar.
+Attendance: View your attendance log and regularize any missed check-ins.
+Timesheets: Fill out and submit your timesheets for approval.
+Section: Performance
+Icon: Target
+Pages:
+My Reviews: View past performance reviews and complete current ones.
+My Goals: Set and track your personal goals (KRAs/OKRs).
+Section: Company
+Icon: Building2
+Pages:
+Employee Directory: A searchable directory of all employees in the company.
+Organization Chart: A visual chart showing the company's reporting structure.
+B) HR Admin Sidebar (Includes all of the above, plus...)
+Section: Employee Management
+Icon: Users
+Pages:
+All Employees: The master list of all employee records.
+Onboarding: A wizard to manage the new hire onboarding process.
+Offboarding: A checklist and workflow for exiting employees.
+Section: Leave Management (Admin)
+Icon: Calendar
+Pages:
+Leave Approvals: A queue of all leave requests awaiting approval.
+Leave Reports: Detailed reports on leave balances across the company.
+Leave Settings: Configure different leave types (Vacation, Sick, etc.) and policies.
+Section: Time & Attendance (Admin)
+Icon: Clock
+Pages:
+Attendance Reports: View attendance data for all employees.
+Timesheet Approvals: A queue of all submitted timesheets awaiting approval.
+Section: Performance (Admin)
+Icon: Target
+Pages:
+Appraisal Cycles: Set up and manage company-wide performance review cycles.
+Goal Management: A dashboard to track goal alignment and progress across the organization.
+Section: HR Helpdesk
+Icon: MessageSquare
+Pages:
+Cases: Manage all HR-related employee queries in a centralized, confidential system.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of HR reports on "Headcount," "Attrition Rate," "Diversity," and "Compensation."
+3. Page-Level Toolbars & Main Interface
+On the "Employee Directory" Page:
+A grid of employee "cards," each with a photo, name, title, and department.
+A search bar and filters at the top to find people by name, department, or skill.
+On a "Single Employee Profile" Page (Admin View):
+A comprehensive, tabbed interface showing everything about an employee: Personal Info, Job Details, Leave History, Performance Reviews, Documents, Assets Assigned.
+4. Data Entry & Modals
+Applying for Leave (Modal): A simple pop-up where an employee selects the Leave Type from a dropdown, chooses the dates from a Date Picker, and enters a Reason. The request is then sent to their manager for approval.
+The Onboarding Wizard (Full Page): A multi-step process for HR admins. 1. Enter basic info. 2. Create their AURA account. 3. Assign them to an onboarding Learning Path in Aura Learn. 4. Add them to the correct Pay Run in Aura Payroll.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Leave Request" Flow: An employee wants to take a vacation. They go to their Leave Tracker, see they have 10 days of vacation available, and submit a request for next month. Their manager receives a notification in Aura Mail and Aura Cliq. The manager clicks a link, sees the team's shared Leave Calendar to ensure there are no conflicts, and clicks "Approve." The employee is notified, and their leave balance is automatically updated.
+The "Performance Review" Flow: At the start of a quarter, the HR admin initiates a new Appraisal Cycle. Every employee and manager in the company receives a task to complete their self-assessment and review, respectively. The system automatically sends reminders as the deadline approaches.
+The "New Hire" Flow (Integration): A candidate accepts an offer in Aura Recruit. This automatically triggers the Onboarding workflow in Aura People. An AURA account is created for them, they are automatically enrolled in training in Aura Learn, and their details are sent to Aura Payroll to be included in the next pay run. This seamless automation saves the HR team hours of manual work for every new hire.

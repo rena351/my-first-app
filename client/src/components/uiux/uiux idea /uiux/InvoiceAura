@@ -1,0 +1,52 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Invoice"
+Global Search Bar: Placeholder: "Search by invoice #, customer, or item..."
+Quick Create Button (+ Icon):
+New Invoice
+New Estimate / Quote
+New Customer
+Notifications Bell Icon: Alerts for "Invoice viewed by customer," "Payment received," "Invoice is now overdue," etc.
+Settings Gear Icon: Links to the main Invoice settings.
+User Profile Icon: Profile, Logout.
+2. Aura Invoice Internal Sidebar
+Section: Home
+Icon: Home
+Pages:
+Dashboard: A financial overview focused on receivables. Widgets for "Total Overdue," "Total Drafts," "Recent Payments," and a chart of sales over time.
+Section: Sales
+Icon: TrendingUp
+Pages:
+Customers: A list of all your clients.
+Estimates / Quotes: A list of all quotes you have sent. You can convert an accepted quote into an invoice with one click.
+Invoices: The main page. A list of all invoices, with clear status labels (Draft, Sent, Viewed, Paid, Overdue).
+Recurring Invoices: A page to set up invoices that are sent automatically on a schedule.
+Payments Received: A log of all payments.
+Credit Notes: A tool to issue refunds or credits to customers.
+Section: Management
+Icon: Briefcase
+Pages:
+Items: A catalog of the services and products you sell, with their rates.
+Time Tracking: A page to log hours worked on different projects, which can then be easily added to an invoice.
+Expenses: A log of expenses that can be marked as "billable" to a customer and added to an invoice.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of reports like "Sales by Customer," "Tax Summary," and "Invoice Aging" (which shows how long invoices have been overdue).
+3. Page-Level Toolbars & Main Interface (The Invoice Editor)
+The core of the app is the Invoice Editor.
+Interface:
+A clean, visual representation of a professional invoice.
+Fields at the top to select a Customer (which auto-fills their details).
+A table in the middle to add Items from your catalog or enter them manually.
+The system automatically calculates subtotals, taxes, and the final total.
+A toolbar at the top with buttons for Save as Draft, Send (which emails the invoice), and a "More" (...) menu with options like Print, Download as PDF, or Clone.
+4. Data Entry & Modals
+The Customer Portal: When a customer receives an invoice email, it contains a link to a secure web page. On this page, they can view the invoice, download a PDF, and most importantly, click a Pay Now button to pay instantly with a credit card (integrated with Aura Payments/Checkout).
+Payment Reminders (Automated): In the settings, a user can set up automated reminder emails (e.g., "Send a reminder 3 days before the due date," "Send another reminder 7 days after the due date if still unpaid").
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Freelancer" Flow: A user finishes a project. They open Aura Invoice, click + New Invoice, select their client, and add a line item for "Web Design Services" with the agreed-upon price. They click Send. The client receives the professional PDF invoice via email.
+The "Payment" Flow: The client clicks the Pay Now button in the email. They are taken to the secure Customer Portal where they enter their credit card details. The payment is processed. The invoice status in Aura Invoice automatically changes from Sent to Paid, and the user receives a notification.
+The "Follow-up" Flow (Automation): An invoice is 7 days overdue. The automated reminder system, which the user set up once, automatically sends a polite but firm follow-up email to the client without the user having to do anything.

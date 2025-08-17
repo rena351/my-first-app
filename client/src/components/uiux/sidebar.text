@@ -1,0 +1,1108 @@
+1. Zoho CRM
+Home: Dashboard, Today's Activities, Recent Items
+Leads: All Leads, New Lead, Converted Leads, Unqualified Leads
+Contacts: All Contacts, New Contact, My Contacts
+Accounts: All Accounts, New Account, My Accounts
+Deals: All Deals, New Deal, Pipeline View, Won Deals, Lost Deals
+Tasks: All Tasks, My Tasks, Overdue Tasks
+Meetings: Calendar, All Events, New Event
+Calls: All Calls, Log Call, Scheduled Calls
+Campaigns: All Campaigns, New Campaign, Active Campaigns
+Reports: All Reports, Sales Reports, Activity Reports, Custom Reports
+Dashboards: Sales Dashboard, Marketing Dashboard, CEO Dashboard
+Forecasts: Forecasts, Territory Forecasts
+Products: All Products, New Product, Price Books
+Quotes: All Quotes, New Quote, Accepted Quotes
+Sales Orders: All Sales Orders, New Order, Delivered Orders
+Purchase Orders: All Purchase Orders, New Order
+Invoices: All Invoices, New Invoice, Paid Invoices, Overdue Invoices
+Cases: All Cases, Open Cases, Closed Cases
+Solutions: All Solutions, Published Solutions
+Vendors: All Vendors, New Vendor
+Documents: All Documents, Folders, Upload
+Feeds: Company Updates, My Posts
+Recycle Bin: Deleted Records
+2. Zoho Projects
+Home: Project Dashboard, My Overview
+Projects: All Projects, New Project, Project Templates
+Tasks: All Tasks, My Tasks, Task Lists, Kanban Board
+Gantt Chart: Project Timeline, Dependencies, Critical Path
+Timesheets: My Timesheets, Log Time, Approvals
+Issues / Bugs: All Issues, Report Issue, My Issues
+Documents: Files, Folders, Upload File
+Reports: Task Reports, Time Reports, Issue Reports, Project Reports
+Users: All Users, User Groups
+Calendar: Project Calendar, Deadlines
+3. Zoho Books (Finance)
+Dashboard: Financial Overview, Cash Flow, Income & Expense
+Sales: Customers, Quotes, Sales Orders, Invoices, Payments Received
+Purchases: Vendors, Bills, Purchase Orders, Expenses
+Items: All Items, New Item, Price Lists, Inventory Adjustments
+Banking: Bank Accounts, Bank Feeds, Reconciliation
+Accountant: Chart of Accounts, Manual Journals
+Time Tracking: Projects, Timesheets
+Reports: P&L, Balance Sheet, Cash Flow Statement, Sales Reports
+Documents: All Documents, Upload Receipt
+4. Zoho Desk (Support)
+Home: Agent Dashboard, Team Dashboard, The HQ
+Tickets: All Tickets, My Tickets, Ticket Views (Open, Overdue, etc.)
+Knowledge Base: Articles, Categories, Community Forums
+Customers: Contacts, Accounts
+Reports: Ticket Reports, Agent Performance, CSAT Reports
+Analytics: Dashboards, Time Tracking Reports
+Channels: Email, Chat, Phone, Social Media
+Setup: Departments, Automation, SLAs, Templates
+5. Zoho People (HR)
+Home: My Space, Company Dashboard, Announcements
+Employee Self-Service: My Profile, Leave Tracker, Timesheets, My Reviews
+Leave Management: Leave Calendar, Apply Leave, Approvals
+Time & Attendance: Attendance, Timesheets, Shift Management
+Performance: Appraisals, Goals (KRA), Skill Sets
+Files: HR Files, Company Documents, Employee Documents
+Recruitment: Job Openings, Candidates
+Reports: Employee Reports, Leave Reports, Attendance Reports
+6. Zoho Mail
+Inbox: All Mail, Unread, Starred
+Drafts: Saved Drafts
+Sent: Sent Mail
+Spam: Spam Folder
+Trash: Deleted Mail
+Folders: My Folders, Shared Folders
+Streams (Collaboration): My Groups, Unread Messages
+Calendar: My Calendar, Shared Calendars
+Tasks: My Tasks, Assigned Tasks
+Notes: My Notes
+Contacts: All Contacts, My Contacts
+7. Zoho Social
+Home: Brand Dashboard, Live Stream
+Publish: New Post, Publishing Calendar, Content Queue
+Monitor: Columns (Mentions, Keywords, etc.), Advanced Search
+Messages: Unified Inbox, Direct Messages
+Connections: Audience, CRM Connections
+Reports: Standard Reports, Custom Reports, Analytics
+Collaborate: Team Members, Approvals
+8. Zoho Campaigns (Marketing)
+Dashboard: Campaign Overview, Performance
+Campaigns: Email Campaigns, A/B Tests, Social Campaigns
+Contacts: Lists & Segments, Signup Forms, Sync Services
+Automation: Workflows, Drip Campaigns, Autoresponders
+Library: Templates, Images
+Reports: Campaign Reports, List Reports, Automation Reports
+9. Zoho Inventory
+Dashboard: Inventory Summary, Sales Activity, Purchase Orders
+Items: All Items, Item Groups, Composite Items, New Item
+Inventory: Warehouses, Stock Adjustments, Stock Transfers
+Sales Orders: All Sales Orders, New Order, Pack Slips, Shipments
+Purchase Orders: All Purchase Orders, New Order, Bills
+Contacts: Customers, Vendors
+Integrations: E-commerce (Shopify, etc.), Shipping Carriers
+Reports: Inventory Reports, Sales Reports, Purchase Reports
+10. Zoho Recruit
+Home: Hiring Dashboard, Today's Interviews, Active Openings
+Job Openings: All Openings, New Opening, Published Openings
+Candidates: All Candidates, Add Candidate, Candidate Pool
+Interviews: Scheduled Interviews, My Interviews, Request Feedback
+Clients & Contacts: Client Accounts, Hiring Managers
+Reports: Candidate Source Report, Time to Fill Report
+Careers Website: Customize Page, Job Board
+11. Zoho Expense
+Dashboard: Expense Overview, My Unreported Expenses, Pending Approvals
+Expenses: All Expenses, New Expense, Mileage
+Receipts: My Receipts, Upload Receipt, Auto-Scan
+Reports: My Reports, New Report, Awaiting Approval, Approved
+Cards: My Corporate Cards, Reconcile, Pending Transactions
+Approvals: Reports for Approval, Expenses for Approval
+Payments: Reimbursements, Advance Payments
+Analytics: Expense Analytics, Policy Violations
+12. Zoho Subscriptions
+Home: Dashboard, MRR, Churn Rate, Active Subscriptions
+Products: All Products, Plans, Add-ons, Coupons
+Customers: All Customers, New Customer
+Subscriptions: All Subscriptions, New Subscription, Trialing, Active, Canceled
+Invoices: All Invoices, Paid, Overdue
+Payments: Transactions, Failed Payments
+Reports: Subscription Reports, Revenue Reports, Churn Reports
+13. Zoho Connect (Internal Social Network)
+Feeds: All Feeds, Company Wall, My Feed
+Groups: All Groups, My Groups, Create Group
+Channels: All Channels, My Channels
+Manuals (Wiki): Knowledge Base, Articles
+Files: All Files, My Files, Shared Files
+Events: Company Calendar, My Events
+Forums: Discussion Topics, Q&A
+Tasks: My Tasks, Group Tasks
+14. Zoho WorkDrive (File Management)
+My Folders: All Files & Folders, Recent, Starred, Offline
+Team Folders: All Team Folders, My Teams
+Shared With Me: Files and Folders shared with you
+Public/External Links: Manage shared links
+Trash: Deleted Files
+WorkDrive Go (Office Suite): Writer (Documents), Sheet (Spreadsheets), Show (Presentations)
+15. Zoho Creator (Low-Code App Builder)
+Home: My Applications, Shared with Me, Marketplace
+Application Builder: Design, Workflows, Settings
+Environments: Development, Staging, Production
+Data Sources: Connections, Picklists
+Reports: All Reports, Create Report
+Pages: All Pages, Create Page (Dashboards)
+Workflows: All Workflows, Create Workflow (Schedules, Triggers)
+16. Zoho Writer (Word Processor)
+Documents: My Documents, Recent, Shared with Me, Templates, Trash
+Editor Tools:
+Format: Text Styles, Paragraph, Lists & Bullets, Table, Columns
+Insert: Image, Chart, Special Characters, Table of Contents, Hyperlink
+Review: Track Changes, Comments, Spell Check, Grammar Check
+Automation (Zia AI):
+Writing Assistant: Readability Suggestions, Tone Analysis, Sentence Completion
+Ask Zia: Summarize Document, Ask Questions about Content
+Collaboration: Share Document, Real-time Cursors, Lock Content
+Mail Merge: Create Template, Select Data Source, Generate Documents
+Signatures: Add Digital Signature Field, Send for Signing (Zoho Sign)
+Publish & Export: Publish to Web, Export as Word (.docx), Export as PDF, Print
+17. Zoho Sheet (Spreadsheet)
+Sheets: My Spreadsheets, Recent, Shared with Me, Templates, Trash
+Data:
+Import/Export: Import from Excel/CSV, Export as Excel/CSV/PDF
+Data Tools: Data Validation, Text to Columns, Remove Duplicates, Data Cleaning
+Analysis:
+Pivot Tables: Create Pivot Table, Manage Pivot Tables
+Charts: All Chart Types (Bar, Line, Pie), Create Chart
+Insights (Zia AI): Ask Zia (Natural Language Query), Get Insights, Automated Charting
+Formulas: Insert Function, Formula Auditing, Name Manager
+Automation:
+Macros: Record Macro, Run Macro
+Custom Scripts (Deluge): Script Editor, Scheduled Scripts
+Collaboration: Share Sheet, Comments, Version History, Protect Sheet/Range
+View: Freeze Panes, Gridlines, Formula Bar
+18. Zoho Show (Presentation)
+Presentations: My Presentations, Recent, Shared with Me, Templates
+Design:
+Themes: Apply Theme, Customize Theme
+Master Slides: Edit Master, New Master Layout
+Layouts: Apply Layout, Reset Slide
+Insert: Text Box, Image, Video, Audio, Chart, Table, Shape, Icon
+Animations & Transitions:
+Animations: Entrance, Emphasis, Exit effects
+Transitions: Slide Transitions, Timing
+Present:
+Slideshow: From Beginning, From Current Slide
+Presenter View: See Notes, Timer, Next Slide
+Broadcast: Share Live Presentation, Remote Control
+Collaboration: Share Presentation, Comments, Review Mode
+19. Zoho Cliq (Team Chat)
+Chats: Recent Conversations, Direct Messages, Group Chats, Starred
+Channels: All Channels, My Channels, Unread, Browse Channels
+Contacts: All Contacts, Teams, Departments
+History: Search History, Files, Links, Mentions
+Calendar: My Meetings, Team Calendar
+Calls: Start Audio Call, Start Video Call, Call History
+Apps & Bots:
+Bots: My Bots, Bot Store
+Integrations: Installed Apps, App Store
+My Profile: Status, Do Not Disturb, Settings
+20. Zoho Meeting (Video Conferencing)
+Home: Dashboard, Start a Meeting Now
+Meetings:
+My Meetings: Upcoming, Past Meetings
+Schedule Meeting: New Meeting, Recurring Meeting
+Webinars:
+My Webinars: Upcoming, Past Webinars
+Schedule Webinar: New Webinar, Registration Settings, Polls, Q&A
+Recordings: My Recordings (Cloud), Local Recordings
+Reports: Meeting Reports, Webinar Reports, Attendee Analytics
+Settings: My Profile, Audio/Video Settings, Security, Integrations
+21. Zoho Forms
+Dashboard: Forms Overview, Recent Submissions, Analytics
+Forms: All Forms, New Form, My Forms, Shared Forms, Templates
+Builder (for a selected form):
+Fields: Add Fields, Field Types (Text, Choice, etc.)
+Rules: Field Rules, Form Rules, Page Rules
+Themes: Apply Theme, Customize Theme
+Submissions: All Entries, Reports, Analytics
+Share: Public Link, Embed on Website, Email Campaign
+Integrations: Zoho CRM, Mailchimp, Payment Gateways (Stripe, etc.)
+Settings: Notifications, Form Confirmation, Security22. Zoho Analytics (Business Intelligence)
+Home: My Home, Recent Views, Favorites, Shared with Me
+Explorer: All Workspaces, My Workspaces, Shared Workspaces
+Data Sources:
+Import Data: From Files, From Databases, From Cloud Storage, From Business Apps
+Manage Data Sources: Sync Settings, Data Refresh History
+Builder (within a Workspace):
+Create: New Report, New Dashboard, New Table
+Data Modeling: Edit Table Design, Formulas, Query Tables
+Ask Zia (AI): Ask a Question, Zia Insights, What-if Analysis
+Reports: All Reports, My Reports, Shared Reports, Report Folders
+Dashboards: All Dashboards, My Dashboards, Shared Dashboards, Slideshows
+Alerts & Schedules: Manage Alerts, Schedule Emails
+Publish & Embed: Share Views, Embed in Website/App, API Management
+Settings: Workspace Settings, User Management, Data Backup
+23. Zoho Inventory
+Dashboard: Inventory Summary, Sales Activity, Product Details, Low Stock Items
+Items:
+Item Management: All Items, Item Groups, Composite Items
+Inventory: Price Lists, Inventory Adjustments
+Sales:
+Customers: All Customers, New Customer
+Sales Orders: All Sales Orders, New Order
+Packages & Shipments: Create Package, Create Shipment, Delivery Tracking
+Purchases:
+Vendors: All Vendors, New Vendor
+Purchase Orders: All Purchase Orders, New Order
+Bills: All Bills, New Bill
+Warehouses: Warehouse List, Stock Transfers, Bin Locations
+Integrations:
+Marketplaces: Amazon, eBay, Shopify
+Shipping: Shipping Carrier Integrations
+Accounting: Zoho Books Integration
+Reports: Inventory Reports, Sales Reports, Purchase Reports, Activity Log
+24. Zoho Subscriptions
+Home: Dashboard, MRR, Churn Rate, LTV, Key Metrics
+Products:
+All Products: Product Catalog
+Plans & Addons: Create Plan, Create Addon, Coupons
+Customers: All Customers, New Customer, Customer Portal
+Subscriptions: All Subscriptions, New Subscription, Active, Trialing, Canceled
+Billing:
+Invoices: All Invoices, Paid, Overdue
+Payments: Transactions, Failed Payments (Dunning), Refunds
+Revenue Recognition: Revenue Schedules, Deferred Revenue Reports
+Analytics: Subscription Metrics, Revenue Analytics, Churn Analytics, Cohort Analysis
+Settings: Hosted Payment Pages, Email Notifications, Taxes, Payment Gateways
+25. Zoho Sign (Digital Signatures)
+Dashboard: Documents Overview, Waiting for My Signature, In Progress, Completed
+Send for Signatures: Upload Document, Add Recipients, Add Fields, Send
+Sign Documents: Documents to Sign
+Documents:
+My Documents: All, In Progress, Completed, Declined, Recalled
+Shared With Me: Documents shared with you
+Templates: All Templates, Create Template, My Templates
+Reports: Document Status Report, Audit Trail
+Settings: My Profile, Manage Templates, Legal Disclosure, Integrations
+26. Zoho Backstage (Event Management)
+Dashboard: Event Overview, Registrations, Ticket Sales, Live Analytics
+Events: All Events, Create Event, Past Events
+Website:
+Site Builder: Home Page, Agenda, Speakers, Sponsors
+Design: Themes, Custom CSS
+Attendees:
+Manage: All Attendees, Check-in, Send Email
+Registration: Ticket Types, Registration Form, Discount Codes
+Speakers & Sessions:
+Speakers: All Speakers, Invite Speaker
+Agenda: Manage Agenda, Create Session
+Sponsors: All Sponsors, Add Sponsor, Sponsorship Tiers
+Onstage (Virtual Event Hub): Main Stage, Sessions, Networking, Expo
+Reports: Attendee Reports, Sales Reports, Engagement Reports
+27. Zoho Commerce
+Dashboard: Store Overview, Sales, Top Products, Abandoned Carts
+Products: All Products, New Product, Categories, Brands, Inventory
+Orders: All Orders, Unfulfilled, Fulfilled, Shipped
+Customers: All Customers, Customer Groups
+Marketing:
+Promotions: Coupons, Discounts, Gift Cards
+Campaigns: Email Marketing, SEO, Social Media
+Website:
+Store Customizer: Themes, Page Builder, Menus
+Content: Blog, Pages
+Payments: Payment Gateways, Transaction History
+Shipping: Shipping Methods, Carriers, Shipping Labels
+Reports: Sales Reports, Product Reports, Customer Reports
+Settings: Store Details, Taxes, Checkout Settings, Domains28. Zoho Forms
+Dashboard: Forms Overview, Recent Submissions, Conversion Rates, Partial Submissions
+Forms: All Forms, My Forms, Shared With Me, Create Form, Templates
+Builder (for a selected form):
+Add Fields: Drag-and-Drop Fields (Text, Number, Choice, File Upload, etc.)
+Rules: Field Rules, Form Rules (e.g., redirect on submit), Page Rules
+Themes: Apply Theme, Customize Branding (Logo, Colors, Fonts)
+Settings: Notifications, Form Confirmation Message, Security (CAPTCHA)
+Analytics & Reports:
+Entries: All Entries, Partial Entries, View/Edit Entry
+Reports: Summary Report, Create Custom Report, Export Data (CSV, PDF)
+Share: Public Link, Embed on Website, Email Campaign, QR Code
+Integrations: Zoho CRM, Zoho Campaigns, Payment Gateways, Webhooks
+29. Zoho Creator (Low-Code Platform)
+Home: My Applications, Shared Apps, Marketplace, Create Application
+Builder (within an application):
+Design:
+Forms: Create Form, Form Layouts, Form Fields
+Reports: Create Report (List, Kanban, Calendar, etc.), Custom Filters
+Pages: Create Page, Page Builder, Add Elements (Panels, Buttons, Charts)
+Workflows: Create Workflow, On Add, On Edit, Scheduled Scripts, Approvals
+Settings: Application Settings, User Permissions, Custom Domain
+Environments: Development, Staging, Production
+Data Sources: Connections (to external services), Picklists
+Mobile: Preview on Mobile, Configure Mobile Layouts, Push Notifications
+AI Models (Zia): Prediction Models, OCR, Object Detection
+BI & Analytics: Create Dashboard, Add Reports to Dashboard
+Settings (Global): My Account, Developer Tools, API Keys
+30. Zoho Cliq (Team Communication)
+Home: My Activity, Recent Mentions, Pinned Chats
+Chats: All Conversations, Direct Messages (1-to-1), Group Chats
+Channels: All Channels, My Channels, Unread, Browse Public Channels
+Contacts: All Contacts, My Teams, Departments
+Calls: Start Audio/Video Call, Call History, Screen Sharing
+Files: Files Shared with Me, Files I Shared, Search Files
+Apps, Bots & Tools:
+Bots: My Bots, Bot Store, Create Bot
+Integrations: Installed Apps, Marketplace
+Commands: Create Custom Slash Command
+My Profile: Set Status, Do Not Disturb, Preferences, Settings
+31. Zoho WorkDrive (Cloud File Management)
+My Folders: All Files & Folders, Recent, Starred, My Edits
+Team Folders: All Team Folders, My Teams
+Shared With Me: Files and Folders shared with you
+Public Links: Manage external share links
+Trash: Deleted Files & Folders
+WorkDrive Go (Online Office Suite):
+New: Writer Document, Sheet Spreadsheet, Show Presentation
+Admin Console (for Admins):
+Dashboard: Storage Overview, User Activity
+Members: Manage Users, User Groups
+Security: Access Policies, Audit Logs, Data Loss Prevention (DLP)
+Reports: Storage Reports, Activity Reports
+32. Zoho Meeting (Video Conferencing)
+Home: Dashboard, Start a Meeting, Join a Meeting
+Meetings:
+My Meetings: Upcoming, Past Meetings
+Schedule Meeting: New Meeting, Recurring Meeting, Meeting Templates
+Webinars:
+My Webinars: Upcoming, Past Webinars
+Schedule Webinar: New Webinar, Registration Form, Polls, Q&A, Handouts
+Recordings: My Recordings, Cloud Recordings, Local Recordings
+Reports: Meeting Reports, Webinar Reports (Attendance, Engagement)
+Settings: My Profile, Audio/Video Settings, Security, Integrations, Branding
+33. Zoho Sprints (Agile Project Management)
+Home: My Dashboard, Project Overview, My Work Items
+Backlog:
+Product Backlog: All Items, Create User Story, Create Epic
+Story Mapping: Visualize User Journey
+Sprints:
+Active Sprint: Scrum Board, Task Board
+Sprint Planning: Add Items to Sprint, Set Sprint Goal
+All Sprints: Upcoming, Completed Sprints
+Releases: Manage Releases, Associate Sprints
+Epics: All Epics, Epic Progress
+Reports: Velocity Chart, Burndown Chart, Burnup Chart, Cumulative Flow
+Timesheet: Log Time, My Timesheets, Timesheet Reports
+Users: All Users, Team Roles34. Zoho Recruit (Applicant Tracking System)
+34. Zoho Recruit (Applicant Tracking System)
+Home: Hiring Dashboard, My Activities, Openings Pipeline, Recent Candidates
+Job Openings: All Openings, Create Opening, My Openings, Published, Internal, On Hold
+Candidates: All Candidates, Add Candidate, My Candidates, Candidate Pool, Search Resumes
+Interviews: My Interviews, Schedule Interview, All Interviews, Awaiting Feedback
+Clients & Contacts: Client Accounts, Hiring Managers
+Vendors: Staffing Agencies, Vendor Portals
+Reports: Candidate Source Report, Time to Fill Report, Interview Reports, Job Opening Analytics
+Careers Website: Customize Page, Manage Job Board, Embed Options
+Automation (AI): Resume Parser, Zia Candidate Matching, Workflow Rules
+Settings: Hiring Pipeline Stages, Email Templates, User Management, Job Boards Integration
+35. Zoho Expense
+Dashboard: My Expenses Overview, Reports Awaiting Approval, Unsubmitted Expenses
+Receipts: My Receipts, Upload Receipt, Auto-Scan, Bulk Import, Unmatched Receipts
+Expenses: All Expenses, New Expense, New Mileage, Recurring Expenses
+Reports: My Reports, Create Report, Awaiting Approval, Approved, Reimbursed
+Cards: My Corporate Cards, Reconcile, Pending Transactions
+Approvals: Reports for My Approval, Trips for My Approval
+Payments: Reimbursements to be Paid, Reimbursement History
+Analytics: Expense Analytics, Policy Violations, Spending by Category
+Settings: Policies, Categories, Per Diems, Approval Workflows, Corporate Cards
+36. Zoho Books (Accounting)
+Dashboard: Financial Overview, Cash Flow, Income & Expenses, Top Expenses
+Sales:
+Customers: All Customers, New Customer
+Estimates/Quotes: All Quotes, New Quote
+Sales Orders: All Sales Orders, New Order
+Invoices: All Invoices, New Invoice, Recurring Invoices
+Payments Received: All Payments, Record Payment
+Purchases:
+Vendors: All Vendors, New Vendor
+Expenses: All Expenses, New Expense
+Bills: All Bills, New Bill, Recurring Bills
+Payments Made: All Payments, Record Payment
+Items: All Items, New Item, Price Lists, Inventory Adjustments
+Banking: Bank Accounts, Bank Feeds, Reconciliation, Categorize Transactions
+Time Tracking: Projects, Timesheets, Billable Hours
+Accountant: Chart of Accounts, Manual Journals, Tax Payments
+Reports: Profit & Loss, Balance Sheet, Cash Flow, Sales Tax Report, All Reports
+Documents: My Documents, Upload Document, Auto-scan Receipts
+37. Zoho Subscriptions
+Home: Dashboard, MRR, Churn Rate, LTV, Key Metrics
+Products:
+All Products: Product Catalog
+Plans & Addons: Create Plan, Create Addon, Coupons
+Customers: All Customers, New Customer, Customer Portal
+Subscriptions: All Subscriptions, New Subscription, Active, Trialing, Canceled
+Billing:
+Invoices: All Invoices, Paid, Overdue
+Payments: Transactions, Failed Payments (Dunning), Refunds
+Revenue Recognition: Revenue Schedules, Deferred Revenue Reports
+Analytics: Subscription Metrics, Revenue Analytics, Churn Analytics, Cohort Analysis
+Settings: Hosted Payment Pages, Email Notifications, Taxes, Payment Gateways
+38. Zoho Inventory
+Dashboard: Inventory Summary, Sales Activity, Product Details, Low Stock Items
+Items: All Items, Item Groups, Composite Items, New Item, Price Lists
+Inventory: Warehouses, Stock Adjustments, Stock Transfers
+Sales: Customers, Sales Orders, Packages, Shipments
+Purchases: Vendors, Purchase Orders, Bills
+Integrations: Marketplaces (Shopify, etc.), Shipping Carriers, Accounting
+Reports: Inventory Reports, Sales Reports, Purchase Reports, Activity Log
+39. Zoho Commerce
+Dashboard: Store Overview, Sales, Top Products, Abandoned Carts
+Products: All Products, New Product, Categories, Brands, Inventory
+Orders: All Orders, Unfulfilled, Fulfilled, Shipped
+Customers: All Customers, Customer Groups
+Marketing: Promotions (Coupons), Email Marketing, SEO
+Website: Store Customizer (Themes), Page Builder, Blog, Menus
+Payments: Payment Gateways, Transaction History
+Shipping: Shipping Methods, Carriers, Shipping Labels
+Reports: Sales Reports, Product Reports, Customer Reports
+Settings: Store Details, Taxes, Checkout Settings, Domains
+40. Zoho Sign (Digital Signatures)
+Dashboard: Document Status Overview, Waiting for My Signature, In Progress, Nearing Expiry
+Send for Signature:
+Upload Document: From Computer, From Cloud (WorkDrive, etc.)
+Add Recipients: Set Signing Order, Assign Roles (Signer, Approver)
+Add Fields: Drag & Drop (Signature, Initials, Text, Date, Checkbox)
+Review & Send: Customize Email Message, Set Reminders & Deadline
+Sign Documents: Awaiting My Signature
+Documents:
+My Documents: All, In Progress, Completed, Declined, Recalled
+Shared With Me: Documents shared for my review/signature
+Templates:
+All Templates: My Templates, Shared Templates
+Create Template: Upload and prepare a reusable document
+Reports & Audit:
+Reports: Document Status Report, Completion Rate
+Audit Trail: Search and view detailed history for any document
+Settings:
+My Profile: Manage My Signatures & Initials
+Account Settings: Legal Disclosure, Branding, Date/Time Format
+Integrations: Zoho CRM, WorkDrive, etc.
+41. Zoho Survey
+Home: Dashboard, Recent Surveys, Response Rate Overview
+Surveys: All Surveys, My Surveys, Shared With Me, Create Survey
+Builder (for a selected survey):
+Design: Add Questions (Multiple Choice, Rating, Text, etc.), Logic & Branching (Skip Logic)
+Themes: Apply Theme, Customize Branding
+Options: Survey Language, Closing Date, Anonymity
+Distribution:
+Web Link: Get Public URL
+Email Campaign: Send to a List
+Embed: Embed on Website
+Social Media: Share on Social Channels
+Reports & Analytics:
+All Responses: View Individual Responses, Filter Responses
+Summary Report: Charts for each question
+Cross-Tab Report: Compare answers between questions
+Sentiment Analysis (AI): Analyze open-ended text feedback
+Settings: User Management, Integrations, API Access
+42. Zoho Flow (Integration Platform)
+Dashboard: My Flows, Task Usage, Execution History, Popular Apps
+My Flows: All Flows, Active Flows, Inactive Flows, Create Flow
+Flow Builder:
+Trigger: Choose App and Trigger Event (e.g., "New Email in Gmail")
+Actions: Add Logic (Decisions, Loops), Add App Actions (e.g., "Create record in Zoho CRM")
+Test & Debug: Test the workflow with sample data
+Connections: My Connections, Add New Connection (to apps like Gmail, Slack, etc.)
+History: All Executions, Successful Runs, Failed Runs, View Logs
+Gallery: Pre-built Flow Templates, My Templates
+Settings: My Profile, Organization Settings, Task Usage
+43. Zoho Creator (Low-Code Application Builder)
+Home: My Applications, Shared Apps, Marketplace, Create Application
+Builder (within an application):
+Design:
+Forms: Create Form, Form Layouts, Form Fields
+Reports: Create Report (List, Kanban, Calendar, etc.), Custom Filters
+Pages: Create Page, Page Builder, Add Elements (Panels, Buttons, Charts)
+Workflows: Create Workflow, On Add, On Edit, Scheduled Scripts, Approvals
+Settings: Application Settings, User Permissions, Custom Domain
+Environments: Development, Staging, Production
+Data Sources: Connections (to external services), Picklists
+Mobile: Preview on Mobile, Configure Mobile Layouts, Push Notifications
+AI Models (Zia): Prediction Models, OCR, Object Detection
+BI & Analytics: Create Dashboard, Add Reports to Dashboard
+Settings (Global): My Account, Developer Tools, API Keys
+44. Zoho Backstage (Event Management)
+Dashboard: Event Overview, Registrations, Ticket Sales, Live Analytics
+Events: All Events, Create Event, Past Events
+Website:
+Site Builder: Home Page, Agenda, Speakers, Sponsors
+Design: Themes, Custom CSS
+Attendees:
+Manage: All Attendees, Check-in, Send Email
+Registration: Ticket Types, Registration Form, Discount Codes
+Speakers & Sessions:
+Speakers: All Speakers, Invite Speaker
+Agenda: Manage Agenda, Create Session
+Sponsors: All Sponsors, Add Sponsor, Sponsorship Tiers
+Onstage (Virtual Event Hub): Main Stage, Sessions, Networking, Expo
+Reports: Attendee Reports, Sales Reports, Engagement Reports
+45. Zoho Sites (Website Builder)
+Dashboard: Site Overview, Traffic Stats, Form Submissions, Recent Blog Comments
+Builder (Visual Editor):
+Pages: Manage Pages (Add, Reorder, Delete), Page Settings (SEO, etc.)
+Elements: Add Elements (Text, Image, Forms, Buttons, etc.)
+Sections: Add Pre-built Sections (Header, Footer, Testimonials, Gallery)
+Design: Global Styles (Fonts, Colors), Themes
+Blog: All Posts, New Post, Categories, Comments
+Forms: Form Submissions, Form Analytics
+Settings:
+General: Site Name, Favicon
+Domains: Manage Custom Domain, SSL Certificate
+SEO: Global SEO Settings, Sitemaps, Redirects
+Integrations: Zoho CRM, SalesIQ (Chat), etc.
+Portal (for Members): Manage Members, Access Control, Member Pages
+46. Zoho Vault (Password Manager for Teams)
+Dashboard: My Secrets, Shared with Me, Security Score, Recent Activity
+Secrets:
+All Secrets: Search Vault
+My Secrets: Personal Passwords & Notes
+Team Secrets: Shared Team Passwords & Notes
+Chambers: Secure, shared folders for specific teams or projects
+Security:
+Password Generator: Create Strong Passwords
+Security Dashboard: Weak Passwords, Reused Passwords, Breached Passwords
+Emergency Access: Set up trusted contacts
+Audit & Reports:
+Audit Trail: View all actions (who accessed what, when)
+Reports: User Access Reports, Secret Usage Reports
+Admin:
+User Management: Add Users, User Groups
+Policies: Enforce Password Complexity, MFA
+Tools: Browser Extensions, Mobile Apps, Import/Export
+47. Zoho Mail Admin Console
+Dashboard: Mail Server Status, User Count, Storage Usage
+Domains: Domain Setup, DKIM, SPF, DMARC records
+Users: All Users, Add User, User Groups, Import/Export Users
+Mail Settings:
+Policies: Spam Control, Email Policies (sending limits, etc.)
+Routing: Email Forwarding, Split Delivery
+Security: Two-Factor Authentication (TFA), Data Encryption
+Migration: Migrate from Google Workspace, Office 365, etc.
+Archive & eDiscovery: Email Retention Policies, Search Archived Mail
+Reports: Mail Traffic Reports, Spam Reports, User Activity Reports
+48. Zoho Calendar
+View: Day, Week, Month, Agenda
+My Calendars: Personal Calendar, Work Calendar, Create New Calendar
+Shared Calendars: Team Calendars, Colleague Calendars
+Appointments:
+Booking Page: Set up your public booking link
+Appointment Types: Define services and durations
+Meetings:
+New Event: Create Event, Invite Attendees
+Smart Scheduling (AI): Find a time that works for everyone
+Integrations: Zoho Meeting, Zoho CRM, Google Calendar Sync
+Settings: My Profile, Notification Settings, Sharing Permissions
+49. Zoho Notebook
+All Notes: View All Notes, Recent Notes
+Notebooks: My Notebooks, Create Notebook, Shared Notebooks
+Note Types (Cards):
+Text Card: Create a written note
+Checklist Card: Create a to-do list
+Audio Card: Record a voice note
+Photo Card: Add images
+Sketch Card: Draw a sketch
+Favorites: Starred Notes
+Reminders: Notes with reminders set
+Search: Search all content (including text in images)
+Collaboration: Share Note, Share Notebook
+Trash: Deleted Notes
+50. Zoho People (Human Resources)
+Home/Dashboard: My Space, Company Dashboard, Announcements, Quick Actions (Check-in, Apply Leave)
+Employee Self-Service:
+My Profile: View & Edit Personal Info, Documents, Skills
+Leave Tracker: My Leave Balance, Apply Leave, Holiday Calendar
+Timesheets: My Timesheets, Log Time, Approvals
+Attendance: My Attendance Log, Regularize Entries
+Leave Management:
+Leave Calendar: Team & Company Leave View
+Approvals: Leave Requests for My Approval
+Reports: Leave Balance Reports, Leave History
+Time & Attendance:
+Attendance: Live Feed, Today's Attendance, Shift Roster
+Timesheets: All Timesheets, Approvals, Project Time Tracking
+Performance:
+Appraisals: My Reviews, Team Reviews, Performance Cycles
+Goals / KRAs: My Goals, Team Goals, Goal Alignment
+Skill Sets: Company Skill Matrix, My Skills
+Files:
+HR Files: Company Policies, Employee Handbooks
+My Files: My Documents (Payslips, etc.)
+Cases (HR Helpdesk): My Cases, Submit a Case, All Cases, Case Categories
+Reports & Analytics:
+All Reports: Employee Reports, Headcount Reports, Attrition Reports
+Custom Reports: Report Builder
+Admin Console:
+Organization: Company Profile, Departments, Locations
+Settings: Leave Settings, Attendance Settings, Performance Settings
+Onboarding/Offboarding: Create Onboarding Flow, Manage Offboarding
+51. Zoho Social
+Home: Brand Health Dashboard, Live Stream of Mentions, Performance Stats
+Publish:
+New Post: Compose for Multiple Networks
+Publishing Calendar: Visual Content Calendar, Drag & Drop Scheduling
+Content Queue: Manage Queued Posts, SmartQ (AI-based timing)
+Drafts & Approvals: My Drafts, Awaiting My Approval
+Monitor:
+Columns: Create Custom Feeds (Mentions, Keywords, Competitors)
+Social Listening: Advanced Keyword/Hashtag Search
+Messages: Unified Inbox for DMs and Private Messages
+Connections: Audience Demographics, CRM Contacts, Follower Growth
+Reports:
+Standard Reports: Performance by Network, Post Analytics
+Custom Reports: Build Your Own Report
+Collaborate: Team Members, Roles & Permissions, Discussion Threads
+Settings: Manage Brands, Connect Social Channels, URL Shorteners
+52. Zoho Campaigns (Email & Marketing Automation)
+Dashboard: Campaign Overview, List Growth, Automation Performance
+Campaigns:
+Email Campaigns: All Campaigns, Create Campaign (Regular, A/B Test)
+SMS Campaigns: All SMS Campaigns, Create SMS Campaign
+Contacts:
+Manage Lists: All Lists, Create List, Import Contacts
+Segments: Create Dynamic Segments, View Segments
+Signup Forms: Create Form, Embed Form
+Automation:
+Workflows: Create Workflow, Pre-built Templates (Welcome Series, etc.)
+Autoresponders: Create Autoresponder
+Library:
+Templates: My Templates, Template Gallery, Create Template
+Images: My Images, Stock Images
+Reports & Analytics:
+Campaign Reports: Open Rates, Click Rates, Bounces
+Automation Reports: Workflow Performance
+E-commerce: Connect Store (Shopify, etc.), Sales Tracking, Abandoned Cart Automation
+Settings: Domain Authentication (SPF/DKIM), User Management, Integrations
+53. Zoho BugTracker
+Dashboard: Project Overview, My Bugs, Bug Statistics, Recent Activity
+Projects: All Projects, My Projects, Create Project
+Bugs: All Bugs, My Bugs, Report Bug, Kanban View, List View
+Milestones: All Milestones, Create Milestone, Track Progress
+Timesheets: Log Time on Bugs, Timesheet Reports
+Forums: Project Discussions, Q&A
+Reports: Bug Reports by Status/Severity, Milestone Reports, Velocity Charts
+Settings:
+Project Settings: Users & Roles, Custom Fields, Workflows
+Global Settings: My Account, Integrations (GitHub, Bitbucket, etc.)
+54. Zoho Assist (Remote Support)
+Home: Dashboard, Start Remote Session, Access Unattended Device
+Remote Support:
+Start Session: Initiate On-Demand Session
+Scheduled Sessions: My Sessions, Schedule a Session
+Session History: View Past Session Logs & Recordings
+Unattended Access:
+All Devices: List of managed computers
+Deployment: Add New Device, Bulk Deployment
+Device Groups: Manage groups of computers
+Screen Sharing: Start Screen Share (View only)
+Reports: Session Reports, Technician Reports, Unattended Access Log
+Settings:
+General: My Profile, Branding (Custom Logo/URL)
+Technician Management: Add/Manage Technicians
+Integrations: Zoho Desk, ServiceNow, Zendesk
+Security: Two-Factor Authentication, Session Policies
+55. Zoho Lens (AR Remote Assistance)
+Home: Dashboard, Start an AR Session
+Sessions:
+My Sessions: Upcoming, Past Sessions
+Session History: View Session Recordings & Snapshots
+AR Tools (in-session):
+Live Camera Stream: View remote camera feed
+3D Annotations: Place 3D arrows and markers
+Freeze Frame: Pause the video to draw on a still image
+OCR (Text Recognition): Scan and copy text from the video stream
+In-session Chat & VoIP: Communicate with the remote user
+Reports: Session Duration Reports, Technician Performance
+Settings: My Profile, User Management, Branding
+56. Zoho Bookings (Appointment Scheduling)
+Home: Dashboard, Today's Appointments, Recent Bookings
+Calendar:
+My Calendar: View all appointments
+Team Calendar: See schedules for all staff
+Booking Page:
+Customize: Edit your public booking page URL, logo, and instructions
+View Live Page: See what your customers see
+Services: All Services, Create Service (1-on-1, Group Class)
+Staff: All Staff, Add Staff Member, Set Working Hours & Breaks
+Customers: My Customer List, View Booking History
+Reports: Booking Reports, Revenue Reports, Staff Utilization
+Settings:
+Workspace Settings: Timezone, Date Format
+Calendar Sync: Google Calendar, Office 365, Zoho Calendar
+Online Meetings: Zoho Meeting, Zoom, GoToMeeting
+Payments: Stripe, PayPal, etc.
+57. Zoho Learn (Learning Management System)
+For Learners (My View):
+Dashboard: My Courses, My Learning Paths, Recently Viewed
+Course Catalog: Browse and enroll in courses
+My Learning: View my progress, certificates
+For Admins/Authors (Admin View):
+Dashboard: Learning Analytics, Course Completion Rates, User Activity
+Courses: All Courses, Create Course, Import Course
+Course Builder: Add Lessons (Text, Video, Quiz), Create Assessments
+Users: Manage Learners, User Groups, Assign Courses
+Learning Paths: Create structured learning journeys
+Reports: Course Reports, Learner Reports, Assessment Results
+Settings: Branding, Gamification (Points/Badges), Certificates
+58. Zoho Contracts
+Dashboard: Contracts Overview, Expiring Soon, Awaiting My Action
+Contracts: All Contracts, My Contracts, Shared with Me, Create Contract
+Contract Types: Manage templates for different contract types (NDA, MSA, etc.)
+Clause Library: Pre-approved legal clauses
+Workflow (for a selected contract):
+Drafting: Edit Contract, Collaborate with Comments
+Approval: Send for Internal Approval, View Approval Status
+Negotiation: Share with Counterparty, Track Changes
+Signatures: Send for e-Signature (Zoho Sign)
+Post-Signature: Track Obligations, Set Renewal Reminders
+Reports: Contract Status Reports, Renewal Pipeline, Clause Usage
+Admin Settings: User Roles, Approval Workflows, Custom Fields
+59. Zoho TeamInbox (Shared Inbox Management)
+Inboxes: All Inboxes, Create Inbox
+My View (within an Inbox):
+Unassigned: New messages for the team to claim
+Assigned to Me: Conversations I am responsible for
+Open: All active conversations
+Snoozed: Conversations to revisit later
+Closed: Resolved conversations
+Team View: View conversations assigned to other team members
+Collaboration:
+Internal Comments: Discuss an email privately with the team (@mention colleagues)
+Shared Drafts: Write a reply together before sending
+Automation:
+Rules: Automatically assign, tag, or close emails based on criteria
+Templates: Canned responses for common questions
+Analytics: Team Performance, Response Times, Conversation Volume
+Settings: Manage Inboxes, Team Members, Tags, Rules
+60. Zoho Workerly (Temporary Staffing Management)
+Dashboard: Today's Jobs, Available Temps, Timesheet Approvals, Sales Overview
+Jobs: All Jobs, Create Job, Active Jobs, Past Jobs
+Temps: All Temps, Add Temp, Available Temps, Skill Search
+Clients: All Clients, Client Contacts, Job Requests
+Scheduling:
+Scheduler: Visual drag-and-drop calendar
+Unfilled Shifts: View and assign open shifts
+Timesheets:
+Pending Approval: Review and approve temp timesheets
+Approved Timesheets: View processed hours
+Invoices & Pay:
+Generate Invoices: Create invoices for clients from timesheets
+Generate Payslips: Prepare payments for temps
+Reports: Job Reports, Sales Reports, Temp Performance Reports
+Settings: My Agency Details, Job Templates, Invoice Settings
+61. Zoho Shifts (Employee Scheduling)
+Dashboard: Today's Schedule, Open Shifts, My Shifts, Pending Requests
+Scheduler:
+View Schedule: By Day, Week, Month; By Position or Employee
+Build Schedule: Create Shifts, Use Schedule Templates
+Requests:
+Shift Swaps: View and approve swap requests
+Time Off: View and approve leave requests
+Open Shifts: Manage employee claims for open shifts
+Timesheets:
+My Timesheets: View my clocked hours
+Team Timesheets: Review and approve team hours, Edit Entries
+Reports: Labor Cost Reports, Schedule vs. Actual Hours, Attendance Reports
+Employees: All Employees, Add Employee, Set Availability & Positions
+Settings: Locations, Positions, General Schedule Settings, Time Clock Options (Geofencing)
+62. Zoho FSM (Field Service Management)
+Home: Dashboard, Today's Jobs, Technician Status Map, Unscheduled Work Orders
+Work Orders: All Work Orders, Create Work Order, Dispatch, Completed
+Scheduling & Dispatch:
+Dispatch Board: Visual schedule of all technicians and jobs
+Map View: See technician locations and job sites
+Suggest Technicians (AI): Find the best tech for the job
+Customers: All Customers, Service Locations, Asset History
+Inventory: Parts & Services, Warehouse Stock, Purchase Orders
+Billing:
+Generate Invoice: Create invoice from a completed work order
+Payments: Record payments
+Technician Portal (Mobile View): My Jobs, My Route, Parts Needed, Service Reports, Capture Signature
+Reports: Work Order Reports, Technician Performance, Inventory Reports
+Settings: Service Templates, Work Order Customization, User Management
+63. Zoho PageSense (Conversion Rate Optimization)
+Dashboard: All Experiments, Project Overview, Recent Results
+Experiments:
+A/B Testing: Create A/B Test, View Reports
+Split URL Testing: Create Split Test
+Funnel Analysis: Create Funnel, View Drop-off Reports
+Analysis:
+Heatmaps: View Click, Scroll, and Attention maps
+Session Recording: Watch recordings of user sessions
+Personalization: Create Personalized Experiences for different audience segments
+Website Tools:
+Polls: Create on-page polls
+Push Notifications: Set up and send web push notifications
+Goals: All Goals, Create Goal (e.g., button click, page visit)
+Audiences: All Audiences, Create Audience Segment
+Settings: Project Settings, Install Snippet, Integrations
+64. Zoho Tables (Online Database & Work Management)
+Workspaces: My Workspaces, Shared With Me, Create Workspace
+Bases (within a Workspace): All Bases, Create Base (from scratch, template, or import)
+Views (within a Base):
+Grid View: Classic spreadsheet-style view
+Form View: Create forms to collect data
+Kanban View: Organize records as cards in a pipeline
+Calendar View: Plot records on a calendar
+Gallery View: Display records as visual cards
+Data:
+Fields: Manage Columns (Text, Number, Attachments, Linked Records)
+Relationships: Link tables together
+Automations: Create Automation (e.g., "When a new row is added, send a notification")
+Interfaces: Create custom, interactive dashboards for your data
+Reports & Dashboards: Create charts and graphs from your data
+Settings: Base Settings, User Permissions, API Keys
+65. Zoho Payroll
+Home: Payroll Dashboard, Payday Countdown, To-Do List, Employee Summary
+Pay Runs: Run Payroll, Past Pay Runs, Draft Pay Runs
+Employees:
+All Employees: Employee List
+Onboarding: Add New Employee
+Offboarding: Terminate Employee
+Time & Attendance: Approve Timesheets, Manage Leave
+Taxes & Filings:
+Tax Filings: View and manage tax payments and forms
+Tax Withholding: Manage employee tax details
+Benefits & Deductions: Manage Benefits (Health, etc.), Manage Deductions
+Reports: Payroll Summary, Employee Reports, Tax Reports
+Settings: Organization Profile, Pay Schedule, Bank Accounts, Statutory Components
+66. Zoho Checkout (Payment Pages)
+Dashboard: Payments Overview, Recent Transactions, Revenue
+Payment Pages: All Pages, Create New Page (One-time or Recurring)
+Transactions: All Transactions, Successful, Failed, Refunds
+Customers: My Customer List, View Purchase History
+Products: My Product List, Create New Product
+Coupons: All Coupons, Create New Coupon
+Reports: Sales Reports, Transaction Reports
+Settings: Branding, Payment Gateways, Taxes, Email Notifications
+67. Zoho Thrive (Loyalty & Affiliate Management)
+Dashboard: Loyalty Program Overview, New Members, Points Redeemed
+Loyalty Program:
+Setup: Tiers & Rewards, Earning Rules, Redemption Rules
+Members: All Members, Search Members
+Affiliate Program:
+Setup: Commission Rules, Marketing Assets (Links, Banners)
+Affiliates: All Affiliates, Pending Approval, Payouts
+Referral Program:
+Setup: Referral Rewards (for referrer and friend)
+Reports: Loyalty Reports, Affiliate Performance, Referral Traffic
+Settings: Program Branding, Integrations (Commerce, Subscriptions)
+68. Zoho LandingPage
+Dashboard: All Landing Pages, Performance Overview (Views, Conversions)
+Landing Pages: All Pages, Create New Page
+Builder (for a selected page):
+Sections: Add Pre-built Sections
+Elements: Add Text, Images, Forms, Timers
+Design: Global Styles, Fonts, Colors
+Settings: SEO Settings, Form Settings
+Leads: View all leads collected from forms
+A/B Testing: Create A/B Test, View Results
+Integrations: Zoho CRM, Google Analytics, etc.
+Domains: Connect Custom Domain
+69. Zoho Domains
+Dashboard: My Domains, Domain Health Overview
+Domains: All Domains, Register New Domain, Transfer Domain
+DNS Management (for a selected domain): Manage Records (A, CNAME, MX, TXT)
+Email Forwarding: Set up email forwards
+WHOIS & Privacy: Manage Contact Info, Enable Privacy Protection
+SSL Certificates: Manage SSL
+Billing: My Invoices, Renewal Settings
+70. Zoho CommunitySpaces (Online Community Platform)
+Dashboard: Community Overview, New Members, Top Contributors, Unanswered Questions
+Channels: Different topic-based discussion areas
+Discussions: All Posts, My Posts, Following, Create Post
+Knowledge Base: Articles, Categories, Create Article
+Events: Upcoming Events, Create Event
+Members: Member Directory, Search Members
+Moderation:
+Queue: Posts & Comments Awaiting Approval
+Reported Content: View and act on reported items
+Gamification: Leaderboards, Badges, Points System
+Analytics: Engagement Reports, Member Growth, Content Performance
+Settings: Community Branding, User Roles, Moderation Rules, Integrations
+71. Zoho Publish (Local SEO & Listings Management)
+Dashboard: Listings Overview, Review Score, Search Rankings
+Listings:
+Manage Listings: Update Business Info (Hours, Address, etc.)
+Sync Status: View status across connected directories (Google, Bing, Yelp)
+Reviews:
+All Reviews: Unified inbox for all reviews
+Respond to Reviews: Use templates to reply
+Local SEO:
+Rankings: Track local keyword performance
+Citations: Monitor and build business citations
+Posts: Create and schedule posts for Google Business Profile
+Reports: Listing Accuracy Report, Review Performance, Ranking Reports
+Settings: Connect Listings, Business Profile, User Management
+72. Zoho Apptics (Application Analytics)
+Dashboard: App Overview, Real-time Users, Crash Rate, Key Metrics
+Audience: User Demographics, Devices, User Journeys
+Behavior:
+Events: Track custom in-app events
+Funnels: Analyze user conversion through key steps
+Screen Flow: Visualize how users navigate your app
+Quality:
+Crashes: Crash Reports, Symbolication
+Performance: App Start Time, API Latency, Screen Load Time
+Engagement:
+Push Notifications: Send targeted push campaigns
+In-App Feedback: Collect user feedback and ratings
+A/B Testing: Create and manage A/B tests for your app
+Settings: App Settings, Install SDK, Data Management, Alerts
+73. Zoho eProtect (Email Security & Archiving)
+Dashboard: Security Overview, Threats Detected, Mail Flow Status
+Threat Protection:
+Quarantine: View and manage quarantined emails (Spam, Malware)
+Policies: Anti-Spam, Anti-Phishing, Anti-Malware policies
+Data Loss Prevention (DLP): Create rules to prevent sensitive data leaks
+Encryption: Manage email encryption policies
+Archive:
+Search Archive: Perform eDiscovery searches
+Retention Policies: Define how long to keep emails
+Legal Hold: Place holds on mailboxes for legal cases
+Reports: Threat Reports, Mail Flow Reports, Archive Reports
+Settings: Domain Configuration, User Management, Policy Settings
+74. Zoho Directory (Identity & Access Management)
+Dashboard: Organization Overview, User Logins, App Usage
+Directory:
+Users: All Users, Add User, User Groups
+Devices: Managed Devices
+Applications:
+My Apps: User's personal app dashboard
+App Catalog: Add and configure apps for the organization
+Security:
+Single Sign-On (SSO): Configure SSO for apps
+Multi-Factor Authentication (MFA): Manage MFA policies
+Policies: Password Policies, Access Policies
+Reports: Audit Logs, App Usage Reports, Security Reports
+Settings: Directory Settings, Custom Branding, User Provisioning
+75. Zoho RPA (Robotic Process Automation)
+Dashboard: Bot Overview, Recent Runs, Success/Failure Rate
+Studio (Bot Builder):
+Recorder: Record actions to create a bot
+Workflow Designer: Drag-and-drop workflow builder
+Actions Library: Pre-built actions (Open App, Click Button, etc.)
+Bots: My Bots, Create Bot, Bot Schedules
+Executions: Execution History, Logs, Real-time Monitoring
+Connections: Manage credentials and connections to applications
+Settings: Agent (Bot Runner) Management, User Roles
+76. Zoho QEngine (Test Automation)
+Dashboard: Project Quality Overview, Recent Test Runs, Defect Summary
+Test Cases:
+Test Repository: All Test Cases, Create Test Case
+Test Suites: Group test cases into suites
+Execution:
+Test Runs: Plan and execute test runs
+CI/CD Integration: Connect to Jenkins, Bamboo, etc.
+Defects: Log Defects, Defect List, Integration with BugTrackers
+Automation Studio:
+Record & Play: Record web interactions
+Script Editor: Write custom test scripts
+Reports: Test Execution Reports, Code Coverage, Defect Reports
+77. Zoho ServiceDesk Plus (IT Help Desk)
+Dashboard: IT Help Desk Overview, Ticket Volume, SLA Status
+Requests: All Requests, New Incident, Service Catalog
+Problems: Log Problem, Problem List, Root Cause Analysis
+Changes: Log Change, Change Calendar, CAB (Change Advisory Board)
+Assets: All Assets, Scan Assets, Manage Software & Hardware
+Knowledge Base: All Solutions, Add Solution
+Reports: IT Help Desk Reports, Asset Reports, SLA Reports
+78. Zoho Site24x7 (All-in-one Monitoring)
+Home: Global Monitoring Dashboard
+Web: Website Monitoring, Web Page Speed, REST API
+Server: Server Monitoring, Processes, Services
+Network: Network Devices, Firewalls, Routers
+Cloud: AWS, Azure, GCP Monitoring
+APM (Application Performance): App Transaction Tracing
+Logs: Log Management, Search Logs
+Alerts: Current Alarms, Alert History, Alert Configuration
+79. Zoho Embedded BI (Embedded Analytics)
+Home: Dashboard, Analytics Overview, Usage Statistics
+Solutions:
+Create Solution: Start a new embedded analytics project
+My Solutions: List of all your embedded BI projects
+Designer (within a Solution):
+Data Sources: Connect to your application's database or API
+Report Builder: Create charts, pivot tables, and tabular reports
+Dashboard Designer: Drag-and-drop to build interactive dashboards
+Deployment:
+Embed Settings: Get embed URL/code snippet
+Theming: Customize the look and feel to match your app (white-labeling)
+Security: Configure Single Sign-On (SSO) and data security rules
+API & SDKs: API Keys, API Documentation, Web & Mobile SDKs
+Settings: User Management, White-Label Settings, Billing
+80. Zoho DataPrep (Data Preparation & Cleansing)
+Home: Dashboard, Recent Datasets, Data Quality Overview
+Data Sources: Import Data (from files, databases, cloud apps)
+Workspace:
+My Datasets: List of all imported datasets
+Prepare Data: Open a dataset to clean and transform it
+Transform (within the preparation view):
+Cleanse: Remove duplicates, handle missing values, correct data types
+Transform: Split columns, merge columns, create formula-based columns
+Enrich: Join with other datasets
+Recipes: Save a sequence of transformation steps to reuse later
+Export: Export cleaned data to a destination (Zoho Analytics, database, etc.)
+Settings: My Account, Connections, Schedules
+81. Zoho Apptics (Application Analytics)
+Dashboard: App Overview, Real-time Users, Crash Rate, Key Metrics
+Audience: User Demographics, Devices, User Journeys
+Behavior:
+Events: Track custom in-app events
+Funnels: Analyze user conversion through key steps
+Screen Flow: Visualize how users navigate your app
+Quality:
+Crashes: Crash Reports, Symbolication
+Performance: App Start Time, API Latency, Screen Load Time
+Engagement:
+Push Notifications: Send targeted push campaigns
+In-App Feedback: Collect user feedback and ratings
+A/B Testing: Create and manage A/B tests for your app
+Settings: App Settings, Install SDK, Data Management, Alerts
+82. Zoho Marketing Automation
+Dashboard: Marketing Funnel Overview, Lead Generation, Revenue Attribution
+Journeys:
+Journey Builder: Visual workflow builder for customer journeys
+My Journeys: All active and draft journeys
+Leads: All Leads, Lead Scoring, Lead Stages
+Content:
+Emails: Email Templates, A/B Testing
+Landing Pages: Page Builder, Page Analytics
+Forms: Signup Forms, Form Analytics
+Channels: Email Campaigns, SMS, Social Media Campaigns
+Website: Web Assistant (pop-ups, banners), Web Behavior Tracking
+Analytics: Journey Reports, Lead Source Analytics, Revenue Reports
+Settings: Domain Authentication, Integrations (CRM, etc.), User Management
+83. Zoho Payroll
+Home: Payroll Dashboard, Payday Countdown, To-Do List, Employee Summary
+Pay Runs: Run Payroll, Past Pay Runs, Draft Pay Runs
+Employees: All Employees, Onboarding, Offboarding
+Time & Attendance: Approve Timesheets, Manage Leave
+Taxes & Filings: View and manage tax payments and forms
+Benefits & Deductions: Manage Benefits, Manage Deductions
+Reports: Payroll Summary, Employee Reports, Tax Reports
+Settings: Organization Profile, Pay Schedule, Bank Accounts, Statutory Components
+The Suites (Conceptual Bundles)
+These are not single apps but bundles of the apps listed above. Their "pages" are simply the dashboards that link to the individual applications.
+84. Zoho CRM Plus: (Links to CRM, Campaigns, Desk, Social, etc.)
+85. Zoho Finance Plus: (Links to Books, Invoice, Expense, Inventory, etc.)
+86. Zoho Workplace: (Links to Mail, Cliq, WorkDrive, Writer, Sheet, Show, etc.)
+87. Zoho People Plus: (Links to People, Recruit, Expense, Cliq, etc.)
+88. Zoho Marketing Plus: (Links to Marketing Automation, Campaigns, Social, Survey, etc.)
+89. Zoho Service Plus: (Links to Desk, Assist, Lens, etc.)
+90. Zoho Projects Plus: (Links to Projects, Sprints, BugTracker, etc.)
+91. Zoho Catalyst (Pro-Code Serverless Platform)
+Home: Project Dashboard, Usage Metrics, Recent Deployments
+Develop: Functions, Web Client
+Data Store: Data Store, File Store, Cache
+AI Services: Zia (OCR, Object Detection, etc.)
+Amplify: Authentication, Push Notifications
+Monitor: Logs, Metrics, API Gateway Analytics
+Settings: Environments, Custom Domains, API Keys
+92. Zoho Office Integrator (Embedded Editors)
+Dashboard: API Usage, Document Sessions
+API Keys: Manage your API credentials
+Co-branding: Customize the look of the embedded editors
+Documentation: API Reference, SDKs
+Settings: My Account, Security, Webhooks
+ 

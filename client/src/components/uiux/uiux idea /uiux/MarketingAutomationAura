@@ -1,0 +1,63 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Marketing Automation"
+Global Search Bar: Placeholder: "Search by journey, lead, or campaign name..."
+Quick Create Button (+ Icon):
+New Journey
+New Email Campaign
+New Segment
+Notifications Bell Icon: Alerts for "A lead has completed the 'Welcome' journey," "A/B test winner found," etc.
+Settings Gear Icon: Links to the main automation settings page.
+User Profile Icon: Profile, Logout.
+2. Aura Marketing Automation Internal Sidebar
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main marketing overview. Widgets for "Lead Funnel" (showing leads at each stage), "Active Journeys," "Revenue Attribution," and "Top Performing Campaigns."
+Section: Lead Management
+Icon: Users
+Pages:
+All Leads: A master list of all leads in the system.
+Lead Scoring: A page to set up rules for scoring leads based on their properties and behavior (e.g., "+10 points for opening an email," "+50 points for visiting the pricing page").
+Segments: Create dynamic lists of leads based on complex criteria.
+Section: Engagement
+Icon: Send
+Pages:
+Journeys: The core of the app. A list of all automated customer journeys.
+Email Campaigns: A tool to build the individual emails that will be used inside your journeys.
+SMS Campaigns: A tool to build SMS messages.
+Web Push: A tool to create browser push notifications.
+Section: Content
+Icon: FileText
+Pages:
+Landing Pages: A builder to create landing pages for your campaigns.
+Forms: A tool to create lead capture forms (integrates with Aura Forms).
+Image Library: A central place to manage marketing images.
+Section: Website
+Icon: Globe
+Pages:
+Website Tracking: A page to get the tracking code for your website and see live visitor activity.
+Web Assistant: A tool to create and manage on-site messages like pop-ups and banners.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of reports on "Journey Performance," "Lead Source ROI," "Email Analytics," and "Website Engagement."
+3. Page-Level Toolbars & Main Interface (The Journey Builder)
+The most important interface is the Journey Builder, a large, visual, full-screen canvas.
+Components of the Journey Builder:
+Left Panel (Triggers & Actions):
+Triggers (The "Start"): A list of events that can start a journey. (e.g., Fills out a Form, Is added to a List, Visits a Webpage). The user drags a trigger onto the canvas to begin.
+Actions (The "Do"): A list of actions the system can take. (e.g., Send Email, Send SMS, Add a Tag, Update a Field in CRM).
+Logic (The "Decide"): A list of logic controls. (e.g., Wait for a period of time, Check a Condition like "did they open the last email?", Split the path for an A/B test).
+Center Panel (The Canvas):
+The user drags triggers, actions, and logic from the left panel onto the canvas and connects them with lines to visually map out the entire customer journey.
+Top Bar: Buttons to Save the journey, Test the journey, and Activate the journey.
+4. Data Entry & Modals
+Configuring an Action (Modal): When a user drags an action (like Send Email) onto the canvas, a modal pops up. It will have a dropdown to select the specific email campaign they want to send from their library.
+Viewing Lead Activity (Side Panel): Clicking on a lead in the All Leads list opens a side panel showing a complete chronological timeline of every action that lead has ever taken: every email they've opened, every page they've visited, and every journey they have entered.
+5. Bottom Bar
+Non-existent. All focus is on the journey builder canvas.
+6. Task Info & Key Workflows
+The "Welcome Series" Flow: A user wants to create a 3-email welcome series for new subscribers. They open the Journey Builder. They drag the Fills out a Form trigger onto the canvas and select their "Newsletter Signup" form. They connect it to a Send Email action and choose their "Welcome Email #1". They connect that to a Wait action set to "2 days." They connect that to another Send Email action for "Welcome Email #2," and so on. Finally, they click Activate. The entire process is now automated.
+The "Lead Nurturing" Flow (Advanced): A user wants to nurture leads who download an ebook. They create a journey triggered by a form submission. The journey sends a series of educational emails. It uses a Check a Condition logic block to see if a lead has visited the pricing page. If they have, the journey automatically adds a "Hot Lead" tag, updates their Lead Score to 100, and sends a notification to a sales rep in Aura CRM to follow up personally. If they haven't, the journey continues sending them more educational content.
+The "Sales & Marketing Alignment" Flow: The Lead Scoring rules are set up. A lead from a marketing journey reaches a score of 100. This high score acts as a trigger in a workflow that automatically creates a new Deal in Aura CRM and assigns it to a sales representative, bridging the gap between marketing and sales.

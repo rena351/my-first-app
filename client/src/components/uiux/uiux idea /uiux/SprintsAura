@@ -1,0 +1,57 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Sprints"
+Global Search Bar: Placeholder: "Search by story ID, epic, or keyword..."
+Quick Create Button (+ Icon):
+New User Story
+Notifications Bell Icon: Alerts for "A new sprint has started," "A story was moved to 'Done'," etc.
+Settings Gear Icon: Links to the main Sprints project settings.
+User Profile Icon: Profile, Logout.
+2. Aura Sprints Internal Sidebar
+This sidebar is focused on the core components of the Scrum framework.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main overview for the team. Widgets for "Current Sprint Progress" (burndown chart), "My Work Items," and "Team Velocity."
+Section: Planning
+Icon: List
+Pages:
+Backlog: The most important page. A prioritized list of all "Work Items" (User Stories, Tasks, Bugs) for the entire project.
+Epics: A high-level view of large features or initiatives, showing all the user stories that belong to them.
+Releases: A page to plan and track major product releases by grouping sprints together.
+Section: Execution
+Icon: PlayCircle
+Pages:
+Sprints: A list of all sprints (Active, Upcoming, Completed).
+Scrum Board: The primary workspace for the active sprint. A visual Kanban board with columns like "To Do," "In Progress," "In Review," "Done."
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of agile-specific reports, including the Velocity Chart (how much work the team completes per sprint), Burndown Chart (sprint progress), and Cumulative Flow Diagram.
+Section: Team
+Icon: Users
+Pages:
+Members: A list of all team members and their roles (Product Owner, Scrum Master, Developer).
+3. Page-Level Toolbars & Main Interface
+On the "Backlog" Page:
+A prioritized, vertical list of work items.
+Users can drag and drop items to change their priority.
+A "Sprint Planning" panel is on the right. The team drags items from the backlog and drops them into the "Next Sprint" panel until they have planned the work.
+On the "Scrum Board" Page:
+A Kanban board showing the tasks for the current sprint only.
+Each team member can see cards assigned to them.
+The primary action is dragging a card from one column to the next to show progress.
+The "Work Item Detail" View (opens when you click an item):
+A full-screen or large modal view.
+Fields: Title, Description, Acceptance Criteria, Story Points (for estimation), Assignee, Epic.
+Sub-sections: A checklist for Sub-tasks, Attachments, a Comments thread, and a Git Integration panel that shows linked code branches and pull requests.
+4. Data Entry & Modals
+Sprint Planning Meeting (Interface): The whole team looks at the Backlog page. The Product Owner explains the highest priority items. The team discusses them and assigns Story Points to estimate the effort. They then drag items into the "Sprint" panel until the total story points match their team's known Velocity.
+Creating a User Story (Modal): A clean form focused on agile principles, with large text areas for "As a [user type], I want [an action] so that [a benefit]."
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Sprint Kickoff" Flow: The team finishes their Sprint Planning meeting. The Scrum Master clicks the "Start Sprint" button. The system automatically creates the new Scrum Board, populates it with all the planned stories, and the sprint is now active.
+The "Daily Standup" Flow: A developer starts their day. They open the Scrum Board. They see the tasks assigned to them in the "To Do" column. They pick one, drag it to "In Progress." They click the task to open its details and click a "Create Branch" button. This automatically creates a new code branch in the connected Git repository (e.g., on GitHub), named after the story ID.
+The "Developer" Flow (Integration): The developer finishes their code. When they create a "Pull Request" on GitHub and include the story ID in its title, Aura Sprints automatically detects this. It moves the corresponding task card on the Scrum Board from "In Progress" to "In Review" and adds a link to the pull request directly on the card.
+The "Sprint End" Flow (Automation): At the end of the two-week sprint, the Scrum Master clicks "End Sprint." The system automatically moves any unfinished stories back to the Backlog. It then calculates the total Story Points for all the "Done" items and updates the team's Velocity Chart, providing data for the next sprint planning meeting.

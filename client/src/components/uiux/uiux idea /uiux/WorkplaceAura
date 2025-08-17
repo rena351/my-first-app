@@ -1,0 +1,49 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Shows a curated list of the apps in the Workplace suite.
+Current App Name: "Aura Workplace"
+Global Search Bar: A "super-search" that can find a message in Cliq, an email in Mail, a file in WorkDrive, or a document in Writer, all from one search bar.
+Quick Create Button (+ Icon): A unified dropdown with the most common actions: New Email, New Chat, New Document, New Spreadsheet.
+Notifications Bell Icon: An aggregated feed of notifications from all connected productivity apps.
+Settings Gear Icon: Links to the main settings page for the entire suite, managing user preferences and integrations.
+User Profile Icon: Shows user's online status, Profile, Logout.
+2. Aura Workplace Sidebar (The "Suite" Sidebar)
+This is a simple, high-level sidebar focused on different modes of work and communication.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main suite dashboard. This is the core of the experience.
+Section: My Work
+Icon: User
+Pages:
+My Day: An AI-powered, unified view of everything on your plate today: your upcoming Meetings from Calendar, your Tasks from ToDo, and your @Mentions from Cliq and Mail.
+Recent Files: A combined list of all the documents, sheets, and presentations you have recently worked on.
+Section: Communication
+Icon: MessageCircle
+Pages:
+Unified Inbox: A powerful, experimental view that combines your unread emails from Aura Mail and unread direct messages from Aura Cliq into a single, prioritized list.
+Company Announcements: A feed of all official announcements from Aura Connect.
+Section: Applications
+Icon: Grid
+Pages:
+Applications: A simple page with large, clickable icons to launch the individual, full-featured applications (Aura Mail, Aura Cliq, Aura WorkDrive, Aura Writer, etc.).
+3. Page-Level Toolbars & Main Interface (The Main Dashboard)
+The main interface is a highly customizable, widget-based dashboard designed to be the user's personal start page.
+Default Widgets:
+My Unread Mail: A small widget showing the subject lines of your 5 most recent unread emails from Aura Mail.
+My Unread Chats: A widget showing your unread channels and DMs from Aura Cliq.
+My Calendar Today: A widget showing your schedule for the day from Aura Calendar.
+My Tasks Due Today: A checklist of your tasks from Aura ToDo.
+Recent Company Files: A widget showing the latest files uploaded to your main Team Folder in Aura WorkDrive.
+Company Announcements: The latest announcement from Aura Connect.
+4. Data Entry & Modals
+This application is primarily for viewing and navigating. Most data entry happens within the individual applications. The only exception is the unified search bar.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Start of the Day" Flow: An employee arrives at work (or opens their laptop at home). The first page they open is the Aura Workplace Dashboard. In a single, 30-second scan, they know everything they need to for the day: they see they have 2 new emails, 1 unread chat message from their manager, a meeting at 10 AM, and 3 tasks due. They are fully prepared for their day without having to open 5 different applications.
+The "Find That File" Flow: A user remembers a conversation about the "Q3 Marketing Budget" but can't remember if it was in an email, a chat, or a spreadsheet. They use the Global Search Bar in Aura Workplace. The search results appear in a unified, categorized list:
+Mail: 3 emails with that subject.
+Cliq: 1 channel conversation where it was mentioned.
+WorkDrive: 1 spreadsheet file named "Q3 Marketing Budget.xlsx".
+The user can find what they need in seconds.
+The "Seamless Creation" Flow: While looking at their dashboard, a user realizes they need to write a quick document. They click the global + button, select New Document. This opens the full Aura Writer application in a new tab, ready to go.

@@ -1,0 +1,55 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Embedded BI"
+Global Search Bar: Placeholder: "Search by solution, dashboard, or user..."
+Quick Create Button (+ Icon) (Admin/Dev only):
+New Solution
+Notifications Bell Icon: Alerts for "API usage is nearing its limit," "A new user has been provisioned," etc.
+Settings Gear Icon: Links to the main Embedded BI administration settings.
+User Profile Icon: Profile, Logout.
+2. Aura Embedded BI Internal Sidebar
+This sidebar is for the developer or product manager who is building the embedded analytics experience.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main overview. Shows "Active Embedded Solutions," "API Call Volume," "Total End Users," and links to developer documentation.
+Section: Management
+Icon: Folder
+Pages:
+Solutions: The primary workspace. A "Solution" is a container for a complete embedded analytics project for one of your applications. This page lists all your solutions.
+Data Sources: A central place to manage the data sources that your embedded analytics will use.
+Section: Development
+Icon: Code
+Pages:
+API & SDKs: The most critical page. Contains API Keys, detailed API Documentation, and links to download JavaScript SDKs and other developer tools.
+Security: A page to manage the security rules, including setting up Single Sign-On (SSO) so your application's users are seamlessly logged into the analytics.
+Section: Branding
+Icon: Palette
+Pages:
+White-Labeling: A page to customize the embedded experience. You can Upload Your Logo, set custom Color Schemes, and manage other branding elements to make the analytics look like a native part of your own application.
+3. Page-Level Toolbars & Main Interface (The Solution Builder)
+The core of the app is the Solution Builder, which is a powerful, embedded version of the Aura Analytics builder.
+When you open a "Solution," the interface looks very much like Aura Analytics:
+Sidebar: Shows the Dashboards, Reports, and Data tables for this specific solution.
+Main View: The Report Builder or Dashboard Builder canvas.
+The Key Difference: The top toolbar has a prominent Embed button.
+The "Embed" Modal:
+Clicking the Embed button on a dashboard opens a modal.
+It provides a secure, signed Embed URL.
+It also provides ready-to-use code snippets (e.g., for an <iframe> or using the JavaScript SDK) that a developer can copy and paste directly into their own application's code.
+4. Data Entry & Modals
+Data entry is primarily about configuration.
+White-Labeling Interface: A visual editor where you can upload a logo and use color pickers to define the branding for your embedded dashboards.
+SSO Configuration (Wizard): A technical, multi-step wizard to configure the security connection between your main application and the Aura Embedded BI platform.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "SaaS Company" Flow: Imagine a company that sells a project management app. They want to add a beautiful "Analytics" tab to their app for their customers. Instead of spending a year building it themselves, they use Aura Embedded BI.
+Their developer creates a Solution.
+They connect it to their application's database (Data Sources).
+They use the Dashboard Builder to create a "Project Progress Dashboard."
+They use the White-Labeling tools to make the dashboard's colors and fonts match their app's branding perfectly.
+They set up SSO so their users are automatically and securely logged in.
+Finally, they click the Embed button, copy the code snippet, and paste it into their own application's code.
+The "End User" Flow: A customer logs into the project management app. They click on the new "Analytics" tab. They instantly see the beautiful, interactive "Project Progress Dashboard," showing charts of their own data. It looks and feels like a native part of the app. The customer has no idea it is secretly being powered by Aura Embedded BI.
+The "Data Security" Flow: The project management app has thousands of customers. The developer uses the powerful security features of Aura Embedded BI to ensure that when a user from "Company A" logs in, they can only see the data for Company A's projects. The data is completely segregated and secure for each customer.

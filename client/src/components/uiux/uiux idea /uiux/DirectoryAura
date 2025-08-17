@@ -1,0 +1,58 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Directory"
+Global Search Bar: Placeholder: "Search by user, group, or application..."
+Quick Create Button (+ Icon) (Admin only):
+New User
+New Group
+Add Application
+Notifications Bell Icon: Alerts for "Suspicious login detected," "New user has been successfully provisioned," etc.
+Settings Gear Icon: Links to the main Directory settings.
+User Profile Icon: Profile, Logout.
+2. Aura Directory Internal Sidebar
+This sidebar is for the IT administrator. Regular users interact with the Directory through a simplified "My Apps" dashboard.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main security and identity overview. Widgets for "Total Users," "Total Apps," "Recent Login Activity" (with a map), and "Security Health" score.
+Section: Directory
+Icon: Users
+Pages:
+Users: The master list of all user accounts in the organization.
+Groups: A list of all user groups (e.g., "Sales Team," "Developers," "Admins"). Users can be added to groups to manage permissions in bulk.
+Devices: A list of all devices (laptops, phones) that are managed by the directory.
+Section: Applications
+Icon: Grid
+Pages:
+Applications: The core feature. A list of all the applications (both AURA apps and external apps like Salesforce or Office 365) that are connected to the directory.
+App Catalog: A gallery of pre-built integrations to easily add new applications.
+Section: Security
+Icon: Shield
+Pages:
+Authentication: A page to manage login policies. Includes sub-pages for Single Sign-On (SSO), Multi-Factor Authentication (MFA), and Password Policies (e.g., password length, complexity).
+Access Policies: Create advanced, conditional access rules (e.g., "Block logins from outside our home country," "Require MFA if a user logs in from a new device").
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of security and usage reports.
+Audit Logs: A detailed, unchangeable log of every single event that has occurred (who logged in, who was granted access to an app, who changed a policy, etc.).
+3. Page-Level Toolbars & Main Interface
+The User's View ("My Apps" Dashboard):
+When a regular user logs in, they see a simple, clean dashboard with large, clickable icons for all the applications they have been granted access to. This is their personal launchpad.
+On the "Applications" Page (Admin View):
+A grid of all connected applications.
+Clicking on an application opens its detail page.
+On a "Single Application Detail" Page:
+A tabbed interface.
+Tab: Assignments: A page to assign this application to specific Users or Groups.
+Tab: Sign-On: A technical page to configure the SSO settings (SAML, OpenID Connect).
+Tab: Provisioning: A page to set up automatic user creation/deactivation (e.g., "When I add a user to the 'Sales' group, automatically create an account for them in Salesforce").
+4. Data Entry & Modals
+Assigning an App to a Group (Modal): An admin clicks "Assign" on an application. A pop-up appears where they can search for and select user groups.
+Configuring MFA (Wizard): A step-by-step wizard to help the admin enable and configure different MFA options for the organization.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "New Hire" Flow (Automation): An HR manager creates a new employee in Aura People. This automatically triggers a workflow in Aura Directory. A new user account is created. The user is added to the "New Hires" group. This group membership automatically grants them access to a pre-defined set of applications: Aura Mail, Aura Cliq, and Aura Connect. The new hire receives one welcome email with one password. When they log into their "My Apps" dashboard for the first time, all the tools they need are already there.
+The "Single Sign-On" Flow: A user wants to access Aura CRM. They go to the CRM login page. The page redirects them to the Aura Directory login page. They enter their single username and password. The system then instantly and securely logs them into Aura CRM without them having to remember a separate password.
+The "Offboarding" Flow (Security): An employee leaves the company. The HR manager marks them as "Terminated" in Aura People. This automatically triggers a workflow in Aura Directory. The user's account is instantly deactivated. This one single action immediately revokes their access to all connected applications (Aura apps, Salesforce, Office 365, etc.), securing the company's data in seconds.

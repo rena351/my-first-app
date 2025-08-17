@@ -1,0 +1,54 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Shows a curated list of the apps in the Marketing Plus suite.
+Current App Name: "Aura Marketing Plus"
+Global Search Bar: A "super-search" that can find any campaign, landing page, social post, or lead across ALL connected marketing apps.
+Quick Create Button (+ Icon): A unified dropdown with the most common marketing actions: New Campaign, New Social Post, New Landing Page, New Survey.
+Notifications Bell Icon: An aggregated feed of marketing alerts: "A new lead has been generated from the webinar," "Your social media post is getting high engagement," "An A/B test has a winner."
+Settings Gear Icon: Links to the main settings page for the entire suite, managing brand assets, tracking codes, and integrations.
+User Profile Icon: Profile, Logout.
+2. Aura Marketing Plus Sidebar (The "Suite" Sidebar)
+This is a simple, high-level sidebar focused on the different stages of the marketing process.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main suite dashboard. This is the core of the experience.
+Section: Planning
+Icon: Calendar
+Pages:
+Marketing Calendar: A unified, cross-app calendar that shows everything the marketing team is doing. It displays scheduled Email Campaigns, Social Posts, Webinars, and Blog Posts all in one view.
+Section: Execution
+Icon: Megaphone
+Pages:
+Campaigns: A unified list of all marketing campaigns, regardless of the channel.
+Content: A central library for all marketing assets (email templates, landing page templates, social media images).
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: A gallery of special cross-functional reports, such as "Full Funnel Analytics" (tracking a lead from a social post, to a landing page, to a CRM deal) and "Campaign ROI."
+Section: Applications
+Icon: Grid
+Pages:
+Applications: A simple page with large, clickable icons to launch the individual, full-featured applications (Aura Campaigns, Aura Social, Aura LandingPage, Aura Survey, etc.).
+3. Page-Level Toolbars & Main Interface (The Main Dashboard)
+The main interface is a highly customizable, widget-based dashboard for the CMO or marketing manager.
+Default Widgets:
+Marketing Funnel: A live, visual funnel showing Website Visitors (from SalesIQ/Sites), Leads Generated (from Forms/LandingPage), Marketing Qualified Leads (MQLs) (from Marketing Automation), and Sales Qualified Leads (SQLs) (from CRM).
+Lead Generation by Source: A pie chart showing where new leads are coming from (Organic Search, Social Media, Paid Ads, etc.).
+Active Journeys: A summary of leads currently in automated nurturing flows from Aura Marketing Automation.
+Recent Social Media Engagement: A feed from Aura Social showing top-performing posts.
+Ongoing Email Campaigns: A summary of recent email campaign performance from Aura Campaigns.
+Website Performance: Key metrics like "Conversion Rate" from Aura PageSense.
+4. Data Entry & Modals
+This application is primarily for viewing and analyzing combined data. Most data entry happens within the individual applications.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "CMO's Daily Briefing" Flow: A marketing director starts their day by opening the Aura Marketing Plus Dashboard. In a single view, they see how many new leads were generated yesterday, which channels they came from, and how the main "Welcome Series" journey is performing. They can see the entire marketing engine's health without logging into 5 different apps.
+The "Campaign Planning" Flow: A marketing team is planning their Q4 product launch. They use the unified Marketing Calendar to schedule all their activities. They drag and drop to plan the launch day blog post, the week-long social media teaser campaign, the announcement email blast, and the follow-up webinar. Everyone on the team can see the entire campaign timeline in one place.
+The "Full Funnel ROI" Flow (Integrated): A user wants to know if their social media efforts are actually making money. They go to the Reports section in Marketing Plus. They run the "Full Funnel Analytics" report. This report automatically:
+Pulls "Ad Spend" data from their ad platform integration.
+Pulls "Clicks and Engagement" data from Aura Social.
+Pulls "Leads Generated" data from Aura LandingPage.
+Pulls "Leads Nurtured" data from Aura Marketing Automation.
+Pulls "Deals Won and Revenue" data from Aura CRM.
+It then presents a single, clear report showing the exact ROI of their social media campaign.

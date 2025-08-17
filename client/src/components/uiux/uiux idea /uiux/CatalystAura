@@ -1,0 +1,61 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura Catalyst"
+Global Search Bar: Placeholder: "Search by project, function, or data table..."
+Quick Create Button (+ Icon):
+New Project
+Notifications Bell Icon: Alerts for "Deployment successful," "A function has crashed," "Cron job executed," etc.
+Settings Gear Icon: Links to the main Catalyst account settings (billing, API keys).
+User Profile Icon: Profile, Logout.
+2. Aura Catalyst Internal Sidebar
+This sidebar is for the developer. It is organized by the different backend components they can use.
+Section: Home
+Icon: Home
+Pages:
+Dashboard: The main overview for the selected project. Shows "API Call Volume," "Function Executions," "Data Storage Usage," and a feed of "Recent Deployments."
+Section: Develop
+Icon: Code
+Pages:
+Functions: The core of the platform. A list of all your serverless functions. You can create different types:
+HTTP Functions: Code that runs when you visit a specific URL (for building APIs).
+Event Functions: Code that runs automatically when something happens in another AURA app (e.g., a new user signs up in Aura Directory).
+Cron Functions: Code that runs on a schedule (e.g., every night at midnight).
+Web Client: A place to host the static files for your frontend (your compiled React app from npm run build).
+Section: Data
+Icon: Database
+Pages:
+Data Store: A simple, managed database. Users can Create Tables and Browse Data here.
+File Store: A secure place to store user-uploaded files, like profile pictures or documents.
+Cache: A tool for high-speed, temporary data storage.
+Section: Amplify (User-Facing Services)
+Icon: Users
+Pages:
+Authentication: A pre-built user login and signup system. You can enable different sign-in methods like Email/Password, Google, Facebook, etc.
+Push Notifications: A service to send push notifications to your web or mobile app.
+Section: Monitor
+Icon: Activity
+Pages:
+Logs: A real-time, searchable feed of all logs from your functions and applications.
+Metrics: A dashboard with detailed performance graphs for function execution time, memory usage, and error rates.
+Section: Administration
+Icon: Settings
+Pages:
+Environments: Manage your different deployment environments, like Development and Production.
+Custom Domains: Connect a custom domain to your hosted web client or API.
+API Gateway: Manage your public-facing API endpoints.
+3. Page-Level Toolbars & Main Interface
+The Main Interface is a Local Development Experience: While you can manage things on the web, the primary workflow for Aura Catalyst is for a developer to use the Catalyst CLI (Command Line Interface) on their own computer.
+The "Function Editor" (on the web):
+For quick edits, the web interface provides a simple code editor where you can write and save function code directly in the browser.
+The "Data Store Browser":
+A clean, spreadsheet-like interface for viewing and manually editing the data in your tables.
+4. Data Entry & Modals
+Creating a New Function (Modal): A pop-up that asks for the "Function Name," the "Function Type" (HTTP, Event, Cron), and the programming language (Node.js, Java, Python).
+Configuring Authentication (Interface): A settings page with simple toggles to turn different login providers (Google, etc.) on or off.
+5. Bottom Bar
+Non-existent.
+6. Task Info & Key Workflows
+The "Developer Setup" Flow: A developer wants to build a new app. They go to their own computer's terminal. They type catalyst init. The CLI asks them which features they want to use (Functions, Web Client, Data Store). It then creates a new project folder on their computer with all the correct configuration files.
+The "API Backend" Flow: The developer writes code for an HTTP Function on their local computer. This function connects to the Data Store to get a list of products. They test it locally. When it's ready, they go to their terminal and type catalyst deploy. The Catalyst CLI automatically packages up their code, uploads it to the cloud, and deploys it. The developer is given a live, public URL for their new API endpoint, all without ever configuring a server.
+The "Scheduled Report" Flow (Automation): A business needs to generate a complex report every night. A developer writes a Cron Function in Aura Catalyst. They set the schedule to "run every day at 1:00 AM." The function's code queries the main Aura CRM database, aggregates the data, and then uses the Aura Mail API to email the final report to the CEO. This entire process is serverless and runs automatically.
+The "Full Stack App" Flow: A developer builds their React frontend locally. They run npm run build to create the final, optimized files. They then use the command catalyst deploy to push both their backend Functions and their frontend Web Client files to the cloud at the same time. Aura Catalyst hosts the website and powers its API, providing a complete, full-stack solution.

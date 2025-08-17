@@ -1,0 +1,54 @@
+1. Universal Top Bar (Consistent Across All AURA Apps)
+AURA Logo / App Switcher: Clicking shows other AURA apps.
+Current App Name: "Aura RouteIQ"
+Global Search Bar: Placeholder: "Search by address, contact name, or city..."
+Quick Create Button (+ Icon):
+New Route
+Log a Check-in
+Notifications Bell Icon: Alerts for "Route for today is ready," "You are near a high-priority client," etc.
+Settings Gear Icon: Links to the main RouteIQ settings page.
+User Profile Icon: Shows user's current location status, Profile, Logout.
+2. Aura RouteIQ Internal Sidebar
+This application's UI is dominated by the map, so the sidebar is simple and tool-focused.
+Section: Planning
+Icon: Navigation
+Pages:
+Map View: The default and main screen. An interactive map showing pins for all CRM records.
+Routes: A list of all saved routes (e.g., "Tuesday's Route," "Downtown Prospecting Route").
+Territories: A view to see sales territories drawn as shapes on the map.
+Section: Activity
+Icon: ClipboardList
+Pages:
+My Check-ins: A chronological log of all my past visits (check-ins).
+My Schedule: A calendar view showing my scheduled routes and appointments for the week.
+Section: Analytics
+Icon: BarChart3
+Pages:
+Reports: Reports on "Miles Traveled," "Visits per Day," "Time Spent with Clients," etc.
+3. Page-Level Toolbars & Main Interface (The Map)
+The main screen is a large, interactive map. The key toolbars are overlaid on top of it.
+Left Panel (Map Layers & Filters):
+Show on Map: Checkboxes to toggle the visibility of Leads, Contacts, and Deals pins.
+Filters: Powerful filters to narrow down what is shown on the map, e.g., "Show me all Leads in the 'New' stage with a rating of 'Hot'," or "Show me all Contacts I haven't visited in 90 days."
+A list of all records that match the current filters.
+Right Panel (Route Builder):
+This panel appears when a user is creating a new route.
+Stops: A list of the locations added to the current route.
+Optimize Route Button: The magic button. After adding several stops, the user clicks this, and the app rearrates the stops into the most efficient driving order.
+Settings: Options for "Start/End Location," "Avoid Tolls," etc.
+Save Route Button: Saves the planned route for future use.
+4. Data Entry & Modals
+Clicking a Pin on the Map (Info Pop-up):
+When a user clicks a pin, a small pop-up appears showing the Contact/Account name, address, and a button to + Add to Route.
+The "Check-in" Experience (on Mobile):
+When a sales rep arrives at a location, they open the mobile app.
+They tap a large "Check-in" button. The app uses GPS to confirm their location.
+A modal pop-up appears where they can Log Notes from the meeting.
+When they tap "Check-out," the app automatically calculates the visit duration.
+This entire check-in record (time, duration, notes) is automatically saved as a completed Meeting or Task on that Contact's timeline back in the main Aura CRM.
+5. Bottom Bar
+Non-existent. All controls are in the sidebars and toolbars overlaid on the map to maximize map visibility.
+6. Task Info & Key Workflows
+The "Plan My Day" Flow: A sales rep starts their morning. They open Aura RouteIQ. They use the filters to show "All 'Hot' Leads and 'High-Value' Contacts in my territory." They click on 10 pins on the map to add them to their route for the day. They click "Optimize Route." The app gives them the perfect driving plan. They click "Start Route," and it sends the directions to their phone's map app.
+The "Prospecting on the Go" Flow: A rep finishes a meeting early. They open the mobile app and see their current location on the map. They tap a "Near Me" button. The app shows them three other potential leads within a 2-kilometer radius that they could visit.
+The "Automated Logging" Flow: A rep completes a visit and does a "Check-in" on their phone. They do not need to do anything else. Aura RouteIQ automatically creates a record in Aura CRM that says, "Rohan visited XYZ Corp on August 11th from 2:00 PM to 2:45 PM," and includes the notes he typed. This saves hours of manual data entry.
