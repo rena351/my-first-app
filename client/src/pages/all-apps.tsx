@@ -83,7 +83,7 @@ export default function AllApps() {
                 {/* Apps Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
                   {categoryApps.map((app) => (
-                    <Link key={app.id} href={`/app/${app.id}`}>
+                    <Link key={app.id} href={`/app/${app.name}`}>
                       <div className="bg-aura-dark-secondary rounded-xl p-6 cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl border border-transparent hover:border-opacity-50" style={{ borderColor: `${category.color}40` }}>
                         <div className="text-center">
                           <div 
