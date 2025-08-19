@@ -20,6 +20,8 @@ export const apps = pgTable("apps", {
   icon: text("icon").notNull(),
   features: jsonb("features").$type<string[]>().notNull(),
   shortcuts: jsonb("shortcuts").$type<string[]>().notNull(),
+  searchPlaceholder: text("search_placeholder"),
+  createMenuItems: jsonb("create_menu_items").$type<string[]>(),
 });
 
 export const suites = pgTable("suites", {
