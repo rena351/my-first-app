@@ -2,10 +2,10 @@ import { useParams } from "wouter";
 import { useQuery } from "@tanstack/react-query";
 import { type App, type Category } from "@shared/schema";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Bell, UserCircle, Search, Plus } from "lucide-react";
 import { Link } from "wouter";
 import { Skeleton } from "@/components/ui/skeleton";
 import TwoLevelSidebar from "@/components/two-level-sidebar";
+import UniversalTopBar from "@/components/universal-top-bar";
 
 export default function AppPage() {
   const { appId } = useParams<{ appId: string }>();
@@ -67,58 +67,7 @@ export default function AppPage() {
 
   return (
     <div className="min-h-screen bg-aura-dark">
-      {/* App-specific Top Navigation */}
-      <nav className="bg-aura-dark-secondary border-b border-aura-gray">
-        <div className="flex items-center justify-between h-14 px-4">
-          {/* Left section */}
-          <div className="flex items-center space-x-4">
-            <Link href="/">
-              <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white">
-                <ArrowLeft className="h-4 w-4 mr-2" />
-                Home
-              </Button>
-            </Link>
-            <div className="h-6 w-px bg-aura-gray"></div>
-            <span 
-              className="text-lg font-semibold"
-              style={{ color: category.color }}
-            >
-              {app.name}
-            </span>
-          </div>
-
-          {/* Center search */}
-          <div className="flex-1 max-w-2xl mx-8">
-            <div className="relative">
-              <input 
-                type="text" 
-                placeholder={`Search in ${app.name}...`}
-                className="w-full bg-aura-dark border border-aura-gray rounded-lg px-4 py-2 pl-10 text-sm focus:outline-none focus:border-opacity-50 transition-all"
-                style={{ borderColor: category.color + '40' }}
-              />
-              <Search className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
-            </div>
-          </div>
-
-          {/* Right section */}
-          <div className="flex items-center space-x-2">
-            <Button 
-              size="sm" 
-              className="text-black font-medium"
-              style={{ backgroundColor: category.color }}
-            >
-              <Plus className="h-4 w-4 mr-1" />
-              New
-            </Button>
-            <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white">
-              <Bell className="h-4 w-4" />
-            </Button>
-            <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white">
-              <UserCircle className="h-4 w-4" />
-            </Button>
-          </div>
-        </div>
-      </nav>
+      <UniversalTopBar />
 
       {/* Main Layout with Sidebar */}
       <div className="flex">
