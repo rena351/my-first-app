@@ -7,6 +7,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import TwoLevelSidebar from "@/components/two-level-sidebar";
 import UniversalTopBar from "@/components/universal-top-bar";
 import AnalyticsDashboard from "@/components/apps/analytics/AnalyticsDashboard";
+import CRMDashboard from "@/components/apps/crm/CRMDashboard";
 
 export default function AppPage() {
   const { appId } = useParams<{ appId: string }>();
@@ -83,6 +84,8 @@ export default function AppPage() {
           <div className="p-8">
             {app.name === "Analytics" ? (
               <AnalyticsDashboard />
+            ) : app.name === "CRM" ? (
+              <CRMDashboard />
             ) : (
               <>
                 {/* Dashboard Header */}
