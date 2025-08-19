@@ -44,7 +44,6 @@ const NewApp: React.FC = () => {
   }
 
   const appDataString = allAppsData.apps[appName];
-  const sidebarData = allAppsData.sidebar;
 
   if (!appDataString) {
     return <div>App not found</div>;
@@ -54,7 +53,7 @@ const NewApp: React.FC = () => {
 
   return (
     <div className="flex h-screen bg-aura-dark text-white">
-      <TwoLevelSidebar sidebarData={sidebarData} appName={appName} />
+      <TwoLevelSidebar appName={appName} />
       <div className="flex-1 p-8 overflow-auto">
         <h1 className="text-4xl font-bold mb-8">{appName}</h1>
         <div className="space-y-8">
