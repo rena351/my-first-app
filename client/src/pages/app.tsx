@@ -6,6 +6,7 @@ import { Link } from "wouter";
 import { Skeleton } from "@/components/ui/skeleton";
 import TwoLevelSidebar from "@/components/two-level-sidebar";
 import UniversalTopBar from "@/components/universal-top-bar";
+import AnalyticsDashboard from "@/components/apps/analytics/AnalyticsDashboard";
 
 export default function AppPage() {
   const { appId } = useParams<{ appId: string }>();
@@ -67,7 +68,10 @@ export default function AppPage() {
 
   return (
     <div className="min-h-screen bg-aura-dark">
-      <UniversalTopBar />
+      <UniversalTopBar
+        searchPlaceholder={app.searchPlaceholder || `Search in ${app.name}...`}
+        createMenuItems={app.createMenuItems || []}
+      />
 
       {/* Main Layout with Sidebar */}
       <div className="flex">
@@ -77,128 +81,134 @@ export default function AppPage() {
         {/* Main Content Area */}
         <div className="flex-1 bg-aura-dark">
           <div className="p-8">
-            {/* Dashboard Header */}
-            <div className="mb-8">
-              <h1 className="text-3xl font-bold mb-2">Dashboard</h1>
-              <p className="text-gray-300">Welcome back! Here's what's happening with your {app.name}.</p>
-            </div>
-
-            {/* Quick Stats Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-              {app.features.map((feature, index) => (
-                <div 
-                  key={index}
-                  className="bg-aura-dark-secondary rounded-lg p-6 border border-aura-gray hover:border-opacity-50 transition-all duration-200"
-                  style={{ borderColor: `${category.color}20` }}
-                >
-                  <div className="flex items-center">
-                    <div 
-                      className="p-3 rounded-full mr-4"
-                      style={{ 
-                        backgroundColor: `${category.color}20`,
-                        color: category.color 
-                      }}
-                    >
-                      <i className={`${app.icon} text-xl`}></i>
-                    </div>
-                    <div>
-                      <p className="text-2xl font-bold">{(index + 1) * 1247}</p>
-                      <p className="text-gray-400 text-sm">{feature}</p>
-                    </div>
-                  </div>
+            {app.name === "Analytics" ? (
+              <AnalyticsDashboard />
+            ) : (
+              <>
+                {/* Dashboard Header */}
+                <div className="mb-8">
+                  <h1 className="text-3xl font-bold mb-2">Dashboard</h1>
+                  <p className="text-gray-300">Welcome back! Here's what's happening with your {app.name}.</p>
                 </div>
-              ))}
-            </div>
 
-            {/* Quick Actions Section */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-              <div className="bg-aura-dark-secondary rounded-lg p-6 border border-aura-gray">
-                <h3 className="text-xl font-semibold mb-4">Quick Actions</h3>
-                <div className="grid grid-cols-2 gap-3">
-                  {app.shortcuts.slice(0, 4).map((shortcut, index) => (
-                    <Button 
+                {/* Quick Stats Cards */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                  {app.features.map((feature, index) => (
+                    <div
                       key={index}
-                      variant="outline"
-                      className="p-4 h-auto flex flex-col items-center justify-center space-y-2 border-aura-gray hover:border-opacity-50"
-                      style={{ 
-                        borderColor: `${category.color}40`,
-                        color: category.color,
-                      }}
+                      className="bg-aura-dark-secondary rounded-lg p-6 border border-aura-gray hover:border-opacity-50 transition-all duration-200"
+                      style={{ borderColor: `${category.color}20` }}
                     >
-                      <i className="fas fa-plus text-lg"></i>
-                      <span className="text-sm">{shortcut}</span>
-                    </Button>
-                  ))}
-                </div>
-              </div>
-
-              <div className="bg-aura-dark-secondary rounded-lg p-6 border border-aura-gray">
-                <h3 className="text-xl font-semibold mb-4">Recent Activity</h3>
-                <div className="space-y-3">
-                  {[
-                    { action: "New record created", time: "2 minutes ago" },
-                    { action: "Report generated", time: "1 hour ago" },
-                    { action: "Data imported", time: "3 hours ago" },
-                    { action: "Settings updated", time: "1 day ago" }
-                  ].map((activity, index) => (
-                    <div key={index} className="flex items-center justify-between py-2 border-b border-aura-gray/30 last:border-b-0">
-                      <div className="flex items-center space-x-3">
+                      <div className="flex items-center">
                         <div 
-                          className="w-2 h-2 rounded-full"
-                          style={{ backgroundColor: category.color }}
-                        ></div>
-                        <span className="text-sm">{activity.action}</span>
+                          className="p-3 rounded-full mr-4"
+                          style={{
+                            backgroundColor: `${category.color}20`,
+                            color: category.color
+                          }}
+                        >
+                          <i className={`${app.icon} text-xl`}></i>
+                        </div>
+                        <div>
+                          <p className="text-2xl font-bold">{(index + 1) * 1247}</p>
+                          <p className="text-gray-400 text-sm">{feature}</p>
+                        </div>
                       </div>
-                      <span className="text-xs text-gray-400">{activity.time}</span>
                     </div>
                   ))}
                 </div>
-              </div>
-            </div>
 
-            {/* App-specific Content Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-              <div className="lg:col-span-2 bg-aura-dark-secondary rounded-lg p-6 border border-aura-gray">
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-xl font-semibold">Overview Chart</h3>
-                  <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
-                    View Details
-                  </Button>
-                </div>
-                <div className="h-64 bg-aura-dark rounded-lg flex items-center justify-center border border-aura-gray">
-                  <div className="text-center">
-                    <i 
-                      className="fas fa-chart-line text-4xl mb-4"
-                      style={{ color: category.color }}
-                    ></i>
-                    <p className="text-gray-400">Interactive charts and analytics will be displayed here</p>
+                {/* Quick Actions Section */}
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+                  <div className="bg-aura-dark-secondary rounded-lg p-6 border border-aura-gray">
+                    <h3 className="text-xl font-semibold mb-4">Quick Actions</h3>
+                    <div className="grid grid-cols-2 gap-3">
+                      {app.shortcuts.slice(0, 4).map((shortcut, index) => (
+                        <Button
+                          key={index}
+                          variant="outline"
+                          className="p-4 h-auto flex flex-col items-center justify-center space-y-2 border-aura-gray hover:border-opacity-50"
+                          style={{
+                            borderColor: `${category.color}40`,
+                            color: category.color,
+                          }}
+                        >
+                          <i className="fas fa-plus text-lg"></i>
+                          <span className="text-sm">{shortcut}</span>
+                        </Button>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="bg-aura-dark-secondary rounded-lg p-6 border border-aura-gray">
+                    <h3 className="text-xl font-semibold mb-4">Recent Activity</h3>
+                    <div className="space-y-3">
+                      {[
+                        { action: "New record created", time: "2 minutes ago" },
+                        { action: "Report generated", time: "1 hour ago" },
+                        { action: "Data imported", time: "3 hours ago" },
+                        { action: "Settings updated", time: "1 day ago" }
+                      ].map((activity, index) => (
+                        <div key={index} className="flex items-center justify-between py-2 border-b border-aura-gray/30 last:border-b-0">
+                          <div className="flex items-center space-x-3">
+                            <div
+                              className="w-2 h-2 rounded-full"
+                              style={{ backgroundColor: category.color }}
+                            ></div>
+                            <span className="text-sm">{activity.action}</span>
+                          </div>
+                          <span className="text-xs text-gray-400">{activity.time}</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="bg-aura-dark-secondary rounded-lg p-6 border border-aura-gray">
-                <h3 className="text-xl font-semibold mb-4">Key Metrics</h3>
-                <div className="space-y-4">
-                  {app.features.slice(0, 3).map((feature, index) => (
-                    <div key={index} className="space-y-2">
-                      <div className="flex justify-between text-sm">
-                        <span>{feature}</span>
-                        <span style={{ color: category.color }}>{85 + index * 5}%</span>
-                      </div>
-                      <div className="w-full bg-aura-gray rounded-full h-2">
-                        <div 
-                          className="h-2 rounded-full transition-all duration-300"
-                          style={{ 
-                            backgroundColor: category.color,
-                            width: `${85 + index * 5}%` 
-                          }}
-                        ></div>
+                {/* App-specific Content Grid */}
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                  <div className="lg:col-span-2 bg-aura-dark-secondary rounded-lg p-6 border border-aura-gray">
+                    <div className="flex items-center justify-between mb-4">
+                      <h3 className="text-xl font-semibold">Overview Chart</h3>
+                      <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
+                        View Details
+                      </Button>
+                    </div>
+                    <div className="h-64 bg-aura-dark rounded-lg flex items-center justify-center border border-aura-gray">
+                      <div className="text-center">
+                        <i
+                          className="fas fa-chart-line text-4xl mb-4"
+                          style={{ color: category.color }}
+                        ></i>
+                        <p className="text-gray-400">Interactive charts and analytics will be displayed here</p>
                       </div>
                     </div>
-                  ))}
+                  </div>
+
+                  <div className="bg-aura-dark-secondary rounded-lg p-6 border border-aura-gray">
+                    <h3 className="text-xl font-semibold mb-4">Key Metrics</h3>
+                    <div className="space-y-4">
+                      {app.features.slice(0, 3).map((feature, index) => (
+                        <div key={index} className="space-y-2">
+                          <div className="flex justify-between text-sm">
+                            <span>{feature}</span>
+                            <span style={{ color: category.color }}>{85 + index * 5}%</span>
+                          </div>
+                          <div className="w-full bg-aura-gray rounded-full h-2">
+                            <div
+                              className="h-2 rounded-full transition-all duration-300"
+                              style={{
+                                backgroundColor: category.color,
+                                width: `${85 + index * 5}%`
+                              }}
+                            ></div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
+              </>
+            )}
           </div>
         </div>
       </div>

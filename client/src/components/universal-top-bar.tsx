@@ -16,7 +16,12 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-export const UniversalTopBar = () => {
+interface UniversalTopBarProps {
+  searchPlaceholder: string;
+  createMenuItems: string[];
+}
+
+export const UniversalTopBar = ({ searchPlaceholder, createMenuItems }: UniversalTopBarProps) => {
   return (
     <nav className="bg-aura-dark-secondary border-b border-aura-gray">
       <div className="flex items-center justify-between h-14 px-4">
@@ -35,7 +40,7 @@ export const UniversalTopBar = () => {
           <div className="relative">
             <Input
               type="text"
-              placeholder="Search..."
+              placeholder={searchPlaceholder}
               className="w-full bg-aura-dark border border-aura-gray rounded-lg px-4 py-2 pl-10 text-sm focus:outline-none focus:ring-1 focus:ring-aura-purple"
             />
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
@@ -53,9 +58,9 @@ export const UniversalTopBar = () => {
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
-              <DropdownMenuItem>New Report</DropdownMenuItem>
-              <DropdownMenuItem>New Dashboard</DropdownMenuItem>
-              <DropdownMenuItem>Import Data</DropdownMenuItem>
+              {createMenuItems.map((item) => (
+                <DropdownMenuItem key={item}>{item}</DropdownMenuItem>
+              ))}
             </DropdownMenuContent>
           </DropdownMenu>
 
