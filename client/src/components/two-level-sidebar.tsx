@@ -3,60 +3,45 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Home, Briefcase, Settings } from 'lucide-react'; // Example icons
+import { Home, Briefcase, Settings } from 'lucide-react';
+import { sidebarData } from "@/data/sidebar-data";
 
 interface TwoLevelSidebarProps {
-  sidebarData: string;
   appName: string;
   currentPage?: string;
 }
 
-const parseSidebarData = (sidebarData: string, appName: string) => {
-  const lines = sidebarData.split('\n');
-  const appRegex = new RegExp(`^\\d+\\. Zoho ${appName}`);
-  let inAppSection = false;
-  const sections: { title: string; items: string[], icon: React.ReactNode }[] = [];
-
-  for (const line of lines) {
-    if (appRegex.test(line)) {
-      inAppSection = true;
-      continue;
-    }
-
-    if (inAppSection) {
-      if (/^\d+\. Zoho/.test(line)) {
-        break; // End of current app section
-      }
-      if (line.trim() === '') continue;
-
-      const parts = line.split(':');
-      if (parts.length === 2) {
-        const title = parts[0].trim();
-        const items = parts[1].split(',').map(item => item.trim());
-        let icon = <Briefcase className="h-5 w-5" />;
-        if (title.toLowerCase().includes('home')) icon = <Home className="h-5 w-5" />;
-        if (title.toLowerCase().includes('settings')) icon = <Settings className="h-5 w-5" />;
-        sections.push({ title, items, icon });
-      }
-    }
-  }
-
-  return { sections };
+const getIconForSection = (title: string) => {
+  const lowerCaseTitle = title.toLowerCase();
+  if (lowerCaseTitle.includes('home')) return <Home className="h-5 w-5" />;
+  if (lowerCaseTitle.includes('settings')) return <Settings className="h-5 w-5" />;
+  return <Briefcase className="h-5 w-5" />;
 };
 
+export const TwoLevelSidebar = ({ appName, currentPage = "Dashboard" }: TwoLevelSidebarProps) => {
+  const appNavigation = useMemo(() => {
+    const app = sidebarData.find(app => app.title.toLowerCase().includes(appName.toLowerCase()));
+    if (!app) return { sections: [] };
 
-export const TwoLevelSidebar = ({ sidebarData, appName, currentPage = "Dashboard" }: TwoLevelSidebarProps) => {
-  const navigation = useMemo(() => parseSidebarData(sidebarData, appName), [sidebarData, appName]);
-  const [activeSectionTitle, setActiveSectionTitle] = useState(navigation.sections[0]?.title || null);
+    const sections = app.categories.map(category => ({
+      title: category.title,
+      items: category.pages,
+      icon: getIconForSection(category.title),
+    }));
 
-  const activeSection = navigation.sections.find((s: any) => s.title === activeSectionTitle);
+    return { sections };
+  }, [appName]);
+
+  const [activeSectionTitle, setActiveSectionTitle] = useState(appNavigation.sections[0]?.title || null);
+
+  const activeSection = appNavigation.sections.find((s: any) => s.title === activeSectionTitle);
 
   return (
     <div className="flex h-screen bg-aura-dark-secondary text-white">
       {/* Level 1 Sidebar (Icon Bar) */}
       <div className="w-16 border-r border-aura-gray flex flex-col items-center py-4 space-y-2 flex-shrink-0">
         <TooltipProvider>
-          {navigation.sections.map((section: any) => (
+          {appNavigation.sections.map((section: any) => (
             <Tooltip key={section.title}>
               <TooltipTrigger asChild>
                 <Button

@@ -123,7 +123,7 @@ export default function AppPage() {
       {/* Main Layout with Sidebar */}
       <div className="flex">
         {/* App-specific Sidebar */}
-        <TwoLevelSidebar app={app} category={category} currentPage="Dashboard" />
+        <TwoLevelSidebar appName={app.name} currentPage="Dashboard" />
 
         {/* Main Content Area */}
         <div className="flex-1 bg-aura-dark">
