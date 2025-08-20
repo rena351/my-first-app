@@ -9,6 +9,7 @@ import Category from "@/pages/category";
 import AllApps from "@/pages/all-apps";
 import App from "@/pages/app";
 import NewApp from "@/pages/new-app";
+import NewAnalyticsPage from "@/pages/new-analytics";
 import Layout from "@/components/ui/layout";
 
 function Router() {
@@ -24,6 +25,7 @@ function Router() {
             <Route path="/" component={Home} />
             <Route path="/category/:categoryId" component={Category} />
             <Route path="/apps" component={AllApps} />
+            <Route path="/new/analytics" component={NewAnalyticsPage} />
             <Route component={NotFound} />
           </Switch>
         </Layout>
