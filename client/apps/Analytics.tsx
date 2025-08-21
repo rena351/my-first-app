@@ -158,6 +158,7 @@ import {
   User,
   Wallet,
   Scale
+  
 } from "lucide-react";
 "Analytics": {
       sections: [

@@ -2,30 +2,7 @@ import { AlertCircle, AppWindow, BarChart2, BarChart3, BarChart4, Book, BookOpen
 
 const crmNavigation = {
   sections: [
-    { title: 'Home', icon: Home, items: ['Dashboard', 'Today\'s Activities', 'Recent Items'] },
-    { title: 'Leads', icon: Users, items: ['All Leads', 'New Lead', 'Converted Leads', 'Unqualified Leads'] },
-    { title: 'Contacts', icon: Contact, items: ['All Contacts', 'New Contact', 'My Contacts'] },
-    { title: 'Accounts', icon: Briefcase, items: ['All Accounts', 'New Account', 'My Accounts'] },
-    { title: 'Deals', icon: Briefcase, items: ['All Deals', 'New Deal', 'Pipeline View', 'Won Deals', 'Lost Deals'] },
-    { title: 'Tasks', icon: CheckSquare, items: ['All Tasks', 'My Tasks', 'Overdue Tasks'] },
-    { title: 'Meetings', icon: CalendarDays, items: ['Calendar', 'All Events', 'New Event'] },
-    { title: 'Calls', icon: Phone, items: ['All Calls', 'Log Call', 'Scheduled Calls'] },
-    { title: 'Campaigns', icon: Megaphone, items: ['All Campaigns', 'New Campaign', 'Active Campaigns'] },
-    { title: 'Reports', icon: BarChart2, items: ['All Reports', 'Sales Reports', 'Activity Reports', 'Custom Reports'] },
-    { title: 'Dashboards', icon: LayoutDashboard, items: ['Sales Dashboard', 'Marketing Dashboard', 'CEO Dashboard'] },
-    { title: 'Forecasts', icon: TrendingUp, items: ['Forecasts', 'Territory Forecasts'] },
-    { title: 'Products', icon: Package, items: ['All Products', 'New Product', 'Price Books'] },
-    { title: 'Quotes', icon: FileText, items: ['All Quotes', 'New Quote', 'Accepted Quotes'] },
-    { title: 'Sales Orders', icon: ShoppingCart, items: ['All Sales Orders', 'New Order', 'Delivered Orders'] },
-    { title: 'Purchase Orders', icon: ShoppingCart, items: ['All Purchase Orders', 'New Order'] },
-    { title: 'Invoices', icon: FileText, items: ['All Invoices', 'New Invoice', 'Paid Invoices', 'Overdue Invoices'] },
-    { title: 'Cases', icon: Shield, items: ['All Cases', 'Open Cases', 'Closed Cases'] },
-    { title: 'Solutions', icon: Lightbulb, items: ['All Solutions', 'Published Solutions'] },
-    { title: 'Vendors', icon: Truck, items: ['All Vendors', 'New Vendor'] },
-    { title: 'Documents', icon: File, items: ['All Documents', 'Folders', 'Upload'] },
-    { title: 'Feeds', icon: Rss, items: ['Company Updates', 'My Posts'] },
-    { title: 'Recycle Bin', icon: Trash2, items: ['Deleted Records'] },
-  ],
+    
 };
 
 const projectsNavigation = {

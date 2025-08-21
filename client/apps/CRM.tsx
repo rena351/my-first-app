@@ -169,7 +169,7 @@ export const getAppNavigation = (appName: string) => {
           icon: <Home className="w-4 h-4" />,
           items: ["Dashboard", "Today's Activities", "Recent Items", "My CRM Home", "Home Page Designer"]
         },
-        {
+         {
           title: "Leads",
           icon: <Users className="w-4 h-4" />,
           items: ["All Leads", "Today's Leads", "Recently Created Leads", "Recently Modified Leads", "Overdue Leads", "My Leads", "Converted Leads", "Unqualified Leads"]
